@@ -79,6 +79,12 @@ Exact functions are an extremely common form of differential equation. An exact 
 
 Remember that $g = \nabla f$  where f is the potential function of g. If g has a potential function (and not all functions have potential functions) then it is conservative. A conserative function implies that the potential function itself $\vec{F} = p\vec{i} + q\vec{j}$ has the following property:
 $$\frac{\partial p}{\partial y} = \frac{\partial Q}{\partial x} $$
+
+In order for the following methods to be applied the previous property must be true and the differential equation must take the form of:
+$$P(x,y)dx + Q(x,y)dy = 0$$
+Alternatively,
+$$\frac{\partial F}{\partial x}(dx) + \frac{\partial F}{\partial y}(dy)=0$$
+
 Question 1.8.1.a:  $(2xy+x^{2})dx + (x^{2}+y^{2}+1)dy = 0$
 <details>
   <summary>Visualization</summary>
