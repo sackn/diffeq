@@ -75,9 +75,9 @@ Question 1.4.11:  $\dot{y} + 2sin(2x)y = 2sin(2x) \quad y(\pi/2) = 3$
 </details>
 
 ### Exact Equations
-Exact functions are an extremely common form of differential equation. An exact equation is a type of potential function. Potential functions model so many things like the gravitational potential energy and electrostatic potential energy. Potential functions must obey a certain set of properties.
+Exact functions are an extremely common form of differential equation. An exact equation is a type of potential function. Potential functions model so many things like the gravitational potential energy and electrostatic potential energy. A certain potential functions f(x,y) must obey a certain set of properties.
 
-Remember that $g = \laplace f$ 
+Remember that $g = \nabla f$  where fi is the potential function of g. If g has a potential function (and not all functions have potential functions) then it is conservative. A conserative function implies that the potential function itself $\vec{F} = <P,Q> has the following property:$
 Question 1.8.1.a:  $(2xy+x^{2})dx + (x^{2}+y^{2}+1)dy = 0$
 <details>
   <summary>Visualization</summary>
