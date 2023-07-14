@@ -32,7 +32,8 @@ $$\mu(t) = ke{\int P(t)(dt)}$$
 Plugging are formula into our equation for y(t) we get:
 $$y(t) = \frac{k \int e^{\int p(t)(dt)} g(t)(dt) + c}{ke^{\int p(t)(dt)}}$$
 Dividing through by k to reduce the equation to a single equation we get the final formula of:
-
+$$y(t) = \frac{1}{\mu(t)}(\int \mu(t) g(t)dt + c)$$
+$$\mu(t) = e^{\int p(t)(dt)}$$
 
 
 
