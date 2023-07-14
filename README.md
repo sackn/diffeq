@@ -19,7 +19,8 @@ We can recognize that the left side of the equation is the just the product rule
 $$\frac{d}{dt}(\mu (t) y(t)) = \mu(t)g(t)$$
 We can integrate through this equation to get this next equation:
 $$\mu(t)y(t) + c = \int \mu(t)g(t)(dt)$$
-
+Solving for y(t) we get:
+$$y(t) = \frac{\int \mu(t)g(t)(dt)}{\mu(t)}$$
 
 **Problems with Solutions**
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
