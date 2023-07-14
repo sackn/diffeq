@@ -4,6 +4,7 @@
 
 ### Integrating Factor Method for Differential Equations
 
+**Introduction**
 Consider a first order linear differential equation that takes the following form where p(t) and g(t) are any arbitrary functions with respect to the dependendent variable. 
 $$\frac{dy}{dt} + p(t)y = g(t)$$
 For any of the following methods to work the functions p(t) and g(t) must also be continuous. A linear differential equation is the most common form of a differential equation and we will use the integration factor method to solve it.
@@ -12,7 +13,12 @@ Assume some magical function $\mu(t)$ called the integrating factor and multiply
 $$\mu(t) \frac{dy}{dt} + \mu(t)p(t)y = \mu(t)g(t)$$
 Assume the following is true
 $$\mu(t)p(t) = \dot{\mu}(t)$$
+Subbing in the our new assumption into our original differential equation.
+$$
+We can recognize that the left side of the equation is the just the product rule. This allows us to rewrite the equation as the following:
+We can integrate through this equation to get this next equation:
 
+**Problems with Solutions**
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
 <details>
   <summary>Visualization</summary>
