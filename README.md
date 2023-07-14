@@ -28,8 +28,10 @@ Again you might recognize that the right side of the equation is the definition 
 \frac{d}{dt}ln(\mu(t)) = p(t)
 Now integrating both sides and manipulating a little we get:
 $$ln(\mu (t)) = \int P(t)(dt) + k$$
-
-
+$$\mu(t) = ke{\int P(t)(dt)}$$
+Plugging are formula into our equation for y(t) we get:
+$$y(t) = \frac{k \int e^{\int p(t)(dt)} g(t)(dt) + c}{ke^{\int p(t)(dt)}}$$
+Dividing through by k to reduce the equation to a single equation we get the final formula of:
 
 
 
