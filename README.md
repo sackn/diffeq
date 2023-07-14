@@ -8,10 +8,10 @@ Consider a first order linear differential equation that takes the following for
 $$\frac{dy}{dt} + p(t)y = g(t)$$
 For any of the following methods to work the functions p(t) and g(t) must also be continuous. A linear differential equation is the most common form of a differential equation and we will use the integration factor method to solve it.
 
-Assume some magical function $\mu(t)$ called the integrating factor and multiply it through the equation.$
+Assume some magical function $\mu(t)$ called the integrating factor and multiply it through the equation.
 $$\mu(t) \frac{dy}{dt} + \mu(t)p(t)y = \mu(t)g(t)$$
 Assume the following is true
-$$\mu(t)p(t) = \dot{\mu(t)}$$
+$$\mu(t)p(t) = \dot{\mu}(t)$$
 
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
 <details>
