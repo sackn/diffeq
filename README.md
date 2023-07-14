@@ -21,6 +21,10 @@ We can integrate through this equation to get this next equation:
 $$\mu(t)y(t) + c = \int \mu(t)g(t)(dt)$$
 Solving for y(t) we get:
 $$y(t) = \frac{\int \mu(t)g(t)(dt)}{\mu(t)}$$
+Go back to our initial assumption and solve for p(t):
+$$\mu(t)p(t) = \dot{\mu}(t)$$
+$$p(t) = \frac{\dot{\mu}(t)}{\mu(t)p(t)}$$
+Again you might recognize that the right side of the equation is the definition of a the derivative natural logarithim ($\frac{d}{dx}(ln(u)) = \frac{du}{dx}\frac{1}{u}$)
 
 **Problems with Solutions**
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
