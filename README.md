@@ -23,11 +23,11 @@ Solving for y(t) we get:
 $$y(t) = \frac{\int \mu(t)g(t)(dt)}{\mu(t)}$$
 Go back to our initial assumption and solve for p(t):
 $$\mu(t)p(t) = \dot{\mu}(t)$$
-$$p(t) = \frac{\dot{\mu}(t)}{\mu(t)p(t)}$$
+$$p(t) = \frac{\dot{\mu}(t)}{\mu(t)}$$
 Again you might recognize that the right side of the equation is the definition of a the derivative natural logarithim ($\frac{d}{dx}ln(u) = \frac{du}{dx}\frac{1}{u}:$)
 \frac{d}{dt}ln(\mu(t)) = p(t)
 Now integrating both sides and manipulating a little we get:
-ln(\mu (t)) = \int P(t)(dt) + k
+$$ln(\mu (t)) = \int P(t)(dt) + k$$
 
 
 
