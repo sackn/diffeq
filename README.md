@@ -9,12 +9,45 @@ Question 1.4.2:  $\dot{y} + 6y = e^{x}$
   <summary>Solution</summary>
 </details>
 
+Question 1.4.4:  $\dot{y} + cos(x)y = cos(x)$
+<details>
+  <summary>Solution</summary>
+</details>
+
 Question 1.4.10:  $\dot{y}+ 3x^{2}y = x^{2}$
 <details>
   <summary>Solution</summary>
 </details>
 
 Question 1.4.11:  $\dot{y} + 2sin(2x)y = 2sin(2x) \quad y(\pi/2) = 3$
+<details>
+  <summary>Solution</summary>
+</details>
+
+### Exact Equations
+
+Question 1.8.1.a:  $(2xy+x^{2})dx + (x^{2}+y^{2}+1)dy = 0$
+<details>
+  <summary>Solution</summary>
+</details>
+
+Question 1.8.1.b:  $x(dx) + y(dy) = 0$
+<details>
+  <summary>Solution</summary>
+</details>
+
+Question 1.8.1.c:  $(e^{x}+y^{3})dx + 3xy^2(dy) = 0$
+<details>
+  <summary>Solution</summary>
+</details>
+
+Question 1.8.1.d:  $(x+y)cos(x) + sin(x) + sin(x)\frac{dy}{dx} = 0$
+<details>
+  <summary>Solution</summary>
+</details>
+
+
+Question 1.8.7:  $(3x^{2}+3y)dx+(3y^2+3x)dy = 0$
 <details>
   <summary>Solution</summary>
 </details>
