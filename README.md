@@ -27,7 +27,7 @@ $$p(t) = \frac{\dot{\mu}(t)}{\mu(t)p(t)}$$
 Again you might recognize that the right side of the equation is the definition of a the derivative natural logarithim ($\frac{d}{dx}ln(u) = \frac{du}{dx}\frac{1}{u}:$)
 \frac{d}{dt}ln(\mu(t)) = p(t)
 Now integrating both sides and manipulating a little we get:
-ln(\mu (t)) = \int P(t)dt + k
+ln(\mu (t)) = \int P(t)(dt) + k
 
 
 
