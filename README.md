@@ -14,9 +14,12 @@ $$\mu(t) \frac{dy}{dt} + \mu(t)p(t)y = \mu(t)g(t)$$
 Assume the following is true
 $$\mu(t)p(t) = \dot{\mu}(t)$$
 Subbing in the our new assumption into our original differential equation.
-$$
+$$\mu(t)\frac{dy}{dt} + \dot{\mu}(t)y = \mu(t)g(t)$$
 We can recognize that the left side of the equation is the just the product rule. This allows us to rewrite the equation as the following:
+$$\frac{d}{dt}(\mu (t) y(t)) = \mu(t)g(t)$$
 We can integrate through this equation to get this next equation:
+
+
 
 **Problems with Solutions**
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
