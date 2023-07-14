@@ -4,7 +4,7 @@
 
 ### Integrating Factor Method for Differential Equations
 
-**Question 1.4.2** $\dot{y}$
+__Question 1.4.2__  $\dot{y} + 6y = e^{x}$
 <details>
   <summary>Solution</summary>
 </details>
