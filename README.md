@@ -4,6 +4,10 @@
 
 ### Integrating Factor Method for Differential Equations
 
+Consider a first order linear differential equation that takes the following form where p(t) and g(t) are any arbitrary functions with respect to the dependendent variable. 
+$\frac{dy}{dt} + p(t)y = g(t)$
+For any of the following methods to work the functions p(t) and g(t) must also be continuous. A linear differential equation is the most common form of a differential equation and we will use the integration factor method to solve it.
+
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
 <details>
   <summary>Visualization</summary>
