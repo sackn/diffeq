@@ -35,9 +35,6 @@ Dividing through by k to reduce the equation to a single equation we get the fin
 $$y(t) = \frac{1}{\mu(t)}(\int \mu(t) g(t)dt + c)$$
 $$\mu(t) = e^{\int p(t)(dt)}$$
 
-
-<hr>
-
 **Problems with Solutions**
 
 **Question 1.4.2:**  $\dot{y} + 6y = e^{x}$
@@ -63,6 +60,8 @@ $$\mu(t) = e^{\int p(t)(dt)}$$
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/intFactor/image4.png" alt="1.4.11">
 </details>
+
+<hr>
 
 ### Exact Equations
 Exact functions are an extremely common form of differential equation. An exact equation is a type of potential function. Potential functions model so many things like the gravitational potential energy and electrostatic potential energy. A certain potential functions f(x,y) must obey a certain set of properties.
@@ -115,3 +114,6 @@ Question 1.8.7:  $(3x^{2}+3y)dx+(3y^2+3x)dy = 0$
 <details>
   <summary>Solution</summary>
 </details>
+
+<hr>
+
