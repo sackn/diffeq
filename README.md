@@ -37,6 +37,7 @@ $$\mu(t) = e^{\int p(t)(dt)}$$
 
 
 <hr>
+
 **Problems with Solutions**
 
 **Question 1.4.2:**  $\dot{y} + 6y = e^{x}$
