@@ -42,7 +42,7 @@ Question 1.4.2:  $\dot{y} + 6y = e^{x}$
 </details>
 <details>
   <summary>Solution</summary>
-  ![alt text](http://url/to/img.png)
+  ![alt text](Images/intFactor/image1.png)
 
   
 </details>
