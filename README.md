@@ -34,7 +34,7 @@ $$y(t) = \frac{k \int e^{\int p(t)(dt)} g(t)(dt) + c}{ke^{\int p(t)(dt)}}$$
 Dividing through by k to reduce the equation to a single equation we get the final formula of:
 $$y(t) = \frac{1}{\mu(t)}(\int \mu(t) g(t)dt + c)$$
 $$\mu(t) = e^{\int p(t)(dt)}$$
-![Alt Text](Images/intFactor/image1.png)
+![Alt Text](https://github.com/sackn/diffeq/blob/main/Images/intFactor/image1.png)
 **Problems with Solutions**
 Question 1.4.2:  $\dot{y} + 6y = e^{x}$
 <details>
