@@ -35,7 +35,9 @@ Dividing through by k to reduce the equation to a single equation we get the fin
 $$y(t) = \frac{1}{\mu(t)}(\int \mu(t) g(t)dt + c)$$
 $$\mu(t) = e^{\int p(t)(dt)}$$
 
-__**Problems with Solutions**__
+
+<hr>
+**Problems with Solutions**
 
 **Question 1.4.2:**  $\dot{y} + 6y = e^{x}$
 <details>
