@@ -34,26 +34,28 @@ $$y(t) = \frac{k \int e^{\int p(t)(dt)} g(t)(dt) + c}{ke^{\int p(t)(dt)}}$$
 Dividing through by k to reduce the equation to a single equation we get the final formula of:
 $$y(t) = \frac{1}{\mu(t)}(\int \mu(t) g(t)dt + c)$$
 $$\mu(t) = e^{\int p(t)(dt)}$$
+
 **Problems with Solutions**
-Question 1.4.2:  $\dot{y} + 6y = e^{x}$
+
+**Question 1.4.2:**  $\dot{y} + 6y = e^{x}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/intFactor/image1.png" alt="1.4.2">
 </details>
 
-Question 1.4.4:  $\dot{y} + cos(x)y = cos(x)$
+**Question 1.4.4:**  $\dot{y} + cos(x)y = cos(x)$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/intFactor/image3.png" alt="1.4.4">
 </details>
 
-Question 1.4.10:  $\dot{y}+ 3x^{2}y = x^{2}$
+**Question 1.4.10:**  $\dot{y}+ 3x^{2}y = x^{2}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/intFactor/image2.png" alt="1.4.10">
 </details>
 
-Question 1.4.11:  $\dot{y} + 2sin(2x)y = 2sin(2x) \quad y(\pi/2) = 3$
+**Question 1.4.11:**  $\dot{y} + 2sin(2x)y = 2sin(2x) \quad y(\pi/2) = 3$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/intFactor/image4.png" alt="1.4.11">
