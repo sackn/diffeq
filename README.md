@@ -131,7 +131,15 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 
 <hr>
 
+
+## 2nd and Higher Order Differential Equations
+
 ### 2nd Order Linear Homogenous Differential Equations
+2nd order linear ordinary differential equations take the following general form where $p(x)$ and $q(x)$ are any arbitrary function of x (in most cases both p and q will be constant since having them non-constant makes most differential equations extremely difficult).
+$$\ddot{y} + P(X)\dot{y} + q(x)y = f(x)$$
+
+There is a special type of 2nd order linear differnetial equations when $f(x) = 0$. These equations are called homogenous and are the topic of this section. Homogenous equations have fleshed out theory and are relatively easy to solve compared to non-homogenous cases (where $f(x)\neq 0$ )
+
 
 **Problems with Solutions**
 
@@ -158,6 +166,7 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/2ndorder/image5.png" alt="2.2.4">
 </details>
+
 
 **Question 2.2.9:** $2\ddot{y} + \dot{y} + y = 0$
 <details>
