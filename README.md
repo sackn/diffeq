@@ -246,7 +246,7 @@ Pulling out the quadratic equation we get that the solutions to this quadratic a
 $$r = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$
 
 Our equation is in a very general form and we actually have multiple scenarios depending on the result of the stuff under square root. More specifically we have three scenarios:
-1. a
+1. $b^2 - 4ac > 0 \quad \implies \quad$ two distinct roots
 2. b 
 3. c
 
