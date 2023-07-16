@@ -174,6 +174,7 @@ In more simple terms any combination of two already existing solutions will also
 
 
 **Superposition Theorem (extended)**
+
 Suppose there are two linearly independent solutions $y_1$ and $y_2$ to the the following equation:
 $$\ddot{y} + p(x)\dot{y} + q(x)y = 0$$
 then the general solution to the differential equation is
@@ -181,8 +182,19 @@ $$y = c_1 y_1 + c_2 y_2$$
 
 Althought, it doesn't look like I changed anything the new result speaks volumes. Yes there are infinate solutions, but every single solution is really a superposition of two linearly independent functions. These two linearly independent act almost like basis vectors. It can represent any solution in the _Fundamental Set of Solutions_. If you found two linearly independent solution and then you find a third one then you know that the third one is really just your two original solutions added up in some manner. 
 
+I probably shouldn't have waited this long to explain what linear independence is but here we are. Since, I'm here to talk about differential equations I'm going to mention linear indepedence for functions, but not linear indepdence for vectors (this is a super common topic in linear algebra however). Two functions are linear indepedent on an interval is they are not constant multiples of other. 
 
+For example, the functions $x$ and $2x$ are not linearly indepdent because $2x$ can be obtained by just multiply $x$ by 2. On the other hand, the functions $x$ and $x^{2}$ are linearly independent because there is no CONSTANT multiple that can be applied to $x$ to obtain $x^{2}$. Althought, a little harder to see the functions $cos(x)$ and $sin(x)$ are linearly independent. Cosine and Sine are can be equal if we apply a phase shift, but there is no way constant $k$ such that $kcos(x) = sin(x)$.
 
+**The Wronskian**
+Sometimes it kind of hard to tell whether functions are linearly indepdent so someone made a fool-proof way to determine if a set of functions are linearly indepdent. For 2D dimensions the Wronskian matrix is defined as follows:
+
+$$ w(t) =
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
 **Problems with Solutions**
 
 **Question 2.2.3:** $\ddot{y}  + 4\dot{y} + 2y = 0$
