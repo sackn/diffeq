@@ -235,6 +235,7 @@ $$
 Finding the deterimenent of a 3x3 matrix is a little harder. There exists a formula, but its probably more effective to learn an actual method (like the coverup method). I'm too lazy to write the laTex, but the formula is one google search away. The same conditions for linear independence of more that two functions also apply.
 
 **Solving 2nd Order Constant Linear Homogenous Differential Equation**
+
 Maybe you read the theory above maybe you didn't, but here is how to actual solve things. Remember that we are solving a 2nd order linear constant homogenous differential equation which takes the following form where $a$, $b$, and $c$ are some constants.
 $$a\ddot{y} + b\dot{y} + c{y} = 0$$
 We can use the overpowered substitiuon of $y = e^{rt}$. After substituion our new equation is:
@@ -249,6 +250,16 @@ Our equation is in a very general form and we actually have multiple scenarios d
 1. $b^2 - 4ac > 0 \quad \implies \quad$ two distinct roots
 2. $b^2 - 4ac = 0 \quad \implies \quad$ one repeated root (root with multiplicity 2) 
 3. $b^2 - 4ac < 0 \quad \implies \quad$ two complex roots (conjugate pair)
+
+Each scenarion will produce a solution of a different form:
+
+**Distinct Roots**
+
+Distinct roots are the simpliest. Lets say thats you have two real distinct roots $r_1$ and $r_2$ then the general solution to the differential equation is:
+$$y = c_1e^{r_1t} + c_2e^{r_2t}$$
+
+Our solution is a superposition of two expoential functions. The solution is so simple that the deriviation was probably just an educated guess. It might be good practice to plug the solution back in to the original differential equation and confirm that in fact this is a solution. Also, from inspection we can see that the functions are linearly indepdent(Remember that $e^{2x}$ is $e^{x}e^{x}$ and not $2e^{x}$). Since they are linearly indepdent we know that every single solution can be written as a superposition (through changing $c_1$ and $c_2$).
+
 
 **Problems with Solutions**
 
