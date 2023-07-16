@@ -190,12 +190,10 @@ For example, the functions $x$ and $2x$ are not linearly indepdent because $2x$ 
 Sometimes it kind of hard to tell whether functions are linearly indepdent so someone made a fool-proof way to determine if a set of functions are linearly indepdent. For 2D dimensions the Wronskian matrix is defined as follows:
 
 $$
-\\[
 A = \begin{bmatrix}
 1 & 2 \\
 3 & 4
 \end{bmatrix}
-\\]
 $$
 
 **Problems with Solutions**
