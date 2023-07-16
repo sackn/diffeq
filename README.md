@@ -1,4 +1,4 @@
-![image](https://github.com/sackn/diffeq/assets/33106100/1740639c-13fd-4b22-9788-b70367dd58f3)# diffeq
+# diffeq
 
 ## First Order Differential Equations
 
