@@ -247,8 +247,8 @@ $$r = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$
 
 Our equation is in a very general form and we actually have multiple scenarios depending on the result of the stuff under square root. More specifically we have three scenarios:
 1. $b^2 - 4ac > 0 \quad \implies \quad$ two distinct roots
-2. b 
-3. c
+2. $b^2 - 4ac = 0 \quad \implies \quad$ one repeated root (root with multiplicity 2) 
+3. $b^2 - 4ac < 0 \quad \implies \quad$ two complex roots (conjugate pair)
 
 **Problems with Solutions**
 
