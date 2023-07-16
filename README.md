@@ -136,18 +136,22 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 
 ### 2nd Order Linear Homogenous Differential Equations
 2nd order linear ordinary differential equations take the following general form where $p(x)$ and $q(x)$ are any arbitrary function of x (in most cases both p and q will be constant since having them non-constant makes most differential equations extremely difficult).
-$$\ddot{y} + p(X)\dot{y} + q(x)y = f(x)$$
+$$\ddot{y} + p(x)\dot{y} + q(x)y = f(x)$$
 
 There is a special type of 2nd order linear differnetial equations when $f(x) = 0$. These equations are called homogenous and are the topic of this section. Homogenous equations have fleshed out theory and are relatively easy to solve compared to non-homogenous cases (where $f(x)\neq 0$ )
 
 Firstly its important to talk about when solutions exist and when they are unique on some interval. Once we into more difficult equations with stranger conditions a solution might not always exist or there might be an infinate set of them. However, for linear differential equations the conditions for existance and uniqueness are pretty light.
 
 Existance and Uniqueness Theorem:
+
 For an Initial Value Problem ofthe following form: (Also note that for a 2nd Order ODE you need two different initial conditions)
 $$\ddot{y} + p(x)\dot{y}+q(x)y = f(x)$$
 $$y(a) = b_0 \qquad \dot{y}(a) = b_1$$
 
 If p,q,f are continuous on some interval which contains the point a then there exist a unique solution on that same interval.
+
+Linear differential equations hold an extremely important property that will be key to almost all of our methods. You might have heard about basis vectors before. In cartesian coordinates our basis vectors are $\vec{i} = \begin{bmatrix} 1 \\ 0 \end{bmatrix} $
+
 
 
 **Problems with Solutions**
