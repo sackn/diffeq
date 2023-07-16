@@ -81,7 +81,26 @@ $$(2x+y)dx + (x-4y)dy = 0$$
 We should first check whether the equation is exact. We can confirm whether the equation is exact by seeing if $\frac{\partial p}{\partial y} = \frac{\partial Q}{\partial x}$ holds true. We know $P = 2x+y = \frac{\partial F}{\partial x}$ and $Q = x-4y = \frac{\partial F}{\partial y}$. Note that the 2nd part of the equality between the partials and P will be extremely important later. Checking exactness:
 $$\frac{\partial P}{\partial y} = 1 \qquad \frac{\partial Q}{\partial x} = 1$$ 
 
-$$\frac{\partial P}{\partial y}  = \frac{\partial Q}{\partial x} \therefore \quad exact$$ 
+$$\frac{\partial P}{\partial y}  = \frac{\partial Q}{\partial x} \quad \therefore  exact$$ 
+
+We know $p = \frac{\parital F}{\partial x}$ so we can integrate on both sides with respect to x.
+$$\frac{\partial F}{\partial x} = 2x + y$$
+$$F(x,y) = \int (2x+y)(dx)$$
+We need to be careful with how we integrate this. We have y's in our integrand, but we are only integrating with respect to x. In this case, all y's should be treated as constants as we are not dealing with them directly. Also, our constant of integration will be slighly different. Since, we are teating y as a constant the constant of integration is actually any function of y (named $h(y)$ in this problem). If we try to invert the integral with a partial derivative with respect to x we will get back our original integrand regardless of what function of y is attached at the end.
+$$F(x,y) = x^{2} + xy + h(y)$$
+
+We have the a part of the solution all we are missing is $h(y)$. The big trick comes in through differentiatng $F(x,y)$ with respect to y. We will be left with $\frac{\partial F}{\parital y}$ equals something. If you go back we know that $\frac{\partial F}{\partial y} = Q = x-4y$. That means we can set the output of differivative equal to Q.
+
+$$\frac{\partial F}{\partial y} = x + \dot{h}(y)$$
+$$x-4y = x + \dot{h}(y)$$
+
+With our new equation it is immediately apparent that $\dot{h}(y) = -4y$. We can easily solve this differential equation by integrating on both side and now that we are only dealing with a singular varible our constant of integration is really just +c.
+$$\dot{h}(y) = -4y$$
+$$h(y) = \int -4y (dy)$$
+$$h(y) = -2y^{2} + c$$
+
+Plugging our answer for $h(y)$ back into our previous answer we get the general solution to the exact differential equation.
+$$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 
 
 **Problems with Solutions**
