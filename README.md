@@ -201,6 +201,8 @@ y_1 & y_2 \\
 $$
 
 By the way if your forgot how to take the determinent of a 2D matrix here is the formula:
+
+$$
 det \left( \begin{bmatrix}
 a & b \\
 c & d
