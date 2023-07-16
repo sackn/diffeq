@@ -135,6 +135,9 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 ## 2nd and Higher Order Differential Equations
 
 ### 2nd Order Linear Homogenous Differential Equations (and a lot of theory)
+
+**Theory behind Linear Differential Equations**
+
 2nd order linear ordinary differential equations take the following general form where $p(x)$ and $q(x)$ are any arbitrary function of x (in most cases both p and q will be constant since having them non-constant makes most differential equations extremely difficult).
 $$\ddot{y} + p(x)\dot{y} + q(x)y = f(x)$$
 
@@ -219,8 +222,6 @@ $$
 
 The Wronskian is equal to $t^{2}$. The condition to be linearly indepdent is to not be zero at atleast one point t. The function $t^{2}$ is non-zero at bunch of places more specifically it is non-zero everywhere except $t=0$. In total, $t$ and $t^{2}$ must be linearly independent. The Wronskian can also be expanded to scenarios where you have more than two equations. The Wronskian has logical expansion of: 
 
-Finding the deterimenent of a 3x3 matrix is a little harder. There exists a formula, but its probably more effective to learn an actual method (like the coverup method).
-
 $$
 W(t) = det \left( \begin{bmatrix}
 y_1 & y_2 & y_3 \\
@@ -229,6 +230,15 @@ y_1 & y_2 & y_3 \\
 \end{bmatrix} \right) 
 $$
 
+Finding the deterimenent of a 3x3 matrix is a little harder. There exists a formula, but its probably more effective to learn an actual method (like the coverup method). I'm too lazy to write the laTex, but the formula is one google search away. The same conditions for linear independence of more that two functions also apply.
+
+**Solving 2nd Order Constant Linear Homogenous Differential Equation**
+Maybe you read the theory above maybe you didn't, but here is how to actual solve things. Remember that we are solving a 2nd order linear constant homogenous differential equation which takes the following form where $a$, $b$, and $c$ are some constants.
+$$a\ddot{y} + b\dot{y} + c{y} = 0$$
+We can use the overpowered substitiuon of $y = e^{rt}$. After substituion our new equation is:
+$$ar^{2}e^{rt} + bre^{rt} + ce^{rt} = 0$$
+We can see that if we divide through by $e^{rt}$ we are just left with a quadratic. 
+$$ar^{2} + br + c = 0$$
 
 
 **Problems with Solutions**
