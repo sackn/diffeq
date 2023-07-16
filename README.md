@@ -209,12 +209,14 @@ Suppose that $y_1$ and $y_2$ are linearly independent then $W(t) \neq 0$ for atl
 **Worked Example**
 
 Consider the two functions $y_1 = t$ and $y_2 = t^{2}$. Prove that they are linearly independent. Plugging the two equations into the Wronskian we get:
+
 $$
 W(t) = det \left( \begin{bmatrix}
 t & t^{2} \\
 1 & 2t
 \end{bmatrix} \right) = 2t(t) - (1)t^{2} = t^{2}
 $$
+
 The Wronskian is equal to $t^{2}$. The condition to be linearly indepdent is to not be zero at atleast one point t. The function t^{2} is non-zero is a bunch of places more specifically it is non-zero everywhere except $t=0$.
 
 
