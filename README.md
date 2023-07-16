@@ -134,7 +134,7 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 
 ## 2nd and Higher Order Differential Equations
 
-### 2nd Order Linear Homogenous Differential Equations
+### 2nd Order Linear Homogenous Differential Equations (and a lot of theory)
 2nd order linear ordinary differential equations take the following general form where $p(x)$ and $q(x)$ are any arbitrary function of x (in most cases both p and q will be constant since having them non-constant makes most differential equations extremely difficult).
 $$\ddot{y} + p(x)\dot{y} + q(x)y = f(x)$$
 
@@ -142,7 +142,7 @@ There is a special type of 2nd order linear differnetial equations when $f(x) = 
 
 Firstly its important to talk about when solutions exist and when they are unique on some interval. Once we into more difficult equations with stranger conditions a solution might not always exist or there might be an infinate set of them. However, for linear differential equations the conditions for existance and uniqueness are pretty light.
 
-Existance and Uniqueness Theorem:
+**Existance and Uniqueness Theorem:**
 
 For an Initial Value Problem ofthe following form: (Also note that for a 2nd Order ODE you need two different initial conditions)
 $$\ddot{y} + p(x)\dot{y}+q(x)y = f(x)$$
@@ -154,10 +154,32 @@ Linear differential equations hold an extremely important property that will be 
 
 For example if we choose our basis vectors to be instead $\vec{e_1} = \langle 1,1 \rangle$ and $\vec{e_2} = \langle -1, 2 \rangle$ we also can describe the entire 2D plane because the vectors are linearly independent (more about what this means later). We have require different "components" to reach each point on the 2D plane but regardless our two basis vectors can be scaled and summed in some way that any combination is possible. 
 
-$$\langle 2, \frac{6}{5} \rangle = \frac{-14}{15}\vec{e_1} + \frac{16}{15}\vec{e_2}$$
+$$\langle 2, \frac{6}{5} \rangle = -\frac{14}{15}\vec{e_1} + \frac{16}{15}\vec{e_2}$$
+
+In other words any number in $\mathbb{R}^{2}$ can be written as a some sum of two linearly indepdent vectors (this is more commonly called a superposition).
+
+I talked a lot about vectors, but I swear this relates to differential equations. It turns out that differential equations have there own superpostiton property. 
+
+**Superposition Theorem**
+
+Suppose $y_1$ and $y_2$ solve the following equation:
+
+$$\ddot{y} + p(x)\dot{y} + q(x)y = 0$$
+
+then the following is also a solution (where $c_1$ and $c_2$ are some arbitrary constant),
+
+$$y = c_1 y_1 + c_2 y_2$$
+
+In more simple terms any combination of two already existing solutions will also always be a solution. Since $c_1$ and $c_2$ are any arbitrary constant we technically have infinate solutions. This is where the extension to the superposition theorem become extremely important:
 
 
+**Superposition Theorem (extended)**
+Suppose there are two linearly independent solutions $y_1$ and $y_2$ to the the following equation:
+$$\ddot{y} + p(x)\dot{y} + q(x)y = 0$$
+then the general solution to the differential equation is
+$$y = c_1 y_1 + c_2 y_2$$
 
+Althought, it doesn't look like I changed anything the new result speaks volumes. Yes there are infinate solutions, but every single solution is really a superposition of two linearly independent functions. These two linearly independent act almost like basis vectors. It can represent any solution in the _Fundamental Set of Solutions_. If you found two linearly independent solution and then you find a third one then you know that the third one is really just your two original solutions added up in some manner. 
 
 
 
