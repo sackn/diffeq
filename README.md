@@ -195,6 +195,13 @@ $$ w(t) =
 3 & 4
 \end{bmatrix}
 $$
+
+$$
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+$$
 **Problems with Solutions**
 
 **Question 2.2.3:** $\ddot{y}  + 4\dot{y} + 2y = 0$
