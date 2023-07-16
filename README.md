@@ -74,6 +74,8 @@ $$P(x,y)dx + Q(x,y)dy = 0$$
 Alternatively,
 $$\frac{\partial F}{\partial x}(dx) + \frac{\partial F}{\partial y}(dy)=0$$
 
+__Worked Example__
+
 **Problems with Solutions**
 
 **Question 1.8.1.a:**  $(2xy+x^{2})dx + (x^{2}+y^{2}+1)dy = 0$
