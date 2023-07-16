@@ -150,7 +150,7 @@ $$y(a) = b_0 \qquad \dot{y}(a) = b_1$$
 
 If p,q,f are continuous on some interval which contains the point a then there exist a unique solution on that same interval.
 
-Linear differential equations hold an extremely important property that will be key to almost all of our methods. You might have heard about basis vectors before. In cartesian coordinates our basis vectors are $\vec{i} = \begin{bmatrix} 1 \\ 0 \end{bmatrix} $
+Linear differential equations hold an extremely important property that will be key to almost all of our methods. You might have heard about basis vectors before. In cartesian coordinates our basis vectors are $\vec{i} = \begin{align}y &= \begin{bmatrix}x_{1} \\x_{2} \\\vdots \\ x_{m}\end{bmatrix}\end{align}$
 
 
 
