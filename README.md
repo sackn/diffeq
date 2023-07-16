@@ -217,7 +217,18 @@ t & t^{2} \\
 \end{bmatrix} \right) = 2t(t) - (1)t^{2} = t^{2}
 $$
 
-The Wronskian is equal to $t^{2}$. The condition to be linearly indepdent is to not be zero at atleast one point t. The function $t^{2}$ is non-zero at bunch of places more specifically it is non-zero everywhere except $t=0$. In total, $t$ and $t^{2}$ must be linearly independent.
+The Wronskian is equal to $t^{2}$. The condition to be linearly indepdent is to not be zero at atleast one point t. The function $t^{2}$ is non-zero at bunch of places more specifically it is non-zero everywhere except $t=0$. In total, $t$ and $t^{2}$ must be linearly independent. The Wronskian can also be expanded to scenarios where you have more than two equations. The Wronskian has logical expansion of: 
+
+Finding the deterimenent of a 3x3 matrix is a little harder. There exists a formula, but its probably more effective to learn an actual method (like the coverup method).
+
+$$
+W(t) = det \left( \begin{bmatrix}
+y_1 & y_2 & y_3 \\
+\dot{y_1} & \dot{y_2} & \dot{y_3} \\
+\ddot{y_1} & \ddot{y_2} & \ddot{y_3} \
+\end{bmatrix} \right) 
+$$
+
 
 
 **Problems with Solutions**
