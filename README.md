@@ -242,6 +242,9 @@ $$ar^{2}e^{rt} + bre^{rt} + ce^{rt} = 0$$
 We can see that if we divide through by $e^{rt}$ we are just left with a quadratic. 
 $$ar^{2} + br + c = 0$$
 
+Pulling out the quadratic equation we get that the solutions to this quadratic are:
+$$r = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$
+
 
 **Problems with Solutions**
 
