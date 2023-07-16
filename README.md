@@ -187,13 +187,14 @@ I probably shouldn't have waited this long to explain what linear independence i
 For example, the functions $x$ and $2x$ are not linearly indepdent because $2x$ can be obtained by just multiply $x$ by 2. On the other hand, the functions $x$ and $x^{2}$ are linearly independent because there is no CONSTANT multiple that can be applied to $x$ to obtain $x^{2}$. Althought, a little harder to see the functions $cos(x)$ and $sin(x)$ are linearly independent. Cosine and Sine are can be equal if we apply a phase shift, but there is no way constant $k$ such that $kcos(x) = sin(x)$.
 
 **The Wronskian**
+
 Sometimes it kind of hard to tell whether functions are linearly indepdent so someone made a fool-proof way to determine if a set of functions are linearly indepdent. For 2D dimensions the Wronskian matrix is defined as follows:
 
 $$
-A = \begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
+W(t) = det(\begin{bmatrix}
+y_1 & y_2 \\
+\dot{y_1} & \dot{y_2}
+\end{bmatrix})
 $$
 
 **Problems with Solutions**
