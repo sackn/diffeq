@@ -74,6 +74,8 @@ $$P(x,y)dx + Q(x,y)dy = 0$$
 Alternatively,
 $$\frac{\partial F}{\partial x}(dx) + \frac{\partial F}{\partial y}(dy)=0$$
 
+**Problems with Solutions**
+
 Question 1.8.1.a:  $(2xy+x^{2})dx + (x^{2}+y^{2}+1)dy = 0$
 <details>
   <summary>Solution</summary>
@@ -92,20 +94,19 @@ Question 1.8.1.c:  $(e^{x}+y^{3})dx + 3xy^2(dy) = 0$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/exact/image2.png" alt="1.8.1.c">
 </details>
 
-Question 1.8.1.d:  $(x+y)cos(x) + sin(x) + sin(x)\frac{dy}{dx} = 0$
+Question 1.8.7:  $(3x^{2}+3y)dx+(3y^2+3x)dy = 0$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/exact/image1.png" alt="1.8.7">
 </details>
 
+<hr>
 
-Question 1.8.7:  $(3x^{2}+3y)dx+(3y^2+3x)dy = 0$
-<details>
-  <summary>Visualization</summary>
-</details>
-<details>
-  <summary>Solution</summary>
-</details>
+### 2nd Order Linear Homogenous Differential Equations
+
+**Problems with Solutions**
 
 <hr>
+
+### Higher Order Linear Homogenous Differential Equations
 
