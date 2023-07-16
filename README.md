@@ -197,6 +197,27 @@ y_1 & y_2 \\
 \end{bmatrix} \right)
 $$
 
+By the way if your forgot how to take the determinent of a 2D matrix here is the formula:
+det \left( \begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix} \right) = ad - bc
+$$
+
+Suppose that $y_1$ and $y_2$ are linearly independent then $W(t) \neq 0$ for atleast one t. Otherwise if $W(t) = 0$ for all t then the functions are linearly dependent (not linearly independent).
+
+**Worked Example**
+
+Consider the two functions $y_1 = t$ and $y_2 = t^{2}$. Prove that they are linearly independent. Plugging the two equations into the Wronskian we get:
+$$
+W(t) = det \left( \begin{bmatrix}
+t & t^{2} \\
+1 & 2t
+\end{bmatrix} \right) = 2t(t) - (1)t^{2} = t^{2}
+$$
+The Wronskian is equal to $t^{2}$. The condition to be linearly indepdent is to not be zero at atleast one point t. The function t^{2} is non-zero is a bunch of places more specifically it is non-zero everywhere except $t=0$.
+
+
 **Problems with Solutions**
 
 **Question 2.2.3:** $\ddot{y}  + 4\dot{y} + 2y = 0$
