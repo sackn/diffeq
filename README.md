@@ -106,7 +106,15 @@ $$\frac{\partial F}{\partial x}(dx) + \frac{\partial F}{\partial y}(dy)=0$$
 
 **Problems with Solutions**
 
-**Question 2.2.3:** $\ddot{y}$
+**Question 2.2.3:** $\ddot{y}  + 4\dot{y} + 2y = 0$
+
+**Question 2.2.4:** $\ddot{y} - 6\dot{y} + 9y = 0$
+
+**Question 2.2.6:** $\ddot{y} + 9\dot{y} =  0$
+
+**Question 2.2.7:** $2\ddot{y} + 50y = 0$
+
+**Question 2.2.9:** $2\ddot{y} + \dot{y} + y = 0$
 
 <hr>
 
