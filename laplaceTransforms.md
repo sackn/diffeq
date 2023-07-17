@@ -107,6 +107,11 @@ $$\[ \mathcal{L}^{-1} [ F(s)] = \frac{1}{2\pi i} \lim_{{T \to \infty}} \int_{c -
 
 I'm pretty sure this integral is a line integral over the complex plane. To be honest I have never dealt with it, so I wont't really talk about it. Almost all your inverse laplace transform take some form of one of the things on this laplace trasnform table (I do not own this website): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
 
+However, what you don't want to forget is that the inverse laplace transform is also defined as an integral. That means that it has the same properties of linearity like forward laplace transform.
+$$\mathcal{L}^{-1} [af(t) + bg(t)] = a \mathcal{L}^{-1} [f(t)] + b\mathcal{L}^{-1}[g(t)]$$
+
+**Worked Example 1 (Inverse Laplace Transform)**
+Find $\mathcal{L}^{-1} [\frac{3}{s}  + \frac{1}{5s^{2}} + \frac{1}{2s^{3}} + \frac{12}{s^{4}}]$
 
 
 
