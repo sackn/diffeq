@@ -82,9 +82,12 @@ The gamma function makes it extremely easy to figure out the laplace transform f
 **Worked Example**
 
 Find the laplace transform of $\mathcal{L} [t^{n}]$. Firstly, we start off with the definition of the laplace transform
-$$F(s) = \int_{\infty}^{0} e^{-st}t^{n}dt$$
+$$F(s) = \int_{0}^{\infty} e^{-st}t^{n}dt$$
 Doing a the u-substituion where $u=st$ will yield the following:
-$$F(s) = \int_{\infty}^{0} e^{-u}(\frac{u}{s})^{n}du = \frac{1}{s^{n+1}}\int_{\infty}^{0} e^{-u}u^{n}du$$
+$$F(s) = \int_{0}^{\infty} e^{-u}(\frac{u}{s})^{n}du = \frac{1}{s^{n+1}}\int_{\infty}^{0} e^{-u}u^{n}du$$
+Now we realize that the only thing left of our integral is an alternative definition of the gamma function. Note that that the gamma function is technically $(n-1)!$, and the integral we have is the gamma function shifted one to the right so we have $n!$.
+$$\mathcal{L} [t^{n}] = \frac{n!}{s^{n+1}}$$
+
 
 
 ### Problems with Solutions
