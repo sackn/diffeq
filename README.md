@@ -396,7 +396,7 @@ Trust me this table will be important later (I did not create this website and I
 ### Laplce Transform Introduction
 Laplace transforms allow us to turn a calculus problem into an algebra problem. Before learning how to use the laplace transform to solve ODE's we must define how to even laplace transform some function that might appear in a differential equation. The forward laplace transform take a function of t $f(t)$ and transform into a function with respect to some variable $s$. A forward laplace transform is donated as $\mathcal{L} {f(t)} = F(s)$. The function that turns $f(t)$ into $F(s)$ is:
 
-$$F(s) = \int{0}^{\inf}e^{-st}f(t)dt$$
+$$F(s) = \int_{0}^{\infty}e^{-st}f(t)dt$$
 
 
 ### Problems with Solutions
