@@ -445,7 +445,7 @@ Solving the integral we get our laplace transform.
 $$  \left -\frac{e^{-st}}{s} \right\vert_{\infty}^{0}$$
 $$\mathcal{L} [u(t-a)] = \frac{e^{as}}{s}$$
 
-I want to work through one more laplace transform problem. The final example will be the laplace transform of some polynomial $t^{n}$. However, first I want to define the gamma function. We all know the discrete factorial function ($5! = (5)(4)(3)(2)(1)$). It has two main properties:
+I want to work through one more laplace transform problem. The final example will be the laplace transform of some polynomial $t^{n}$. However, first I want to define the gamma function. We all know the discrete factorial function ( $5! = (5)(4)(3)(2)(1)$ ). It has two main properties:
 - $0!$ and $1!$ are 1
 - $n! = n(n-1)!$ 
 
