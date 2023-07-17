@@ -405,7 +405,7 @@ Hopefully you remember a little about improper integration.
 Find the $$\mathcal{L} {e^{at}}$ where a is some constant. Based on the definition of the laplace transform we know that:
 $$F(s) = \int_{0}^{\infty} e^{st}e^{at}(dt)$$
 Using some algebraic manipulation we can easily integrate the function:
-$$F(s) = \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \vert_{-5}^{17}$$
+$$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{-5}^{17}$$
 
 
 ### Problems with Solutions
