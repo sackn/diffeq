@@ -44,7 +44,7 @@ From the formulas that we previously derived we know that our integrating factor
 $$\mu = e^{\int -1(dx)} = e^{-x}$$
 
 Our general soltuion then takes the following form:
-$$y = \frac{1}{e^{-x}}(\int e^{-x}e^{3x} + c)$$
+$$y = \frac{1}{e^{-x}} \left( \int e^{-x}e^{3x} + c \right)$$
 We can simplying the factor out front and the integral on the inside is pretty simplistic (remember to that $e^{-x}e^{3x} = e^{2x}$)
 $$y = e^{x}(\frac{1}{2}e^{2x} + c)$$
 $$y = (\frac{1}{2}e^{3x} + ce^{x})$$
