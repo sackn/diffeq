@@ -66,9 +66,9 @@ I want to work through one more laplace transform problem. The final example wil
 The gamma function is defined as folows:
 $$\Gamma(x) = \int_{0}^{\infty} e^{-t}t^{x-1}dt \qquad \Gamma(1) = 1$$ 
 Consider the following:
-$$\Gamma(n) = \int_{0}^{\infty} e^{-t}t^{n}dt
+$$\Gamma(n) = \int_{0}^{\infty} e^{-t}t^{n}dt$$
 Through integration by parts $dv = e^{-t}$ and $u = t^n$ we get (note that the $uv$ term goes to 0 so I left it out):
-$$-\int_{0}{\infty}-e^{-t}n t^{n-1}dt$$
+$$-\int_{0}^{\infty}-e^{-t}n t^{n-1}dt$$
 Rearranging a little we get that the gamma function is equiavalent to the factorial function:
 $$\Gamma(n) n\int_{0}{\infty}-e^{-t}t^{n-1}dt$$
 $$\Gamma(n) = n\Gamma(n-1)$$
@@ -91,7 +91,7 @@ $$\mathcal{L} [t^{n}] = \frac{n!}{s^{n+1}}$$
 **Linearity of the Lplace Transform**
 
 L:aplace transforms have the following property of linearity. Linearity is defined as a functions ability to fulfill the following statement (for some abitrary constants $a,b$ and arbitray functions $f(x),g(x)$):
-$$\mathcal{L} [af(t) + bg(t)] = a \mathcal{L}[f(t)] + b\matchcal{L}[g(t)]$$
+$$\mathcal{L} [af(t) + bg(t)] = a \mathcal{L}[f(t)] + b\mathcal{L}[g(t)]$$
 The above property should be pretty intuitive since the laplace transform is really just an integral and we already know that integrals have the property of linearity. 
 
 **Inverse Laplace Transforms**
@@ -103,7 +103,7 @@ In other words we want to find the inverse laplace transmform of F:
 $$f(t) = \mathcal{L}^{-1}[F(s)]$$
 
 According to wikipedia the definition of the inverse laplace transform is:
-\[ \mathcal{L}^{-1} \left\{ F(s) \right\} = \frac{1}{2\pi i} \lim_{{T \to \infty}} \int_{c - iT}^{c + iT} F(s) e^{st} \, ds \]
+$$\[ \mathcal{L}^{-1} \left\{ F(s) \right\} = \frac{1}{2\pi i} \lim_{{T \to \infty}} \int_{c - iT}^{c + iT} F(s) e^{st} \, ds \]$$
 
 I'm pretty sure this integral is a line integral over the complex plane. To be honest I have never dealt with it, so I wont't really talk about it. Almost all your inverse laplace transform take some form of one of the things on this laplace trasnform table (I do not own this website): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
 
