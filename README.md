@@ -398,7 +398,21 @@ Laplace transforms allow us to turn a calculus problem into an algebra problem. 
 
 $$F(s) = \int_{0}^{\infty}e^{-st}f(t)dt$$
 
+Hopefully you remember a little about improper integration. 
+
+**Worked Example**
+
+Find the $$\mathcal{L} {e^{at}}$ where a is some constant. Based on the definition of the laplace transform we know that:
+$$F(s) = \int_{0}^{\infty} e^{st}e^{at}(dt)$$
+Using some algebraic manipulation we can easily integrate the function:
+$$F(s) = \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{-5}^{17}$$
+
 
 ### Problems with Solutions
 I take questions from a open source textbook and give full solutions. I'm not going to put many forward laplace transform questions since they don't have any work. Here is the open source textbook I pull from https://web.uvic.ca/~tbazett/diffyqs/laplace_section.html
+
+However, I need content for forward laplace transforms I have the work for how inverse laplace transform them.
+
+
+
 
