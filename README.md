@@ -390,3 +390,4 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 ## Higher Order Linear Homogenous Differential Equations
 
 ## Laplce Transforms
+Laplce Transform Table: Trust me this table will be important later (I did not create this website and I was too lazy to write out my own laplace transform table): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
