@@ -409,7 +409,19 @@ $$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \righ
 Working on our limits of integration we get that:
 $$F(s) = \frac{1}{a-s} \lim_{t \to \infty} (e^{(a-s)t}-1)$$
 It turns out that our integral actually has two possible solutions depending on $a-s$. If $a-s \leq 0$ then our integral will blow up to infinity. However, if $a-s < 0$ then our integral will converge. We want our final transform to converge so our final answer is:
-$\mathcal{L} [e^{at}] = F(s) = \frac{1}{s-a} \quad s>a$
+$$\mathcal{L} [e^{at}] = F(s) = \frac{1}{s-a} \quad s>a$$
+
+In a function that will become really important later involves a new function called the heaviside step function. A heaviside step function is basically just a switch. The step functions is defined to have some constant $a$ a where it will be "off" range $(-\infty, a)$ then "on" on the interval $[a, \infty)$. The heaviside step function function is defined as follows:
+
+$$
+u(t) = \begin{cases}
+0, & \text{if } x < 0, \\
+1, & \text{if } x \geq 0.
+\end{cases}
+$$
+
+Its not a very exiciting function, but it is infinately useful. A graph of the heaviside function is as follows:
+<img src="https://hvidberrrg.github.io/deep_learning/activation_functions/assets/step_function.png" alt="Heaviside Step Function Function">
 
 
 ### Problems with Solutions
