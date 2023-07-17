@@ -423,6 +423,27 @@ $$
 Its not a very exiciting function, but it is infinately useful. A graph of the heaviside function is as follows:
 <img src="https://hvidberrrg.github.io/deep_learning/activation_functions/assets/step_function.png" alt="Heaviside Step Function Function">
 
+Naturally we can shift the step function so that it turns on at some specific $a$.
+
+$$
+u(t-a) = \begin{cases}
+0, & \text{if } x < a, \\
+1, & \text{if } x \geq a.
+\end{cases}
+$$
+
+A primary property of the heaviside function is that it play extremely well with the laplace transform.
+
+**Worked Example**
+
+Find $$\mathcal{L} [u(t-a)]$$ for some $$a \geq 0$$. By defintion of laplace transforms we get:
+$$F(s) = \int_{0}^{\infty} e^{-st}u(t-a)dt$$
+By the very definition of the step function we can simplifying the integral greatly. Integrals get the area under the curve and any time before $a$ $u(t)$ will be equal to 0. Anything before $a$ will have no contribution so we change our limits to go from $a$ to $infty$. Once we get to $a$ our step function will just be one. That makes our integral the following:
+$$F(s) = \int_{a}^{\infty} e^{-st}(1)dt$$
+
+Solving the integral we get our laplace transform.
+$$  \left -\frac{e^{-st}}{s} \right\vert_{\infty}^{0}$$
+$$\mathcal{L} [u(t-a)] = \frac{e^{as}}{s}$$
 
 ### Problems with Solutions
 I take questions from a open source textbook and give full solutions. I'm not going to put many forward laplace transform questions since they don't have any work. Here is the open source textbook I pull from https://web.uvic.ca/~tbazett/diffyqs/laplace_section.html
