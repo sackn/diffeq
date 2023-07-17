@@ -277,7 +277,7 @@ $$y = c_1 e^{\alpha t}cos(\beta t) + c_2 e^{\alpha t}sin(\beta t)$$
 We can see that despite starting with imaginary components we end up with a real solution. As mentioned previously $cos(t)$ and $sin(t)$ are linearly independent, so them alone describes all possible solutions. 
 
 **Proof of Complex Roots Formula**
-Our roots are $\alpha + \betai$ and $\alpha - \beta i$. Much like the distincts roots case we can write the solution as the following:
+Our roots are $\alpha + \beta i$ and $\alpha - \beta i$. Much like the distincts roots case we can write the solution as the following:
 $$y = c_1e^{(\alpha + i \beta)t} + c_2e^{(\alpha  - i\beta)t}$$
 The solution is ok. If you plug it into the differential equation to check it will work out, however its complex, so its difficult for it represent something of much worth. Lets consider only the first term $c_1e^{(\alpha + i \beta)t}$ we do a little bit of algebraic manipulation to get:
 $$y_1 e^{\alpha t}e^{i \beta t}$$
@@ -286,6 +286,15 @@ $$y_1 = e{\alpha t}(cos(\beta t) + i sin(\beta t))$$
 We can do a similar process on the other root of $\alpha - i \beta t$. A nearly identical work is show below to setup $y_2$:
 $$y_2 = e^{alpha t}e^{-i \beta t}$$
 $$y_2 = e^{\alpha t}(cos(\beta t) + i sin(\beta t))$$
+We have two equations are we are allowed to add and subtrac them from each other to get new equations. If we add $y_1$ and $y_2$ then divide by two we get the following:
+$$\frac{y_1 + y_2}{2} = e^{\alpha t}cos(\beta t)$$
+Now if we subtracting $y_2$ from $y_1$ and then divide by $2i$ we get the following:
+$$\frac{y_1 - y_2}{2i} = e^{\alpha tsin(\beta t)}$$
+
+
+Adding the two solutions we get the general solution for the scenario of two complex roots:
+$$y = c_1 e^{\alpha t}cos(\beta t) + c_2 e^{\alpha t}sin(\beta t)$$
+
 
 
 
