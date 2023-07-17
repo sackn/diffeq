@@ -394,7 +394,7 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 
 Trust me this table will be important later (I did not create this website and I was too lazy to write out my own laplace transform table): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
 ### Laplce Transform Introduction
-Laplace transforms allow us to turn a calculus problem into an algebra problem. Before learning how to use the laplace transform to solve ODE's we must define how to even laplace transform some function that might appear in a differential equation. The forward laplace transform take a function of t $f(t)$ and transform into a function with respect to some variable $s$. A forward laplace transform is donated as $\mathcal{L} {f(t)} = F(s)$. The function that turns $f(t)$ into $F(s)$ is:
+Laplace transforms allow us to turn a calculus problem into an algebra problem. Before learning how to use the laplace transform to solve ODE's we must define how to even laplace transform some function that might appear in a differential equation. The forward laplace transform take a function of t $f(t)$ and transform into a function with respect to some variable $s$. A forward laplace transform is donated as $\mathcal{L} [f(t)] = F(s)$. The function that turns $f(t)$ into $F(s)$ is:
 
 $$F(s) = \int_{0}^{\infty}e^{-st}f(t)dt$$
 
@@ -402,7 +402,7 @@ Hopefully you remember a little about improper integration.
 
 **Worked Example**
 
-Find the $$\mathcal{L} {e^{at}}$ where a is some constant. Based on the definition of the laplace transform we know that:
+Find the $\mathcal{L} [e^{at]}$ where a is some constant. Based on the definition of the laplace transform we know that:
 $$F(s) = \int_{0}^{\infty} e^{st}e^{at}(dt)$$
 Using some algebraic manipulation we can easily integrate the function:
 $$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{\infty}^{0}$$
