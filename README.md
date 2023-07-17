@@ -1,10 +1,8 @@
-# diffeq
+# First Order Differential Equations
 
-## First Order Differential Equations
+## Integrating Factor Method for Differential Equations
 
-### Integrating Factor Method for Differential Equations
-
-**Introduction**
+# Introduction
 Consider a first order linear differential equation that takes the following form where p(t) and g(t) are any arbitrary functions with respect to the dependendent variable. 
 $$\frac{dy}{dt} + p(t)y = g(t)$$
 For any of the following methods to work the functions p(t) and g(t) must also be continuous. A linear differential equation is the most common form of a differential equation and we will use the integration factor method to solve it.
@@ -35,7 +33,7 @@ Dividing through by k to reduce the equation to a single equation we get the fin
 $$y(t) = \frac{1}{\mu(t)}(\int \mu(t) g(t)dt + c)$$
 $$\mu(t) = e^{\int p(t)(dt)}$$
 
-**Worked Example**
+# Worked Example
 
 Consider the following problem:
 $$\dot{y} - y = e^{3x} \qquad y(0) = 3$$
@@ -55,7 +53,7 @@ $$c = \frac{5}{2}$$
 Applying the constant to our solution we get the final answer of:
 $$y = \frac{1}{2}e^{3x} + \frac{5}{2}e^{x}$$
 
-**Problems with Solutions**
+# Problems with Solutions
 
 **Question 1.4.2:**  $\dot{y} + 6y = e^{x}$
 <details>
@@ -83,7 +81,7 @@ $$y = \frac{1}{2}e^{3x} + \frac{5}{2}e^{x}$$
 
 <hr>
 
-### Exact Equations
+## Exact Equations
 Exact functions are an extremely common form of differential equation. An exact equation is a type of potential function. Potential functions model so many things like the gravitational potential energy and electrostatic potential energy. A certain potential functions f(x,y) must obey a certain set of properties.
 
 Remember that $g = \nabla f$  where f is the potential function of g. If g has a potential function (and not all functions have potential functions) then it is conservative. A conserative function implies that the potential function itself $\vec{F} = p\vec{i} + q\vec{j}$ has the following property:
@@ -94,7 +92,7 @@ $$P(x,y)dx + Q(x,y)dy = 0$$
 Alternatively,
 $$\frac{\partial F}{\partial x}(dx) + \frac{\partial F}{\partial y}(dy)=0$$
 
-**Worked Example**
+# Worked Example
 
 Consider the problem (1.8.7): 
 $$(2x+y)dx + (x-4y)dy = 0$$
@@ -122,8 +120,7 @@ $$h(y) = -2y^{2} + c$$
 Plugging our answer for $h(y)$ back into our previous answer we get the general solution to the exact differential equation.
 $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 
-
-**Problems with Solutions**
+# Problems with Solutions
 
 **Question 1.8.1.a:**  $(2xy+x^{2})dx + (x^{2}+y^{2}+1)dy = 0$
 <details>
@@ -152,11 +149,11 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 <hr>
 
 
-## 2nd and Higher Order Differential Equations
+# 2nd and Higher Order Differential Equations
 
-### 2nd Order Linear Homogenous Differential Equations (and a lot of theory)
+## 2nd Order Linear Homogenous Differential Equations (and a lot of theory)
 
-**Theory behind Linear Differential Equations**
+# Theory behind Linear Differential Equations
 
 2nd order linear ordinary differential equations take the following general form where $p(x)$ and $q(x)$ are any arbitrary function of x (in most cases both p and q will be constant since having them non-constant makes most differential equations extremely difficult).
 $$\ddot{y} + p(x)\dot{y} + q(x)y = f(x)$$
@@ -165,7 +162,7 @@ There is a special type of 2nd order linear differnetial equations when $f(x) = 
 
 Firstly its important to talk about when solutions exist and when they are unique on some interval. Once we into more difficult equations with stranger conditions a solution might not always exist or there might be an infinate set of them. However, for linear differential equations the conditions for existance and uniqueness are pretty light.
 
-**Existance and Uniqueness Theorem:**
+# Existance and Uniqueness Theorem:
 
 For an Initial Value Problem ofthe following form: (Also note that for a 2nd Order ODE you need two different initial conditions)
 $$\ddot{y} + p(x)\dot{y}+q(x)y = f(x)$$
@@ -183,7 +180,7 @@ In other words any number in $\mathbb{R}^{2}$ can be written as a some sum of tw
 
 I talked a lot about vectors, but I swear this relates to differential equations. It turns out that differential equations have there own superpostiton property. 
 
-**Superposition Theorem**
+# Superposition Theorem
 
 Suppose $y_1$ and $y_2$ solve the following equation:
 
@@ -196,7 +193,7 @@ $$y = c_1 y_1 + c_2 y_2$$
 In more simple terms any combination of two already existing solutions will also always be a solution. Since $c_1$ and $c_2$ are any arbitrary constant we technically have infinate solutions. This is where the extension to the superposition theorem become extremely important:
 
 
-**Superposition Theorem (extended)**
+# Superposition Theorem (extended)
 
 Suppose there are two linearly independent solutions $y_1$ and $y_2$ to the the following equation:
 $$\ddot{y} + p(x)\dot{y} + q(x)y = 0$$
@@ -209,7 +206,7 @@ I probably shouldn't have waited this long to explain what linear independence i
 
 For example, the functions $x$ and $2x$ are not linearly indepdent because $2x$ can be obtained by just multiply $x$ by 2. On the other hand, the functions $x$ and $x^{2}$ are linearly independent because there is no CONSTANT multiple that can be applied to $x$ to obtain $x^{2}$. Althought, a little harder to see the functions $cos(x)$ and $sin(x)$ are linearly independent. Cosine and Sine are can be equal if we apply a phase shift, but there is no way constant $k$ such that $kcos(x) = sin(x)$.
 
-**The Wronskian**
+# The Wronskian
 
 Sometimes it kind of hard to tell whether functions are linearly indepdent so someone made a fool-proof way to determine if a set of functions are linearly indepdent. For 2D dimensions the Wronskian matrix is defined as follows:
 
@@ -231,7 +228,7 @@ $$
 
 Suppose that $y_1$ and $y_2$ are linearly independent then $W(t) \neq 0$ for atleast one t. Otherwise if $W(t) = 0$ for all t then the functions are linearly dependent (not linearly independent).
 
-**Worked Example**
+# Worked Example
 
 Consider the two functions $y_1 = t$ and $y_2 = t^{2}$. Prove that they are linearly independent. Plugging the two equations into the Wronskian we get:
 
@@ -254,7 +251,7 @@ $$
 
 Finding the deterimenent of a 3x3 matrix is a little harder. There exists a formula, but its probably more effective to learn an actual method (like the coverup method). I'm too lazy to write the laTex, but the formula is one google search away. The same conditions for linear independence of more that two functions also apply.
 
-**Solving 2nd Order Constant Linear Homogenous Differential Equation**
+# Solving 2nd Order Constant Linear Homogenous Differential Equation
 
 Maybe you read the theory above maybe you didn't, but here is how to actual solve things. Remember that we are solving a 2nd order linear constant homogenous differential equation which takes the following form where $a$, $b$, and $c$ are some constants.
 $$a\ddot{y} + b\dot{y} + c{y} = 0$$
@@ -273,14 +270,14 @@ Our equation is in a very general form and we actually have multiple scenarios d
 
 Each scenarion will produce a solution of a different form:
 
-**Distinct Roots**
+# Distinct Roots
 
 Distinct roots are the simpliest. Lets say thats you have two real distinct roots $r_1$ and $r_2$ then the general solution to the differential equation is:
 $$y = c_1e^{r_1t} + c_2e^{r_2t}$$
 
 Our solution is a superposition of two expoential functions. The solution is so simple that the deriviation was probably just an educated guess. It might be good practice to plug the solution back in to the original differential equation and confirm that in fact this is a solution. Also, from inspection we can see that the functions are linearly indepdent(Remember that $e^{2x}$ is $e^{x}e^{x}$ and not $2e^{x}$). Since they are linearly indepdent we know that every single solution can be written as a superposition (through changing $c_1$ and $c_2$).
 
-**Repeated Roots**
+# Repeated Roots
 
 When $b^2-4ac = 0$ you have two repeated roots. For a repeated root $r_1$ then the general solution to the differential equation is:
 $$y = c_1e^{rt} + c_2te^{rt}$$
@@ -289,14 +286,15 @@ We notice that the repeated roots makes a difference in the answer.  Our solutio
 
 As practice you should confirm that $te^{rt}$ really is a solution to the differential equation. It turns out that adding any number of t's will still produce solution (this will be important when I talk about higher order ODE's). We can also tell that our soltuions are linearly independent.
 
-**Complex Roots**
+# Complex Roots
 
 When $b^2-4ac = 0$ you have two complex roots $\alpha \pm \beta i$. The general solution to the equation is:
 $$y = c_1 e^{\alpha t}cos(\beta t) + c_2 e^{\alpha t}sin(\beta t)$$
 
 We can see that despite starting with imaginary components we end up with a real solution. As mentioned previously $cos(t)$ and $sin(t)$ are linearly independent, so them alone describes all possible solutions. 
 
-**Proof of Complex Roots Formula**
+# Proof of Complex Roots Formula
+
 Our roots are $\alpha + \beta i$ and $\alpha - \beta i$. Much like the distincts roots case we can write the solution as the following:
 $$y = c_1e^{(\alpha + i \beta)t} + c_2e^{(\alpha  - i\beta)t}$$
 The solution is ok. If you plug it into the differential equation to check it will work out, however its complex, so its difficult for it represent something of much worth. Lets consider only the first term $c_1e^{(\alpha + i \beta)t}$ we do a little bit of algebraic manipulation to get:
@@ -315,7 +313,7 @@ $$\frac{y_1 - y_2}{2i} = e^{\alpha t}sin(\beta t)$$
 Adding the two solutions we get the general solution for the scenario of two complex roots:
 $$y = c_1 e^{\alpha t}cos(\beta t) + c_2 e^{\alpha t}sin(\beta t)$$
 
-**Worked Example (Real Roots)**
+# Worked Example (Real Roots)
 
 Consider the following problem (Question 2.2.2):
 $$\ddot{y} + 9\dot{y}-10y = 0$$
@@ -327,7 +325,8 @@ $$r_1 = -10 \quad r_2 = 1$$
 Plugging our roots into the general solution for two distinct real roots we get the gerneral solution of:
 $$y = c_1 e^{-10 t} + c_2 e^{t}$$
 
-**Worked Example (Repeated Roots)**
+# Worked Example (Repeated Roots)
+
 Consider the following problem:
 $$9x^{2} - 12x + 4 = 0$$
 Substituing in $y = e^{rt}$ and canceling all $e^{rt}$ we get our characteristic equation:
@@ -339,7 +338,8 @@ Plugging our roots into the general solution for two repeated roots we get the g
 $$y = c_1 e^{\frac{2}{3}t} + c_2 t e^{\frac{2}{3}}$$
 
 
-**Worked Example (Complex Roots)**
+# Worked Example (Complex Roots)
+
 Consider the following problem:
 $$\ddot{y} + 4 \dot{y} + 13y = 0$$
 Substituing in $y = e^{rt}$ and canceling all $e^{rt}$ we get our characteristic equation:
@@ -352,7 +352,7 @@ $$y = c_1 e^{-2t}cos(3t) + c_2 e^{-2t}sin(3t)$$
 
 Note that it is perfectly fine if you need to use a system of equations to find your constants in some of questions listed below.
 
-**Problems with Solutions**
+# Problems with Solutions
 
 **Question 2.2.3:** $\ddot{y}  + 4\dot{y} + 2y = 0$
 <details>
@@ -387,5 +387,6 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 
 <hr>
 
-### Higher Order Linear Homogenous Differential Equations
+## Higher Order Linear Homogenous Differential Equations
 
+## Laplce Transforms
