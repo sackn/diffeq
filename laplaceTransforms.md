@@ -118,7 +118,8 @@ $$f(t) = \mathcal{L}^{-1}[\frac{3}{s}] + \mathcal{L}^{-1} [\frac{1}{5s^{2}}] + \
 
 We can look at the laplace transform table to see that our laplace transform is most likely going to be a polynomial since $\mathcal{L}^{-1} [\frac{n!}{s^{n+1}}] = t^{n}$ and  $\mathcal{L}^{-1} [1] = \frac{1}{s}$. Our terms aren't in the exact form that we need them to be in before we apply the laplace transform. By manipulating the constants (remeber it obeys linearity so I can pull the constant out of the function) we get:
 
-$$f(t) =  3 \mathcal{L}^{-1} [\frac{1}{s}] $$
+$$f(t) =  3 \mathcal{L}^{-1} [\frac{1}{s}] + \frac{1}{5} \mathcal{L}^{-1} [\frac{1}{s^{2}] + \frac{1}{4} \mathcal{L}^{-1} [\frac{2}{s^{3}] + \frac{1}{2} \mathcal{L}^{-1} [\frac{6}{s^{4}]$$
+
 The inverse laplace transforms can be looked for directly off the table. After applying the inverse laplace transforms we get our function in terms of $t$.
 
 $$f(t) = 3 + \frac{1}{5}t + \frac{1}{4}t^{2} + \frac{1}{2}t^{3}$$
