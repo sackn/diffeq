@@ -72,7 +72,7 @@ $$-\int_{0}{\infty}-e^{-t}n t^{n-1}dt$$
 Rearranging a little we get that the gamma function is equiavalent to the factorial function:
 $$\Gamma(n) n\int_{0}{\infty}-e^{-t}t^{n-1}dt$$
 $$\Gamma(n) = n\Gamma(n-1)$$
-$$\Gamme(n) = n!$$
+$$\Gamma(n) = n!$$
 
 Since the gamma function is an integral and not a discrete function like the standard factorial, we can actually evaulate it at anywhere. The gamma function is continuous and allows us to calculate things like $\frac{1}{2}! \approx 0.886$. Below is a picture of the gamma function
 <img src="https://www.mathworks.com/help/examples/symbolic/win64/GammaPlotTheGammaFunctionvExample_01.png" alt="Gamma Function">
@@ -80,6 +80,11 @@ Since the gamma function is an integral and not a discrete function like the sta
 The gamma function makes it extremely easy to figure out the laplace transform for $t^{n}$
 
 **Worked Example**
+
+Find the laplace transform of $\mathcal{L} [t^{n}]$. Firstly, we start off with the definition of the laplace transform
+$$F(s) = \int_{\infty}^{0} e^{-st}t^{n}dt$$
+Doing a the u-substituion where $u=st$ will yield the following:
+$$F(s) = \int_{\infty}^{0} e^{-u}(\frac{u}{s})^{n}du = \frac{1}{s^{n+1}}\int_{\infty}^{0} e^{-u}u^{n}du$$
 
 
 ### Problems with Solutions
