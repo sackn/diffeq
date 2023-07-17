@@ -407,7 +407,7 @@ $$F(s) = \int_{0}^{\infty} e^{st}e^{at}(dt)$$
 Using some algebraic manipulation we can easily integrate the function:
 $$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{\infty}^{0}$$
 Working on our limits of integration we get that:
-$$F(s) = \frac{1}{a-s} \lim{x \to \infty}(e^{(a-s)t}-1)$$
+$$F(s) = \frac{1}{a-s} \lim_{x \to \infty} (e^{(a-s)t}-1)$$
 
 
 ### Problems with Solutions
