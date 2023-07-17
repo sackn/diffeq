@@ -402,12 +402,14 @@ Hopefully you remember a little about improper integration.
 
 **Worked Example**
 
-Find the $\mathcal{L} [e^{at}]$ where a is some constant. Based on the definition of the laplace transform we know that:
+Find the $\mathcal{L} [e^{at}]$ where $a$ is some constant. Based on the definition of the laplace transform we know that:
 $$F(s) = \int_{0}^{\infty} e^{st}e^{at}(dt)$$
 Using some algebraic manipulation we can easily integrate the function:
 $$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{\infty}^{0}$$
 Working on our limits of integration we get that:
-$$F(s) = \frac{1}{a-s} \lim_{x \to \infty} (e^{(a-s)t}-1)$$
+$$F(s) = \frac{1}{a-s} \lim_{t \to \infty} (e^{(a-s)t}-1)$$
+It turns out that our integral actually has two possible solutions depending on $a-s$. If $a-s \leq 0$ then our integral will blow up to infinity. However, if $a-s < 0$ then our integral will converge. We want our final transform to converge so our final answer is:
+$\mathcal{L} [e^{at}] = F(s) = \frac{1}{s-a} \quad s>a$
 
 
 ### Problems with Solutions
