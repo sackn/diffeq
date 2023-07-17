@@ -40,6 +40,21 @@ $$\mu(t) = e^{\int p(t)(dt)}$$
 Consider the following problem:
 $$\dot{y} - y = e^{3x} \qquad y(0) = 3$$
 
+From the formulas that we previously derived we know that our integrating factor is equal to the following:
+$$\mu = e^{\int -1(dx)} = e^{-x}$$
+
+Our general soltuion then takes the following form:
+$$y = \frac{1}{e^{-x}}(\int e^{-x}e^{3x} + c)$$
+We can simplying the factor out front and the integral on the inside is pretty simplistic (remember to that $e^{-x}e^{3x} = e^{2x}$)
+$$y = e^{x}(\frac{1}{2}e^{2x} + c)$$
+$$y = (\frac{1}{2}e^{3x} + ce^{x})$$
+Applying the initial condition of $y(0) = 3$ we can solve for a particular solution:
+$$3 = \frac{1}{2} + c(1)$$
+$$c = \frac{5}{2}$$
+
+Applying the constant to our solution we get the final answer of:
+$$y = \frac{1}{2}e^{3x} + \frac{5}{2}e^{x}$$
+
 **Problems with Solutions**
 
 **Question 1.4.2:**  $\dot{y} + 6y = e^{x}$
