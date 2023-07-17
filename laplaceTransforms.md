@@ -103,7 +103,7 @@ In other words we want to find the inverse laplace transmform of F:
 $$f(t) = \mathcal{L}^{-1}[F(s)]$$
 
 According to wikipedia the definition of the inverse laplace transform is:
-$$\[ \mathcal{L}^{-1} \left\{ F(s) \right\} = \frac{1}{2\pi i} \lim_{{T \to \infty}} \int_{c - iT}^{c + iT} F(s) e^{st} \, ds \]$$
+$$\[ \mathcal{L}^{-1} [ F(s)] = \frac{1}{2\pi i} \lim_{{T \to \infty}} \int_{c - iT}^{c + iT} F(s) e^{st} \, ds \]$$
 
 I'm pretty sure this integral is a line integral over the complex plane. To be honest I have never dealt with it, so I wont't really talk about it. Almost all your inverse laplace transform take some form of one of the things on this laplace trasnform table (I do not own this website): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
 
