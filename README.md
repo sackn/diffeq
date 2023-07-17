@@ -335,6 +335,8 @@ $$9r^{2} - 12r + 4 = 0$$
 The quadratic is factorable and in this case we have repeated roots.
 $$(3r-2)(3r-2) = 0$$
 $$r = \frac{2}{3} \quad mult. \quad 2$$ 
+Plugging our roots into the general solution for two repeated roots we get the gerneral solution of:
+$$y = c_1 e^{\frac{2}{3}t} + c_2 t e^{\frac{2}{3}}$$
 
 
 **Worked Example (Complex Roots)**
