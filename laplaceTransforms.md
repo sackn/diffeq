@@ -110,8 +110,14 @@ I'm pretty sure this integral is a line integral over the complex plane. To be h
 However, what you don't want to forget is that the inverse laplace transform is also defined as an integral. That means that it has the same properties of linearity like forward laplace transform.
 $$\mathcal{L}^{-1} [af(t) + bg(t)] = a \mathcal{L}^{-1} [f(t)] + b\mathcal{L}^{-1}[g(t)]$$
 
-**Worked Example 1 (Inverse Laplace Transform)**
-Find $\mathcal{L}^{-1} [\frac{3}{s}  + \frac{1}{5s^{2}} + \frac{1}{2s^{3}} + \frac{12}{s^{4}}]$
+**Worked Example (Inverse Laplace Transform)**
+
+Find $\mathcal{L}^{-1} [\frac{3}{s}  + \frac{1}{5s^{2}} + \frac{1}{2s^{3}} + \frac{12}{s^{4}}]$. Through linearity we can break the inverse laplace transform into four inverse laplace transforms over each of its terms.
+f(t) = \mathcal{L}^{-1}[\frac{3}{s}] + \mathcal{L}^{-1} [\frac{1}{5s^{2}}] + \mathcal{L}^{-1} [\frac{1}{2s^{3}}] + \mathcal{L}^{-1}[\frac{12}{s^{4}}]
+We can look at the laplace transform table to see that our laplace transform is most likely going to be a polynomial since $\mathcal{L} [\frac{n!}{s^{n+1}}] = t^{n}$. Our terms aren't in the exact form that we need them to be in before we apply the laplace transform. By manipulating the constants (remeber it obeys linearity so I can pull the constant out of the function) we get:
+
+The inverse laplace transforms can be looked for directly off the table. After applying the inverse laplace transforms we get our function in terms of $t$.
+
 
 
 
