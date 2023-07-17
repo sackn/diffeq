@@ -289,7 +289,7 @@ $$y_2 = e^{\alpha t}(cos(\beta t) + i sin(\beta t))$$
 We have two equations are we are allowed to add and subtrac them from each other to get new equations. If we add $y_1$ and $y_2$ then divide by two we get the following:
 $$\frac{y_1 + y_2}{2} = e^{\alpha t}cos(\beta t)$$
 Now if we subtracting $y_2$ from $y_1$ and then divide by $2i$ we get the following:
-$$\frac{y_1 - y_2}{2i} = e^{\alpha tsin(\beta t)}$$
+$$\frac{y_1 - y_2}{2i} = e^{\alpha t}sin(\beta t)$$
 
 
 Adding the two solutions we get the general solution for the scenario of two complex roots:
