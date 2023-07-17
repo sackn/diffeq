@@ -452,6 +452,8 @@ I want to work through one more laplace transform problem. The final example wil
 - $0!$ and $1!$ are 1
 - $n! = n(n-1)!$ 
 
+The gamma function is defined as folows:
+$$\Gamma(x) = \int_{0}^{\infty} e^{-t}t^{x-1}dt \qquad \Gamma(1) = 1$$ 
 ### Problems with Solutions
 I take questions from a open source textbook and give full solutions. I'm not going to put many forward laplace transform questions since they don't have any work. Here is the open source textbook I pull from https://web.uvic.ca/~tbazett/diffyqs/laplace_section.html
 
