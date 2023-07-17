@@ -144,7 +144,7 @@ That would explain why I added the $e^{2t}$ onto the original laplace transform 
 
 **Worked Example**
 
-Find $$\mathcal{L}^{-1} [ \frac{18}{(s+3)^4} ]$$. From the laplace transform table we know that $t^{3} = \frac{6}{s^4}$. We can move out some of our constant to get it a little bit closer.
+Find $\mathcal{L}^{-1} [ \frac{18}{(s+3)^4} ]$. From the laplace transform table we know that $t^{3} = \frac{6}{s^4}$. We can move out some of our constant to get it a little bit closer.
 $$3 \mathcal{L}^{-1} [ \frac{6}{(s+3)^4} ]$$
 The argument of our laplace transform is the exact same as the table except for the fact that we have $s+3$ rather than simply $s$. That addition of three to all variables of $s$ correspondsto a translation 3 units to the left and can get be dealt with an exponential. Accounting for the translation we get:
 $$3e^{-3t}t^3$$
