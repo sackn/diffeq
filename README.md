@@ -324,12 +324,18 @@ $$r^{2} + 9r - 10 = 0$$
 Factoring we find that our roots are the following:
 $$(r+10)(r-1) = 0$$
 $$r_1 = -10 \quad r_2 = 1$$
-Plugging out roots into the general solution for two distinct real roots we get the gerneral solution of:
+Plugging our roots into the general solution for two distinct real roots we get the gerneral solution of:
 $$y = c_1 e^{-10 t} + c_2 e^{t}$$
 
 **Worked Example (Repeated Roots)**
+Consider the following problem:
+$$9x^{2} - 12x + 4 = 0$$
+Substituing in $y = e^{rt}$ and canceling all $e^{rt}$ we get our characteristic equation:
+$$9r^{2} - 12r + 4 = 0$$
+The quadratic is factorable and in this case we have repeated roots.
+$$(3r-2)(3r-2) = 0$$
+$$r = \frac{2}{3} \quad mult. \quad 2$$ 
 
-Note that it is perfectly fine if you need to use a system of equations to find your constants in some of questions listed below.
 
 **Worked Example (Complex Roots)**
 Consider the following problem:
@@ -339,8 +345,10 @@ $$r^{2} + 4r + 13 = 0$$
 The quadratic is not factorable over the reals. Through the quadratic equation we get our two complex roots:
 $$r = \frac{-4 \pm \sqrt{16 - 4(1)(13)}}{2} = \frac{-4 \pm 6i}{2}$$
 $$r_1 = -2 + 3i \qquad r_2 = -2 - 3i$$
+Plugging our roots into the general solution for two complex roots we get the gerneral solution of:
+$$y = c_1 e^{-2t}cos(3t) + c_2 e^{-2t}sin(3t)$$
 
-
+Note that it is perfectly fine if you need to use a system of equations to find your constants in some of questions listed below.
 
 **Problems with Solutions**
 
