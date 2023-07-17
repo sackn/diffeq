@@ -390,4 +390,15 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 ## Higher Order Linear Homogenous Differential Equations
 
 ## Laplce Transforms
-Laplce Transform Table: Trust me this table will be important later (I did not create this website and I was too lazy to write out my own laplace transform table): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
+**Laplce Transform Table:**
+
+Trust me this table will be important later (I did not create this website and I was too lazy to write out my own laplace transform table): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
+### Laplce Transform Introduction
+Laplace transforms allow us to turn a calculus problem into an algebra problem. Before learning how to use the laplace transform to solve ODE's we must define how to even laplace transform some function that might appear in a differential equation. The forward laplace transform take a function of t $f(t)$ and transform into a function with respect to some variable $s$. A forward laplace transform is donated as $\mathcal{L} {f(t)} = F(s)$. The function that turns $f(t)$ into $F(s)$ is:
+
+$$F(s) = \int{0}^{\inf}e^{-st}f(t)dt$$
+
+
+### Problems with Solutions
+I take questions from a open source textbook and give full solutions. I'm not going to put many forward laplace transform questions since they don't have any work. Here is the open source textbook I pull from https://web.uvic.ca/~tbazett/diffyqs/laplace_section.html
+
