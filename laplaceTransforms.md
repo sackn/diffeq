@@ -122,7 +122,7 @@ $$f(t) =  3 \mathcal{L}^{-1} [\frac{1}{s}] +\frac{1}{5} \mathcal{L}^{-1} [\frac{
 
 The inverse laplace transforms can be looked for directly off the table. After applying the inverse laplace transforms we get our function in terms of $t$.
 
-$$f(t) = 3 + \frac{1}{5}t + \frac{1}{4}t^{2} + 2t^{3} + $$
+$$f(t) = 3 + \frac{1}{5}t + \frac{1}{4}t^{2} + 2t^{3} $$
 
 
 
