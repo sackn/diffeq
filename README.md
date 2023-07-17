@@ -261,13 +261,15 @@ $$y = c_1e^{r_1t} + c_2e^{r_2t}$$
 Our solution is a superposition of two expoential functions. The solution is so simple that the deriviation was probably just an educated guess. It might be good practice to plug the solution back in to the original differential equation and confirm that in fact this is a solution. Also, from inspection we can see that the functions are linearly indepdent(Remember that $e^{2x}$ is $e^{x}e^{x}$ and not $2e^{x}$). Since they are linearly indepdent we know that every single solution can be written as a superposition (through changing $c_1$ and $c_2$).
 
 **Repeated Roots**
+
 When $b^2-4ac = 0$ you have two repeated roots. For a repeated root $r_1$ then the general solution to the differential equation is:
 $$y = c_1e^{rt} + c_2te^{rt}$$
 
 Our solution is a superposition of $e^{rt}$ and $te^{rt}$. As practice you should confirm that $te^{rt}$ really is a solution to the differential equation. It turns out that adding any number of t's will still produce solution (this will be important when I talk about higher order ODE's). We can also tell that our soltuions are linearly independent.
 
 **Complex Roots**
-When 
+
+When $b^2-4ac = 0$ you have two complex roots $\alpha \pm \beta i$
 
 **Problems with Solutions**
 
