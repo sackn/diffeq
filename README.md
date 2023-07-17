@@ -442,7 +442,7 @@ By the very definition of the step function we can simplifying the integral grea
 $$F(s) = \int_{a}^{\infty} e^{-st}(1)dt$$
 
 Solving the integral we get our laplace transform.
-$$  \left. \frac{e^{-st}}{s} \right\vert_{\infty}^{0}$$
+$$   \frac{e^{-st}}{s}  $$
 $$\mathcal{L} [u(t-a)] = \frac{e^{as}}{s}$$
 
 I want to work through one more laplace transform problem. The final example will be the laplace transform of some polynomial $t^{n}$. However, first I want to define the gamma function. We all know the discrete factorial function ( $5! = (5)(4)(3)(2)(1)$ ). It has two main properties:
