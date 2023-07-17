@@ -315,9 +315,20 @@ $$\frac{y_1 - y_2}{2i} = e^{\alpha t}sin(\beta t)$$
 Adding the two solutions we get the general solution for the scenario of two complex roots:
 $$y = c_1 e^{\alpha t}cos(\beta t) + c_2 e^{\alpha t}sin(\beta t)$$
 
+**Worked Example (Real Roots)**
+
+Consider the following problem (Question 2.2.2):
+$$\ddot{y} + 9\dot{y}-10y = 0$$
+Substituing in $y = e^{rt}$ and canceling all $e^{rt}$ we get our characteristic equation:
+$$r^{2} + 9r - 10 = 0$$
+Factoring we find that our roots are the following:
+$$(r+10)(r-1) = 0$$
+$$r_1 = -10 \quad r_2 = 1$$
+Plugging out roots into the general solution for two distinct real roots we get the gerneral solution of:
+$$y = c_1 e^{-10 t} + c_2 e^{t}$$
 
 
-
+Note that it is perfectly fine if you need to use a system of equations to find your constants in some of questions listed below.
 
 **Problems with Solutions**
 
