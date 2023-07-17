@@ -327,8 +327,20 @@ $$r_1 = -10 \quad r_2 = 1$$
 Plugging out roots into the general solution for two distinct real roots we get the gerneral solution of:
 $$y = c_1 e^{-10 t} + c_2 e^{t}$$
 
+**Worked Example (Repeated Roots)**
 
 Note that it is perfectly fine if you need to use a system of equations to find your constants in some of questions listed below.
+
+**Worked Example (Complex Roots)**
+Consider the following problem:
+$$\ddot{y} + 4 \dot{y} + 13y = 0$$
+Substituing in $y = e^{rt}$ and canceling all $e^{rt}$ we get our characteristic equation:
+$$r^{2} + 4r + 13 = 0$$
+The quadratic is not factorable over the reals. Through the quadratic equation we get our two complex roots:
+$$r = \frac{-4 \pm \sqrt{16 - 4(1)(13)}}{2} = \frac{-4 \pm 6i}{2}$$
+$$r_1 = -2 + 3i \qquad r_2 = -2 - 3i$$
+
+
 
 **Problems with Solutions**
 
