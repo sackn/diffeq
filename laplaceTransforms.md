@@ -88,6 +88,26 @@ $$F(s) = \int_{0}^{\infty} e^{-u}(\frac{u}{s})^{n}du = \frac{1}{s^{n+1}}\int_{\i
 Now we realize that the only thing left of our integral is an alternative definition of the gamma function. Note that that the gamma function is technically $(n-1)!$, and the integral we have is the gamma function shifted one to the right so we have $n!$.
 $$\mathcal{L} [t^{n}] = \frac{n!}{s^{n+1}}$$
 
+**Linearity of the Lplace Transform**
+
+L:aplace transforms have the following property of linearity. Linearity is defined as a functions ability to fulfill the following statement (for some abitrary constants $a,b$ and arbitray functions $f(x),g(x)$):
+$$\mathcal{L} [af(t) + bg(t)] = a \mathcal{L}[f(t)] + b\matchcal{L}[g(t)]$$
+The above property should be pretty intuitive since the laplace transform is really just an integral and we already know that integrals have the property of linearity. 
+
+**Inverse Laplace Transforms**
+The general workflow of using laplace transforms to solve equations uses involves turning a differential equation into a algebraic equation. We then manipulate that algebraic equation and then transform it back. We already disucssed how to turn it into an algebraic equation via the laplace transform, so now I'm going to talk about how to turn it back from its algebraic equation (in terms of $s$) back into its "normal" equation (in terms of the original varible $t$).
+
+For some given $F(s)$ we want to know the f(t) such that:
+$$F(s) = \mathcal{L} [f(t)]$$
+In other words we want to find the inverse laplace transmform of F:
+$$f(t) = \mathcal{L}^{-1}[F(s)]$$
+
+According to wikipedia the definition of the inverse laplace transform is:
+\[ \mathcal{L}^{-1} \left\{ F(s) \right\} = \frac{1}{2\pi i} \lim_{{T \to \infty}} \int_{c - iT}^{c + iT} F(s) e^{st} \, ds \]
+
+I'm pretty sure this integral is a line integral over the complex plane. To be honest I have never dealt with it, so I wont't really talk about it. Almost all your inverse laplace transform take some form of one of the things on this laplace trasnform table (I do not own this website): https://tutorial.math.lamar.edu/classes/DE/Laplace_Table.aspx
+
+
 
 
 ### Problems with Solutions
