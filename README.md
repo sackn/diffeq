@@ -454,6 +454,23 @@ I want to work through one more laplace transform problem. The final example wil
 
 The gamma function is defined as folows:
 $$\Gamma(x) = \int_{0}^{\infty} e^{-t}t^{x-1}dt \qquad \Gamma(1) = 1$$ 
+Consider the following:
+$$\Gamma(n) = \int_{0}^{\infty} e^{-t}t^{n}dt
+Through integration by parts $dv = e^{-t}$ and $u = t^n$ we get (note that the $uv$ term goes to 0 so I left it out):
+$$-\int_{0}{\infty}-e^{-t}n t^{n-1}dt$$
+Rearranging a little we get that the gamma function is equiavalent to the factorial function:
+$$\Gamma(n) n\int_{0}{\infty}-e^{-t}t^{n-1}dt$$
+$$\Gamma(n) = n\Gamma(n-1)$$
+$$\Gamme(n) = n!$$
+
+Since the gamma function is an integral and not a discrete function like the standard factorial, we can actually evaulate it at anywhere. The gamma function is continuous and allows us to calculate things like $\frac{1}{2}! \approx 0.886$. Below is a picture of the gamma function
+<img src="https://www.mathworks.com/help/examples/symbolic/win64/GammaPlotTheGammaFunctionvExample_01.png" alt="Gamma Function">
+
+The gamma function makes it extremely easy to figure out the laplace transform for $t^{n}$
+
+**Worked Example**
+
+
 ### Problems with Solutions
 I take questions from a open source textbook and give full solutions. I'm not going to put many forward laplace transform questions since they don't have any work. Here is the open source textbook I pull from https://web.uvic.ca/~tbazett/diffyqs/laplace_section.html
 
