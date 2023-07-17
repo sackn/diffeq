@@ -265,11 +265,30 @@ Our solution is a superposition of two expoential functions. The solution is so 
 When $b^2-4ac = 0$ you have two repeated roots. For a repeated root $r_1$ then the general solution to the differential equation is:
 $$y = c_1e^{rt} + c_2te^{rt}$$
 
-Our solution is a superposition of $e^{rt}$ and $te^{rt}$. As practice you should confirm that $te^{rt}$ really is a solution to the differential equation. It turns out that adding any number of t's will still produce solution (this will be important when I talk about higher order ODE's). We can also tell that our soltuions are linearly independent.
+We notice that the repeated roots makes a difference in the answer.  Our solution is a superposition of $e^{rt}$ and $te^{rt}$. The factor of $t$ is a direct result of trying to maintain linearly independence. If we had just treated the repeated root as a distinct root we would get $y = c_1e^{rt} + c_2e^{rt}$. However, our two soltuions aren't linearly independent $c_1e^{rt}$ and $c_2e^{rt}$ are constant multiples of each other. We added a factor of $t$ to gurantee linear independence and a general solution.
+
+As practice you should confirm that $te^{rt}$ really is a solution to the differential equation. It turns out that adding any number of t's will still produce solution (this will be important when I talk about higher order ODE's). We can also tell that our soltuions are linearly independent.
 
 **Complex Roots**
 
-When $b^2-4ac = 0$ you have two complex roots $\alpha \pm \beta i$
+When $b^2-4ac = 0$ you have two complex roots $\alpha \pm \beta i$. The general solution to the equation is:
+$$y = c_1 e^{\alpha t}cos(\beta t) + c_2 e^{\alpha t}sin(\beta t)$$
+
+We can see that despite starting with imaginary components we end up with a real solution. As mentioned previously $cos(t)$ and $sin(t)$ are linearly independent, so them alone describes all possible solutions. 
+
+**Proof of Complex Roots Formula**
+Our roots are $\alpha + \betai$ and $\alpha - \beta i$. Much like the distincts roots case we can write the solution as the following:
+$$y = c_1e^{(\alpha + i \beta)t} + c_2e^{(\alpha  - i\beta)t}$$
+The solution is ok. If you plug it into the differential equation to check it will work out, however its complex, so its difficult for it represent something of much worth. Lets consider only the first term $c_1e^{(\alpha + i \beta)t}$ we do a little bit of algebraic manipulation to get:
+$$y_1 e^{\alpha t}e^{i \beta t}$$
+Now we can make use of the infamous eulers formula takes the form $e^{ix} = cos(x) + isin(x)$. Applying eulers formula to our complex expoenetial we get:
+$$y_1 = e{\alpha t}(cos(\beta t) + i sin(\beta t))$$
+We can do a similar process on the other root of $\alpha - i \beta t$. A nearly identical work is show below to setup $y_2$:
+$$y_2 = e^{alpha t}e^{-i \beta t}$$
+$$y_2 = e^{\alpha t}(cos(\beta t) + i sin(\beta t))$$
+
+
+
 
 **Problems with Solutions**
 
