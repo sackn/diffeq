@@ -125,6 +125,30 @@ The inverse laplace transforms can be looked for directly off the table. After a
 $$f(t) = 3 + \frac{1}{5}t + \frac{1}{4}t^{2} + 2t^{3} $$
 
 
+**Translations and Inverse Laplace Transforms**
+
+Some functions could be like other functions but slightly translated to the left or right. They might be super close, but one is just shifted over to the right 1 unit. For example what if I have:
+$$\frac{(s-2)}{(s-2)^{2} + 9}$$
+If you look at your laplace transform table the inverse laplace transform for $\frac{s}{s^{2} - 9} = cos(3t)$. That isn't exactly what we have. Our expression is the same, but every $s$ is replaced with $s-2$ corresponding with a shift to the right two units. If you know the function is shifted over there is an extremely easily solution to it. By the way the answer is $e^{2t}cos(3t)$ and I will explain why this is the case.
+
+**Worked Proof for the Translational Property**
+
+Consider some the forward laplace transform $\mathcal{L} [e^{at}f(t)]$ where $a$ is some constant and $f(t)$ is some function. By the defintion of the laplace transform we get:
+$$F(s) = \int_{0}^{\infty} e^{-st}e^{at}f(t) dt$$
+Through some algebraic manipultion we can get:
+$$F(s) = \int_{0}^{\infty} e^{-(s-a)t}e^{at}f(t) dt$$
+You might notice that the above is just another laplace transform. In fact its the laplace transform of f(t) just shifted over by units of $a$ to the right.
+$$F(s) = \int_{0}^{\infty} e^{-(s-a)t}e^{at}f(t) dt = F(s-a)$$
+
+That would explain why I added the $e^{2t}$ onto the original laplace transform of $cos(3t)$. The expoential term was just there to shift the netire function to the righ two, so that it fits our original expression.
+
+**Worked Example**
+
+Find $$\mathcal{L}^{-1} [ \frac{18}{(s+3)^4} ]$$. From the laplace transform table we know that $t^{3} = \frac{6}{s^4}$. We can move out some of our constant to get it a little bit closer.
+$$3 \mathcal{L}^{-1} [ \frac{6}{(s+3)^4} ]$$
+The argument of our laplace transform is the exact same as the table except for the fact that we have $s+3$ rather than simply $s$. That addition of three to all variables of $s$ correspondsto a translation 3 units to the left and can get be dealt with an exponential. Accounting for the translation we get:
+$$3e^{-3t}t^3$$
+
 
 
 ### Problems with Solutions
