@@ -78,5 +78,3 @@
   <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image1.png" alt="UCB Problem 4.3.c">
 </details>
 
-
-
