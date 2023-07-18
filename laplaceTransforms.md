@@ -154,10 +154,17 @@ I take questions from a open source textbook and give full solutions. I'm not go
 
 However, I need content for forward laplace transforms I have the work for how inverse laplace transform them.
 
+**Lebl Question 3.1.7** Find $\mathcal{L}^{-1} \left[\frac{As + B \omega}{s^{2} + \omega^{2}}]\right$ 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image2.png" alt="Lebl 3.1.7">
+</details>
+
+
 **Lebl Question 3.1.10:** Find $\matcal{L} [te^{-t}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://www.mathworks.com/help/examples/symbolic/win64/GammaPlotTheGammaFunctionvExample_01.png" alt="Gamma Function">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image1.png" alt="Lebel 3.1.10">
 </details>
 
 
