@@ -201,7 +201,7 @@ However, I need content for forward laplace transforms I have the work for how i
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image6.png" alt="Laplace1">
 </details>
 
-### Partial Fractions and Laplace transforms of derivaitves/integrals
+### Partial Fractions and Laplace transforms of derivaitves
 
 **Laplace Transform of the First Deriative**
 
@@ -211,7 +211,7 @@ We can integrate by parts by choosing $u=e^{st}$ and $dv = \dot{f}(t)$. Doing so
 $$\left. \frac{-st}{a}  \right\vert_{0}^{\infty} + s\int_{0}^{\infty}-e^{-st}f(t)dt$$
 
 Under exponential order the first term will evaluate to $-f(0)$ and the integral is the laplace definition of $s \mathcal{L} [f(t)]$ (we are allowed to factor out the $s$ since the integral is with respect to t). That leaves us with the following laplace transform for the first derivative
-$$\mathcal{L} [\dot{f}(t)] = s \mathcal{L}[f(t)] - f(0)$$
+$$\mathcal{L} [\dot{f}(t)] = s \mathcal{L}[f(t)] - f(0) \quad \square$$
 
 Alternatively,
 $$\mathcal{L} [\dot{f}(t)] = sF(s) - f(0)$$
@@ -228,6 +228,33 @@ $$s\mathcal{L}[\dot{f}(t)] - \dot{f}(0)$$
 We have another first dervivative this time with respect to just f(t). If we apply the formula for the first deravative again we get:
 $$s( s \mathcal{L} [f(t)] - f(0)) - \dot{f}(0)$$
 Simplfying we get that the derivative of the 2nd derivative is (where $f(0)$ and $\dot{f}(0)$ are initial values),
-$$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0)$$
+$$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0) \quad \square$$
+
+**Laplace Transforms and Partial Fractions**
+Most of the time when dealing with laplace transforms to solve ODE's we run into fractions with a polynomial of in the numerator and denominator each with respect to the new varible $s$ (it will become obvious why this happens so much when you start solving). In order to solve the differential equation we need to apply the inverse laplace transform, but most of the time the rationals aren't in the ideal form. In order to get them into the ideal form we use the concept of partial fractions. 
+
+**Worked Example**
+Assume we want to take the laplace transform of the following expression:
+$$\frac{1}{(s-1)(s-2)}$$
+Nothing immediately jumps out, but if we apply partial fractions we know that its also possible to write the single fraction in terms of the sum of two seperate ones like the following,
+$$\frac{1}{s-1}{s-2} = \frac{A}{s-1} + \frac{B}{s-2}$$
+The fractions on the right look like we could inverse laplace transform them into exponentials however, we don't know the constants A and B. If we multiple both sides by $$(s-1)(s-2)$$ to clear the denominator we get,
+$$1 = A(s-2) + B(s-1)$$
+We can choose strategies values of $s$ to figure out our constants. If we plug in $s=2$ we get that $B=1$,
+$$1 = A(2-2) + B(2-1)$$
+$$B = 1$$
+Now if we plug in $s=1$ we get that $A = -1$,
+$$1 = A(1-2) + B(1-1)$$
+$$A = -1$$
+After we solve for the constants we know that our single fraction is equivalent to the following two fractions,
+$$\frac{1}{s-1}{s-2} = -\frac{1}{s-1} + \frac{1}{s-2}$$
+We are now free to use the inverse laplace transforms for expoentials to get:
+$$f(t) = -e^{t} + e^{2t}$$
+
+
+
+
+
+
 
 
