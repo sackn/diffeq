@@ -208,6 +208,6 @@ If we are going to use the laplace transform to solve differential equatins its 
 
 We can integrate by parts by choosing $u=e^{st}$ and $dv = \cdot{f}(t)}$. Doing so will get us:
 
-$$ \left. e^{-st}f(t)  \right\vert_{0}^{\infty} $$
+$$ \Big|_a^b $$
 
 
