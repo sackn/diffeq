@@ -233,7 +233,7 @@ $$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0) \quad \square$$
 **Laplace Transforms and Partial Fractions**
 Most of the time when dealing with laplace transforms to solve ODE's we run into fractions with a polynomial of in the numerator and denominator each with respect to the new varible $s$ (it will become obvious why this happens so much when you start solving). In order to solve the differential equation we need to apply the inverse laplace transform, but most of the time the rationals aren't in the ideal form. In order to get them into the ideal form we use the concept of partial fractions. 
 
-**Worked Example**
+**Worked Example 1**
 Assume we want to take the laplace transform of the following expression:
 $$\frac{1}{(s-1)(s-2)}$$
 Nothing immediately jumps out, but if we apply partial fractions we know that its also possible to write the single fraction in terms of the sum of two seperate ones like the following,
@@ -254,6 +254,22 @@ $$f(t) = -e^{t} + e^{2t}$$
 Partial fractions is something that you should have learned when you were studying integration techniques, so I won't go into much detail. If you forgot how to do them I would recommend watching this video (which I did not create): [https://www.youtube.com/watch?v=2bMndF92Oqo](url)
 
 Below is a table of common partial fraction decompositions. I will also go through a few more examples:
+<details>
+  <summary>Solution (Ignore Horrible Cropping)</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/partialFractionTable.png" alt="partialFractionTable">
+</details>
+
+**Worked Example 2*
+Assume we want to find the inverse laplace transform of the following expression:
+$$\frac{s}{(s^2+4)(s+1)}$$
+According to the table above we had decompose the one big fraction into two fractions of the following form where we have three unknown constants,
+$$\frac{s}{(s^2+4)(s+1)} = \frac{As + B}{s^2 + 4} + \frac{C}{s+1}$$
+Multiplying the equation through by $(s^2 + 4)(s+1)$ we get,
+$$s = (As+B)(s+1) + C(s^2+4)$$
+Plugging into the equation $s=-1$ we get that $c=-\frac{1}{5}$,
+$$-1 = 0 + c(5) \quad \implies c \frac{-1}{5}$$
+
+
 
 
 
