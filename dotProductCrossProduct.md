@@ -45,18 +45,37 @@
   Yes, as long as your vector is paralle it will work to define the line. It would only change what $t$ corresponds to whawt point on a line. For example, if you had a vector $\vec{v_1}$ parallel to the line or $-\vec{v_1}$ both would be able to define the line. Lets say that $\vec{v_1}$ traverses the line in       "foward" direction when $t$ is positive then if you use $-\vec{v_1}$ to define the line you will move forward with $-t$. Regardless it produces the same line. 
 </details>
 
-**UCB Problem 4.3**
+**UCB Problem 4.2**
 <details>
   <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image4.png" alt="UCB Problem 4.3">
+  As my point I chose $(2,2,0)$
+  $$\langle x-2, y-2, z \rangle \cdot \langle 1,1,-1 \rangle = 0$$
+  $$(x-2) + (y-2) - z = 0$$
+  $$x+y-z=4 \quad \square$$
+
+  
 </details>
 <details>
   <summary>Part B Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image3.png" alt="UCB Problem 4.3">
+  The vector is normal to tha plane because when it is dot producted with anything in the plane the result is always zero. Planes are defined using their normal vector. 
 </details>
 <details>
   <summary>Part C Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image1.png" alt="UCB Problem 4.3">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image6.png" alt="UCB Question 4.2.c">
+</details>
+
+**UCB Problem 4.3**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image4.png" alt="UCB Problem 4.3.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image3.png" alt="UCB Problem 4.3.b">
+</details>
+<details>
+  <summary>Part C Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image1.png" alt="UCB Problem 4.3.c">
 </details>
 
 
