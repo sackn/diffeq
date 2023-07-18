@@ -204,6 +204,7 @@ However, I need content for forward laplace transforms I have the work for how i
 ### Partial Fractions and Laplace transforms of derivaitves/integrals
 
 **Laplace Transform of the First Deriative**
+
 If we are going to use the laplace transform to solve differential equatins its probably in our best interest to know how to take the laplace transforms of the derivative of a function. Assume some well behaving first derivative $\dot{f}(t)$ and plug it into the definition of the laplace transform.
 $$\mathcal{L} [\dot{f}(t)] = \int_{0}^{\infty}e^{-st}\dot{f}(t)dt$$
 We can integrate by parts by choosing $u=e^{st}$ and $dv = \dot{f}(t)$. Doing so will get us:
@@ -216,6 +217,17 @@ Alternatively,
 $$\mathcal{L} [\dot{f}(t)] = sF(s) - f(0)$$
 The $f(0)$ that comes out of the laplace transforms will take the place of constants when we solve using laplace transforms. 
 
-**Laplace Transform of the First Deriative**
+**Laplace Transform of the Second Deriative**
+
+Let $h(t) = \dot{f}(t)$. We then know the followng to be true
+$$\mathcal{L}[\ddot{f}(t)] = \mathcal{L}[\dot{h}(t)]$$
+We already have the general form of the first derivativ, so we can expand the right side into,
+$s \mathcal{L} [h(t)] - g(0)$
+By resubstiting in $h(t)= \dot{f}(t)$ we get,
+$$s\mathcal{L}[\dot{f}(t)] - \dot{f}(0)$$
+We have another first dervivative this time with respect to just f(t). If we apply the formula for the first deravative again we get:
+$$s( s \mathcal{L} [f(t)] - f(0)) - \dot{f}(0)$$
+Simplfying we get that the derivative of the 2nd derivative is (where $f(0)$ and $\dot{f}(0)$ are initial values),
+$$$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0)$$
 
 
