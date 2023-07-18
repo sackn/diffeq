@@ -1,4 +1,10 @@
+
+
 **Problems and Solutions**
+Shimamota 2.2 is all about parametric equations.
+
+**Problems and Solutions**
+Shimamota 2.2 is velocity, speed, acceleration, and arc length.
 
 **Shimamota Question 2.2.1**
 
