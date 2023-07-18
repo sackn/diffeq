@@ -287,7 +287,16 @@ First lets mutliply everything out and then group by the degree of each term.
 $$s = As^{2} + As + Bs + B + Cs^{2} + 4C$$
 $$s = s^{2}(A + C) + s(A + B) + (B+4C)$$
 We can think of it as a balancing act between the the two sides. For the right side to equal the left side we need $A+C = 0$ since we don't want any $s^{2}$, we need $A+B = 1$ since we have a single $s$ on the other side, and we need $B + 4C = 0$ since there are no constants terms on the other side. We could these three equation as a system like the following:
+$$
+\[
+\begin{bmatrix}[ccc|c]
+2 & 1 & 3 & 7 \\
+-1 & 0 & 2 & 3 \\
+3 & 2 & 1 & 9 \\
+\end{bmatrix}
+\]
 
+$$
 Solving the system will using some calculator it will give that
 
 
