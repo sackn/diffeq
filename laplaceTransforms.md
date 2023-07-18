@@ -203,9 +203,19 @@ However, I need content for forward laplace transforms I have the work for how i
 
 ### Partial Fractions and Laplace transforms of derivaitves/integrals
 
-**Laplace Transform of Deriatives**
+**Laplace Transform of the First Deriative**
 If we are going to use the laplace transform to solve differential equatins its probably in our best interest to know how to take the laplace transforms of the derivative of a function. Assume some well behaving first derivative $\dot{f}(t)$ and plug it into the definition of the laplace transform.
+$$\mathcal{L} [\dot{f}(t)] = \int_{0}^{\infty}e^{-st}\dot{f}(t)dt$$
+We can integrate by parts by choosing $u=e^{st}$ and $dv = \dot{f}(t)$. Doing so will get us:
+$$\left. \frac{-st}{a}  \right\vert_{0}^{\infty} + s\int_{0}^{\infty}-e^{-st}f(t)dt$$
 
-We can integrate by parts by choosing $u=e^{st}$ and $dv = \cdot{f}(t)$. Doing so will get us:
-$$\left. \frac{-st}{a}  \right\vert_{0}^{\infty}$$
+Under exponential order the first term will evaluate to $-f(0)$ and the integral is the laplace definition of $s \mathcal{L} [f(t)]$ (we are allowed to factor out the $s$ since the integral is with respect to t). That leaves us with the following laplace transform for the first derivative
+$$\mathcal{L} [\dot{f}(t)] = s \mathcal{L}[f(t)] - f(0)$$
+
+Alternatively,
+$$\mathcal{L} [\dot{f}(t)] = sF(s) - f(0)$$
+The $f(0)$ that comes out of the laplace transforms will take the place of constants when we solve using laplace transforms. 
+
+**Laplace Transform of the First Deriative**
+
 
