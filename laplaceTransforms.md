@@ -207,7 +207,6 @@ However, I need content for forward laplace transforms I have the work for how i
 If we are going to use the laplace transform to solve differential equatins its probably in our best interest to know how to take the laplace transforms of the derivative of a function. Assume some well behaving first derivative $\dot{f}(t)$ and plug it into the definition of the laplace transform.
 
 We can integrate by parts by choosing $u=e^{st}$ and $dv = \cdot{f}(t)}$. Doing so will get us:
-
-$$ \Big|_a^b $$
-
+$$\usepackage{amsmath}$$
+$$\int\limits_a^b x^2 \di x &=& \frac{x^3}{3}\at_a^b$$
 
