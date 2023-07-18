@@ -202,4 +202,12 @@ However, I need content for forward laplace transforms I have the work for how i
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image6.png" alt="Laplace1">
 </details>
 
+### Partial Fractions and Laplace transforms of derivaitves/integrals
+
+**Laplace Transform of Deriatives**
+If we are going to use the laplace transform to solve differential equatins its probably in our best interest to know how to take the laplace transforms of the derivative of a function. Assume some well behaving first derivative $\dot{f}(t)$ and plug it into the definition of the laplace transform.
+
+We can integrate by parts by choosing $u=e_{st}$ and $dv = \cdot{f}(t)}$. Doing so will get us:
+$$ \left. e_{-st}f(t) \right\vert_{\infty}^{0}$$
+
 
