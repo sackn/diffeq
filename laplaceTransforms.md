@@ -149,11 +149,18 @@ $$3 \mathcal{L}^{-1} [ \frac{6}{(s+3)^4} ]$$
 The argument of our laplace transform is the exact same as the table except for the fact that we have $s+3$ rather than simply $s$. That addition of three to all variables of $s$ correspondsto a translation 3 units to the left and can get be dealt with an exponential. Accounting for the translation we get:
 $$3e^{-3t}t^3$$
 
-
-
 ### Problems with Solutions
 I take questions from a open source textbook and give full solutions. I'm not going to put many forward laplace transform questions since they don't have any work. Here is the open source textbook I pull from https://web.uvic.ca/~tbazett/diffyqs/laplace_section.html
 
 However, I need content for forward laplace transforms I have the work for how inverse laplace transform them.
+
+**Lebl Question 3.1.10:** Find $\matcal{L} [te^{-t}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://www.mathworks.com/help/examples/symbolic/win64/GammaPlotTheGammaFunctionvExample_01.png" alt="Gamma Function">
+</details>
+
+
+
 
 
