@@ -254,11 +254,8 @@ $$f(t) = -e^{t} + e^{2t}$$
 
 Partial fractions is something that you should have learned when you were studying integration techniques, so I won't go into much detail. If you forgot how to do them I would recommend watching this video (which I did not create): [https://www.youtube.com/watch?v=2bMndF92Oqo](url)
 
-Below is a table of common partial fraction decompositions. I will also go through a few more examples:
-<details>
-  <summary>Solution (Ignore Horrible Cropping)</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/partialFractionTable.png" alt="partialFractionTable">
-</details>
+<img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/partialFractionTable.png" alt="partialFractionTable">
+
 
 **Worked Example 2**
 
