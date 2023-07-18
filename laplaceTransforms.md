@@ -231,6 +231,7 @@ Simplfying we get that the derivative of the 2nd derivative is (where $f(0)$ and
 $$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0) \quad \square$$
 
 **Laplace Transforms and Partial Fractions**
+
 Most of the time when dealing with laplace transforms to solve ODE's we run into fractions with a polynomial of in the numerator and denominator each with respect to the new varible $s$ (it will become obvious why this happens so much when you start solving). In order to solve the differential equation we need to apply the inverse laplace transform, but most of the time the rationals aren't in the ideal form. In order to get them into the ideal form we use the concept of partial fractions. 
 
 **Worked Example 1**
@@ -278,8 +279,9 @@ $$\frac{s}{(s^2+4)(s+1)} = \frac{1}{5} (\frac{s+4}{s^2 + {4}}) - \frac{1}{5}\fra
 Splitting up the fraction even further to make it easier to see inverse laplace transforms.
 $$\frac{1}{5}(\frac{s}{s^2 + 4}) + \frac{2}{5}(\frac{2}{s^2+4}) - \frac{1}{5}(\frac{1}{s+1})$$
 Using the inverse laplace transfroms from a table we get the final solution,
-$$\frac{1}{5}cos(2t) + \frac{2}{5}sin(2t) + e^{-t} \square$$
+$$\frac{1}{5}cos(2t) + \frac{2}{5}sin(2t) + e^{-t} \quad \square$$
 
+### Problems and Solutions
 
 
 
