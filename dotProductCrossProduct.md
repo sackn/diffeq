@@ -25,7 +25,7 @@
 
 **UCB Question 4.4**
 <details>
-  <summary>Solution</summary>
+  <summary>Part A Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image5.png" alt="UCB Question 4.4">
 </details>
 
@@ -35,6 +35,14 @@
   $$\vec{a} =\langle 1,0,1 \rangle \quad \vec{b}= \langle 2,1,-1 \rangle$$
   $$\vec{b}-\vec{a} = \langle 1, 1, -2 \rangle$$
   $$\vec{u} = \langle 1, 1, -2 \rangle \quad \square$$
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  You have a point on the line and the "slope" of the line through the parallel vector. You can move along the line by varying $t$.
+</details>
+<details>
+  <summary>Part C Solution</summary>
+  Yes, as long as your vector is paralle it will work to define the line. It would only change what $t$ corresponds to whawt point on a line. For example, if you had a vector $\vec{v_1}$ parallel to the line or $-\vec{v_1}$ both would be able to define the line. Lets say that $\vec{v_1}$ traverses the line in       "foward" direction when $t$ is positive then if you use $-\vec{v_1}$ to define the line you will move forward with $-t$. Regardless it produces the same line. 
 </details>
 
 **UCB Problem 4.3**
