@@ -22,3 +22,4 @@
   I'm not going to do a formal proof its kind of intuitive. If $\vec{u}$ and $\vec{v}$ are perpendicular then there is a 90 degree angle between them. That also implies that they form a right triangle and right triangles are associated with the ever famous pythagoream theorem. The theorem is written using the magitudes
   of vectors rather than simply side lengths, but regardless they are equivalent. 
 </details>
+https://github.com/sackn/diffeq/blob/main/Images/UCB4/image1.png
