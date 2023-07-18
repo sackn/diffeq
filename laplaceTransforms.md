@@ -228,6 +228,6 @@ $$s\mathcal{L}[\dot{f}(t)] - \dot{f}(0)$$
 We have another first dervivative this time with respect to just f(t). If we apply the formula for the first deravative again we get:
 $$s( s \mathcal{L} [f(t)] - f(0)) - \dot{f}(0)$$
 Simplfying we get that the derivative of the 2nd derivative is (where $f(0)$ and $\dot{f}(0)$ are initial values),
-$$$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0)$$
+$$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0)$$
 
 
