@@ -154,20 +154,52 @@ I take questions from a open source textbook and give full solutions. I'm not go
 
 However, I need content for forward laplace transforms I have the work for how inverse laplace transform them.
 
-**Lebl Question 3.1.7** Find $\mathcal{L}^{-1} [\frac{As + B \omega}{s^{2} + \omega^{2}}]t$ 
+**Lebl Question 3.1.5:** Find $\mathcal{L}^{-1} [\frac{3}{s} + \frac{120}{s^{6}} + \frac{\pi}{s^2 + \pi^2}]$ 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image3.png" alt="Lebl 3.1.5">
+</details>
+
+**Lbel Question 3.1.6:** $\mathcal{L}^{-1} [\frac{a}{s} + \frac{b}{s^2} + \frac{2c}{s^3}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image5.png" alt="Lebl 3.1.6">
+</details>
+
+**Lebl Question 3.1.9:** Find $Find $\mathcal{L}^{-1} [\frac{8}{s^3} + \frac{8}{s^2} + \frac{4}{s}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image4.png" alt="Lebl 3.1.9">
+</details>
+
+**Lebl Question 3.1.7:** Find $\mathcal{L}^{-1} [\frac{As + B \omega}{s^{2} + \omega^{2}}]$ 
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image2.png" alt="Lebl 3.1.7">
 </details>
 
-
-**Lebl Question 3.1.10:** Find $\matcal{L} [te^{-t}]$
+**Lebl Question 3.1.10:** Find $\mathcal{L} [te^{-t}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image1.png" alt="Lebel 3.1.10">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image1.png" alt="Lebl 3.1.10">
 </details>
 
+**Lebl Question 3.1.17:** Find $\mathcal{L} [2t^{2} - 2t + 1 - e^{-2t}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.17">
+</details>
 
+**Lebl Question 3.1.18:** Find $\mathcal{L}^{-1} [\frac{s+1}{s^2 + 2s + 10} + \frac{3}{s^2 + 2s + 10}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
 
+**My Question 1:** Find $\mathcal{L} [u(t-6)]$
+<details>
+  <summary>Solution (Ignore Horrible Cropping)</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image6.png" alt="Laplace1">
+</details>
 
 
