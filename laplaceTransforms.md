@@ -289,27 +289,23 @@ $$s = s^{2}(A + C) + s(A + B) + (B+4C)$$
 We can think of it as a balancing act between the the two sides. For the right side to equal the left side we need $A+C = 0$ since we don't want any $s^{2}$, we need $A+B = 1$ since we have a single $s$ on the other side, and we need $B + 4C = 0$ since there are no constants terms on the other side. We could these three equation as a system like the following:
 
 $$
-\[
-\begin{bmatrix}
-a & b & c \\
-d & e & f \\
-g & h & i \\
-\end{bmatrix}
-\begin{bmatrix}
-x \\
-y \\
-z \\
-\end{bmatrix}
-=
-\begin{bmatrix}
-P \\
-Q \\
-R \\
-\end{bmatrix}
-\]
+\left( \begin{bmatrix}
+y_1 & y_2 & y_3 \\
+\dot{y_1} & \dot{y_2} & \dot{y_3} \\
+\ddot{y_1} & \ddot{y_2} & \ddot{y_3} \
+\end{bmatrix} \right) 
+
+\left( \begin{bmatrix}
+y_1 \\
+\dot{y_1}  \\
+\ddot{y_1}  \\
+\end{bmatrix} \right) 
+
+
 $$
 
-Solving the system will using some calculator it will give that
+
+Solving the system will usin matrices or whatever method you like will get us 
 
 
 ### Problems and Solutions
