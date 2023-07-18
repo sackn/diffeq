@@ -31,6 +31,33 @@ Shimamota 2.1 is all about parametric equations.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/Image8.png" alt="2.1.8">
 </details>
 
+**Shimamota Question 2.1.10:** Find a parametric equation for $xy = 1$ with $1 \leq x \geq 2$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image4.png" alt="2.1.10">
+</details>
+
+**Shimamota Question 2.1.12:** Find equation for a right handed helix that has a radius of two and completes one full twist between $z=0$ and $z=1$.
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image2.png" alt="2.1.12">
+</details>
+
+
+**Shimamota Question 2.1.14:** Find a point and a vector which parrallel to the line $\alpha(t) = \langle 1+2t, -3t, 4+5t \rangle$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image1.png" alt="2.1.14">
+</details>
+
+**Shimamota Question 2.1.16:** Find equation of line that goes between $a=(1,-2,3)$ and $b = (-4,5,-6)$.
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image3.png" alt="2.1.14">
+</details>
+
+
+
 **Problems and Solutions**
 
 Shimamota 2.2 is velocity, speed, acceleration, and arc length.
