@@ -160,7 +160,7 @@ However, I need content for forward laplace transforms I have the work for how i
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image3.png" alt="Lebl 3.1.5">
 </details>
 
-**Lbel Question 3.1.6:** $\mathcal{L}^{-1} [\frac{a}{s} + \frac{b}{s^2} + \frac{2c}{s^3}]$
+**Lbel Question 3.1.6:** Find $\mathcal{L}^{-1} [\frac{a}{s} + \frac{b}{s^2} + \frac{2c}{s^3}]$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image5.png" alt="Lebl 3.1.6">
