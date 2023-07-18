@@ -278,6 +278,19 @@ $$\frac{1}{5}(\frac{s}{s^2 + 4}) + \frac{2}{5}(\frac{2}{s^2+4}) - \frac{1}{5}(\f
 Using the inverse laplace transfroms from a table we get the final solution,
 $$\frac{1}{5}cos(2t) + \frac{2}{5}sin(2t) + e^{-t} \quad \square$$
 
+
+**Worked Example 2.5**
+
+Once you get to harder partial fraction problems it may be difficult to simply plug in a value and solve for a single varible. In more difficult problems it unlikely that all but one varible is left. There exist an alternative to getting the constants through a system of linear equations. Consider the same scenario from example 2:
+$$s = (As+B)(s+1) + C(s^2+4)$$
+First lets mutliply everything out and then group by the degree of each term.
+$$s = As^{2} + As + Bs + B + Cs^{2} + 4C$$
+$$s = s^{2}(A + C) + s(A + B) + (B+4C)$$
+We can think of it as a balancing act between the the two sides. For the right side to equal the left side we need $A+C = 0$ since we don't want any $s^{2}$, we need $A+B = 1$ since we have a single $s$ on the other side, and we need $B + 4C = 0$ since there are no constants terms on the other side. We could these three equation as a system like the following:
+
+Solving the system will using some calculator it will give that
+
+
 ### Problems and Solutions
 
 
