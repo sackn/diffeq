@@ -237,7 +237,7 @@ Most of the time when dealing with laplace transforms to solve ODE's we run into
 Assume we want to take the laplace transform of the following expression:
 $$\frac{1}{(s-1)(s-2)}$$
 Nothing immediately jumps out, but if we apply partial fractions we know that its also possible to write the single fraction in terms of the sum of two seperate ones like the following,
-$$\frac{1}{s-1}{s-2} = \frac{A}{s-1} + \frac{B}{s-2}$$
+$$\frac{1}{(s-1)(s-2)} = \frac{A}{s-1} + \frac{B}{s-2}$$
 The fractions on the right look like we could inverse laplace transform them into exponentials however, we don't know the constants A and B. If we multiple both sides by $$(s-1)(s-2)$$ to clear the denominator we get,
 $$1 = A(s-2) + B(s-1)$$
 We can choose strategies values of $s$ to figure out our constants. If we plug in $s=2$ we get that $B=1$,
@@ -247,9 +247,13 @@ Now if we plug in $s=1$ we get that $A = -1$,
 $$1 = A(1-2) + B(1-1)$$
 $$A = -1$$
 After we solve for the constants we know that our single fraction is equivalent to the following two fractions,
-$$\frac{1}{s-1}{s-2} = -\frac{1}{s-1} + \frac{1}{s-2}$$
+$$\frac{1}{(s-1)(s-2)}= -\frac{1}{s-1} + \frac{1}{s-2}$$
 We are now free to use the inverse laplace transforms for expoentials to get:
 $$f(t) = -e^{t} + e^{2t}$$
+
+Partial fractions is something that you should have learned when you were studying integration techniques, so I won't go into much detail. If you forgot how to do them I would recommend watching this video (which I did not create): [https://www.youtube.com/watch?v=2bMndF92Oqo](url)
+
+Below is a table of common partial fraction decompositions. I will also go through a few more examples:
 
 
 
