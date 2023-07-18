@@ -1,9 +1,32 @@
 
 
 **Problems and Solutions**
-Shimamota 2.2 is all about parametric equations.
+
+Shimamota 2.1 is all about parametric equations.
+
+**Shimamota 2.1.2:** Graph and indicate the direction of $\alpha(t) = \langle tcos(t), sin(t) \rangle$ on the interval $t \in [0, 6\pi]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="2.1.2">
+</details>
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image6.png" alt="2.1.4">
+</details>
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image7.png" alt="2.1.6">
+</details>
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image8.png" alt="2.1.8">
+</details>
 
 **Problems and Solutions**
+
 Shimamota 2.2 is velocity, speed, acceleration, and arc length.
 
 **Shimamota Question 2.2.1**
