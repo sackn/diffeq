@@ -5,7 +5,7 @@
 $\vec{r}(t) = \langle 3t^{2}, 6t, 6 \rangle$
 
 Part A: Find velocity vector, speed, and acceleration vector
-Part B: Arc Length on the interval $t \in [0,4]$
+Part B: Arc Length on the interval
 
 <details>
   <summary>Part A Solution</summary>
