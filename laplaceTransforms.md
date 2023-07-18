@@ -274,7 +274,7 @@ $$0 = B(1)- \frac{4}{5}$$
 Knowing that $C = -\frac{1}{5}$ and $B = \frac${4}{5}$ we can plug in $s=1$ to get that $A = \frac{1}{5}$,
 $$1 = (A + \frac{4}{5})(2) - 1 \quad \implies A = \frac{1}{5}$$
 Our original fraction can now be written as the following,
-$$\frac{s}{(s^2+4)(s+1)} = \frac{1}{5} \left(\frac{s+4}{s^2{4}})\right - \frac{1}{5}\frac{1}{s+1}$$
+$$\frac{s}{(s^2+4)(s+1)} = \frac{1}{5} (\frac{s+4}{s^2{4}}) - \frac{1}{5}\frac{1}{s+1}$$
 
 
 
