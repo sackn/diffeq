@@ -4,24 +4,30 @@
 
 Shimamota 2.1 is all about parametric equations.
 
-**Shimamota 2.1.2:** Graph and indicate the direction of $\alpha(t) = \langle tcos(t), sin(t) \rangle$ on the interval $t \in [0, 6\pi]$
+**Shimamota Question 2.1.2:** Graph and indicate the direction of $\alpha(t) = \langle tcos(t), sin(t) \rangle$ on the interval $t \in [0, 6\pi]$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="2.1.2">
 </details>
 
+**Shimamota Question 2.1.4:** Graph and indicate the direction of $\alpha(t) = \langle cos(t), sin(t), t \rangle$ 
 <details>
   <summary>Solution</summary>
+  Helix Graph
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image6.png" alt="2.1.4">
 </details>
 
+**Shimamota Question 2.1.6:** Graph and indicate the direction of $\alpha(t) = \langle sin(t), cos(t), t \rangle$ 
 <details>
   <summary>Solution</summary>
+  Helix graph traced in a different direction
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image7.png" alt="2.1.6">
 </details>
 
+**Shimamota Question 2.1.8:** Graph and indicate the direction $\alpha(t) = \langle cos(t), sin(t), cos(2t) \rangle$ on the interval $t \in [0, 2\pi]$
 <details>
   <summary>Solution</summary>
+  Potato Chip Graph
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image8.png" alt="2.1.8">
 </details>
 
