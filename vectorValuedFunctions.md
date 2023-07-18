@@ -5,7 +5,8 @@
 $\vec{r}(t) = \langle 3t^{2}, 6t, 6 \rangle$
 
 Part A: Find velocity vector, speed, and acceleration vector
-Part B: Arc Length on the interval
+
+Part B: Arc Length on the interval $t \in [0,4]$
 
 <details>
   <summary>Part A Solution</summary>
@@ -21,6 +22,7 @@ Part B: Arc Length on the interval
 $\vec{r}(t) = \langle \frac{1}{2}t^{2}, 2t, \frac{4}{3}t^{\frac{3}{2}} \rangle$
 
 Part A: Find velocity vector, speed, and acceleration vector
+
 Part B: Arc Length on the interval $t \in [2,4]$
 
 <details>
@@ -37,6 +39,7 @@ Part B: Arc Length on the interval $t \in [2,4]$
 $\vec{r}(t) = \langle cos(2t), sin(2t), 4t^{3/2} \rangle $
 
 Part A: Find velocity vector, speed, and acceleration vector
+
 Part B: Arc Length on the interval $t \in [1,2]$
 
 <details>
@@ -55,6 +58,7 @@ For some arbitrary constants $a,b$. Assume $a>0$.
 $\vec{r}(t) = \langle acos(t), asin(t), bt \rangle$
 
 Part A: Find velocity vector, speed, and acceleration vector
+
 Part B: Arc Length on the interval $t \in [0, 2\pi]$
 
 <details>
