@@ -1,6 +1,9 @@
+# Multivaraible Chainrule
+
+
 
 ### Practice Questions
-Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors
+Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
 
 **Shimamota Question 4.1.1:**
 <details>
@@ -44,7 +47,6 @@ Shimamota Questions mainly partial derivatives, tangent approximations, and grad
   <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image4.png" alt="Shimamota 4.1.4">
 </details>
 
-
 **Shimamota Question 4.1.6:**
 <details>
   <summary>Solution</summary>
@@ -77,3 +79,6 @@ Shimamota Questions mainly partial derivatives, tangent approximations, and grad
   <summary>Part B Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image15.png" alt="Shimamota 4.1.12.b">
 </details>
+
+
+
