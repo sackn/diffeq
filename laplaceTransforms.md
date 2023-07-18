@@ -154,7 +154,7 @@ I take questions from a open source textbook and give full solutions. I'm not go
 
 However, I need content for forward laplace transforms I have the work for how inverse laplace transform them.
 
-**Lebl Question 3.1.7** Find $\mathcal{L}^{-1} \left[\frac{As + B \omega}{s^{2} + \omega^{2}}]\right$ 
+**Lebl Question 3.1.7** Find $\mathcal{L}^{-1} [\frac{As + B \omega}{s^{2} + \omega^{2}}]t$ 
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image2.png" alt="Lebl 3.1.7">
