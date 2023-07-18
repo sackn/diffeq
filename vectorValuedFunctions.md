@@ -2,11 +2,12 @@
 
 ## Arc Length with Vector Functions
 Recall for a function $y=f(t)$ on an interval $x \in [a,b]$ it will have an arc length equal to the following:
-$$L = \int_{a}^{b} \sqrt{1 + \dot{y}}(dt)$$
-
+$$L = \int_{a}^{b} \sqrt{1 + \frac{df}{dt}}(dt)$$
 
 For a parametric vector function $\langle f(t), g(t) \rangle$ the equation for the arc length is a logical extension of the single variabe $f(x)$ scenario.
 
+Similarly for a vector function with threec componenets:
+$$
 
 
 ### Problems and Solutions
