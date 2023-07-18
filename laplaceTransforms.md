@@ -16,7 +16,7 @@ Hopefully you remember a little about improper integration.
 Find the $\mathcal{L} [e^{at}]$ where $a$ is some constant. Based on the definition of the laplace transform we know that:
 $$F(s) = \int_{0}^{\infty} e^{st}e^{at}(dt)$$
 Using some algebraic manipulation we can easily integrate the function:
-$$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{\infty}^{0}$$
+$$F(s) = \left. \int_{0}^{\infty} e^{(a-s)t}(dt) = \frac{e^{(a-s)t}}{a-s}  \right\vert_{0}^{\infty}$$
 Working on our limits of integration we get that:
 $$F(s) = \frac{1}{a-s} \lim_{t \to \infty} (e^{(a-s)t}-1)$$
 It turns out that our integral actually has two possible solutions depending on $a-s$. If $a-s \leq 0$ then our integral will blow up to infinity. However, if $a-s < 0$ then our integral will converge. We want our final transform to converge so our final answer is:
@@ -54,8 +54,7 @@ $$F(s) = \int_{a}^{\infty} e^{-st}(1)dt$$
 
 Solving the integral we get our laplace transform.
 
-$$\left. \frac{-st}{a}  \right\vert_{\infty}^{0}$$
-
+$$\left. \frac{-st}{a}  \right\vert_{0}^{\infty}$$
 
 $$\mathcal{L} [u(t-a)] = \frac{e^{as}}{s}$$
 
@@ -208,6 +207,6 @@ However, I need content for forward laplace transforms I have the work for how i
 If we are going to use the laplace transform to solve differential equatins its probably in our best interest to know how to take the laplace transforms of the derivative of a function. Assume some well behaving first derivative $\dot{f}(t)$ and plug it into the definition of the laplace transform.
 
 We can integrate by parts by choosing $u=e^{st}$ and $dv = \cdot{f}(t)}$. Doing so will get us:
-$$ \left. e_{-st}f(t) \right\vert_{\infty}^{0}  \right\vert_{\infty}^{0}$$
+$$ \left. e^{-st}f(t)  \right\vert_{0}^{\infty} $$
 
 
