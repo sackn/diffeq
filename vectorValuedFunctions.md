@@ -1,6 +1,15 @@
 
 
-**Problems and Solutions**
+## Arc Length with Vector Functions
+Recall for a function $y=f(t)$ on an interval $x \in [a,b]$ it will have an arc length equal to the following:
+$$L = \int_{a}^{b} \sqrt{1 + \dot{y}(dt)$$
+
+
+For a parametric vector function $\langle f(t), g(t) \rangle$ the equation for the arc length is a logical extension of the single variabe $f(x)$ scenario.
+
+
+
+### Problems and Solutions
 
 Shimamota 2.1 is all about parametric equations.
 
@@ -58,7 +67,7 @@ Shimamota 2.1 is all about parametric equations.
 
 
 
-**Problems and Solutions**
+#### Problems and Solutions**
 
 Shimamota 2.2 is velocity, speed, acceleration, and arc length.
 
