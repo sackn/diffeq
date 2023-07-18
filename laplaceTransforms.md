@@ -259,15 +259,22 @@ Below is a table of common partial fraction decompositions. I will also go throu
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/partialFractionTable.png" alt="partialFractionTable">
 </details>
 
-**Worked Example 2*
+**Worked Example 2**
+
 Assume we want to find the inverse laplace transform of the following expression:
 $$\frac{s}{(s^2+4)(s+1)}$$
 According to the table above we had decompose the one big fraction into two fractions of the following form where we have three unknown constants,
 $$\frac{s}{(s^2+4)(s+1)} = \frac{As + B}{s^2 + 4} + \frac{C}{s+1}$$
 Multiplying the equation through by $(s^2 + 4)(s+1)$ we get,
 $$s = (As+B)(s+1) + C(s^2+4)$$
-Plugging into the equation $s=-1$ we get that $c=-\frac{1}{5}$,
-$$-1 = 0 + c(5) \quad \implies c \frac{-1}{5}$$
+Plugging into the equation $s=-1$ we get that $C=-\frac{1}{5}$,
+$$-1 = 0 + C(5) \quad \implies c = -\frac{1}{5}$$
+Knowing the that $C = -\frac{1}{5}$ we can then plug in $s = 0$ to get that $B = \frac{4}{5}$,
+$$0 = B(1)- \frac{4}{5}$$
+Knowing that $C = -\frac{1}{5}$ and $B = \frac${4}{5}$ we can plug in $s=1$ to get that $A = \frac{1}{5}$,
+$$1 = (A + \frac{4}{5})(2) - 1 \quad \implies A = \frac{1}{5}$$
+Our original fraction can now be written as the following,
+$$\frac{s}{(s^2+4)(s+1)} = \frac{1}{5} \left(\frac{s+4}{s^2{4}})\right - \frac{1}{5}\frac{1}{s+1}$$
 
 
 
