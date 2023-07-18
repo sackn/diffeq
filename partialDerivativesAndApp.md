@@ -1,4 +1,7 @@
 
+### Practice Questions
+Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors
+
 **Shimamota Question 4.1.1:**
 <details>
   <summary>Part A Solution</summary>
