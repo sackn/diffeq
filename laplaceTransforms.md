@@ -271,10 +271,14 @@ Plugging into the equation $s=-1$ we get that $C=-\frac{1}{5}$,
 $$-1 = 0 + C(5) \quad \implies c = -\frac{1}{5}$$
 Knowing the that $C = -\frac{1}{5}$ we can then plug in $s = 0$ to get that $B = \frac{4}{5}$,
 $$0 = B(1)- \frac{4}{5}$$
-Knowing that $C = -\frac{1}{5}$ and $B = \frac${4}{5}$ we can plug in $s=1$ to get that $A = \frac{1}{5}$,
+Knowing that $C = -\frac{1}{5}$ and $B = \frac{4}{5}$ we can plug in $s=1$ to get that $A = \frac{1}{5}$,
 $$1 = (A + \frac{4}{5})(2) - 1 \quad \implies A = \frac{1}{5}$$
 Our original fraction can now be written as the following,
-$$\frac{s}{(s^2+4)(s+1)} = \frac{1}{5} (\frac{s+4}{s^2{4}}) - \frac{1}{5}\frac{1}{s+1}$$
+$$\frac{s}{(s^2+4)(s+1)} = \frac{1}{5} (\frac{s+4}{s^2 + {4}}) - \frac{1}{5}\frac{1}{s+1}$$
+Splitting up the fraction even further to make it easier to see inverse laplace transforms.
+$$\frac{1}{5}(\frac{s}{s^2 + 4}) + \frac{2}{5}(\frac{2}{s^2+4}) - \frac{1}{5}(\frac{1}{s+1})$$
+Using the inverse laplace transfroms from a table we get the final solution,
+$$\frac{1}{5}cos(2t) + \frac{2}{5}sin(2t) + e^{-t} \square$$
 
 
 
