@@ -166,7 +166,7 @@ However, I need content for forward laplace transforms I have the work for how i
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image5.png" alt="Lebl 3.1.6">
 </details>
 
-**Lebl Question 3.1.9:** Find $Find $\mathcal{L}^{-1} [\frac{8}{s^3} + \frac{8}{s^2} + \frac{4}{s}]$
+**Lebl Question 3.1.9:** Find $\mathcal{L}^{-1} [\frac{8}{s^3} + \frac{8}{s^2} + \frac{4}{s}]$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image4.png" alt="Lebl 3.1.9">
