@@ -144,9 +144,23 @@ $$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
   Approximating the point $(1.01, 1.95)$
   $$T(1.01, 1.95) \approx (3.819)(1.01-1) + (2.909)(1.95-2) + 5.416 $$
   $$T(1.01, 1.95) \approx 5.309$$
-
-  
 </details>
+
+## Relative Maxiumum and Minimums
+Remember from calculus one we could find relative extrema by finding when the deraitive of the function is zero. There exist is a similar process for finding extrema in higher dimensions. Just as clarification critical points and extrema aren't quite the same thing. All extrema are critical points, but a critical point is any point where the derivative is equal to zero OR point is undefined (and an extrema must actual be greater than or less than its neighboring points). 
+
+Critical points for a function of two variables occurs if either:
+- f_x(a,b) = 0 AND f_y(a,b) = 0
+- Either f_x(a,b) or f_y(a,b) is undefined
+
+It is very important to understand that the first condition is an AND statement. We do not have a critical point if only one of the partial deraitives is zero. 
+
+**Relative Maximum or Relative Minimum**
+In your calculus one class you may have drawn a sign graph over the tangent lines. If the slopes were positive then turned negative then the critical point was relative max. If the slopes were negative then became positive then the critical point was a relative min. If it was neither of those scenarios then you didn't have an extrema at all. 
+
+For example you might have been given $f(x) = x^{2}$. You would have recognized that $f'(x) = 2x$ and that it has an critical point at 0. Most of the time you would follow up with drawing like the following where you would note that 
+
+
 
 ### Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
