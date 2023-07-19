@@ -96,20 +96,6 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   It turns out that at the one point where our x and y coordinates in each lines the z coordinate doesn't quite match up. That means that the two lines mentioned do not interesct at all. 
 </details>
 
-**Question 5:** Find the shortest distance between point $(0,3,-1)$ and the line $\vec{r}(t) = \langle 1 + t, 2-2t, 4t\rangle$
-<details>
-  <summary>Solution</summary>
-  This is combination of both question 3 and 4, so I'm going to go a little quick. A line perpependicular to the line in mention will always represent the shortest distance.z Refer this image about shortest distnace in 2D:
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/line.png" alt="Line">
-  
-  Our perpendicular line is as follows (Question 3): 
-  $$\vec{r}_{\perp}(s) = \langle -s, 3 + \frac{1}{2}s, -1 -\frac{1}{4}s \rangle$$
-  Now we need to find the point where our perpendicular line intersects our original line (Question 4):
-  
-
-  
-</details>
-
 ## Parametric Equation of a Plane
 
 
