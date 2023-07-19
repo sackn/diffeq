@@ -96,7 +96,7 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   It turns out that at the one point where our x and y coordinates in each lines the z coordinate doesn't quite match up. That means that the two lines mentioned do not interesct at all. 
 </details>
 
-**Question 5:** Find the shortest distance between point $(1,2,-1)$ and the line $\vec{r}(t) = \langle 1 + t, 2-2t, 4t\rangle$
+**Question 5:** Find the shortest distance between point $(1,3,-1)$ and the line $\vec{r}(t) = \langle 1 + t, 2-2t, 4t\rangle$
 <details>
   <summary>Solution</summary>
   This is combination of both question 3 and 4, so I'm going to go a little quick. A line perpependicular to the line in mention will always represent the shortest distance.z Refer this image about shortest distnace in 2D:
