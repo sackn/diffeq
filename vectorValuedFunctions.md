@@ -24,6 +24,19 @@ In the end what parallel vector you choose changes how the $f(t)$ is graphed wit
 
 **Worked Examples**
 
+**Question 1:** Find the Arc Length of $\vec{r}(t) = \langle 3cos(t), 3sin(t) \rangle$ on the interval $t \in [0, \pi]$
+<details>
+  <summary>Solution</summary>
+  $$\vec{A} = \langle 1, 2, 3 \rangle \quad \vec{B} = \langle 4, -1, 6 \rangle$$
+  $$\vec{u} = \vec{B} - \vec{A} = \langle 3,-3,3 \rangle$$
+  $$\vec{r}(t) = \langle 1,2,3 \rangle + t \langle 3,-3,3 \rangle$$
+  $$\vec{r}(t) = \langle 1 + 3t, 2 - 3t, 3 + 3t \rangle$$
+</details>
+
+
+
+## Parametric Equation of a Plane
+
 
 
 ## Arc Length with Vector Functions
