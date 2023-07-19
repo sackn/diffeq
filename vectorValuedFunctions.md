@@ -70,9 +70,9 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   We have the slope of the line and we were given a point on the line so the paremetric form of our perpendicular line is as follows:
   $$\vec{r}_{\perp}(t) = \langle 1,2,-1 \rangle + t \langle -\frac{1}{3}, 1, -\frac{1}{2} \rangle$$
   $$\vec{r}_{\perp}(t) = \langle 1-\frac{1}{3}t,2 + t,-1-\frac{1}{2}t \rangle \quad \square$$
-  
 </details>
 
+**Question 4:** Find the point of interesction between the lines $\vec{r}_1(t) = \langle 2 + 3t, 1-t, -1 + 2t$  and $\vec{r}_{2}(t)$
 
 
 
