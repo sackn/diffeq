@@ -94,17 +94,23 @@ $$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
 </details>
 
-**Question 3:** Given the function $f(x,y) = sin(x) + cos(y)$ find the tangent plane at the point $(\frac{\pi}{4}, \frac{\pi}{3}, 1)$
+**Question 3:** Given the function $f(x,y) = sin(x) + cos(y)$ find the tangent plane at the point $(\frac{\pi}{4}, \frac{\pi}{3})$
 <details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+  <summary>Solution</summary>
+  Finding the Partial derivatives and evaluating the function at $(\frac{\pi}{4}, \frac{\pi}{3})$
+  $$\frac{\partial f}{\partial x} = cos(x) \quad \frac{\partial f}{\partial y} = -sin(y)$$
+  $$f_x(\frac{\pi}{4}, \frac{\pi}{3}) = \frac{sqrt{2}}{2} \quad f_y(\frac{\pi}{4}, \frac{\pi}{3}) = -\frac{sqrt{3}}{2}$$
+  $$f(\frac{\pi}{4}, \frac{\pi}{3}) = \frac{sqrt{2} + 1}{2} $$
+  Finding our plane equation
+  $$T(x,y) = \frac{sqrt{2}}{2}(x-x_0)  + -\frac{sqrt{3}}{2}(y-y_0) + \frac{sqrt{2} + 1}{2} $$
+  
 </details>
 
 **Question 4:** Given the function $f(x,y) = e^{x} + ln(2y)$ find the tangent plane at the point $(1,1)$ and use it to approximate $(1.02, 0.98)$
 <details>
   <summary>Solution</summary>
-  Finding the Partial derivatives and evaluating the function at (1,1)
-  $$\frac{\partial f}{\parital x} = e^{x} \quad \frac{\partial f}{\parital y} = \frac{1}{y}$$
+  Finding the Partial derivatives and evaluating the function at $(1,1)$
+  $$\frac{\partial f}{\partial x} = e^{x} \quad \frac{\partial f}{\partial y} = \frac{1}{y}$$
   $$f_x(1,1) = e \quad f_y(1,1) = 1$$
   $$f(1,1) = e + ln(2)$$
   Finding our plane equation
