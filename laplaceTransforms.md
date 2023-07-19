@@ -371,6 +371,44 @@ Solving the system will using matrices or whatever method you like will get us $
 </details>
 
 
+### Laplace Transform for Solving Differential Equations
+
+Now that we have everything in place we can finally start solving differential equations with laplace transforms. The general workflow of solving goes as following:
+- Laplace transform both sides of the equation and apply the initial conditions
+- Isolate $F(s)$ in the equation
+- Use algebraic manipulation to get the expression into the correct format for inverse laplace transforms
+- Apply the inverse Laplace Transform
+- Final Solution
+  
+**Worked Example 1**
+
+Find the solutiont to the following initial value problem:
+$$\ddot{y} - 6\dot{y} + 9y = e^{3t} \quad y(0) = 1 \quad \dot{y}(0) = 2$$
+If we Laplace transform both sides:
+$$(s^{2}Y(s) -sY(0) -\dot{Y}(0)) -6(sY(s) -Y(0)) + 9Y(s) = \frac{1}{s-3}$$
+Mulitplying out the factor and applying the initial conditions we get:
+$$s^{2}Y(s) - s - 2 - 6sY(s) + 6 + 9Y(s) = \frac{1}{s-3}$$
+With some algerbraic manipulation we can get $Y(s)$ alone,
+$$Y(s)(s^2 -6s + 9) = \frac{1}{s-3} + s - 4$$
+$$Y(s) = \frac{s^2 -7s + 13}{(s-3)(s-3)^2}$$
+I'm not going to show all the work for the partial fractions, but if you follow through the entire process you will get,
+$$Y(s) = \frac{1}{s-3} - \frac{1}{(s-3)^2} + \frac{1}{(s-3)^3}$$
+Now taking the inverse laplace transform to both sides fo the equation (note the manipuatlion on the last term),
+$$y(t) = \mathcal{L}^{-1}[\frac{1}{s-3}] - \mathcal{L}^{-1}[\frac{1}{(s-3)^2}] + \frac{1}{2}\mathcal{L}^{2}[\frac{1}{(s-3)^3}]$$
+Applying the inverse laplace transform we get the final solution
+$$y(t) = e^{3t} -te^{3t} + \frac{1}{2}t^2e^{3t}$$
+
+**Worked Example 2**
+Find the solution to the following initial value problem:
+$$\ddot{y} + 2 \dot{y} + 2y = 3u(t-6) \quad y(0) = 0 \quad \dot{y} = 1$$
+In this problem we have a step function. Our solution will have a step function, however the general process will not change. If we laplace transform both sides and apply initial conditions (look up the laplace transform of u(t-6) in the laplace transform table if you need):
+$$Y(s)s^{2} -1 2sY(s) + 2Y(s) = \frac{3e^{6s}}{s}$$
+Isolating the function Y(s):
+$$Y(s) = \frac{3e^{6s} + s}{s(s^2+2s+2)}$$
+Seperating the big fraction into two smaller fraction. Note that only the left side is attached to the step function while the right side is "on" regardless of the status of the step function.
+$$Y(s) = \frac{3}e^{6s}(\frac{1}{s(s^{2}+2s+2)}) + \frac{1}{s^2+2s+2}$$
+We can partial fraction the inside of the left term
+$$Y(s) = \frac{3}{2}e^{6s}(\frac{1}{s}-\frac{s+2}{s^2+2s+2}) + \frac{1}{s^2+2s+2}$$
 
 
 
