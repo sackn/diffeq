@@ -36,7 +36,7 @@ In the end what parallel vector you choose changes how the $f(t)$ is graphed wit
 **Question 2:** Find the Parametric Equation of a LINE SEGMENT between points the point $(1,2,3)$ and $(4, -1, 6)$:
 <details>
   <summary>Solution</summary>
-  Not much else to do besides add a constraint on the values that $t$ can be. Line segments will become pretty common place once we get to line integrals. 
+  Not much else to do besides add a constraint on the values that $t$ can be. $\vec{r}(0) = \langle 1,2,3 \rangle$ and $\vec{r}(1) = \langle 4,-1,6 \rangle$.Line segments will become pretty common place once we get to line integrals. 
   $$\vec{r}(t) = \langle 1 + 3t, 2 - 3t, 3 + 3t \rangle \quad t \in [0,1] \quad \square$$
 </details>
 
