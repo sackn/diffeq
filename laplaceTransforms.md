@@ -531,14 +531,8 @@ $$X(s) = 2e^{-s}(\frac{1}{s^2 + 1}) + 5e^{-10s}(\frac{1}{s^2 + 1})$$
 Notice that when we perform the inverse laplace transform we do not get back out delta function. Instead, we get out step functions. Which should make a little bit of sense. If you strike a mass-spring system with a hammer it will go back and forth. It won't just be a non-zero value instatenous moment. Inverse laplace transforming the problem we get (remember to offset the function effected by the step function aswell):
 $$x(t) = 2u(t-1)sin(t-1) + 5 u(t-10)sin(t-10)$$
 
-Our solution as a piecewise function would look like the following:
-$$
-\delta_a = \begin{cases}
-0, & t < 1, \\
-2sin(t-1), & 1 \geq t < 10, \\
-2sin(t-1) + 5u(t-10)sin(t-10) & 10 \geq t
-\end{cases}
-$$
+Our solution on a graph looks like the following:
+
 
 
 
