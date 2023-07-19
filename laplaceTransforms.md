@@ -301,58 +301,74 @@ Solving the system will using matrices or whatever method you like will get us $
 **Question 1:** Find $\mathcal{L}^{-1} [\frac{s+1}{s^2 + 6s + 9}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 1">
 </details>
 
 **Question 2:** Find $\mathcal{L}^{-1} [\frac{2s}{s+1}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 2">
 </details>
 
 **Question 3:** Find $\mathcal{L}^{-1} [\frac{3}{s^{2}+9}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 3">
 </details>
 
 **Question 4:** Find $\mathcal{L}^{-1} [\frac{1}{s(s+1)}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 4">
 </details>
 
 **Question 5:** Find $\mathcal{L}^{-1} [\frac{3s+2}{s^2+ 4s + 4}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 5">
 </details>
 
 **Question 6:** Find $\mathcal{L}^{-1} [\frac{3s+1}{(s^2 + 2s + 2)(s+1)}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 6">
 </details>
 
 **Question 7:** Find $\mathcal{L}^{-1} [\frac{3s^2+2s+4}{s^3+4s^2+5s}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 7">
 </details>
 
 **Question 8:** Find $\mathcal{L}^{-1} [\frac{3s^2+2s+4}{s^3+4s^2+5s}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question 8">
 </details>
 
 **Question 9:** Find $\mathcal{L}^{-1} [\frac{s+1}{(s^2+ 9)(s^2 +4s + 8)}]$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question">
 </details>
 
+**Question 10:** Find the laplace trasnform of $\dot{f}(t) = cos(3t)$ where $f(0) = -10$:
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question">
+</details>
 
+**Question 11:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Question">
+</details>
+
+**Question 12:** Write the formula for the laplace transform of the 5th derivative
+<details>
+  <summary>Solution</summary>
+  $$\mathcal{L} [f^{(5)}(t)] = s^{5} F(s) - s^{4}f(0) - s^{3}\dot{f}(0) - s^{2}\ddot{f}(0) -s \dddot{f}(0) - f^{4}(0)$$
+</details>
 
 
 
