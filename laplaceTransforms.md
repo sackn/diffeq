@@ -502,11 +502,13 @@ Imagine hitting something with a hammer. You apply a force, but only force a ver
 $$
 \delta_a = \begin{cases}
 \frac{1}{\epsilon}, & t \in (a, a+\epsilon), \\
-0, & \text{if } otherwise
+0, & \text{otherwise}
 \end{cases}
 $$
 
-As defined above the delta function is equivalent to a extremely small spike at $a$ with an extremely small duration of $\epsilon$.
+As defined above the delta function is equivalent to a extremely small spike at $a$ with an extremely small duration of $\epsilon$. If we allow epsilon to shrink to an extremely slow value our graph of the delta impulse function might look like the following ($x_0 = a$):
+
+
 
 
 
