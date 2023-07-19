@@ -13,7 +13,17 @@ $$\dot{g}(z) = \frac{\partial f}{\partial x} \frac{\partial x}{\partial z} + \fr
 
 We know that $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ are the partial deraitive of $f(x,y)$ with respect to x and y. We can also calculate $\frac{\partial x}{\partial z}$ and $\frac{\partial y}{\partial z}$. Doing all of this will yield us the formula for the directional deriative. 
 
-$$ D_{\vec{u}}f(x,y) = f_x a + f_y b \quad \square $$
+$$ D_{\vec{u}}f(x,y) = f_x a + f_y b$$
+
+There is often a more common way to write the directional deriative. In math we define the gradient vector of $f(x,y)$ to be vector containing the partial derivaitves of every varible in $f(x,y)$. In the case of two dimensions our gradient vector might look like the following:
+$$\nabla f(x,y) = \langle f_x , f_y \rangle$$
+If you remember the howe the dot product works that means that we can also write the directional derivative as the following:
+$$D_{\vec{u}}f(x,y)  = \langle f_x, f_y \rangle \cdot \langle a, b \rangle = f_x a + f_y b$$
+
+The defintion of the derivative is easily scaled up to higher dimensions. Under an increase in the varaibles the following will always hold:
+$$D_{\vec{u}}f(x,y) = \nabla f(x,y) \cdot \vec{u}$$
+For example in 3D space, 
+$$D_{\vec{u}}f(x,y,z) = \langle f_x, f_y, f_z \rangle \cdot \langle a, b, c \rangle 
 
 
 **Problems and Solution**
