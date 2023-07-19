@@ -439,7 +439,7 @@ $$y(t) = \frac{3}{2} -\frac{3}{2}e^{-t}cos(t) + \frac{5}{2}e^{-t}sin(t)$$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
-**Question 4:** Find the solution to the IVP $\ddot{y} + 3\dot{y} + 2y = cos(4t)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = -2
+**Question 4:** Find the solution to the IVP $\ddot{y} + 3\dot{y} + 2y = cos(4t)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = -2$:
 $:
 <details>
   <summary>Solution</summary>
