@@ -34,6 +34,37 @@ $$\vec{u} = \frac{\vec{v}}{||\vec{v}||}$$
 
 ### Problems and Solution
 
+**Question 1:** For the function $f(x,y) = x^{2} + 3y^{2}$ find the directional derivative at the point $(1,2)$ in the direction of $\vec{v} = \langle 2, -1 \rangle$
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image5.png" alt="Question 1">
+</details>
+
+**Question 2:** For the function $f(x,y,z) = 2xy + 3yz -4xz$ find the directional derivative at the point $(1,-1,2)$ in the direction of $\vec{v} = \langle 1,1,1 \rangle$
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image1.png" alt="Question 2">
+</details>
+
+**Question 3:** For the function $f(x,y,z) = e^{xy} + sin(z)$ find the directional derivative at the point $(0, 1, \pi)$ in the direction of $\vec{v} = \langle -1,2,3 \rangle$
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image3.png" alt="Question 3">
+</details>
+
+**Question 4:** For the function $f(x,y) = \frac{x^2}{4} + y^{2} -3x + 2$ find the direction in which the directional derivative at the point (2,1 ) is maxiumum.
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image2.png" alt="Question 4">
+</details>
+
+**Question 5:** For the function $f(x,y,z) = x^{2} + 2y^{2} + 3z^{2}$
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image4.png" alt="Question 5">
+</details>
+
+
 
 ### Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
