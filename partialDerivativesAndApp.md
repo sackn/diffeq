@@ -150,8 +150,8 @@ $$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
 Remember from calculus one we could find relative extrema by finding when the deraitive of the function is zero. There exist is a similar process for finding extrema in higher dimensions. Just as clarification critical points and extrema aren't quite the same thing. All extrema are critical points, but a critical point is any point where the derivative is equal to zero OR point is undefined (and an extrema must actual be greater than or less than its neighboring points). 
 
 Critical points for a function of two variables occurs if either:
-- f_x(a,b) = 0 AND f_y(a,b) = 0
-- Either f_x(a,b) or f_y(a,b) is undefined
+- $f_x(a,b) = 0$ AND $f_y(a,b) = 0$
+- Either $f_x(a,b)$ or $f_y(a,b)$ is undefined
 
 It is very important to understand that the first condition is an AND statement. We do not have a critical point if only one of the partial deraitives is zero. 
 
@@ -173,7 +173,7 @@ Suppose you have some critical point $(a,b)$ where the 2nd order partial deraiva
 $$D(a,b) = f_{xx}(a,b)f_{yy}(a,b) - [f_{xy}(a,b)]^{2}$$
 
 Classifying the point:
-- $D > 0 \quad f_{xx}(a,b) > 0 \quad \implies $ local minimum
+- $D > 0 \quad f_{xx}(a,b) > 0 \quad \implies$ local minimum
 
 ### Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
