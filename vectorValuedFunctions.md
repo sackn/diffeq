@@ -8,9 +8,15 @@ $$L = \int_{a}^{b} \sqrt{(f'(t))^2 +  (g'(t)) ^2}(dt)$$
 Similarly for a vector function with three componenets $\vec{r} = \langle f(t), g(t), h(t) \rangle$:
 $$L = \int_{a}^{b} \sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2}(dt)$$
 
-If you look closely you might recognize a simplier way to write the integral. As previousyl defined the the magnitude of the derivative of a vector function $$||\vec{r}'(t)||$$ is also equal to $\sqrt{(f'(t))^2 +  (g'(t)) ^2}$ in the 2D case and \sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2} in the 3D case. We can simply replace the inside of our integral with that
+If you look closely you might recognize a simplier way to write the integral. As previousyl defined the the magnitude of the derivative of a vector function $$||\vec{r}'(t)||$$ is also equal to $\sqrt{(f'(t))^2 +  (g'(t)) ^2}$ in the 2D case and $\sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2}$ in the 3D case. We can simply replace the inside of our integral with that
 
 $$L = \int_{a}^{b} ||\vec{r}'(t)||(dt)$$
+
+This should make some intuitive sense since we are effecitvely summing all the lengths of all tangent vectors. Much like how we made really small lines in the y=f(x) scenario. 
+
+Image Source: [https://www.dummies.com/article/academics-the-arts/math/calculus/how-to-calculate-arc-length-with-integration-192152/](url)
+
+The dx and dy are analagous to the x&y components of our tangent vectors.
 
 ### Problems and Solutions
 
