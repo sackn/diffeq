@@ -72,8 +72,11 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   $$\vec{r}_{\perp}(t) = \langle 1-\frac{1}{3}t,2 + t,-1-\frac{1}{2}t \rangle \quad \square$$
 </details>
 
-**Question 4:** Find the point of interesction between the lines $\vec{r}_1(t) = \langle 2 + 3t, 1-t, -1 + 2t$  and $\vec{r}_{2}(t)$
-
+**Question 4:** Find the point of interesction between the lines $\vec{r}_1(t) = \langle 2 + 3t, 1-t, -1 + 2t$ and $\vec{r}_1(s) = \langle -1 + 2s, 3s, 4 + 3s \rangle$
+<details>
+  <summary>Solution</summary>
+  
+</details>
 
 
 
