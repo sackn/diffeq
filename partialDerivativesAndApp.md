@@ -162,6 +162,8 @@ For example you might have been given $f(x) = x^{2}$. You would have recognized 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/relMin.png" alt="relMin">
 
 However this is a little different in higher dimensions. There are sine graph depending on what direction you come in form. Refer to the following image which shows all three possibilites of a critical point:
+<img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoint.png" alt="criticalPoint">
+
 
 
 ### Practice Questions
