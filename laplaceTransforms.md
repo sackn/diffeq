@@ -537,6 +537,8 @@ Our solution on a graph looks like the following:
 
 There are plently more good examples on this open source textbook (which I do not own): [https://web.uvic.ca/~tbazett/diffyqs/convolution_section.html](url)
 
+### Questions and Solutions
+
 
 
 
