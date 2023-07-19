@@ -72,13 +72,41 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   $$\vec{r}_{\perp}(t) = \langle 1-\frac{1}{3}t,2 + t,-1-\frac{1}{2}t \rangle \quad \square$$
 </details>
 
-**Question 4:** Find the point of interesction between the lines $\vec{r}_1(t) = \langle 2 + 3t, 1-t, -1 + 2t$ and $\vec{r}_1(s) = \langle -1 + 2s, 3s, 4 + 3s \rangle$
+**Question 4:** Find the point of interesction between the lines $\vec{r}_1(t) = \langle 2 + 3t, 1-t, -1 + 2t$ and $\vec{r}_1(s) = \langle -1 + 2s, 3s, 4 + 3s \rangle$ or find out that they do not interest:
 <details>
   <summary>Solution</summary>
-  
+  We know that at the point of interesction that all components must match each other. That leaves us with the following system of equations:
+  $$2 + 3t = -1 + 2s$$
+  $$1-t = 3s$$
+  $$-1 + 2t = 4 + 3s$$
+
+  If we take the first equation and add into to three times the second equation we find that $s = \frac{6}{11}$
+  $$2 + 3t = -1 + 2s$$
+  $$3 -3t = 9s$$
+  $$s = \frac{6}{11}$$
+
+  Plugging our new found value back into the 2nd equation we can find the value of $t$:
+  $$1-t = 3(\frac{6}{11})$$
+  $$t = -\frac{7}{11}$$
+
+  Do not think you are done just because you found the values of $t$ and $s$. We have three equation and for there to be an intersection point we need all of them to agree. That means we must plug in our values for $t$ and $s$ into the 3rd equation to confirm that we do indeed have an intersction point.
+  $$-1 + 2(-\frac{7}{11}) = 4 + 3(\frac{6}{11})$$
+  $$-\frac{25}{11} \neq \frac{50}{11}$$
+  It turns out that at the one point where our x and y coordinates in each lines the z coordinate doesn't quite match up. That means that the two lines mentioned do not interesct at all. 
 </details>
 
+**Question 5:** Find the shortest distance between point $(1,2,-1)$ and the line \vec{r}(t)  = 
+<details>
+  <summary>Solution</summary>
+  This is combination of both question 3 and 4, so I'm going to go a little quick. A line perpependicular to the line in mention will always represent the shortest distance.z Refer this image about shortest distnace in 2D:
 
+
+  Our perpendicular line is as follows (Question 3): 
+
+  Now we need to find the point where our perpendicular line intersects our original line (Question 4):
+
+  
+</details>
 
 ## Parametric Equation of a Plane
 
