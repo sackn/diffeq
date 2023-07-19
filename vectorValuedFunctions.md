@@ -99,8 +99,7 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
 <details>
   <summary>Solution</summary>
   This is combination of both question 3 and 4, so I'm going to go a little quick. A line perpependicular to the line in mention will always represent the shortest distance.z Refer this image about shortest distnace in 2D:
-
-
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/line.png" alt="Line">
   Our perpendicular line is as follows (Question 3): 
 
   Now we need to find the point where our perpendicular line intersects our original line (Question 4):
