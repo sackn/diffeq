@@ -462,12 +462,40 @@ With laplace transforms you could theoretically do a differential equation of an
 ### Convolution
 The convolution is something that might help you get inverse laplace trasnforms. The convolution is defined as follows:
 
-$$f(t) * g(t) = \int_0^{\uptao} f(\uptao) g(t-\uptao) d\uptao$$
+$$f(t) * g(t) = \int_0^{t} f(\uptau) g(t-\uptau) d\uptau$$
 
 I'm not going to go that deep into what a conceputally a convolution is, but take it as an alternative to adding two functions. If you're interested I would recommend watching 3B1B's Video on it. The convolution has the some of the following properties:
 - $f * g = g* f$
 - $f * (g * h) = (f * g) * h$
-- $f * (g +h) = (f*g) + f*h)$
+- $f * (g +h) = (f* g) + f * h)$
+
+We already know that the both the forward and the inverse laplace transforms are linear in part to the fact that they are integrals. 
+$$\mathcal{L}[f(t) + g(t)] = \mathcal{L}[f(t)] + \mathcal{L}[g(t)]$$
+We also know that this property property is not extended to multiplication:
+$$\mathcal{L}[f(t)g(t)] \neq \mathcal{L}[f(t)] \mathcal{L}[g(t)]
+However when it comes to the convolution operation the following two statements are true:
+$$\mathcal{L}[f(t) * g(t)] = \mathcal{L}[f(t)]\mathcal{L}{g(t)}$$
+$$\mathcal{L}^{-1}[F(s) * G(s)]  = f(t) * g(t) $$
+
+That means that if we have two facotrs that we can identify as easy inverse laplace transforms we can simply take the convolution of them to inverse them instead of having to deal with the fact that they are multiplied together. 
+
+**Worked Example**
+
+Find the inverse laplace transform of $\frac{1}{s^{2}(s^2+1)}$. I know that this inverse laplace transform can be easily done with partial fractions, but I'm going to do it with a convolution. If we split up the facotrs
+$$\frac{1}{s^{2}} \cdot \frac{1}{s^2+1}$$
+We notice that our left factor indivudaully will inverse laplace transform into a $t$ and we know that our right factor will inverse laplace transform into a $sin(t)$.  We want to make use of the property that $\mathcal{L}^{-1}[sin(t)t] = sin(t) * t$. If we plug our values in the convolution we get the following integral:
+$$sin(t) * t = \int_{0}^{t} sin(\uptau)(t-\uptau )d\uptau $$
+Distributing the contents of the integral we get following two new integrals (remember we can factor out $t$ because the integral is with respsect to $\uptau$):
+$$t \int_{0}^{t} sin(\uptau)d\uptau - \int_{0}^{t} \uptau sin(\uptau)d\uptau$$
+Dealing with the first integral we get,
+$$t \int_{0}^{t} sin(\uptau)d\uptau = -t(cos(t) - cos(0))  = -tcos(t) + t $$
+Dealing with the 2nd integral by doing an integration of parts where $u = \uptau$ and $dv = sin(\uptau)$:
+$$-\int_{0}^{t} \uptau sin(\uptau)d\uptau$$$$
+$$tcos(t) - \int_{0}^{t} cos(\uptau)d\uptau$$
+$$tcos(t) - (sin(t) - sin(0)) = tcos(t) - sin(t)$$
+Putting it all together we get our final solution for the inverse laplace transform,
+$$\mathcal{L}^{-1}[$\frac{1}{s^{2}(s^2+1)}] = t * sin(t) = t - sin(t) \quad \square$$
+
 
 
 
