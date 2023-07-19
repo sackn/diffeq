@@ -64,14 +64,14 @@ The dx and dy are analagous to the x&y components of our tangent vectors.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image3.png" alt="Question 3">
 </details>
 
-**Question 4:** Find the Arc Length of $\vec{r}(t) = \langle t^{2}, t^{3}, 4{3}$ on the interval $t \in [0,1]$
+**Question 4:** Find the Arc Length of $\vec{r}(t) = \langle t^{2}, t^{3}, 4{3} \rangle$ on the interval $t \in [0,1]$
 <details>
   <summary>Solution</summary>
   $$\vec{r}'(t) = \langle 2t, 3t^{2}, 12t^{2} \rangle$$
   $$\int_{0}^{1} ||\vec{r}'(t)||dt = \int_{0}^{1} \sqrt{(2t)^{2} + (3t^{2})^{2} + (12t^{2})^{2}}dt$$
   $$\int_{0}^{1} t \sqrt{4 + 153t^{2}} dt$$
   U-sub with $u = 4 + 153t^{2}$ and change constants of integration
-  $$ \frac{1}{306} \int_{4}^{153} u^{\frac{1}{2}}du $$
+  $$\frac{1}{306} \int_{4}^{153} \sqrt{u}du$$
   $$\frac{1}{459}(153^{\frac{3}{2}} - 4^{\frac{3}{2}}) \approx 4.106$$
 </details>
 
