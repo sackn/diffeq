@@ -3,12 +3,14 @@
 ## Arc Length with Vector Functions
 Recall for a function $y=f(t)$ on an interval $x \in [a,b]$ it will have an arc length equal to the following:
 $$L = \int_{a}^{b} \sqrt{1 + \frac{df}{dt}}(dt)$$
+For a parametric vector function $\vec{r} = \langle f(t), g(t) \rangle$ the equation for the arc length is a logical extension of the single variabe $f(x)$ scenario on the interval $t \in [a,b]$ .
+$$L = \int_{a}^{b} \sqrt{(f'(t))^2 +  (g'(t)) ^2}(dt)$$
+Similarly for a vector function with three componenets $\vec{r} = \langle f(t), g(t), h(t) \rangle$:
+$$L = \int_{a}^{b} \sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2}(dt)$$
 
-For a parametric vector function $\langle f(t), g(t) \rangle$ the equation for the arc length is a logical extension of the single variabe $f(x)$ scenario.
+If you look closely you might recognize a simplier way to write the integral. As previousyl defined the the magnitude of the derivative of a vector function $$||\vec{r}'(t)||$$ is also equal to $\sqrt{(f'(t))^2 +  (g'(t)) ^2}$ in the 2D case and \sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2} in the 3D case. We can simply replace the inside of our integral with that
 
-Similarly for a vector function with threec componenets:
-$$
-
+$$L = \int_{a}^{b} ||\vec{r}'(t)||(dt)$$
 
 ### Problems and Solutions
 
