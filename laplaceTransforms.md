@@ -421,34 +421,47 @@ For any $t \geq 6$ the solution will behave as:
 $$y(t) = \frac{3}{2} -\frac{3}{2}e^{-t}cos(t) + \frac{5}{2}e^{-t}sin(t)$$
 
 
-**Question 1:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 3y =0$ with the conditions $y(0) = 1$ and $\dot{y}(0) = 2$
+**Question 1:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 3y =0$ with the conditions $y(0) = 1$ and $\dot{y}(0) = 2$:
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
-**Question 2:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+**Question 2:** Find the solution to the IVP $\ddot{y} + 2\dot{y} + 2y =sin(2t)$ with the conditions $y(0) = 1$ and $\dot{y}(0) = 0$:
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
-**Question 3:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+**Question 3:** Find the solution to the IVP $\ddot{y} - 5\dot{y} + 6y =4e^{2t}$ with the conditions $y(0) = 2$ and $\dot{y}(0) = 1$:
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
-**Question 4:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+**Question 4:** Find the solution to the IVP $\ddot{y} + 3\dot{y} + 2y = cos(4t)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = -2
+$:
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
+
+**Question 5:** Find the solution to the IVP $\dddot{y}+ \dot{y}= 3$ with the conditions $y(0) = 0$,$\dot{y}(0) = 0$, and $\ddot{y}=0$:
+<details>
+  <summary>Solution</summary>
+  When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
+  
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+</details>
+
+With laplace transforms you could theoretically do a differential equation of any order however, the complexity of the algebra and inverse transforms will grow quickly. 
+
 
 **Question 5:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
 <details>
   <summary>Solution</summary>
+  When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
+  
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
-
 
