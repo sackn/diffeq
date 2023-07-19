@@ -24,15 +24,21 @@ In the end what parallel vector you choose changes how the $f(t)$ is graphed wit
 
 **Worked Examples**
 
-**Question 1:** Find the Arc Length of $\vec{r}(t) = \langle 3cos(t), 3sin(t) \rangle$ on the interval $t \in [0, \pi]$
+**Question 1:** Find the Parametric Equation of a LINE between points the point $(1,2,3)$ and $(4, -1, 6)$:
 <details>
   <summary>Solution</summary>
   $$\vec{A} = \langle 1, 2, 3 \rangle \quad \vec{B} = \langle 4, -1, 6 \rangle$$
   $$\vec{u} = \vec{B} - \vec{A} = \langle 3,-3,3 \rangle$$
   $$\vec{r}(t) = \langle 1,2,3 \rangle + t \langle 3,-3,3 \rangle$$
-  $$\vec{r}(t) = \langle 1 + 3t, 2 - 3t, 3 + 3t \rangle$$
+  $$\vec{r}(t) = \langle 1 + 3t, 2 - 3t, 3 + 3t \rangle \quad \square$$
 </details>
 
+**Question 2:** Find the Parametric Equation of a LINE SEGMENT between points the point $(1,2,3)$ and $(4, -1, 6)$:
+<details>
+  <summary>Solution</summary>
+  Not much else to do besides add a constraint on the values that $t$ can be. Line segments will become pretty common place once we get to line integrals. 
+  $$\vec{r}(t) = \langle 1 + 3t, 2 - 3t, 3 + 3t \rangle \quad t \in [0,1] \quad \square$$
+</details>
 
 
 ## Parametric Equation of a Plane
