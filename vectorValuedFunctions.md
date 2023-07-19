@@ -22,7 +22,7 @@ The equation $\vec{r}(t) = \vec{r}_0 + t\vec{u}$ mimics point slope form. You ha
 
 In the end what parallel vector you choose changes how the $f(t)$ is graphed with respect to $t$. However, if you want your line to go on for ever (which by defintion a line has to go on for ever) then it really doesn't matter. You plot $f(t)$ for $t \in (-\infty, \infty)$. Every single point is plotted it doesn't matter what order or how "fast" you do it. 
 
-**Worked Example**
+**Worked Examples**
 
 
 
@@ -62,6 +62,17 @@ The dx and dy are analagous to the x&y components of our tangent vectors.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image3.png" alt="Question 3">
+</details>
+
+**Question 4:** Find the Arc Length of $\vec{r}(t) = \langle t^{2}, t^{3}, 4{3}$ on the interval $t \in [0,1]$
+<details>
+  <summary>Solution</summary>
+  $$\vec{r}'(t) = \langle 2t, 3t^{2}, 12t^{2}$$
+  $$\int_{0}^{1} ||\vec{r}'(t)||dt = \int_{0}^{1} \sqrt{(2t)^{2} + (3t^{2})^{2} + (12t^{2})^{2}}dt$$
+  $$\int_{0}^{1} t \sqrt{4 + 153t^{2}} dt$$
+  U-sub with $u = 4 + 153t^{2}$ and change constants of integration
+  $$ \frac{1}{306} \int_{4}^{153} u^{\frac{1}{2}}du$$
+  $$\frac{1}{459}(153^{\frac{3}{2}} - 4^{\frac{3}{2}}) \approx 4.106$$
 </details>
 
 
