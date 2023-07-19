@@ -456,8 +456,7 @@ $:
 
 With laplace transforms you could theoretically do a differential equation of any order however, the complexity of the algebra and inverse transforms will grow quickly. 
 
-
-**Question 5:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+**Question 6:** Find the laplace transform of $\ddot{y}(t) = t^3$ where $y(0) = 2$ and $\dot{y}(0) = 3$:
 <details>
   <summary>Solution</summary>
   When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
