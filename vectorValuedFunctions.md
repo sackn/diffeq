@@ -13,7 +13,9 @@ If you look closely you might recognize a simplier way to write the integral. As
 $$L = \int_{a}^{b} ||\vec{r}'(t)||(dt)$$
 
 This should make some intuitive sense since we are effecitvely summing all the lengths of all tangent vectors. Much like how we made really small lines in the y=f(x) scenario. 
+
 <img src="https://github.com/sackn/diffeq/blob/main/Images/arcLength.jpg" alt="Arc Length Image">
+
 Image Source: [https://www.dummies.com/article/academics-the-arts/math/calculus/how-to-calculate-arc-length-with-integration-192152/](url)
 
 The dx and dy are analagous to the x&y components of our tangent vectors.
