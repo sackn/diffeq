@@ -539,7 +539,17 @@ There are plently more good examples on this open source textbook (which I do no
 
 ### Questions and Solutions
 
+**Question 1:** Solve the following IVP $\ddot{y} + 3\dot{y} + 2y = \delta_2$ with the conditions $y(0) = 0$ and $\dot{y} = 1$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/deltaODE/image1.png" alt="Question 1">
+</details>
 
+**Question 2:** Solve the following IVP $\ddot{y} - 4y = \delta_1$ with the conditions $y(0) = 1$ and $\dot{y} = 0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/deltaODE/image2.png" alt="Question 1">
+</details>
 
 
 
