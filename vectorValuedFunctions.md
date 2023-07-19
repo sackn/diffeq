@@ -32,7 +32,7 @@ The dx and dy are analagous to the x&y components of our tangent vectors.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image2.png" alt="Question 2">
 </details>
 
-**Question 1:** Find the Arc Length of $\vec{r}(t) = \langle t, t^{2} \rangle$ on the interval $t \in [0, 1]$
+**Question 3:** Find the Arc Length of $\vec{r}(t) = \langle t, t^{2} \rangle$ on the interval $t \in [0, 1]$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image3.png" alt="Question 3">
