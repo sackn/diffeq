@@ -40,6 +40,7 @@ $$y(t) = 2 - 3t $$
 $$z(t) = 1 + 2t$$
 
 **Lines in Higher Dimensions**
+
 Our definition of a line is pretty flexible. In fact with the way we designed it the equation for an nth dimensional line is the exact same. However, instead both our "initial point" and "slope" are nth dimensional vectors rather than 3rd dimensioanl vectors. 
 
 ### Questions and Solutions
@@ -102,7 +103,7 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   <img src="https://github.com/sackn/diffeq/blob/main/Images/line.png" alt="Line">
   
   Our perpendicular line is as follows (Question 3): 
-  \vec{r}_{\perp}(s) = \langle 1-s, 2 + \frac{1}{2}s, -1 -\frac{1}{4}s \rangle
+  $$\vec{r}_{\perp}(s) = \langle 1-s, 2 + \frac{1}{2}s, -1 -\frac{1}{4}s \rangle$$
   Now we need to find the point where our perpendicular line intersects our original line (Question 4):
   
 
