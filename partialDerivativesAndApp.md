@@ -36,34 +36,46 @@ $$\vec{u} = \frac{\vec{v}}{||\vec{v}||}$$
 
 **Question 1:** For the function $f(x,y) = x^{2} + 3y^{2}$ find the directional derivative at the point $(1,2)$ in the direction of $\vec{v} = \langle 2, -1 \rangle$
 <details>
-  <summary>Part A Solution</summary>
+  <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image5.png" alt="Question 1">
 </details>
 
 **Question 2:** For the function $f(x,y,z) = 2xy + 3yz -4xz$ find the directional derivative at the point $(1,-1,2)$ in the direction of $\vec{v} = \langle 1,1,1 \rangle$
 <details>
-  <summary>Part A Solution</summary>
+  <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image1.png" alt="Question 2">
 </details>
 
 **Question 3:** For the function $f(x,y,z) = e^{xy} + sin(z)$ find the directional derivative at the point $(0, 1, \pi)$ in the direction of $\vec{v} = \langle -1,2,3 \rangle$
 <details>
-  <summary>Part A Solution</summary>
+  <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image3.png" alt="Question 3">
 </details>
 
 **Question 4:** For the function $f(x,y) = \frac{x^2}{4} + y^{2} -3x + 2$ find the direction in which the directional derivative at the point (2,1 ) is maxiumum.
 <details>
-  <summary>Part A Solution</summary>
+  <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image2.png" alt="Question 4">
 </details>
 
 **Question 5:** For the function $f(x,y,z) = x^{2} + 2y^{2} + 3z^{2}$ determine the direction where the directional derivative is zeor at the point $(1,-1,2)$
 <details>
-  <summary>Part A Solution</summary>
+  <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image4.png" alt="Question 5">
 </details>
 
+### Tangents Planes and Approximations
+As you may remember in calculus one we were able to define a tangent line at some given point. In 2D space, the general form for a tangent line at point $(x_0, f(x_0) )$ of the function $f(x,y)$ was:
+$$y-f(x_0) = f'(x_0)(x-x_0)$$ 
+The tangent line acted a linear approximation around the point x_0. Any point around x_0 could be approximated by evaluating the tangent line. If we expand to higher dimensions we no longer have a tangent line, but a tangent plane. We know that the equation for a plane is as follows:
+$$a(x-x_0) + b(y-y_0) + c(z-z_0) = 0$$
+The equation for the tangent plane is a natural extension of the equation for a tangent line. We simply just add an extra term to the right side. The equation for a tangent plane of some graph $f(x,y)$ at some point $(x,y,f(x,y))$ is,
+$$z - f(x,y) = f_x(x-x_0) + f_y(y-y_0)$$
+Notice how instead of just the slope we mention both partials with respect to x and y instead. Visualize our tangent plane by thinking of the "tangent" lines for x and y. On the image below $\vec{T}_x$ represent the directon of tangent line if we only consider x and $\vec{T}_y$ rpresent the direction of tangent line if we only consider y. Together if we combine the directions of the two lines we form the plane which is marked as $A$ in the image. So naturally the addition of two "tangent vectors" should give us the tangent plane formed between them.
+
+
+
+If you not convinced of my hand-waving reasoning for the formula refer to the proof on this website (which I do not own): [https://tutorial.math.lamar.edu/Classes/CalcIII/TangentPlanes.aspx](url)
 
 
 ### Practice Questions
