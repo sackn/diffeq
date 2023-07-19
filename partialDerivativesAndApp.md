@@ -29,8 +29,10 @@ $$D_{\vec{u}}f(x,y,z) = \langle f_x, f_y, f_z \rangle \cdot \langle a, b, c \ran
 A special property of the gradient vector is that it is orthagonal to the level curves. In other the gradient vector always points in the direction where rate of change maximized. If you evalulate the gradient vector then you fidn the greatest rate of change.  Below is a graph of countours of some function and its "gradient vector field".
 <img src="https://github.com/sackn/diffeq/blob/main/Images/gradientVector.jpg" alt="gradientVector">
 
+Remember when doing problems to always make sure the direction vector they give you is a unit vector. Otherwise, the that fact that the magnitude is not one will scale the answer. Remember the formula for a unit vector:
+$$\vec{u} = \frac{\vec{v}}{||\vec{v}||}$$
 
-**Problems and Solution**
+### Problems and Solution
 
 
 ### Practice Questions
