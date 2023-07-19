@@ -424,33 +424,33 @@ $$y(t) = \frac{3}{2} -\frac{3}{2}e^{-t}cos(t) + \frac{5}{2}e^{-t}sin(t)$$
 **Question 1:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 3y =0$ with the conditions $y(0) = 1$ and $\dot{y}(0) = 2$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image6.png" alt="Question 1">
 </details>
 
 **Question 2:** Find the solution to the IVP $\ddot{y} + 2\dot{y} + 2y =sin(2t)$ with the conditions $y(0) = 1$ and $\dot{y}(0) = 0$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image3.png" alt="Question 2">
 </details>
 
 **Question 3:** Find the solution to the IVP $\ddot{y} - 5\dot{y} + 6y =4e^{2t}$ with the conditions $y(0) = 2$ and $\dot{y}(0) = 1$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image4.png" alt="Question 3">
 </details>
 
 **Question 4:** Find the solution to the IVP $\ddot{y} + 3\dot{y} + 2y = cos(4t)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = -2$
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image2.png" alt="Question 4">
 </details>
 
 **Question 5:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 4y = u(t-1) + 2u(t-3)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = 1$
 <details>
   <summary>Solution</summary>
   When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image5.png" alt="Question 5">
 </details>
 
 With laplace transforms you could theoretically do a differential equation of any order however, the complexity of the algebra and inverse transforms will grow quickly. 
@@ -458,7 +458,7 @@ With laplace transforms you could theoretically do a differential equation of an
 **Question 6:** Find the solution to the IVP $\dddot{y}+ \dot{y}= 3$ with the conditions $y(0) = 0$, $\dot{y}(0) = 0$ , and $\ddot{y}=0$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image1.png" alt="Question 6">
 </details>
 
 
