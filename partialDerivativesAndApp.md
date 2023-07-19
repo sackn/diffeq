@@ -14,6 +14,8 @@ $$\dot{g}(z) = \frac{\partial f}{\partial x} \frac{\partial x}{\partial z} + \fr
 We know that $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$ are the partial deraitive of $f(x,y)$ with respect to x and y. We can also calculate $\frac{\partial x}{\partial z}$ and $\frac{\partial y}{\partial z}$. Doing all of this will yield us the formula for the directional deriative. 
 
 $$ D_{\vec{u}}f(x,y) = f_x a + f_y b \quad \square $$
+
+
 **Problems and Solution**
 
 
