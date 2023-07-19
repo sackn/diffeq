@@ -99,10 +99,10 @@ $$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
   <summary>Solution</summary>
   Finding the Partial derivatives and evaluating the function at $(\frac{\pi}{4}, \frac{\pi}{3})$
   $$\frac{\partial f}{\partial x} = cos(x) \quad \frac{\partial f}{\partial y} = -sin(y)$$
-  $$f_x(\frac{\pi}{4}, \frac{\pi}{3}) = \frac{sqrt{2}}{2} \quad f_y(\frac{\pi}{4}, \frac{\pi}{3}) = -\frac{sqrt{3}}{2}$$
-  $$f(\frac{\pi}{4}, \frac{\pi}{3}) = \frac{sqrt{2} + 1}{2} $$
+  $$f_x(\frac{\pi}{4}, \frac{\pi}{3}) = \frac{\sqrt{2}}{2} \quad f_y(\frac{\pi}{4}, \frac{\pi}{3}) = -\frac{\sqrt{3}}{2}$$
+  $$f(\frac{\pi}{4}, \frac{\pi}{3}) = \frac{\sqrt{2} + 1}{2} $$
   Finding our plane equation
-  $$T(x,y) = \frac{sqrt{2}}{2}(x-x_0)  + -\frac{sqrt{3}}{2}(y-y_0) + \frac{sqrt{2} + 1}{2} $$
+  $$T(x,y) = \frac{\sqrt{2}}{2}(x-x_0)  + -\frac{\sqrt{3}}{2}(y-y_0) + \frac{\sqrt{2} + 1}{2} $$
   
 </details>
 
