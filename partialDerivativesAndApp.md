@@ -82,16 +82,27 @@ Much like how we used tangent lines for approximations we can also use tangents 
 The idea of the tangent plane can also be easily expanded to higher dimensions. For example a tangent plane for a function of three varibles would look like the following:
 $$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
 
-**Question 1:**
+**Question 1:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
 <details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+  <summary>Solution</summary>
+  Finding the Partial derivatives and evaluating the function at $(1,-1)$
+  $$\frac{\partial f}{\partial x} = 2x \quad \frac{\partial f}{\partial y} = 4y$$
+  $$f_x(1,-1) = 2 \quad f_y(1,-1) = -4$$
+  $$f(1, -1) = 3$$
+  Finding our tanget plane equation
+  $$T(x,y) = 2(x-1) -4 (y+1) + 3$$
 </details>
 
-**Question 2:**
+**Question 2:** Given the function $f(x,y) = \sqrt{x} + y$ find the tangent plane at the point $(4,3)$
 <details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+  <summary>Solution</summary>
+  Finding the Partial derivatives and evaluating the function at $(4,3)$
+  $$\frac{\partial f}{\partial x} = \frac{1}{2\sqrt{x}} \quad \frac{\partial f}{\partial y} = 1$$
+  $$f_x(1,-1) = 2 \quad f_y(1,-1) = -4$$
+  $$f(4,3) = 5$$
+  Finding our tangent plane eqauation
+  $$T(x,y) = 2(x-4) -4(y-3) + 5$$
+ 
 </details>
 
 **Question 3:** Given the function $f(x,y) = sin(x) + cos(y)$ find the tangent plane at the point $(\frac{\pi}{4}, \frac{\pi}{3})$
@@ -120,10 +131,21 @@ $$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
   $$T(1.02, 0.98) \approx 3.446$$
 </details>
 
-**Question 5:**
+**Question 5:** Given the function $f(x,y) = x^{2} + 2y - cos(xy)$ find the tangent plane at $(1,2)$ and use it to approximate $(1.01, 1.95)$
 <details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+  <summary>Solution</summary>
+  Finding the Partial derivatives and evaluating the function at $(1,2)$
+  $$\frac{\partial f}{\partial x} = 2x + ysin(xy) \quad \frac{\partial f}{\partial y} = 2 + xsin(xy)$$
+  $$f_x(1,2) = 2 + 2sin(2) \quad f_y(1,2) = 2 + sin(2)$$
+  $$f(1,2) = 5 - cos(2)$$
+  Finding our plane equation
+  $$T(x,y) = (2+2sin(2))(x - 1) + (2+sin(2))(y-2) + 5 - cos(2)$$
+  $$T(x,y) \approx (3.819)(x-1) + (2.909)(y-2) + 5.416$$
+  Approximating the point $(1.01, 1.95)$
+  $$T(1.01, 1.95) \approx (3.819)(1.01-1) + (2.909)(1.95-2) + 5.416 $$
+  $$T(1.01, 1.95) \approx 5.309$$
+
+  
 </details>
 
 ### Practice Questions
