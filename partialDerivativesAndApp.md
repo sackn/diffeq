@@ -73,10 +73,52 @@ The equation for the tangent plane is a natural extension of the equation for a 
 $$z - f(x,y) = f_x(x-x_0) + f_y(y-y_0)$$
 Notice how instead of just the slope we mention both partials with respect to x and y instead. Visualize our tangent plane by thinking of the "tangent" lines for x and y. On the image below $\vec{T}_x$ represent the directon of tangent line if we only consider x and $\vec{T}_y$ rpresent the direction of tangent line if we only consider y. Together if we combine the directions of the two lines we form the plane which is marked as $A$ in the image. So naturally the addition of two "tangent vectors" should give us the tangent plane formed between them.
 
-
+<img src="https://github.com/sackn/diffeq/blob/main/Images/tangentPlane.png" alt="Tangent Plane">
 
 If you not convinced of my hand-waving reasoning for the formula refer to the proof on this website (which I do not own): [https://tutorial.math.lamar.edu/Classes/CalcIII/TangentPlanes.aspx](url)
 
+Much like how we used tangent lines for approximations we can also use tangents planes for approximations. We can plug in any point near $(x_0, y_0)$ and get a reasonable approximation of it through the evaluating the tangent plane. 
+
+The idea of the tangent plane can also be easily expanded to higher dimensions. For example a tangent plane for a function of three varibles would look like the following:
+$$z - f(x,y,z) = f_x(x-x_0) + f_y(y-y_0) + f_z(z-z_0)$$
+
+**Question 1:**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+</details>
+
+**Question 2:**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+</details>
+
+**Question 3:** Given the function $f(x,y) = sin(x) + cos(y)$ find the tangent plane at the point $(\frac{\pi}{4}, \frac{\pi}{3}, 1)$
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+</details>
+
+**Question 4:** Given the function $f(x,y) = e^{x} + ln(2y)$ find the tangent plane at the point $(1,1)$ and use it to approximate $(1.02, 0.98)$
+<details>
+  <summary>Solution</summary>
+  Finding the Partial derivatives and evaluating the function at (1,1)
+  $$\frac{\partial f}{\parital x} = e^{x} \quad \frac{\partial f}{\parital y} = \frac{1}{y}$$
+  $$f_x(1,1) = e \quad f_y(1,1) = 1$$
+  $$f(1,1) = e + ln(2)$$
+  Finding our plane equation
+  $$T(x,y) = e(x-1) + (y-1) + e + ln(2)$$
+  Approximating the point $(1.02 , 0.98)$
+  $$T(1.02, 0.98) = e(1.02 - 1) + (0.98 - 1) + e + ln(2)$$
+  $$T(1.02, 0.98) \approx 3.446$$
+</details>
+
+**Question 5:**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+</details>
 
 ### Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
