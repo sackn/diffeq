@@ -1,5 +1,3 @@
-## Higher Order Linear Homogenous Differential Equations
-
 ## Laplce Transforms
 **Laplce Transform Table:**
 
@@ -461,5 +459,9 @@ With laplace transforms you could theoretically do a differential equation of an
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image1.png" alt="Question 6">
 </details>
 
+### Convolution
+The convolution is something that might help you get inverse laplace trasnforms. The convolution is defined as follows:
+
+$$f(t) * g(t) = \int_0^{\tao} f(\tao) g(t-\tao) d\tao$$
 
 
