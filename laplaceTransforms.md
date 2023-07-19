@@ -459,7 +459,7 @@ With laplace transforms you could theoretically do a differential equation of an
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplaceODE/image1.png" alt="Question 6">
 </details>
 
-### Convolution
+## Convolution
 The convolution is something that might help you get inverse laplace trasnforms. The convolution is defined as follows:
 
 $$f(t) * g(t) = \int_0^{t} f(\uptau) g(t-\uptau) d\uptau$$
@@ -490,12 +490,23 @@ $$t \int_{0}^{t} sin(\uptau)d\uptau - \int_{0}^{t} \uptau sin(\uptau)d\uptau$$
 Dealing with the first integral we get,
 $$t \int_{0}^{t} sin(\uptau)d\uptau = -t(cos(t) - cos(0))  = -tcos(t) + t $$
 Dealing with the 2nd integral by doing an integration of parts where $u = \uptau$ and $dv = sin(\uptau)$:
-$$-\int_{0}^{t} \uptau sin(\uptau)d\uptau$$$$
+$$-\int_{0}^{t} \uptau sin(\uptau)d\uptau$$
 $$tcos(t) - \int_{0}^{t} cos(\uptau)d\uptau$$
 $$tcos(t) - (sin(t) - sin(0)) = tcos(t) - sin(t)$$
 Putting it all together we get our final solution for the inverse laplace transform,
 $$\mathcal{L}^{-1}[$\frac{1}{s^{2}(s^2+1)}] = t * sin(t) = t - sin(t) \quad \square$$
 
+## Delta Functions and Impulses
+Imagine hitting something with a hammer. You apply a force, but only force a very short amount of time. On a graph that the force applied would be a sort of spike. The action of hitting something with a hammer is called an impulse. It's not a constant force its just applied over some short period of time. In differential equations we typical use the delta function to represent these impulses. The delta function is defined as follows
+
+$$
+\delta_a = \begin{cases}
+\frac{1}{\epsilon}, & t \in (a, a+\epsilon), \\
+0, & \text{if } otherwise
+\end{cases}
+$$
+
+As defined above the delta function is equivalent to a extremely small spike at $a$ with an extremely small duration of $\epsilon$.
 
 
 
