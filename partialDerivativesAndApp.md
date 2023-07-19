@@ -158,8 +158,10 @@ It is very important to understand that the first condition is an AND statement.
 **Relative Maximum or Relative Minimum**
 In your calculus one class you may have drawn a sign graph over the tangent lines. If the slopes were positive then turned negative then the critical point was relative max. If the slopes were negative then became positive then the critical point was a relative min. If it was neither of those scenarios then you didn't have an extrema at all. 
 
-For example you might have been given $f(x) = x^{2}$. You would have recognized that $f'(x) = 2x$ and that it has an critical point at 0. Most of the time you would follow up with drawing like the following where you would note that 
+For example you might have been given $f(x) = x^{2}$. You would have recognized that $f'(x) = 2x$ and that it has an critical point at 0. Most of the time you would follow up with drawing like the following where you would note that the derivative of values prior to the critical point were negative and the deriative of values after the critical point were positive. Since, the tangent lines were going from negative to positive you knew that $x=0$ was a relative minimum
+<img src="https://github.com/sackn/diffeq/blob/main/Images/relMin.png" alt="relMin">
 
+However this is a little different in higher dimensions. There are sine graph depending on what direction you come in form. Refer to the following image which shows all three possibilites of a critical point:
 
 
 ### Practice Questions
