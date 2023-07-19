@@ -156,6 +156,7 @@ Critical points for a function of two variables occurs if either:
 It is very important to understand that the first condition is an AND statement. We do not have a critical point if only one of the partial deraitives is zero. 
 
 **Relative Maximum or Relative Minimum**
+
 In your calculus one class you may have drawn a sign graph over the tangent lines. If the slopes were positive then turned negative then the critical point was relative max. If the slopes were negative then became positive then the critical point was a relative min. If it was neither of those scenarios then you didn't have an extrema at all. 
 
 For example you might have been given $f(x) = x^{2}$. You would have recognized that $f'(x) = 2x$ and that it has an critical point at 0. Most of the time you would follow up with drawing like the following where you would note that the derivative of values prior to the critical point were negative and the deriative of values after the critical point were positive. Since, the tangent lines were going from negative to positive you knew that $x=0$ was a relative minimum
@@ -164,7 +165,15 @@ For example you might have been given $f(x) = x^{2}$. You would have recognized 
 However this is a little different in higher dimensions. There are sine graph depending on what direction you come in form. Refer to the following image which shows all three possibilites of a critical point:
 <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoint.png" alt="criticalPoint">
 
+A saddle point is technically both a relative maximum and a relative minimum. If you approach it from one axis you get a relative minimum if you approach from a different axis you get a relative maximum. For 3D graphs, there exist a test called the 2nd partial tests which can be used to tell whether a critical point is a relative minimum, relative maximum, or a saddle point.
 
+**2nd Partials Test**
+
+Suppose you have some critical point $(a,b)$ where the 2nd order partial deraivatives are constant. Define:
+$$D(a,b) = f_{xx}(a,b)f_{yy}(a,b) - [f_{xy}(a,b)]^{2}$$
+
+Classifying the point:
+- $D > 0 \quad f_{xx}(a,b) > 0 \quad \implies $ local minimum
 
 ### Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
