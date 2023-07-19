@@ -68,7 +68,8 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   We want to find a line perpendicular to the line given to us. You might remember that a line with slope $m$ is perpendicular to a line of slope $-\frac{1}{m}$. That basically exactly what we are going to do instead with vectors this time define the slope of our perpendicular line to be:
   $$\vec{v} = -\frac{1}{\vec{u}} = \langle -\frac{1}{3}, 1, -\frac{1}{2} \rangle$$
   We have the slope of the line and we were given a point on the line so the paremetric form of our perpendicular line is as follows:
-  $$\perp$$
+  $$\vec{r}_{\perp}(t) = \langle 1,2,-1 \rangle + t \langle -\frac{1}{3}, 1, -\frac{1}{2} \rangle$$
+  $$\vec{r}_{\perp}(t) = \langle 1-\frac{1}{3}t,2 + t,-1-\frac{1}{2}t \rangle \quad \square$$
   
 </details>
 
