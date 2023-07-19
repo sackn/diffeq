@@ -102,8 +102,9 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
   <img src="https://github.com/sackn/diffeq/blob/main/Images/line.png" alt="Line">
   
   Our perpendicular line is as follows (Question 3): 
-
+  \vec{r}_{\perp}(t)(s) = \langle 1-t, 2 + \frac{1}{2}t, -1 -\frac{1}{4} \rangle
   Now we need to find the point where our perpendicular line intersects our original line (Question 4):
+  
 
   
 </details>
