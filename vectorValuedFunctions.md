@@ -22,6 +22,8 @@ The equation $\vec{r}(t) = \vec{r}_0 + t\vec{u}$ mimics point slope form. You ha
 
 In the end what parallel vector you choose changes how the $f(t)$ is graphed with respect to $t$. However, if you want your line to go on for ever (which by defintion a line has to go on for ever) then it really doesn't matter. You plot $f(t)$ for $t \in (-\infty, \infty)$. Every single point is plotted it doesn't matter what order or how "fast" you do it. 
 
+**Worked Example**
+
 
 
 ## Arc Length with Vector Functions
