@@ -421,3 +421,34 @@ For any $t \geq 6$ the solution will behave as:
 $$y(t) = \frac{3}{2} -\frac{3}{2}e^{-t}cos(t) + \frac{5}{2}e^{-t}sin(t)$$
 
 
+**Question 1:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 3y =0$ with the conditions $y(0) = 1$ and $\dot{y}(0) = 2$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+</details>
+
+**Question 2:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+</details>
+
+**Question 3:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+</details>
+
+**Question 4:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+</details>
+
+**Question 5:** Find the laplace transform of $\ddot{f}(t) = t^3$ where $f(0) = 2$ and $\dot{f}(0) = 3$:
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
+</details>
+
+
