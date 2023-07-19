@@ -532,6 +532,9 @@ Notice that when we perform the inverse laplace transform we do not get back out
 $$x(t) = 2u(t-1)sin(t-1) + 5 u(t-10)sin(t-10)$$
 
 Our solution on a graph looks like the following:
+<img src="https://github.com/sackn/diffeq/blob/main/Images/deltaImpulse.jpg" alt="Delta Impulse Graph">
+
+There are plently more good examples on this open source textbook (which I do not own): [https://web.uvic.ca/~tbazett/diffyqs/convolution_section.html](url)
 
 
 
