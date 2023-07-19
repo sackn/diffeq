@@ -8,7 +8,7 @@ $$L = \int_{a}^{b} \sqrt{(f'(t))^2 +  (g'(t)) ^2}(dt)$$
 Similarly for a vector function with three componenets $\vec{r} = \langle f(t), g(t), h(t) \rangle$:
 $$L = \int_{a}^{b} \sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2}(dt)$$
 
-If you look closely you might recognize a simplier way to write the integral. As previousyl defined the the magnitude of the derivative of a vector function $$||\vec{r}'(t)||$$ is also equal to $\sqrt{(f'(t))^2 +  (g'(t)) ^2}$ in the 2D case and $\sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2}$ in the 3D case. We can simply replace the inside of our integral with that
+If you look closely you might recognize a simplier way to write the integral. As previousyl defined the the magnitude of the derivative of a vector function $||\vec{r}'(t)||$ is also equal to $\sqrt{(f'(t))^2 +  (g'(t)) ^2}$ in the 2D case and $\sqrt{(f'(t))^2 +  (g'(t)) ^2 + (h'(t))^2}$ in the 3D case. We can simply replace the inside of our integral with that
 
 $$L = \int_{a}^{b} ||\vec{r}'(t)||(dt)$$
 
@@ -19,6 +19,31 @@ This should make some intuitive sense since we are effecitvely summing all the l
 Image Source: [https://www.dummies.com/article/academics-the-arts/math/calculus/how-to-calculate-arc-length-with-integration-192152/](url)
 
 The dx and dy are analagous to the x&y components of our tangent vectors.
+
+**Question 1:** Find the Arc Length of $\vec{r}(t) = \langle 3cos(t), 3sin(t) \rangle$ on the interval $t \in [0, \pi]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image2.png" alt="Question 1">
+</details>
+
+**Question 2:** Find the Arc Length of $\vec{r}(t) = \langle sin(t), cos(t), t \rangle$ on the interval $t \in [0, \frac{\pi}{2}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image2.png" alt="Question 2">
+</details>
+
+**Question 1:** Find the Arc Length of $\vec{r}(t) = \langle t, t^{2} \rangle$ on the interval $t \in [0, 1]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/ArcLength/image3.png" alt="Question 3">
+</details>
+
+
+
+
+
+
+
 
 ### Problems and Solutions
 
