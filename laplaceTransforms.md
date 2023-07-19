@@ -440,14 +440,13 @@ $$y(t) = \frac{3}{2} -\frac{3}{2}e^{-t}cos(t) + \frac{5}{2}e^{-t}sin(t)$$
 </details>
 
 **Question 4:** Find the solution to the IVP $\ddot{y} + 3\dot{y} + 2y = cos(4t)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = -2$
-$:
+
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
 **Question 5:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 4y = u(t-1) + 2u(t-3)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = 1$
-$:
 <details>
   <summary>Solution</summary>
   When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
