@@ -462,6 +462,12 @@ With laplace transforms you could theoretically do a differential equation of an
 ### Convolution
 The convolution is something that might help you get inverse laplace trasnforms. The convolution is defined as follows:
 
-$$f(t) * g(t) = \int_0^{\tao} f(\tao) g(t-\tao) d\tao$$
+$$f(t) * g(t) = \int_0^{\uptao} f(\uptao) g(t-\uptao) d\uptao$$
+
+I'm not going to go that deep into what a conceputally a convolution is, but take it as an alternative to adding two functions. If you're interested I would recommend watching 3B1B's Video on it. The convolution has the some of the following properties:
+- $f * g = g* f$
+- $f * (g * h) = (f * g) * h$
+- $f * (g +h) = (f*g) + f*h)$
+
 
 
