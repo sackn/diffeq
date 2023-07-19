@@ -446,21 +446,21 @@ $:
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
-**Question 5:** Find the solution to the IVP $\dddot{y}+ \dot{y}= 3$ with the conditions $y(0) = 0$,$\dot{y}(0) = 0$, and $\ddot{y}=0$:
+**Question 5:** Find the solution to the IVP $\ddot{y} + 4\dot{y} + 4y = u(t-1) + 2u(t-3)$ with the conditions $y(0) = 0$ and $\dot{y}(0) = 1$:
+$:
 <details>
   <summary>Solution</summary>
   When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
-  
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
 
 With laplace transforms you could theoretically do a differential equation of any order however, the complexity of the algebra and inverse transforms will grow quickly. 
 
-**Question 6:** Find the laplace transform of $\ddot{y}(t) = t^3$ where $y(0) = 2$ and $\dot{y}(0) = 3$:
+**Question 6:** Find the solution to the IVP $\dddot{y}+ \dot{y}= 3$ with the conditions $y(0) = 0$,$\dot{y}(0) = 0$, and $\ddot{y}=0$:
 <details>
   <summary>Solution</summary>
-  When you have two step functions most of the time you would need to create two different funtions however, if our scenario we only need h(t) to describe both. Try writing out what the solution will be at any point in time.
-  
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
 </details>
+
+
 
