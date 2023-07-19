@@ -410,7 +410,7 @@ $$Y(s) = \frac{3}e^{-6s}(\frac{1}{s(s^{2}+2s+2)}) + \frac{1}{s^2+2s+2}$$
 We can partial fraction the inside of the left term
 $$Y(s) = \frac{3}{2}e^{-6s}(\frac{1}{s}-\frac{s+2}{s^2+2s+2}) + \frac{1}{s^2+2s+2}$$
 Completeing the square for the polynomial $s^2 + 2s+ 2$ and splitting $s+2$ into $s+1$ and $1$ we get:
-$$Y(s) = \frac{3}{2}e^{-6s}(\frac{1}{s} - \frac{s+1}{(s+1)^2}+1) + \frac{1}{(s+1)^2}+1}$$
+$$Y(s) = \frac{3}{2}e^{-6s}(\frac{1}{s} - \frac{s+1}{(s+1)^2}+1) + \frac{1}{(s+1)^2}+1$$
 Before we need apply the inverse laplace transform I want to talk a little bit about how the left term (more specifically the things attached to the thing that will inverse laplace into the step function) will change. $e^{-6s}$ will become $u(t-6)$ which is a step function that turns on at $t=6$. We want to also apply this t=6 delay to the things its attached to. In order to do this we define a new function $h(t-6)$ (t-6 to set it back 6 like the step function) where h(t) is the inverse laplace transform of everything multiplied by that specific step function. Applying the laplace transform to everything we get the following two lines as our solution:
 $$y(t)=\frac{3}{2}u(t-6)h(t-6) + e^{-t}sin(t)$$
 $$h(t) = 1 - e^{-t}cos(t) + e^{-t}sin(t) \quad \square$$
