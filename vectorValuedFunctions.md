@@ -22,7 +22,27 @@ The equation $\vec{r}(t) = \vec{r}_0 + t\vec{u}$ mimics point slope form. You ha
 
 In the end what parallel vector you choose changes how the $f(t)$ is graphed with respect to $t$. However, if you want your line to go on for ever (which by defintion a line has to go on for ever) then it really doesn't matter. You plot $f(t)$ for $t \in (-\infty, \infty)$. Every single point is plotted it doesn't matter what order or how "fast" you do it. 
 
-**Worked Examples**
+**Worked Example**
+
+Find the parametric equation of a line between the points $(-3,2,1)$ and $(2, -1, 3)$. Define the following:
+$$\vec{A} = \langle -3, 2, 1 \rangle \quad \vec{B} = \langle 2, -1, 3 \rangle$$
+We can get the "slope" of the line through finding the seperation vector between the points. 
+$$\vec{u} = \vec{B} - \vec{A} = \langle 5, -3, 2 \rangle$$
+We have the slope now all we need is a point on the line, so that we can get our paremetric equation. Getting points on the line isn't hard since the question prompt quite literally gives us two points already on the line. Choosing arbitrarily point $(3,2,1)$ the parametric equation of our line is the following:
+$$\vec{r}(t) = \vec{A} + t \vec{u}$$
+$$\vec{r}(t) = \langle -3,2,1 \rangle + t \langle 5, -3 ,2 \rangle$$
+We can use vector arithmetic and add the two to get a more condensed formula:
+$$ \vec{r}(t) = \langle -3 + 5t, 2 - 3t, 1 + 2t \rangle \quad \square$$
+
+Althought, I have been mainly using vector notation to describe our line it is also valid to seperate the line into each of its components. In the case of the 3D line in the example we can write it as three different equations (one for each coordinate):
+$$x(t)  = -3 + 5t$$
+$$y(t) = 2 - 3t $$
+$$z(t) = 1 + 2t$$
+
+**Lines in Higher Dimensions**
+Our definition of a line is pretty flexible. In fact with the way we designed it the equation for an nth dimensional line is the exact same. However, instead both our "initial point" and "slope" are nth dimensional vectors rather than 3rd dimensioanl vectors. 
+
+### Questions and Solutions
 
 **Question 1:** Find the Parametric Equation of a LINE between points the point $(1,2,3)$ and $(4, -1, 6)$:
 <details>
@@ -39,6 +59,21 @@ In the end what parallel vector you choose changes how the $f(t)$ is graphed wit
   Not much else to do besides add a constraint on the values that $t$ can be. $\vec{r}(0) = \langle 1,2,3 \rangle$ and $\vec{r}(1) = \langle 4,-1,6 \rangle$.Line segments will become pretty common place once we get to line integrals. 
   $$\vec{r}(t) = \langle 1 + 3t, 2 - 3t, 3 + 3t \rangle \quad t \in [0,1] \quad \square$$
 </details>
+
+**Question 3:** Find the Parametric Equation of a line which contains the point $(1,2,-1)$ and is perpendicular $x(t)= 2 + 3t$, $y(t) = 1-t$, $z(t) = -1 + 2t$.
+<details>
+  <summary>Solution</summary>
+  The slope of the line already given to us is the following:
+  $$\vec{u} = \langle 3, -1, 2 \rangle $$
+  We want to find a line perpendicular to the line given to us. You might remember that a line with slope $m$ is perpendicular to a line of slope $-\frac{1}{m}$. That basically exactly what we are going to do instead with vectors this time define the slope of our perpendicular line to be:
+  $$\vec{v} = -\frac{1}{\vec{u}} = \langle -\frac{1}{3}, 1, -\frac{1}{2} \rangle$$
+  We have the slope of the line and we were given a point on the line so the paremetric form of our perpendicular line is as follows:
+  $$\perp$$
+  
+</details>
+
+
+
 
 
 ## Parametric Equation of a Plane
