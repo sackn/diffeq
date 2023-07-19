@@ -16,7 +16,9 @@ $$\vec{r}(t) = \vec{r}_0 + t\vec{u}$$
 
 If you want we could also expand the vectors into their components and then add them so that we have singular vector equation describing the entire line.
 $$\vec{r}(t) = \langle x_0, y_0, z_0 \rangle + t<U_x, U_y, U_z>$$
-$$\vec{r}(t) = \langle x_0 + t U_x, y_0 + tU_y, z_0 + U_z \rangle$$
+$$\vec{r}(t) = \langle x_0 + t u_x, y_0 + tu_y, z_0 + u_z \rangle$$
+
+The equation $\vec{r}(t) = \vec{r}_0 + t\vec{u}$ mimics point slope form. You have an initial point and a slope. You move back and forth on the line using t. Now comes to the point where I talked about the effects of the parallel vector you chose. Assume you have some parallel vector $\vec{v}$ which move forward the line "forward" as you increase $t$ and "backwards" as you decrease $t$. If you instead paramterize it with $-\vec{v}$ (which is allowed since it is still parallel) you will instead move "backwards" as you increase $t$ and forward and you decrease $t$. If you use $3\vec{v}$ you will move "forward" on the line as you increase $t$ and "backwards" as you decrease $t$ however you do that at a rate three times faster than $\vec{v}$.  
 
 
 
