@@ -58,7 +58,7 @@ $$\vec{u} = \frac{\vec{v}}{||\vec{v}||}$$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image2.png" alt="Question 4">
 </details>
 
-**Question 5:** For the function $f(x,y,z) = x^{2} + 2y^{2} + 3z^{2}$
+**Question 5:** For the function $f(x,y,z) = x^{2} + 2y^{2} + 3z^{2}$ determine the direction where the directional derivative is zeor at the point $(1,-1,2)$
 <details>
   <summary>Part A Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image4.png" alt="Question 5">
