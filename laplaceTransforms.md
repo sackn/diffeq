@@ -507,6 +507,43 @@ $$
 $$
 
 As defined above the delta function is equivalent to a extremely small spike at $a$ with an extremely small duration of $\epsilon$. If we allow epsilon to shrink to an extremely slow value our graph of the delta impulse function might look like the following ($x_0 = a$):
+<img src="https://github.com/sackn/diffeq/blob/main/Images/deltaImpulse.jpg" alt="Delta Impulse">
+
+The key property of the delta impulse function is that,
+$$\int_{-\infty}^{\infty} \delta_a (dt) = 1$$
+
+That means whenever the delta function is paired with another function f(t) we get the following property:
+$$\int_{-\infty}^{\infty} \delta_a f(t) (dt) = f(a)$$
+
+The delta impulse is equivalent to evaluating a function at a specific point. Effecitvely turning on a function for a very minute amount of time like an impulse from a hammer striking.  Althought I'm not ogoing to the proof it should be noted that the laplace tranform for the delta impulse function is the following:
+$$\delta_a = e^{-as}$$
+
+Much like the step function it can also be incorported into a differential equation. Let's say you have a mass-spring system that is initially held constant. Then you hit it with a hammer of some force $2$ at $t=1$ and then you hit it again with a force $5$ at $t=10$. That entire process can be modeled through the delta function inside the differential equation which dictates the movement of the mass-spring system. 
+
+**Worked Example**
+
+The worked example this time is going to be a differential equation that explains the mass-spring system and hammer scenario mentioed above. Consider the following IVP Problem:
+$$\ddot{x} + x = 2\delta_1 + 5\delta_10$$
+If we laplace transform both sides and apply initial conditions we get,
+$$s^{2}X(s) + X(s) = 2e^{-s} + 5e^{-10s}$$
+We can then isolate $X(s)$ to get,
+$$X(s) = 2e^{-s}(\frac{1}{s^2 + 1}) + 5e^{-10s}(\frac{1}{s^2 + 1})$$
+Notice that when we perform the inverse laplace transform we do not get back out delta function. Instead, we get out step functions. Which should make a little bit of sense. If you strike a mass-spring system with a hammer it will go back and forth. It won't just be a non-zero value instatenous moment. Inverse laplace transforming the problem we get (remember to offset the function effected by the step function aswell):
+$$x(t) = 2u(t-1)sin(t-1) + 5 u(t-10)sin(t-10)$$
+
+Our solution as a piecewise function would look like the following:
+$$
+\delta_a = \begin{cases}
+0, & t < 1, \\
+2sin(t-1), & 1 \geq t < 10, \\
+2sin(t-1) + 5u(t-10)sin(t-10) & 10 \geq t
+\end{cases}
+$$
+
+
+
+
+
 
 
 
