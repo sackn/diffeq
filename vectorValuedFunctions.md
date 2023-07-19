@@ -1,3 +1,21 @@
+## Parametric Definition of a Line
+We have known for a very long time that the equation to a line is simply $y = mx + b$. That equation worked all fine in 2D, but now that we are stepping into 3D it gets a little more annoying. It is possible to draw a line in 3D that uses x's and y's as inputs. However, its more easier and more useful to have the life in the form $f(t)$ a parametric equation. Firstly lets consider point slope form (from middle school math),
+$$(y-y_0) = m(x-x_0)$$
+In order to find the equation for a line at the very minimum we must have the slope of the line and some point on said line $(x_0, y_0)$. We are going to try find something similar for 3D parametric lines. When it comes to some point on the line thats easy we can just write it as its position vector call it $$\vec{r}_0(t) = \langle x_0, y_0, z_0 \rangle$$.
+
+Now we need a way to define the slope of the line. That's not that bad either. Since we are dealing with a line the slope will never change by definition. That means we need to find a vector that can "represent" the slope of the line. In turns out that multiple vectors will actually work to do this. As long as the vector is parallel to the line then, it can describe its slope. Hopefully this is pretty intuitive. 
+
+For example if you a line that goes 1 up on x, 2 down on y, and 3 up on z then any of the following vectors could be used to define said line:
+- $\vec{r}_1(t) = \langle 1, -2, 3 \rangle$
+- $\vec{r}_2(t) = \langle \frac{1}{2}, -1, \frac{3}{2} \rangle $
+- $\vec{r}_3(t) = \langle -\frac{1}{2}, 1, -\frac{3}{2} \rangle $
+If you visualize the line you might be able to see that all the vectors are different, but all of them technically still lie completely on the line. What vector we exactly use won't play a difference in the line as a whole however it will effect how $f(t)$ changes in response to time. Firstly, this would make more sense if I gave you the definition of a parametric line which is the following (where $\vec{r}_0$ is some point on the line and \vec{u} is a vector parallel to the line):
+
+$$\vec{r}(t) = \vec{r}_0 + tu\vec{u}$$
+If you want we could also expand the vectors into their components and then add them so that we have singular vector equation describing the entire line.
+$$\vec{r}(t) = \langle x_0, y_0, z_0 \rangle + t<U_x, U_y, U_z>$$
+$$\vec{r}(t) = \langle x_0 + t U_x, y_0 + tU_y, z_0 + U_z \rangle$$
+
 
 
 ## Arc Length with Vector Functions
