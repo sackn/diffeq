@@ -9,9 +9,11 @@ For example if you a line that goes 1 up on x, 2 down on y, and 3 up on z then a
 - $\vec{r}_1(t) = \langle 1, -2, 3 \rangle$
 - $\vec{r}_2(t) = \langle \frac{1}{2}, -1, \frac{3}{2} \rangle $
 - $\vec{r}_3(t) = \langle -\frac{1}{2}, 1, -\frac{3}{2} \rangle $
+
 If you visualize the line you might be able to see that all the vectors are different, but all of them technically still lie completely on the line. What vector we exactly use won't play a difference in the line as a whole however it will effect how $f(t)$ changes in response to time. Firstly, this would make more sense if I gave you the definition of a parametric line which is the following (where $\vec{r}_0$ is some point on the line and \vec{u} is a vector parallel to the line):
 
-$$\vec{r}(t) = \vec{r}_0 + tu\vec{u}$$
+$$\vec{r}(t) = \vec{r}_0 + t\vec{u}$$
+
 If you want we could also expand the vectors into their components and then add them so that we have singular vector equation describing the entire line.
 $$\vec{r}(t) = \langle x_0, y_0, z_0 \rangle + t<U_x, U_y, U_z>$$
 $$\vec{r}(t) = \langle x_0 + t U_x, y_0 + tU_y, z_0 + U_z \rangle$$
