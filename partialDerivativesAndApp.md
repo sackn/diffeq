@@ -26,7 +26,8 @@ For example in 3D space,
 
 $$D_{\vec{u}}f(x,y,z) = \langle f_x, f_y, f_z \rangle \cdot \langle a, b, c \rangle $$
 
-A special property of the gradient vector is that it is orthagonal to the level curves. In other the gradient vector always points in the direction where rate of change maximized. Below is a graph of countours of some function and its "gradient vector field".
+A special property of the gradient vector is that it is orthagonal to the level curves. In other the gradient vector always points in the direction where rate of change maximized. If you evalulate the gradient vector then you fidn the greatest rate of change.  Below is a graph of countours of some function and its "gradient vector field".
+<img src="https://github.com/sackn/diffeq/blob/main/Images/gradientVector.jpg" alt="gradientVector">
 
 
 **Problems and Solution**
