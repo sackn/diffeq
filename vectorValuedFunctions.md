@@ -20,6 +20,8 @@ $$\vec{r}(t) = \langle x_0 + t u_x, y_0 + tu_y, z_0 + u_z \rangle$$
 
 The equation $\vec{r}(t) = \vec{r}_0 + t\vec{u}$ mimics point slope form. You have an initial point and a slope. You move back and forth on the line using t. Now comes to the point where I talked about the effects of the parallel vector you chose. Assume you have some parallel vector $\vec{v}$ which move forward the line "forward" as you increase $t$ and "backwards" as you decrease $t$. If you instead paramterize it with $-\vec{v}$ (which is allowed since it is still parallel) you will instead move "backwards" as you increase $t$ and forward and you decrease $t$. If you use $3\vec{v}$ you will move "forward" on the line as you increase $t$ and "backwards" as you decrease $t$ however you do that at a rate three times faster than $\vec{v}$.  
 
+In the end what parallel vector you choose changes how the $f(t)$ is graphed with respect to $t$. However, if you want your line to go on for ever (which by defintion a line has to go on for ever) then it really doesn't matter. You plot $f(t)$ for $t \in (-\infty, \infty)$. Every single point is plotted it doesn't matter what order or how "fast" you do it. 
+
 
 
 ## Arc Length with Vector Functions
