@@ -230,6 +230,9 @@ $$s( s \mathcal{L} [f(t)] - f(0)) - \dot{f}(0)$$
 Simplfying we get that the derivative of the 2nd derivative is (where $f(0)$ and $\dot{f}(0)$ are initial values),
 $$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0) \quad \square$$
 
+Any higher order derivatives will follow a similar pattern. The pattern can be seen on the laplace transform table. For example the laplace transform of the third derivative is:
+$$\mathcal{L}[\dddot{f}(t)]$$
+
 **Laplace Transforms and Partial Fractions**
 
 Most of the time when dealing with laplace transforms to solve ODE's we run into fractions with a polynomial of in the numerator and denominator each with respect to the new varible $s$ (it will become obvious why this happens so much when you start solving). In order to solve the differential equation we need to apply the inverse laplace transform, but most of the time the rationals aren't in the ideal form. In order to get them into the ideal form we use the concept of partial fractions. 
@@ -287,31 +290,61 @@ First lets mutliply everything out and then group by the degree of each term.
 $$s = As^{2} + As + Bs + B + Cs^{2} + 4C$$
 $$s = s^{2}(A + C) + s(A + B) + (B+4C)$$
 We can think of it as a balancing act between the the two sides. For the right side to equal the left side we need $A+C = 0$ since we don't want any $s^{2}$, we need $A+B = 1$ since we have a single $s$ on the other side, and we need $B + 4C = 0$ since there are no constants terms on the other side. We could these three equation as a system like the following:
+$$A + 0B + 1C = 0$$
+$$A + B + 0C = 1$$
+$$0A + B + 4C = 0$$
 
-$$
-\left( \begin{bmatrix}
-y_1 & y_2 & y_3 \\
-\dot{y_1} & \dot{y_2} & \dot{y_3} \\
-\ddot{y_1} & \ddot{y_2} & \ddot{y_3} \
-\end{bmatrix} \right) 
-
-\left( \begin{bmatrix}
-y_1 \\
-\dot{y_1}  \\
-\ddot{y_1}  \\
-\end{bmatrix} \right) 
-
-
-$$
-
-
-Solving the system will usin matrices or whatever method you like will get us 
-
+Solving the system will using matrices or whatever method you like will get us $A = \frac{1}{5}$,$B = \frac{4}{5}$, and $C = -\frac{1}{5}$ which are the same answers as we got above. For the harder problems I will almost always use this method.
 
 ### Problems and Solutions
 
+**Question 1:** Find $\mathcal{L}^{-1} [\frac{s+1}{s^2 + 6s + 9}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
 
+**Question 2:** Find $\mathcal{L}^{-1} [\frac{2s}{s+1}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
 
+**Question 3:** Find $\mathcal{L}^{-1} [\frac{3}{s^{2}+9}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
+
+**Question 4:** Find $\mathcal{L}^{-1} [\frac{1}{s(s+1)}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
+
+**Question 5:** Find $\mathcal{L}^{-1} [\frac{3s+2}{s^2+ 4s + 4}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
+
+**Question 6:** Find $\mathcal{L}^{-1} [\frac{3s+1}{(s^2 + 2s + 2)(s+1)}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
+
+**Question 7:** Find $\mathcal{L}^{-1} [\frac{3s^2+2s+4}{s^3+4s^2+5s}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
+
+**Question 8:** Find $\mathcal{L}^{-1} [\frac{3s^2+2s+4}{s^3+4s^2+5s}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
 
 
 
