@@ -455,7 +455,7 @@ $$y(t) = \frac{3}{2} -\frac{3}{2}e^{-t}cos(t) + \frac{5}{2}e^{-t}sin(t)$$
 
 With laplace transforms you could theoretically do a differential equation of any order however, the complexity of the algebra and inverse transforms will grow quickly. 
 
-**Question 6:** Find the solution to the IVP $\dddot{y}+ \dot{y}= 3$ with the conditions $y(0) = 0$,$\dot{y}(0) = 0$, and $\ddot{y}=0$
+**Question 6:** Find the solution to the IVP $\dddot{y}+ \dot{y}= 3$ with the conditions $y(0) = 0$, $\dot{y}(0) = 0$ , and $\ddot{y}=0$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partialFrac/image2.png" alt="Question 11">
