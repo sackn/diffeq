@@ -231,7 +231,7 @@ Simplfying we get that the derivative of the 2nd derivative is (where $f(0)$ and
 $$\mathcal{L}[\ddot{f(t)}] = s^{2}F(s) - sf(0) - \dot{f}(0) \quad \square$$
 
 Any higher order derivatives will follow a similar pattern. The pattern can be seen on the laplace transform table. For example the laplace transform of the third derivative is:
-$$\mathcal{L}[\dddot{f}(t)]$$
+$$\mathcal{L}[\dddot{f}(t)] = s^3 F(s) - s^2f(0) - s\dot{f}(0) - \ddot({f}(0)$$
 
 **Laplace Transforms and Partial Fractions**
 
@@ -345,6 +345,13 @@ Solving the system will using matrices or whatever method you like will get us $
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
 </details>
+
+**Question 9:** Find $\mathcal{L}^{-1} [\frac{s+1}{(s^2+ 9)(s^2 +4s + 8)}]$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/laplace1/image7.png" alt="Lebl 3.1.18">
+</details>
+
 
 
 
