@@ -217,15 +217,24 @@ We have two different possible lagrange multiplier corresponding with two differ
 $$x = \frac{1}{\frac{\sqrt{2}}{5}} \implies x = \frac{5}{\sqrt{2}} $$
 $$y = \frac{1}{\frac{\sqrt{2}}{5}} \implies y = \frac{5}{\sqrt{2}}$$
 Now plugging in the location of the critical point into the original function $f(x,y)$ we can get its value.
-$$f(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}}) = \frac{25}{sqrt(2)} \approx 17.678$$
+$$f(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}}) = \frac{25}{\sqrt(2)} \approx 17.678$$
 Now lets consider the other scenarios where $-\frac{\sqrt{2}}{5}$. We plug into $x$ and $y$ to get the location of the critical point. 
 $$x = \frac{1}{-\frac{\sqrt{2}}{5}} \implies x = -\frac{5}{\sqrt{2}} $$
 $$y = \frac{1}{-\frac{\sqrt{2}}{5}} \implies y = -\frac{5}{\sqrt{2}}$$
 Now plugging our newly found location of the critical point into the original function $f(x,y)$ we can get its value.
-$$f(-\frac{5}{\sqrt{2}}, -\frac{5}{\sqrt{2}}) = -\frac{25}{sqrt(2)} \approx -17.678 $$
+$$f(-\frac{5}{\sqrt{2}}, -\frac{5}{\sqrt{2}}) = -\frac{25}{\sqrt(2)} \approx -17.678 $$
 
-We evaluated all of the possible lagrange multipliers and we can now compare them. We have an absolute maximum at the point $(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}})$ with a value of around 17.678. We then have an absolute minimum at the point $(-\frac{5}{\sqrt{2}},  -\frac{5}{\sqrt{2}})$ with a value around -17.678. 
+We evaluated all of the possible lagrange multipliers and we can now compare them. We have an absolute maximum at the point $(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}})$ with a value of around 17.678. We then have an absolute minimum at the point $(-\frac{5}{\sqrt{2}},  -\frac{5}{\sqrt{2}})$ with a value around 
+-17.678.
 
+**More Complicated Lagrange Multiplier Problems**
+
+As mentioned previously we can easily scale up lagrange multipliers by adding an extra dimension to our function and constraint. However, its also possible to add more constraints. In that you simply just add another equation into the mix. A system of three independent varibles with two constraints might look like the following:
+$$\nabla f(x,y,z) = \lambda \nabla g(x,y,z) + \mu \nabla h(x,y,z)$$
+$$g(x,y,z) = c_1$$
+$$g(x,y,z) = c_2$$
+
+Also, in the worked example above we calculated the absolute extrema of the function $f(x,y)$ the circumference of a cricle. What if you wanted to find the absolute value of $f(x,y)$ on the entire circular region more specifically $x^{2} + y^{2} \leq 25$. In order to find the absolute extrema you would calculate the boundary (as we just did using lagrange multiplier) then you would find all the relative extrema (like in the previous section). For the relative extrema before you compare them you want to check that agree with your constraint. You would then compare the relative extrema with that obey the constraint with the boundary points in order to determine absolute maximums and minimums.
 
 ### Practice Questions$
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
