@@ -204,27 +204,27 @@ With that information we can conclude that our point at $(0,0)$ is a saddle poin
 For a lot of problems dealing with relative extrema it the algebra step might get pretty hard. If your too lazy (like me sometimes) you can just plug the values into a graphing software and solve the $f_x = 0, f_y = 0$ system that way.
 
 
-**Question 1:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+**Question 1:** Find and classify the critical points of $f(x,y) = x^{3} -6xy + y^{3}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image5.png" alt="Question 1">
 </details>
 
-**Question 2:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+**Question 2:** Find and classify the critical points of $f(x,y) = x^{3} -3x^{2} + y^{2} - 6y$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image3.png" alt="Question 2">
 </details>
 
 
-**Question 3:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+**Question 3:** Find and classify the critical points of $f(x,y) = e^{x+y} + x^{2} - y^{2}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image6.png" alt="Question 3">
 </details>
 
 
-**Question 4:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+**Question 4:** Find and classify the critical points of $f(x,y) = x^{4} + y^{4} -4x^{2}-4y^{2}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image1.png" alt="Question 4.a">
@@ -232,7 +232,7 @@ For a lot of problems dealing with relative extrema it the algebra step might ge
 </details>
 
 
-**Question 5:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+**Question 5:** Find and classify the critical points of $f(x,y) = xy^{2} -2x^{2}y + 3x^{2} -3y^{2} + 6y$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image4.png" alt="Question 5">
@@ -299,7 +299,7 @@ $$g(x,y,z) = c_2$$
 
 Also, in the worked example above we calculated the absolute extrema of the function $f(x,y)$ the circumference of a cricle. What if you wanted to find the absolute value of $f(x,y)$ on the entire circular region more specifically $x^{2} + y^{2} \leq 25$. In order to find the absolute extrema you would calculate the boundary (as we just did using lagrange multiplier) then you would find all the relative extrema (like in the previous section). For the relative extrema before you compare them you want to check that agree with your constraint. You would then compare the relative extrema with that obey the constraint with the boundary points in order to determine absolute maximums and minimums.
 
-### Practice Questions$
+## Extra Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
 
 **Shimamota Question 4.1.1:**
