@@ -44,7 +44,7 @@ $$4 \int_{\frac{3\pi}{2}}^{2\pi} xy dt$$
 If we substituite the definition of $x$ and $y$ for there parametric defintion $x=2cos(t)$ and $y=2cos(t)$ we get,
 $$16 \int_{\frac{3\pi}{2}}^{2\pi}  cos(t)sin(t)(dt)$$
 The problem has just become a standard calculus 1 integral. If we u-sub with $u=sin(t)$
-$$16 \int_{\frac{-1}^{0} u(du)$$
+$$16 \int_{-1}^{0} u(du)$$
 Finishing the problem 
 $$16(0 - \frac{(-1)^2}{2}) = -8 \quad \square$$
 We have a negative area which means that $2xy$ lies majority under xy-plane along our path (in fact since its $2xy$ in the 4th quadrant it lies completely under the xy plane).
