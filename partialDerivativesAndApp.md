@@ -213,12 +213,18 @@ $$x^{2} + y^{2} = 25$$
 If we solve the first two equations for $x$ and $y$ we respecitvely we can plug them into the third equation to get the the value of the lagrange multiplier.
 $$(\frac{1}{\lambda})^{2} + (\frac{1}{\lambda})^{2} = 25$$
 $$\lambda = \pm \frac{\sqrt{2}}{5}$$
-We have two different possible lagrange multiplier corresponding with two different critical points. Lets first consider the positive scenario where $\lambda = \frac{\sqrt{2}}{5}$. Plugging in $\lambda$ into x and y we can get the location of the critical point.
+We have two different possible lagrange multiplier corresponding with two different critical points. Lets first consider the positive scenario where $\lambda = \frac{\sqrt{2}}{5}$. Plugging in $\lambda$ into $x$ and $y$ we can get the location of the critical point.
 $$x = \frac{1}{\frac{\sqrt{2}}{5}} \implies x = \frac{5}{\sqrt{2}} $$
 $$y = \frac{1}{\frac{\sqrt{2}}{5}} \implies y = \frac{5}{\sqrt{2}}$$
 Now plugging in the location of the critical point into the original function $f(x,y)$ we can get its value.
+$$f(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}}) = \frac{25}{sqrt(2)} \approx 17.678$$
+Now lets consider the other scenarios where $-\frac{\sqrt{2}}{5}$. We plug into $x$ and $y$ to get the location of the critical point. 
+$$x = \frac{1}{-\frac{\sqrt{2}}{5}} \implies x = -\frac{5}{\sqrt{2}} $$
+$$y = \frac{1}{-\frac{\sqrt{2}}{5}} \implies y = -\frac{5}{\sqrt{2}}$$
+Now plugging our newly found location of the critical point into the original function $f(x,y)$ we can get its value.
+$$f(-\frac{5}{\sqrt{2}}, -\frac{5}{\sqrt{2}}) = -\frac{25}{sqrt(2)} \approx -17.678 $$
 
-
+We evaluated all of the possible lagrange multipliers and we can now compare them. We have an absolute maximum at the point $(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}})$ with a value of around 17.678. We then have an absolute minimum at the point $(-\frac{5}{\sqrt{2}},  -\frac{5}{\sqrt{2}})$ with a value around -17.678. 
 
 
 ### Practice Questions$
