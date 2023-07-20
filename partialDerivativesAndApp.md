@@ -173,9 +173,40 @@ Suppose you have some critical point $(a,b)$ where the 2nd order partial deraiva
 $$D(a,b) = f_{xx}(a,b)f_{yy}(a,b) - [f_{xy}(a,b)]^{2}$$
 
 Classifying the point:
-- $D > 0 \quad f_{xx}(a,b) > 0 \quad \implies$ local minimum
+- $D > 0 \quad f_{xx}(a,b) > 0 \implies$ Local Minimum
+- $D > 0 \quad f_{xx}(a,b) < 0 \implies$ Local Maximum
+- $D < 0 \implies$ Saddle Point
+- $D = 0 \implies$ requires different methods to classify
 
-### Practice Questions
+## Absolute Extrema and Lagrange Multipliers
+From calculus one, you might remember plugging in all critical points and boundary points to find your absolute extrema. In 2D dimensions you have to include the boundary points of your interval. This is not different in 3D space however, your boundary "points" are not points, but functions. You would have a function each side (four boundary functions in total) each with there own critical points and boundary points. That can become quite tedious to deal with so there is an alternative method.
+
+If your interested in reading about how to do it without the method I'm going to talk about refer to the following website (which I do not own): [https://tutorial.math.lamar.edu/Classes/CalcIII/AbsoluteExtrema.aspx](url)
+
+The most common way to find absolute extrema is done through the Lagrange Multiplier method. The lagrange multiplier method has the user solve the following system (in the case of three dimensions)
+$$\nabla f(x,y,z) = \lambda \nabla g(x,y,z)$$
+$$g(x,y,z) = k$$
+In the lagrange multiplier method $f(x,y,z)$ represents the function you want to get the absolute extrema for and $g(x,y,z)$ represents some constraint function. For example, if you want to get the absolute extrema of $f(x,y,z)$  along a sphere of radius one then  $g(x,y,z) = x^{2} + y^{2} + z^{2}=4 $.
+
+It's key that you look into the system of equations and realize that for the 3D example its not system of two equations, but a system of four equations. In the upper equation you are setting two vectors equal to each other so what you really have is the following:
+$$f_x = \lambda g_x$$
+$$f_y = \lambda g_y$$
+$$f_z = \lambda g_z$$
+$$g = k$$
+
+Also a quick mention before the worked example. The lagrange multiplier method can easily be scaled up to higher dimensions. The only thing that would change was the size of the constraint and gradient vector. For example a 4D lagrange setup might look like the following where you have a system of five equations:
+$$\nabla f(x,y,z,w) = \lambda \nabla g(x,y,z,w)$$
+$$g(x,y,z,w) = k$$
+
+**Worked Example**
+
+Consider the function $f(x,y) = 2x + 3y$ subject to the constraint $x^{2} + y{2} = 25$. We first indentify $f(x,y) = 2x + 3y$ as the function we want to "optimize" and $g(x,y) = x^{2} + y^{2} = 25$ as our constraint function. We can find the gradient vector of each of these functions. Doing so will get us the following:
+$$\nabla f(x,y) = \langle f_x, f_y \rangle = \langle 2, 3 \rangle$$
+$$\nabla g(x,y) = \langle g_x, g_y \rangle = \langle 2x, 3y \rangle$$
+We the information we can set up our system of three equations:
+$$$$
+
+### Practice Questions$
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
 
 **Shimamota Question 4.1.1:**
