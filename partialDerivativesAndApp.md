@@ -290,6 +290,8 @@ $$f(-\frac{5}{\sqrt{2}}, -\frac{5}{\sqrt{2}}) = -\frac{25}{\sqrt(2)} \approx -17
 We evaluated all of the possible lagrange multipliers and we can now compare them. We have an absolute maximum at the point $(\frac{5}{\sqrt{2}},  \frac{5}{\sqrt{2}})$ with a value of around 17.678. We then have an absolute minimum at the point $(-\frac{5}{\sqrt{2}},  -\frac{5}{\sqrt{2}})$ with a value around 
 -17.678.
 
+Beware that when you are doing problems you might only get one point and in that case you won't know whether it is a absolute max or absolute min. You would have to consult the 2nd partials tests to determine that. Or you can just plug in any other point and compare it. 
+
 **More Complicated Lagrange Multiplier Problems**
 
 As mentioned previously we can easily scale up lagrange multipliers by adding an extra dimension to our function and constraint. However, its also possible to add more constraints. In that you simply just add another equation into the mix. A system of three independent varibles with two constraints might look like the following:
