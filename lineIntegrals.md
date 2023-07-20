@@ -14,6 +14,22 @@ $$\int_{a}^{b} f(g(t), h(t))||\vec{r}'(t)||dt$$
 
 **Worked Example 1**
 
+Consider the line integral over the line segment connecting $(0,0)$ and $(4,3)$,
+$$\int_{C} (3x-2y)ds$$
+I'm going to start my paramterizing the line segment. A line is made up of an initial point and a slope that gives me the following equation (refer to the section about parametric definition of lines/segments if you don't remember how to do this) 
+$$\vec{r}(t) = \langle 4t, 3t \rangle$$
+I need to figure out limits of integration. I know that $\vec{r}(0) = \langle 0,0 \rangle$ and $\vec{r}(1) \langle 4,3 \rangle$. That means that our entire line segment is fully traversed from left to right on the interval $t \in [0,1]$. We can also start dealing with our differential which we know is equal to $|\vec{r}'(t)| dt$.
+$$\vec{r}'(t) = \langle 4, 3\rangle$$
+$$|\vec{r}'(t)| = \sqrt{4^2 + 3^2} = 5$$
+So far our integral looks like the following:
+$$5\int_{0}^{1} (3x-2y)dt$$
+The one outstanding issue is that the function we are integrating over is still in terms of $x$ and $y$. We can replace $x$ and $y$ with there paremetric forms $x= 4t$ and $y=3t$ repsecitvely 
+$$5\int_{0}^{1} (3(4t)-2(3t) dt$$
+$$30\int_{0}^{1} t(dt)$$
+Now going to through the typical integral procedure we get:
+$$30(\frac{1}{2} - \frac{0}{2}) = 15 \quad \square$$
+
+
 **Worked Example 2**
 
 Remember for our old integrals that had the following property of adding up limits of integration,
@@ -48,5 +64,5 @@ The formula for the line integral over a vector field includes a dot product whi
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/dotProductLineIntegral.png" alt="Vector Field Dot Product">
 
-Notice how in scenario one no work is done by the wind since $\theta = \frac{\pi}{2}$ and thus $\vec{u} \cdot \vec{v} =0$. A lot more work is done in scenario two when the angle between the vectors is a lot closer to one implying $\vec{u}$ \cdot \vec{v}$ is pretty big.
+Notice how in scenario one no work is done by the wind since $\theta = \frac{\pi}{2}$ and thus $\vec{u} \cdot \vec{v} =0$. A lot more work is done in scenario two when the angle between the vectors is a lot closer to one implying $\vec{u} \cdot \vec{v}$ is pretty big.
 
