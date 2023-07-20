@@ -186,7 +186,7 @@ If your interested in reading about how to do it without the method I'm going to
 The most common way to find absolute extrema is done through the Lagrange Multiplier method. The lagrange multiplier method has the user solve the following system (in the case of three dimensions)
 $$\nabla f(x,y,z) = \lambda \nabla g(x,y,z)$$
 $$g(x,y,z) = k$$
-In the lagrange multiplier method $f(x,y,z)$ represents the function you want to get the absolute extrema for and $g(x,y,z)$ represents some constraint function. For example, if you want to get the absolute extrema of $f(x,y,z)$  along a sphere of radius one then  $g(x,y,z) = x^{2} + y^{2} + z^{2}=4 $.
+In the lagrange multiplier method $f(x,y,z)$ represents the function you want to get the absolute extrema for and $g(x,y,z)$ represents some constraint function. For example, if you want to get the absolute extrema of $f(x,y,z)$  along a sphere of radius one then  $g(x,y,z) = x^{2} + y^{2} + z^{2}=4 $. The constant $\lambda$ is also called the lagrange mulitplier. 
 
 It's key that you look into the system of equations and realize that for the 3D example its not system of two equations, but a system of four equations. In the upper equation you are setting two vectors equal to each other so what you really have is the following:
 $$f_x = \lambda g_x$$
@@ -203,8 +203,23 @@ $$g(x,y,z,w) = k$$
 Consider the function $f(x,y) = 2x + 3y$ subject to the constraint $x^{2} + y{2} = 25$. We first indentify $f(x,y) = 2x + 3y$ as the function we want to "optimize" and $g(x,y) = x^{2} + y^{2} = 25$ as our constraint function. We can find the gradient vector of each of these functions. Doing so will get us the following:
 $$\nabla f(x,y) = \langle f_x, f_y \rangle = \langle 2, 3 \rangle$$
 $$\nabla g(x,y) = \langle g_x, g_y \rangle = \langle 2x, 3y \rangle$$
-We the information we can set up our system of three equations:
-$$$$
+Our the system of equation is the following:
+$$\langle 2, 3\rangle = \lambda \langle 2x,3y \rangle$$
+$${x^2} + y^{2} = 25$$
+Splitting everything up into its own equation we get the following:
+$$2 = 2x\lambda$$
+$$3 = = 3y\lambda$$
+$$x^&{2} + y^{2} = 25$$
+If we solve the first two equations for $x$ and $y$ we respecitvely we can plug them into the third equation to get the the value of the lagrange multiplier.
+$$(\frac{1}{\lambda})^{2} + (\frac{1}{\lambda})^{2} = 25$$
+$$\lambda = \pm \frac{\sqrt{2}}{5}$$
+We have two different possible lagrange multiplier corresponding with two different critical points. Lets first consider the positive scenario where $\lambda = \frac{\sqrt{2}}{5}$. Plugging in $\lambda$ into x and y we can get the location of the critical point.
+$$x = \frac{1}{\frac{\sqrt{2}}{5}} \implies x = \frac{5}{\sqrt{2}} $$
+$$ y = \frac{1}{\frac{\sqrt{2}}{5}} \implies y = \frac{5}{\sqrt{2}}$$
+Now plugging in the location of the critical point into the original function $f(x,y)$ we can get its value.
+
+
+
 
 ### Practice Questions$
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
