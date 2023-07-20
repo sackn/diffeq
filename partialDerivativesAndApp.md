@@ -178,6 +178,31 @@ Classifying the point:
 - $D < 0 \implies$ Saddle Point
 - $D = 0 \implies$ requires different methods to classify
 
+**Worked Examples**
+
+Find and classifying all critical points of the function $f(x,y) = x^{3} + y^{3} -3xy$. We can start by taking the partial derivative with respspect to each variable
+$$f_x = 3x^{2} - 3y \quad f_y = 3y^{2} - 3x$$
+We want both partial derivatives to be zero at the same time so were left with this NON-LINEAR system of equations.
+$$0 = 3x^{2} - 3y \quad 0 = 3y^{2} -3x$$
+On some of the practice problems I will solve for the intersections with a graphing software however, I will try do this one by hand. I would comment much on this, but below is the work to find the points of intersection of the graphs,
+$$0 =3x^{2} - 3y$ \implies y = x^{2}$$
+$$0=3(x^{2})^{2} - 3x$$
+$$0=3x(x-1)(x^2 + x + 1) \implies x = 0,1$$
+$$y = (0)^{2} \implies y = 0 \implies (0,0)$$
+$$y = (1)^{2} \implies y = 1 \implies (1,1)$$
+Through that algebra we found our two critical points at $(0,0)$ and $(1,1)$. We can evaluate them to see what is the value of the function at the point:
+$$f(0,0) = 0$$
+$$f(1,1) = -1$$
+Now using the 2nd partials test we can determine whether these points are local mins, local maxes, or saddle points.
+$$f_{xx} = 6x \quad f_{yy} = 6y$$
+$$D(x,y) = 36xy - 9$$
+Plugging our points we get the following,
+$$D(0,0) = -9 \quad $$
+$$D(1,1) = 25 \quad f_{xx} = 6$$
+With that information we can conclude that our point at $(0,0)$ is a saddle point with a value of 0 and our point at $(1,1)$ is a relative minimum with a value of -1. It might be a good idea to confirm that these answer do indeed make sense with a 3D graphing software like geogebra. 
+
+For a lot of problems dealing with relative extrema it the algebra step might get pretty hard. If your too lazy (like me sometimes) you can just plug the values into a graphing software and solve the $f_x = 0, f_y = 0$ system that way.
+
 ## Absolute Extrema and Lagrange Multipliers
 From calculus one, you might remember plugging in all critical points and boundary points to find your absolute extrema. In 2D dimensions you have to include the boundary points of your interval. This is not different in 3D space however, your boundary "points" are not points, but functions. You would have a function each side (four boundary functions in total) each with there own critical points and boundary points. That can become quite tedious to deal with so there is an alternative method.
 
