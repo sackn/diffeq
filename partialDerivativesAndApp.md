@@ -203,6 +203,44 @@ With that information we can conclude that our point at $(0,0)$ is a saddle poin
 
 For a lot of problems dealing with relative extrema it the algebra step might get pretty hard. If your too lazy (like me sometimes) you can just plug the values into a graphing software and solve the $f_x = 0, f_y = 0$ system that way.
 
+
+**Question 1:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image5.png" alt="Question 1">
+</details>
+
+**Question 2:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image3.png" alt="Question 2">
+</details>
+
+
+**Question 3:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image6.png" alt="Question 3">
+</details>
+
+
+**Question 4:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image1.png" alt="Question 4.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image2.png" alt="Question 4.b">
+</details>
+
+
+**Question 5:** Given the function $f(x,y) = x^{2} + 2y^{2}$ find the tangent plane at the point $(1, -1)$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/criticalPoints/image4.png" alt="Question 5">
+</details>
+
+
+
+
 ## Absolute Extrema and Lagrange Multipliers
 From calculus one, you might remember plugging in all critical points and boundary points to find your absolute extrema. In 2D dimensions you have to include the boundary points of your interval. This is not different in 3D space however, your boundary "points" are not points, but functions. You would have a function each side (four boundary functions in total) each with there own critical points and boundary points. That can become quite tedious to deal with so there is an alternative method.
 
