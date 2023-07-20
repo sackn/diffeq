@@ -39,6 +39,16 @@ $$\vec{r}(t) = \langle 2cos(t), 2sin(t) \rangle$$
 The problem states that we want to integrate along the circle which lies in 4th quadrant that implies that $t \in [\frac{3\pi}{2}, 2\pi]$. Now we can setup our differential.
 $$\vec{r}'(t) = \langle -2sin(t), 2cos(t) \rangle$$
 $$|\vec{r}(t)| = \sqrt{ 4(sin^{2}(t) + cos^2{2}(t))} = 2$$
+Plug what we have so far into our integral we get,
+$$4 \int_{\frac{3\pi}{2}}^{2\pi} xy dt$$
+If we substituite the definition of $x$ and $y$ for there parametric defintion $x=2cos(t)$ and $y=2cos(t)$ we get,
+$$16 \int_{\frac{3\pi}{2}}^{2\pi}  cos(t)sin(t)(dt)$$
+The problem has just become a standard calculus 1 integral. If we u-sub with $u=sin(t)$
+$$16 \int_{\frac{-1}^{0} u(du)$$
+Finishing the problem 
+$$16(0 - \frac{(-1)^2}{2}) = -8 \quad \square$$
+We have a negative area which means that $2xy$ lies majority under xy-plane along our path (in fact since its $2xy$ in the 4th quadrant it lies completely under the xy plane).
+
 
 
 
