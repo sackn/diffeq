@@ -31,5 +31,7 @@ It doesn't matter which way we traverse the path we will always get the same are
 ## Line Integrals over Vector Fields
 A vector field is created by a function which outputs a vector. A common place that you mean have seen a vector field is in the weather when they show you what direction the wind is blowing. Each vectors size and direction generally tells where and how hard the wind is blowing at that specific point. We can generate those vector fields with vector function which in the case of 2D space take a coordinate pair $(x,y)$ and output a 2D vector with both an x and y component. Below is the vector field representing wind over a certain region (I do not own the image).
 
-Imagine yourself in sailboat under the effects of a vector field. If you look at the vector field given any starting point you can roughly trace out the path that you might take if only the wind was controlling your boat. 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/vectorField.jpg" alt="Vector Field">
+
+Imagine yourself in sailboat under the effects of a vector field. If you look at the vector field given any starting point you can roughly trace out the path that you might take if only the wind was controlling your boat. Lets take a look at the following vector field which has two different paths on them (that have a specific direction they are traced in). 
 
