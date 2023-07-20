@@ -10,7 +10,7 @@ $$\int_{C} f(x,y)ds$$
 
 With line integrals we want to define the curve that we are integrating over as a parametric functions. Something of the form $\vec{r}(t) = \langle g(t), h(t) \rangle$ if we have two independent varibles. This meanas that we want to write our original $f(x,y)$ in terms of our parametric functions, so we replace it with $f(g(t), h(t))$. With our parametric function that makes $ds = \sqrt{(\frac{dx}{dt})^2 + (\frac{dy}{dt})^2}$ which is equiavalent to the magnitude of the tangent vectors $\vec{r}'(t)$. With all that we get our definition for the line integral,
 
-$$\int_{C} f(g(t), h(t))}||\vec{r}'(t)||dt$$
+$$\int_{C} f(g(t), h(t))||\vec{r}'(t)||dt$$
 
 **Worked Example**
 
