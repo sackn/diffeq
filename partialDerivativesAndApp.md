@@ -301,10 +301,41 @@ $$g(x,y,z) = c_2$$
 
 Also, in the worked example above we calculated the absolute extrema of the function $f(x,y)$ the circumference of a cricle. What if you wanted to find the absolute value of $f(x,y)$ on the entire circular region more specifically $x^{2} + y^{2} \leq 25$. In order to find the absolute extrema you would calculate the boundary (as we just did using lagrange multiplier) then you would find all the relative extrema (like in the previous section). For the relative extrema before you compare them you want to check that agree with your constraint. You would then compare the relative extrema with that obey the constraint with the boundary points in order to determine absolute maximums and minimums.
 
-**Shimamota Question 4.1.1:**
+**Question 1:** Find absolute extremas of $f(x,y) = x^{2} + y^{2}$ subject to the constraint $g(x,y) = x + y = 10$
 <details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lagrange/image3.png" alt="Question 1">
+</details>
+
+**Question 2:** Find absolute extremas of $f(x,y) = x^{2} + y^{2}$ subject to the constraint $g(x,y) = xy = 8$
+<details>
+  <summary>Solution</summary>
+  Fix: The reasoning for the answers doesn't really have anything to do with the disconuities. Just that there exist an infinate amount of increasing values of x,y that satisfying the constraint. Theoretically the biggest possible value would be when you let $y$ grow towards infinity and you let $x = \frac{8}{y}$
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lagrange/image4.png" alt="Question 2">
+</details>
+
+**Question 3:** Find absolute extremas of $f(x,y) = xyz$ subject to the constraint $g(x,y) = x^{2} + y^{2} + z^{2} = 16$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lagrange/image3.png" alt="Question 3">
+</details>
+
+**Question 4:** Find absolute extremas of $f(x,y) = x^{2} + y^{2}$ subject to the constraint $g(x,y) = x + y + z =8$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lagrange/image2.png" alt="Question 4">
+</details>
+
+**Question 5:** Find absolute extremas of $f(x,y) = 2x + 3y$ subject to the constraint $g(x,y) = x^{2} + y^{2} \leq 25$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lagrange/image6.png" alt="Question 5">
+</details>
+
+**Question 6:** Find absolute extremas of $f(x,y) = x^{2} + y^{2}$ subject to the constraint $g(x,y) x +y =2$ and $h(x,y)=x-y=1$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lagrange/image5.png" alt="Question 6">
 </details>
 
 
