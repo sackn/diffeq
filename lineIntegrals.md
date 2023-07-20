@@ -32,6 +32,16 @@ $$30(\frac{1}{2} - \frac{0}{2}) = 15 \quad \square$$
 
 **Worked Example 2**
 
+Consider the line integral along the part of a circle that has radius two that lies in the 4th quadrant,
+$$\int_{C} 2xy ds$$
+We can first paramterize our circle (you might want to remember this paramterization if you don't already. Its just an extension of the definition of the unit circle):
+$$\vec{r}(t) = \langle 2cos(t), 2sin(t) \rangle$$
+The problem states that we want to integrate along the circle which lies in 4th quadrant that implies that $t \in [\frac{3\pi}{2}, 2\pi]$. Now we can setup our differential.
+$$\vec{r}'(t) = \langle -2sin(t), 2cos(t) \rangle$$
+$$|\vec{r}(t)| = \sqrt{ 4(sin^{2}(t) + cos^2{2}(t))} = 2$$
+
+
+
 Remember for our old integrals that had the following property of adding up limits of integration,
 $$\int_{a}^{b} f(x)(dx) +\int_{b}^{c} f(x)(dx) = \int_{a}^{c} f(x)(dx) $$
 That property also holds with line integrals. If the behaviors of the curves is nice then we can connect line integrals together to form the answer for an even larger curve. 
@@ -42,6 +52,8 @@ $$\int_{C_1} f(x)(ds) +\int_{C_2} f(x)(ds) = \int_{C} f(x)(ds)$$
 Also note that when we use the line integral to find the area under the curve of a path that the following statement is true:
 $$\int_{C} f(x)(ds) = \int_{-C} f(x)(ds)  $$
 It doesn't matter which way we traverse the path we will always get the same area which seems to line up with logic.
+
+
 
 
 ## Line Integrals over Vector Fields
