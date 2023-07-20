@@ -64,8 +64,14 @@ $$\int_{C} f(x)(ds) = \int_{-C} f(x)(ds)  $$
 It doesn't matter which way we traverse the path we will always get the same area which seems to line up with logic.
 
 
-**Question 6:** Consider the line integral $$ where the curve is the graphed on the following image
+**Question 6:** Consider the line integral $\int_{C} (4x-5y)ds$ where the curve is the graphed on the following image
+
 <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralProblem.png" alt="lineIntegralAddition">
+
+<details>
+  <summary>Solution</summary>
+  
+</details>
 
 
 
