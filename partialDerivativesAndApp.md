@@ -301,6 +301,14 @@ $$g(x,y,z) = c_2$$
 
 Also, in the worked example above we calculated the absolute extrema of the function $f(x,y)$ the circumference of a cricle. What if you wanted to find the absolute value of $f(x,y)$ on the entire circular region more specifically $x^{2} + y^{2} \leq 25$. In order to find the absolute extrema you would calculate the boundary (as we just did using lagrange multiplier) then you would find all the relative extrema (like in the previous section). For the relative extrema before you compare them you want to check that agree with your constraint. You would then compare the relative extrema with that obey the constraint with the boundary points in order to determine absolute maximums and minimums.
 
+**Shimamota Question 4.1.1:**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image13.png" alt="Shimamota 4.1.1.a">
+</details>
+
+
+
 ## Extra Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
 
