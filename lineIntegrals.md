@@ -46,3 +46,7 @@ $$\int_{a}^{b} \vec{F}(\vec{r}(t)) \cdot vec{r}'(t) dt$$
 
 The formula for the line integral over a vector field includes a dot product which when you think of it kind of make sense. Remember that the dot product can be defined as $\vec{u} \cdot \vec{v} = |\vec{u}||\vec{v}|cos(\theta)$ where theta is the angle between two vectors. The closer the angle between the vector that represents where your boat is going at that momenet in time (your tangent vector \vec{r}'(t)) and wind vector the more work the wind will do.
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/dotProductLineIntegral.png" alt="Vector Field Dot Product">
+
+Notice how in scenario one no work is done by the wind since $\theta = \frac{\pi}{2}$ and thus $\vec{u} \cdot \vec{v} =0$. A lot more work is done in scenario two when the angle between the vectors is a lot closer to one implying $\vec{u}$ \cdot \vec{v}$ is pretty big.
+
