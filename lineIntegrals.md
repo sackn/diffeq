@@ -134,3 +134,10 @@ The formula for the line integral over a vector field includes a dot product whi
 
 Notice how in scenario one no work is done by the wind since $\theta = \frac{\pi}{2}$ and thus $\vec{u} \cdot \vec{v} =0$. A lot more work is done in scenario two when the angle between the vectors is a lot closer to one implying $\vec{u} \cdot \vec{v}$ is pretty big.
 
+**Worked Example 1**
+
+Consider the vector field $\vec{F} = \langle 3y, -2x \rangle$ and where $C$ is equal to the line segment between $(0,0)$ and $(2,4)$ (this is the curve). Find $\int_{C} \vec{F} \cdot d\vec{r}$
+
+
+
+
