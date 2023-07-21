@@ -138,18 +138,26 @@ Notice how in scenario one no work is done by the wind since $\theta = \frac{\pi
 
 Consider the vector field $\vec{F} = \langle 3y, -2x \rangle$ and where $C$ is equal to the line segment between $(0,0)$ and $(2,4)$ (this is the curve). Find $\int_{C} \vec{F} \cdot d\vec{r}$
 
-We can start the problem by first paramterizing our line segment. We get the following,
-
+We can start the problem by first paramterizing our line segment. Doing so we get the following
 $$\vec{r}(t) = \langle 2t, 4t \rangle \quad t \in [0,1]$$
+
 Note that $\vec{r}(0) = \langle 0,0 \rangle$ and $\vec{r}(1) = \langle 2, 4 \rangle$ which is why our limits go from 0 to 1. For the problem we will also need to take the derivative of our parameritization:
+
 $$\vec{r}(t) = \langle 2,4 \rangle$$
 Putting what we have so far into the line integral we have the following:
+
 $$\int_{0}^{1} \langle 3y, -2x \rangle \cdot \langle 2, 4\rangle dt$$
+
 Our vector field is still in terms of $x$ and $y$. In order to match our paramterization we substitute $x=2t$ and $y=4t$.
+
 $$\int_{0}^{1} \langle 12t, -4t \rangle \cdot \langle 2,4 \rangle dt$$
+
 Applying the dot product,
+
 $$\int_{0}^{1} 24t - 16t dt$$
+
 Carrying out the rest of the integral
+
 $$8 \int_{0}^{1} t(dt) = 8(\frac{1^{2}}{2}- \frac{0}{2}) = 3 \quad \square$$
 
 
