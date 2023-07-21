@@ -160,6 +160,8 @@ Carrying out the rest of the integral
 
 $$8 \int_{0}^{1} t(dt) = 8(\frac{1^{2}}{2}- \frac{0}{2}) = 3 \quad \square$$
 
+**Worked Example 2**
+
 
 
 
