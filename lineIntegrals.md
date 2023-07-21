@@ -141,9 +141,6 @@ Consider the vector field $\vec{F} = \langle 3y, -2x \rangle$ and where $C$ is e
 We can start the problem by first paramterizing our line segment. Doing so we get the following
 $$\vec{r}(t) = \langle 2t, 4t \rangle \quad t \in [0,1]$$
 
-HEllo work
-
-
 Note that $\vec{r}(0) = \langle 0,0 \rangle$ and $\vec{r}(1) = \langle 2, 4 \rangle$ which is why our limits go from 0 to 1. For the problem we will also need to take the derivative of our parameritization:
 
 $$\vec{r}(t) = \langle 2,4 \rangle$$
