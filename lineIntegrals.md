@@ -63,14 +63,37 @@ Also note that when we use the line integral to find the area under the curve of
 $$\int_{C} f(x)(ds) = \int_{-C} f(x)(ds)  $$
 It doesn't matter which way we traverse the path we will always get the same area which seems to line up with logic.
 
+**Question 1:** Find the line integral $\int_{C} (2x-2y)ds$ on the line segment from $(0,0)$ to $(2,4)$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 2:** Find the line integral $\int_{C} (x^{2} + y^{2})ds$ on the upper half of the the circle defined by $x^{2} + y^{2} = 9$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 3:** Find the line integral $\int_{C} (x^{2} - 2y^{2})ds$ on the the line segment from $(-3,1)$ to $(3,-1)$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 4:** Find the line integral $\int_{C} (4xy + 3)ds$ on the entire circle that has a center at $(-1, 2)$ and a radius of 3.
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 5:** Find the line integral $\int_{C} (x^2 - y)ds$ on the the line the curve $y=x^{2}$ on the interval $x \in [0,2]$. Warning: You will run into a basically impossible integral, so do it numerically. 
+<details>
+  <summary>Solution</summary>
+</details>
 
 **Question 6:** Consider the line integral $\int_{C} (4x-5y)ds$ where the curve is the graphed on the following image
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralProblem.png" alt="lineIntegralAddition">
-
 <details>
   <summary>Solution</summary>
-  
+  Note that in the problem $C_1$ refers to the semi-circle and $C_2$ refers to to the line segment.
 </details>
 
 
