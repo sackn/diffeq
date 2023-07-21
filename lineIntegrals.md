@@ -66,21 +66,25 @@ It doesn't matter which way we traverse the path we will always get the same are
 **Question 1:** Find the line integral $\int_{C} (2x-2y)ds$ on the line segment from $(0,0)$ to $(2,4)$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image1.png" alt="Question 1">
 </details>
 
 **Question 2:** Find the line integral $\int_{C} (x^{2} + y^{2})ds$ on the upper half of the the circle defined by $x^{2} + y^{2} = 9$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image3.png" alt="Question 2">
 </details>
 
 **Question 3:** Find the line integral $\int_{C} (x^{2} - 2y^{2})ds$ on the the line segment from $(-3,1)$ to $(3,-1)$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image2.png" alt="Question 3">
 </details>
 
 **Question 4:** Find the line integral $\int_{C} (4xy + 3)ds$ on the entire circle that has a center at $(-1, 2)$ and a radius of 3.
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image7.png" alt="Question 4">
 </details>
 
 **Question 5:** Find the line integral $\int_{C} (x^2 - y)ds$ on the the line the curve $y=x^{2}$ on the interval $x \in [0,2]$. 
@@ -89,14 +93,21 @@ Warning: You will run into a basically impossible integral, so do it numerically
 
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image4.png" alt="Question 5">
 </details>
 
 **Question 6:** Consider the line integral $\int_{C} (4x-5y)ds$ where the curve is the graphed on the following image
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralProblem.png" alt="lineIntegralAddition">
+
 <details>
   <summary>Solution</summary>
   Note that in the problem $C_1$ refers to the semi-circle and $C_2$ refers to to the line segment.
+
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image6.png" alt="Question 6.a">
+
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image5.png" alt="Question 6.b">
+  
 </details>
 
 
