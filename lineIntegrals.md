@@ -83,7 +83,10 @@ It doesn't matter which way we traverse the path we will always get the same are
   <summary>Solution</summary>
 </details>
 
-**Question 5:** Find the line integral $\int_{C} (x^2 - y)ds$ on the the line the curve $y=x^{2}$ on the interval $x \in [0,2]$. Warning: You will run into a basically impossible integral, so do it numerically. 
+**Question 5:** Find the line integral $\int_{C} (x^2 - y)ds$ on the the line the curve $y=x^{2}$ on the interval $x \in [0,2]$. 
+
+Warning: You will run into a basically impossible integral, so do it numerically. 
+
 <details>
   <summary>Solution</summary>
 </details>
