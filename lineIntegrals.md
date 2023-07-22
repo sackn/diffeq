@@ -162,7 +162,20 @@ $$8 \int_{0}^{1} t(dt) = 8(\frac{1^{2}}{2}- \frac{0}{2}) = 3 \quad \square$$
 
 **Worked Example 2**
 
+Consider the vector field $\vec{F} = \langle y, x \rangle$ and where $C$ is the part of the unit circle that exists in the first quadrant.  Find $\int_{C} \vec{F} \cdot d\vec{r}$
 
+First we can starts by parameritizng our curve. Using the definition of a the unit circle and apply the approriate limits we get,
+$$\vec{r}(t) = \langle cos(t), sin(t) \rangle \quad t \in [0, \frac{\pi}{2}]$$
+We will also need to get the tangent vectors, so we take the derivative of our parameriztion
+$$\vec{r}'(t) = \langle -sin(t), cos(t) \rangle$$
+Rewriting our vector field in terms of the varible $t$ by subbing $x=cos(t)$ and $y=sin(t)$ we get,
+$$\vec{F}(t) = \langle sin(t), cos(t) \rangle$$
+Calculating the dot product between our vector field and tangent vectors we get the following,
+$$\langle sin(t), cos(t) \rangle \cdot \langle -sin(t), cos(t) \rangle = cos^{2}(t) - sin^{2}(t)$$
+This statement can be further simplified through the trig identity $cos(2\theta) = cos^{2}(\theta) - sin^{2}(\theta)$. Putting everything back into the integral,
+$$\int_{0}^{\frac{\pi}{2}} cos(2t) dt$$
+Finishing the rest of the integral we get,
+$$\frac{1}{2}(sin(\pi) - sin(0)) = 0 \quad \square$$
 
 
 
