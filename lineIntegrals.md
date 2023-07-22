@@ -372,5 +372,29 @@ $$F_x = y \quad F_y =x \implies \nabla F = \langle y,x \rangle$$
 $$\int_{0}^{1} \langle 1 + 2t,2t \rangle \cdot \langle 2,2 \rangledt$$
 $$\int_{0}^{1} (2+ 8t)dt = (2(1) + 4(1) - 0) = 6 \quad \square$$
 
-Althought we will talk about this later a conservative vector field can also be defined as a vector field where $curl \vec{F} = 0$. In simple terms, the vector field isn't swirly. That would corroborate with the belief that gravity is a conservative vector field since we know gravity to be not "swirly" as we know it to just act downwards.
+**How to tell if a vector field is conservative**
+
+Althought we will talk about the curl operator in more in depth later,  a conservative vector field can also be defined as a vector field where $curl \vec{F} = 0$. In simple terms, the vector field isn't swirly. That would corroborate with the belief that gravity is a conservative vector field since we know gravity to be not "swirly" as we know it to just act downwards. 
+
+Let there be a vector field $\vec{F} = \langle P,Q \rangle$ on an open simply connected region. Then if the function P and Q are continous first order partial derivatives and
+$$\frac{\partial }{\parital y} = \frac{\partial Q}{\partial x}$$
+is true then the vector field $\vec{F}$ is conservative
+
+When you get to the curl operator you might recognize the $\frac{\partial }{\parital y} - \frac{\partial Q}{\partial x} = 0$ is considered $curl \vec{F} = 0$ in 2D aswell.
+
+We can easily tell if a vector field is conservative, but how do we go about actually finding the potential function. If let $\vec{g} = \langle P,Q \rangle$ be our function then we know there is a potential function $f$ such that $g = \nabla f$. We can decompose this statement to get
+$$\langle P,Q \rangle = \langle \frac{\partial f}{\parital x}, \frac{\partial f}{\partial y} \rangle$$
+Setting components each to each other we get the two equations,
+$$P = \frac{\partial f}{\parital x} \quad Q = \frac{\partial f}{\partial y}$$
+
+
+**Worked Example 2**
+
+If you one day look into differential equations you wil see type of differential equation called the exact equation. Exact equations are based completley on potential functions and conservative fields. I was running out of problems to use so I took a part of a problem from the exact equations section (Problem from Lebl 1.8.1):
+
+Consider the vector field $(2xy + x^{2})dx + (x^2 + y^2 + 1)dy = 0$ prove thats its conservative and find its potential function.
+
+
+
+
 
