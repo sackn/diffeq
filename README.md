@@ -295,7 +295,7 @@ We can see that despite starting with imaginary components we end up with a real
 
 ### Proof of Complex Roots Formula
 
-Our roots are $\alpha + \beta i$ and $\alpha - \beta i$. Much like the distincts roots case we can write the solution as the following:
+Our roots are $\alpha + \beta i$ and $\alpha - \beta i$. Much like the distinct roots case we can write the solution as the following:
 $$y = c_1e^{(\alpha + i \beta)t} + c_2e^{(\alpha  - i\beta)t}$$
 The solution is ok. If you plug it into the differential equation to check it will work out, however its complex, so its difficult for it represent something of much worth. Lets consider only the first term $c_1e^{(\alpha + i \beta)t}$ we do a little bit of algebraic manipulation to get:
 $$y_1 e^{\alpha t}e^{i \beta t}$$
