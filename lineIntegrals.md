@@ -149,7 +149,7 @@ Warning: You will run into a basically impossible integral, so do it numerically
   
 </details>
 
-**Question 7:** A curve $C$ is defined as a circle of radius two on $\theta \in [\frac{\pi}{6}, \frac{\pi}{3}]$ find $\int_{C} \frac{x^2-y^{2}}{x}$
+**Question 7:** A curve $C$ is defined as a circle of radius two on $\theta \in [\frac{\pi}{6}, \frac{\pi}{3}]$ find $\int_{C} \frac{x^2-y^{2}}{x} dx$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image3.png" alt="Question 7">
@@ -161,7 +161,7 @@ Warning: You will run into a basically impossible integral, so do it numerically
   <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image1.png" alt="Question 8">
 </details>
 
-**Question 9:** A curve $C$ is defined as the line segment between $(2,0,0)$ and $(0,2,2)$ find \int_{C} \frac{x^{2} - y^{2}}{x^2 + y^2} dz
+**Question 9:** A curve $C$ is defined as the line segment between $(2,0,0)$ and $(0,2,2)$ find \int_{C} $\frac{x^{2} - y^{2}}{x^2 + y^2} dz$
 
 Warning: One of the integrals is difficult and should probably be estimated for the sake of the problem
 
