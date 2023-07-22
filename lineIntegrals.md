@@ -76,7 +76,7 @@ I also like to think of by the definition of the integral. The a line integral w
 
 **Worked Example 3**
 
-Consider the line integral $\int_{C} xy dx along a curve $C$, where $C$ is the line segment between $(1,2)$ and $(3,4)$. This problem is an example of a line integral done with respect to the varible $x$. That means before we integrate our integral has to be of the form,
+Consider the line integral $\int_{C} xy dx$ along a curve $C$, where $C$ is the line segment between $(1,2)$ and $(3,4)$. This problem is an example of a line integral done with respect to the varible $x$. That means before we integrate our integral has to be of the form,
 $$= \int_{a}^{b} f(t) \dot{x} dt$$
 We can start the problem by getting the paramerization to our integral. Our paramerization for our line inetgral goes as follows,
 $$\vec{r}(t) = \langle 1 + 2t ,2 + 2t \rangle \quad t \in [0,1]$$
