@@ -149,6 +149,35 @@ Warning: You will run into a basically impossible integral, so do it numerically
   
 </details>
 
+**Question 7:** A curve $C$ is defined as a circle of radius two on $\theta \in [\frac{\pi}{6}, \frac{\pi}{3}]$ find $\int_{C} \frac{x^2-y^{2}}{x}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image3.png" alt="Question 7">
+</details>
+
+**Question 8:** A curve $C$ is defined as $y=e^{x}$ on $x \in [0,2]$ find $\int_{C} \frac{x^{2}}{y}dy$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image1.png" alt="Question 8">
+</details>
+
+**Question 9:** A curve $C$ is defined as the line segment between $(2,0,0)$ and $(0,2,2)$ find \int_{C} \frac{x^{2} - y^{2}}{x^2 + y^2} dz
+
+Warning: One of the integrals is difficult and should probably be estimated for the sake of the problem
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image2.png" alt="Question 9">
+</details>
+
+**Question 10:** A curve $C$ is defined as the line segment between $(0,0,0)$ and $(1,2,3)$ find $\int_{C} (x^2 + y^2 + z^2)dx$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image4.png" alt="Question 10">
+</details>
+
+
+
 
 ## Line Integrals over Vector Fields
 A vector field is created by a function which outputs a vector. A common place that you mean have seen a vector field is in the weather when they show you what direction the wind is blowing. Each vectors size and direction generally tells where and how hard the wind is blowing at that specific point. We can generate those vector fields with vector function which in the case of 2D space take a coordinate pair $(x,y)$ and output a 2D vector with both an x and y component. Below is the vector field representing wind over a certain region (I do not own the image).
