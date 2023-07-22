@@ -394,6 +394,33 @@ If you one day look into differential equations you wil see type of differential
 
 Consider the vector field $(2xy + x^{2})dx + (x^2 + y^2 + 1)dy = 0$ prove thats its conservative and find its potential function.
 
+Firsly, we can identify the following two relations $P = 2xy + x^{2} = \frac{\partial f}{\partial x}$ and $Q = x^{2} + y^{2} + 1 = \frac{\partial f}{\partial y}$. In order to find its potential function the vector field must be conservative so $\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}$ must be true. Doing so with our scenario we get that our vector field is indeed conservative.
+$$\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}$$
+$$2x = 2x \quad \therefore \text{conservative}$$
+Now that we know that the vector field does in fact have a potential function we can start solving. With the equation $\frac{\partial f}{\partial x} = 2xy + x^{2} $ we can seperate it and integrate on both sides with repsect to $x$. Doing so will get us the following,
+
+$$\frac{\partial f}{\partial x} = 2xy + x^{2} $$
+$$f(x,y) =\int (2xy + x^{2})dx$$
+$$f(x,y) = x^{2}y + \frac{x^3}{3} + h(y)$$
+
+I explained why we have a function of y $h(y)$ rather than just a simple $+C$ in the exact equations section, and how you integrate over varibles that don't match the differential, so below is a copy and paste from some other part of this repository. 
+
+<details>
+  <summary>Why is our constant a function and how did I integrate over y's?</summary>
+  We need to be careful with how we integrate this. We have y's in our integrand, but we are only integrating with respect to x. In this case, all y's should be treated as constants as we are not dealing with them directly. Also, our constant of integration will be slighly different. Since, we are teating y as a constant the constant of integration is actually any function of y (named $h(y)$ in this problem). If we try to invert the integral with a partial derivative with respect to x we will get back our original integrand regardless of what function of y is attached at the end.
+</details>
+
+We need to solve for the $h(y)$ our "constant function". At the start we also knew that $\frac{\partial f}{\partial y} = x^{2} + y^{2} + 1$. We can solve for $h(y)$ be taking the partial derivative of $y$ on our $f(x,y)$ giving us $\frac{\partial f}{\partial y}$ allowing us to compare our results to $x^{2} + y^{2} + 1$. Also note that our $h(y)$ turns into its derivative $h'(y)$ 
+$$\frac{\partial}{\partial y}(f(x,y) = x^{2}y + + \frac{x^3}{3} + h(y))$$
+$$\frac{\partial f}{\partial y} = x^{2} + h'(y)$$
+$$x^{2} + y^{2} + 1 = x^{2} + h'(y)$$
+According to the equation above we can easily deduce that $h'(y) = y^{2} + 1$. If we want to just get $h(y)$ we can integrate again, but this time with respect to y and since there are not x's present our constant is just a $+c$
+$$\int h'(y) = \int (y^{2} + 1)dy$$
+$$h(y) = \frac{y^{3}}{3} + y + c$$
+Plugging our newly found $h(y)$ back into our previously solved for $f(x,y)$ we can get our full potential function:
+$$f(x,y) = x^{2}y + \frac{x^3}{3} + \frac{y^{3}}{3} + y + c \quad \square$$
+
+
 ### Questions and Solutions
 
 **Question 1:** Given the vetor field $(2x^{2} + e^{y})dx + (2y +xe^{y})dy =0$ determine if its conserative and if so find the potential function
