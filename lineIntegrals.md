@@ -340,23 +340,37 @@ All of these caveats and details are almost the exact same for the fundamnetal t
 
 $$\int_{C} \nabla f \cdot d\vec{r} = f(\vec{r}(b)) - f(\vec{r}(a))$$
 
-There is a lot to unpack here so lets take it one step at a time. First concerning the gradient vector field of $f$ which is $\nabla f$. There is another definition I want to introduce briefly and thats the idea of a conservative vector field.A function is considered conservative if there exists some function $g$ such that $g = \nabla f$. In other words, the function $f$ is represents the gradient vector field of some function. The function $f$ is often called a potential function.
+Where $\vec{r}(b)$ and $\vec{r}(a)$ represent some start and end points. There is a lot to unpack here so lets take it one step at a time. First concerning the gradient vector field of $f$ which is $\nabla f$. There is another definition I want to introduce briefly and thats the idea of a conservative vector field.A function is considered conservative if there exists some function $g$ such that $g = \nabla f$. In other words, the function $f$ is represents the gradient vector field of some function. The function $f$ is often called a potential function.
 
 The word potential might ring a few bells. You might think of gravitational potential energy for example and how it could represnt a potential function. Gravitiational potential energy (atleast on small scales asumming #U_{Gravity} = mgh #) increases at a linear rate the farther away from the ground you are ($h$ increases). If gravitional potential energy can represent a potential function like $f$ then what is its corresponding $g$ such that $g = \nabla f$. The function g in this case would be gravitional force more specifically f= mg (where g is reference to gravity, and f is force). Its not very hard to get between the two since in this case the gradient of a function acts exactly like a derivative since we are working in a singular dimension.
 
 Since gravitional force has a potential function that implies that it is a conservaitve vector field, but what properties does a conservative vector field even have. Gravity is a vector field and gravity will do work on an object. You let go of an object and gravity will apply work onto the object and push it down towards the Earth. Consider the two paths of an object as falls down:
+<img src="https://github.com/sackn/diffeq/blob/main/Images/conservtaiveVectorField.png" alt="Question 8">
 
-Both boxes start at the same spot and end at the same height (the dotted line), but there paths to that point are very different which box was helped out more by gravity (gravity did more work)?
+Both boxes (red and blue) start at the same spot and end at the same height (the dotted line), but there paths to that point are very different which box was helped out more by the gravity field (gravity did more work)?
 
+If you named either box your incorrect. In fact despite, the difference in paths gravity did the same amount of work on both of them. For the blue box gravity was always helping the box fell straight down. However, for the red box it fell much further down than the blue box initially meaning gravity put in more work. However, to get back to the same height as the blue box the red box had to go against gravity (so gravity did negative work). After that entire process the more work that was done at the beginning on the red box as it descended canceled out with the negative work taht had to be done to bring it back up.
 
+The main property of the a conservative vector field is that the work done on an object is path indepdendent. It doesn't matter what route a path took if they up at the same exact spot then the same amount of work is done. This leads extremely well into the fundamnetal theorem of line integrals which formally states that any path over a conservative vector field is only depend on its end points.
 
+The line integral verf a conservative vector field doesn't care about the path it just cares about where it ends. The work matters on where it ends up not how it gets there. In the image both take different routes, but there end points are the exact same (they start at the same point and end at the same point). The fundamental theorem also tells us that we can the work done is just calculated through the difference between the potential at each point $F(\vec{r}(b)) - F(\vec{r}(a)$. A lot of writing time for an example:
 
+**Worked Example 1**
 
+Consider the vector field $\vec{F} = \langle xy \rangle$. Calculate the line integral $\int_{C} \nabla \vec{F} \cdot d\vec{r}$ on the line segment going from $(0,1)$ to $(2,3)$.
 
+Noramlly for a problem like this I would say paramerized the line segment, but we don't need to in this case becasue we know that by defintion that $\nabla F$  is a conservative vector field. Our problem becomes simple because we only need to worry about the starting point $(0,1)$ and the ending point $(2,3)$. Using the fundamnetal theorem of line integral we get that,
 
+$$ \text{Potential at the End} - \text{Potential at Start}=\vec{F}(2,3) - \vec{F}(0,1)$$
+Evalulating the results we can easily get the answer,
+$$2(3) - 1(0) = 6 \quad \square$$
 
+For the sake of completnees I'm going to do a sanity check, so below is the work for the entire problem without invoking the fundamnetal theorem of line integrals to skip most of the process:
+$$\vec{r}(t) = \langle 2t, 1 + 2t \rangle \quad t \in [0,1]$$
+$$\vec{r}'(t) = \langle 2, 2 \rangle $$
+$$F_x = y \quad F_y =x \implies \nabla F = \langle y,x \rangle$$
+$$\int_{0}^{1} \langle 1 + 2t,2t \rangle \cdot \langle 2,2 \rangledt$$
+$$\int_{0}^{1} (2+ 8t)dt = (2(1) + 4(1) - 0) = 6 \quad \square$$
 
-
-
-
+Althought we will talk about this later a conservative vector field can also be defined as a vector field where $curl \vec{F} = 0$. In simple terms, the vector field isn't swirly. That would corroborate with the belief that gravity is a conservative vector field since we know gravity to be not "swirly" as we know it to just act downwards.
 
