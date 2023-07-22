@@ -266,7 +266,7 @@ $$8 \int_{0}^{1} t(dt)$$
 You may remember intergating with respect to a specific varible. The defintion of a line integral over a vector field plays complete into the ability to integrate with respect to a single varible. For a scenario with two indepdent varibles we know the vector field $\vec{F}$ to take the form of $\langle P, Q \rangle$ and we know that $d\vec{r}$ can be decomposed into $\langle dx, dy \rangle$. Those two facts make the following also true,
 $$\int_{C} \vec{F} \cdot d\vec{r} = \int_{C} P dx + \int_{C} Q dy$$
 
-
+### Questions and Solutions
 
 **Question 1:** Given the vector field $\vec{F} = \langle x^{2}, y^{2} \rangle$ where $C$ is the part of a circle centered at the originwi wth a radius of two that lies in the first quadrant find $\int_{C} \vec{F} \cdot d\vec{r}$
 <details>
@@ -394,6 +394,25 @@ If you one day look into differential equations you wil see type of differential
 
 Consider the vector field $(2xy + x^{2})dx + (x^2 + y^2 + 1)dy = 0$ prove thats its conservative and find its potential function.
 
+### Questions and Solutions
+
+**Question 1:** Given the vetor field $(2x^{2} + e^{y})dx + (2y +xe^{y})dy =0$ determine if its conserative and if so find the potential function
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/conservativeVectorField/image2.png" alt="Question 1">
+</details>
+
+**Question 2:** Given the vetor field $(sin(x) + 2xy)dx + (x^{2} + sin(y))dy = 0$ determine if its conserative and if so find the potential function
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/conservativeVectorField/image2.png" alt="Question 2">
+</details>
+
+**Question 3:** Given the vetor field $(3x^{2} + 2xy)dx + (x^{2}+2y)dy=0$ determine if its conserative and if so find the potential function
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/conservativeVectorField/image3.png" alt="Question 3">
+</details>
 
 
 
