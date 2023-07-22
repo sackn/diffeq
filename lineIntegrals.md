@@ -380,13 +380,13 @@ Let there be a vector field $\vec{F} = \langle P,Q \rangle$ on an open simply co
 $$\frac{\partial }{\parital y} = \frac{\partial Q}{\partial x}$$
 is true then the vector field $\vec{F}$ is conservative
 
-When you get to the curl operator you might recognize the $\frac{\partial }{\parital y} - \frac{\partial Q}{\partial x} = 0$ is considered $curl \vec{F} = 0$ in 2D aswell.
+When you get to the curl operator you might recognize the $\frac{\partial }{\partial y} - \frac{\partial Q}{\partial x} = 0$ is considered $curl \vec{F} = 0$ in 2D aswell.
 
 We can easily tell if a vector field is conservative, but how do we go about actually finding the potential function. If let $\vec{g} = \langle P,Q \rangle$ be our function then we know there is a potential function $f$ such that $g = \nabla f$. We can decompose this statement to get
-$$\langle P,Q \rangle = \langle \frac{\partial f}{\parital x}, \frac{\partial f}{\partial y} \rangle$$
+$$\langle P,Q \rangle = \langle \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \rangle$$
 Setting components each to each other we get the two equations,
-$$P = \frac{\partial f}{\parital x} \quad Q = \frac{\partial f}{\partial y}$$
-
+$$P = \frac{\partial f}{\partial x} \quad Q = \frac{\partial f}{\partial y}$$
+We can then integrate and what not to get values for our potential function. This is best shown through an example.
 
 **Worked Example 2**
 
