@@ -189,7 +189,7 @@ $$8 \int_{1}^{0} t(dt)$$
 
 From first year calculus you might remember the following fact:
 $$\int_{b}^{a} f(x) dx=  -\int_{a}^{b} f(x) dx$$
-If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $$\int_{C} \vec{F} d\vec{r}  = -\int_{C} \vec{F} \cdot d\vec{r}$$.
+If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $\int_{C} \vec{F} d\vec{r}  = -\int_{C} \vec{F} \cdot d\vec{r}$.
 $$ 8 \int_{0}^{1} t(dt)$$
 
 
