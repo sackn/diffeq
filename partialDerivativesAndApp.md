@@ -1,5 +1,48 @@
 ## Multivaraible Chainrule
 
+
+https://github.com/sackn/diffeq/blob/main/Images/chainRule/image1.png
+
+### Questions and Solutions
+For the UCB problems I took it from this link[ https://math.berkeley.edu/~hutching/teach/53-2015/53worksheets.pdf ](url). I'm not sure if its legal to use this resource. The pdf is cut into sections for each topic and each section has one part for "questions" and one part for "problems". All of the questions below are from chapter 12 multivarible chain rule. 
+
+**UCB 12 Question 1** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image2.png" alt="Question 1">
+</details>
+
+**UCB 12 Question 2** 
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image4.png" alt="Question 2.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image1.png" alt="Question 2.b">
+</details>
+<details>
+  <summary>Part C Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image5.png" alt="Question 2.c">
+</details>
+
+**UCB 12 Problem 1** (Don't waste your time trying part b) 
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image6.png" alt="Problem 1">
+</details>
+
+**UCB 12 Problem 2**
+<details>
+  <summary>Part Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image3.png" alt="Problem 2">
+</details>
+
+
+
+
+
+
 ## Directional Derivatives and Graident Vectors
 Now that we are in higher dimensions the word rate of change becomes a little ambigous. In 2D when someone set rate of change it was obvious what they meant. They were talking about $\frac{\Delta y}{\Delta x}$. In 3D space, the word rate of change could be the rate of change going to the "right", the rate of change going "up", or even the rate of change if you walk Northeast. Generally there is different meaning of rate of change depending on what direction you are taking the derivative in. 
 
