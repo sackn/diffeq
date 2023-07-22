@@ -54,23 +54,6 @@ That property also holds with line integrals. If the behaviors of the curves is 
 $$\int_{C_1} f(x)(ds) +\int_{C_2} f(x)(ds) = \int_{C} f(x)(ds)$$
 
 
-If we continue on the wind analogy then the following statement shouldn't be that far fetched
-$$\int_{C} \vec{F} d\vec{r}  = -\int{C} \vec{F} \cdot d\vec{r}$$
-If you traverse a path where the wind is against you, then if you traverse the path in reverse direction the wind will be in your favor. 
-
-**Worked Example 1 Again**
-
-Consider the same problem from the first example. When we traced the positive direction we went from $(0,0)$ to $4,3$. We did this by moving our parametric varible $t$ from $0$ to $1$. If we traverse the other way we would want to go from $(4,3)$ back to $(0,0)$ meaning we would shift our $t$ from $1$ to $0$. That would make our integral the following (refer to example 1)
-
-$$5 \int_{1}^{0} t(dt)$$
-
-From first year calculus you might remember the following fact:
-$$\int_{a}^{b} f(x) dx=  -\int_{b}^{a} f(x) dx$$
-If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $$\int_{C} \vec{F} d\vec{r}  = -\int{C} \vec{F} \cdot d\vec{r}$$.
-$$$$-5 \int_{0}^{1} t(dt)$$$$
-
-
-
 ### Questions and Solutions 
 For the questions you can assume positive orientation (counter-clockwise movement, left to right traversal)
 
@@ -193,6 +176,22 @@ This statement can be further simplified through the trig identity $cos(2\theta)
 $$\int_{0}^{\frac{\pi}{2}} cos(2t) dt$$
 Finishing the rest of the integral we get,
 $$\frac{1}{2}(sin(\pi) - sin(0)) = 0 \quad \square$$
+
+If we continue on the wind analogy then the following statement shouldn't be that far fetched
+$$\int_{C} \vec{F} d\vec{r}  = -\int{C} \vec{F} \cdot d\vec{r}$$
+If you traverse a path where the wind is against you, then if you traverse the path in reverse direction the wind will be in your favor. 
+
+**Worked Example 1 Again**
+
+Consider the same problem from the first example. When we traced the positive direction we went from $(0,0)$ to $4,3$. We did this by moving our parametric varible $t$ from $0$ to $1$. If we traverse the other way we would want to go from $(4,3)$ back to $(0,0)$ meaning we would shift our $t$ from $1$ to $0$. That would make our integral the following (refer to example 1)
+
+$8 \int_{1}^{0} t(dt)$$
+
+From first year calculus you might remember the following fact:
+$$\int_{b}^{a} f(x) dx=  -\int_{a}^{b} f(x) dx$$
+If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $$\int_{C} \vec{F} d\vec{r}  = -\int{C} \vec{F} \cdot d\vec{r}$$.
+$$ 8 \int_{0}^{1} t(dt)$$
+
 
 **Question 1:** Given the vector field $\vec{F} = \langle x^{2}, y^{2} \rangle$ where $C$ is the part of a circle centered at the originwi wth a radius of two that lies in the first quadrant find $\int_{C} \vec{F} \cdot d\vec{r}$
 <details>
