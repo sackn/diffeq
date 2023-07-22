@@ -185,11 +185,11 @@ If you traverse a path where the wind is against you, then if you traverse the p
 
 Consider the same problem from the first example. When we traced the positive direction we went from $(0,0)$ to $4,3$. We did this by moving our parametric varible $t$ from $0$ to $1$. If we traverse the other way we would want to go from $(4,3)$ back to $(0,0)$ meaning we would shift our $t$ from $1$ to $0$. That would make our integral the following (refer to example 1)
 
-$8 \int_{1}^{0} t(dt)$$
+$$8 \int_{1}^{0} t(dt)$$
 
 From first year calculus you might remember the following fact:
 $$\int_{b}^{a} f(x) dx=  -\int_{a}^{b} f(x) dx$$
-If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $$\int_{C} \vec{F} d\vec{r}  = -\int{C} \vec{F} \cdot d\vec{r}$$.
+If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $$\int_{C} \vec{F} d\vec{r}  = -\int_{C} \vec{F} \cdot d\vec{r}$$.
 $$ 8 \int_{0}^{1} t(dt)$$
 
 
