@@ -29,7 +29,6 @@ $$30\int_{0}^{1} t(dt)$$
 Now going to through the typical integral procedure we get:
 $$30(\frac{1}{2} - \frac{0}{2}) = 15 \quad \square$$
 
-
 **Worked Example 2**
 
 Consider the line integral along the part of a circle that has radius two that lies in the 4th quadrant,
@@ -49,13 +48,23 @@ Finishing the problem
 $$16(0 - \frac{(-1)^2}{2}) = -8 \quad \square$$
 We have a negative area which means that $2xy$ lies majority under xy-plane along our path (in fact since its $2xy$ in the 4th quadrant it lies completely under the xy plane).
 
-
-
-
 Remember for our old integrals that had the following property of adding up limits of integration,
 $$\int_{a}^{b} f(x)(dx) +\int_{b}^{c} f(x)(dx) = \int_{a}^{c} f(x)(dx) $$
 That property also holds with line integrals. If the behaviors of the curves is nice then we can connect line integrals together to form the answer for an even larger curve. 
 $$\int_{C_1} f(x)(ds) +\int_{C_2} f(x)(ds) = \int_{C} f(x)(ds)$$
+
+
+If we continue on the wind analogy then the following statement shouldn't be that far fetched
+$$\int_{C} \vec{F} d\vec{r}  = -\int{C} \vec{F} \cdot d\vec{r}$$
+If you traverse a path where the wind is against you, then if you traverse the path in reverse direction the wind will be in your favor. 
+
+**Worked Example 1 Again**
+
+Consider the same problem from the first example. When we traced the positive direction we went from 
+
+
+### Questions and Solutions 
+For the questions you can assume positive orientation (counter-clockwise movement, left to right traversal)
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/addingLineIntegral.png" alt="lineIntegralAddition">
 
