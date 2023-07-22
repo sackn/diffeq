@@ -54,6 +54,45 @@ That property also holds with line integrals. If the behaviors of the curves is 
 $$\int_{C_1} f(x)(ds) +\int_{C_2} f(x)(ds) = \int_{C} f(x)(ds)$$
 
 
+**Line Integrals with Respect to a certain Varible**
+
+So far we have calculated line integrals with respect to all the variables in the system, but sometimes you want to only a line integral with respect to one varible (disregarded any contribution from the other varibles). In the 2D we know that the $ds$ is composed to $dx$ and $dy$. Take the following drawing:
+
+<img src="https://github.com/sackn/diffeq/blob/main/Images/ds.png" alt="ds">
+
+We have used $ds$ so far in line integrals accounting for contributions of both $dx$ and $dy$. However, what if we want to integrate with only respect to $x$ completely forgetting about the contributions of $y$ to the integral. Well its pretty simple take the $ds$ equation and just remove $dy$. Doing so will leave with just $dx$. 
+
+$$\int_{C} f(x,y) dx $$
+
+If we account for the fact that our line integral uses we parametric curve we get the following formula for the line integral over the curve $C$ with respect to $x$
+$$= \int_{a}^{b} f(t) \dot{x} dt$$
+Logically follows that the line inetgral with repect to y is the following,
+$$= \int_{a}^{b} f(t) \dot{y} dt$$
+
+
+That's all cool but, what exactly does the integral of a curve with respect to a single varible look like? I don't have fancy images to explain this, so the first minute of this video has a really good analogy and visuals. I did not create the video: [https://www.youtube.com/watch?v=2fcT5X5tUvM](url). As mentioned in the video think of it a projection on a specific plane (XZ plane in the case of dx and YZ plane in the case dy). 
+
+I also like to think of by the definition of the integral. The a line integral we take a small step along the arc $ds$ which is a right triangle made up of $dx$ and $dy$. Imagine drawing these small arcs on top of the curve then just visualize them with only there there x component (line integral with respect to x) or only y component (line integral with respect to y)
+
+**Worked Example 3**
+
+Consider the line integral $\int_{C} xy dx along a curve $C$, where $C$ is the line segment between $(1,2)$ and $(3,4)$. This problem is an example of a line integral done with respect to the varible $x$. That means before we integrate our integral has to be of the form,
+$$= \int_{a}^{b} f(t) \dot{x} dt$$
+We can start the problem by getting the paramerization to our integral. Our paramerization for our line inetgral goes as follows,
+$$\vec{r}(t) = \langle 1 + 2t ,2 + 2t \rangle \quad t \in [0,1]$$
+Since we are integrating with respect to only $x$ we only need to differentiate the x component.
+$$\dot{x}(t) = 2$$
+Plugging what we have so far into the integral we have,
+$$2 \int_{0}^{1} xy dt$$
+The only thing left we have to do before we integrate is to turn $f(x,y)$ into $f(t)$ by subbing in our paramerization $x = 1 + 2t$ and $y = 2+2t$.
+$$2 \int_{0}^{1} (1+2t)(2+2t)$$
+Finishing off this integral we get that,
+$$2 \int_{0}^{1} 2 + 6t + 4t^{2} = $$
+$$2((2(1)  + 3(1)^{2} + \frac{4}{3}(1)^{3} - 0) = \frac{38}{3} \quad \square$$
+
+The concept of doing line integrals with respect to a single varible also scaled up to higher dimensions as you make expect. There literally is no difference outside of the fact that you just have more variables.
+
+
 ### Questions and Solutions 
 For the questions you can assume positive orientation (counter-clockwise movement, left to right traversal)
 
@@ -109,36 +148,6 @@ Warning: You will run into a basically impossible integral, so do it numerically
   <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral/image5.png" alt="Question 6.b">
   
 </details>
-
-**Line Integrals with Respect to a certain Varible**
-
-So far we have calculated line integrals with respect to all the variables in the system, but sometimes you want to only a line integral with respect to one varible (disregarded any contribution from the other varibles). In the 2D we know that the $ds$ is composed to $dx$ and $dy$. Take the following drawing:
-
-<img src="https://github.com/sackn/diffeq/blob/main/Images/ds.png" alt="ds">
-
-We have used $ds$ so far in line integrals accounting for contributions of both $dx$ and $dy$. However, what if we want to integrate with only respect to $x$ completely forgetting about the contributions of $y$ to the integral. Well its pretty simple take the $ds$ equation and just remove $dy$. Doing so will leave with just $dx$. 
-
-$$\int_{C} f(x,y) dx $$
-
-If we account for the fact that our line integral uses we parametric curve we get the following formula for the line integral over the curve $C$ with respect to $x$
-$$= \int_{a}^{b} f(t) \dot{x} dt$$
-Logically follows that the line inetgral with repect to y is the following,
-$$= \int_{a}^{b} f(t) \dot{y} dt$$
-
-
-That's all cool but, what exactly does the integral of a curve with respect to a single varible look like? I don't have fancy images to explain this, so the first minute of this video has a really good analogy and visuals. I did not create the video: [https://www.youtube.com/watch?v=2fcT5X5tUvM](url)
-
-When integrating with respect to a varible you treat all other varibles as constants. For example, 
-$$\int x+y(dx) = \frac{x^{2}}{2}+xy$$
-
-
-
-
-The concept of doing line integrals with respect to a single varible also scaled up to higher dimensions as you make expect. There literally is no difference outside of the fact that you just have more variables.
-
-
-
-
 
 
 ## Line Integrals over Vector Fields
