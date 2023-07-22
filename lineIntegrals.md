@@ -110,6 +110,11 @@ Warning: You will run into a basically impossible integral, so do it numerically
   
 </details>
 
+**Line Integrals with Respect to a certain Varible**
+
+So far we have calculated line integrals with respect to all the variables in the system, but sometimes you want to only a line integral with respect to one varible (disregarded any contribution from the other varibles). In the 2D we know that the $ds$ is composed to $dx$ and $dy$. Take the following drawing:
+
+
 
 
 ## Line Integrals over Vector Fields
