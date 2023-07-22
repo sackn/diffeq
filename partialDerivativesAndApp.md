@@ -1,8 +1,5 @@
 ## Multivaraible Chainrule
 
-
-https://github.com/sackn/diffeq/blob/main/Images/chainRule/image1.png
-
 ### Questions and Solutions
 For the UCB problems I took it from this link[ https://math.berkeley.edu/~hutching/teach/53-2015/53worksheets.pdf ](url). I'm not sure if its legal to use this resource. The pdf is cut into sections for each topic and each section has one part for "questions" and one part for "problems". All of the questions below are from chapter 12 multivarible chain rule. 
 
