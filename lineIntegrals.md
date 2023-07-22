@@ -177,6 +177,73 @@ $$\int_{0}^{\frac{\pi}{2}} cos(2t) dt$$
 Finishing the rest of the integral we get,
 $$\frac{1}{2}(sin(\pi) - sin(0)) = 0 \quad \square$$
 
+**Question 1:** Given the vector field $\vec{F} = \langle x^{2}, y^{2} \rangle$ where $C$ is the part of a circle centered at the originwi wth a radius of two that lies in the first quadrant find $\int_{C} \vec{F} \cdot d\vec{r}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image8.png" alt="Question 1">
+</details>
+
+**Question 2:** Given the vector field $\vec{F} = \langle 3y, -2x \rangle$ where $C$ is the curve caused by $y=x^2$ on the interval $x \in [0,2]$ find $\int_{C} \vec{F} \cdot d\vec{r}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image7.png" alt="Question 2">
+</details>
+
+**Question 3:** Given the vector field $\vec{F} = \langle 2xy , x^2, z \rangle$ and the line segment going from $(0,0,0)$ to $(1,2,3)$ calculate $\int_{C} \vec{F} \cdot d\vec{r}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image1.png" alt="Question 1">
+</details>
+
+**Question 4:** Given the vector field $\vec{F} = \langle \frac{y}{x^2 + y^2}, \frac{-x}{x^2+y^2} \rangle$ where $C$ is the unit circle on $[\pi, \frac{3\pi}{2}]$ calculate $\int_{C} \vec{F} \cdot d\vec{r}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image5.png" alt="Question 1">
+</details>
+
+
+**Question 5:** Given the vector field $\vec{F} = \langle y^{2} + 2xy, x^2 + 2y \rangle$ on the part of the ellipse $\frac{x^2}{9} + \frac{y^2}{4} = 1$ that lies in the 4th quadrant. 
+<details>
+  <summary>Solution</summary>
+  The solution is kind of messy, but the final answer is $3\pi - 3$ (hopefully it's right)
+
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image10.png" alt="Question 5.a">
+  
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image2.png" alt="Question 5.b">
+  
+</details>
+
+**Question 6:** Given the vector field $\vec{F} = \langle 2x, 3y\rangle$ calculate $\int_{C} \vec{F} \cdot d\vec{r}$ given that the the curve is the following image
+
+<img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralProblem.png" alt="lineIntegralAddition">
+
+<details>
+  <summary>Solution</summary>
+  Note that in the problem $C_1$ refers to the semi-circle and $C_2$ refers to to the line segment.
+  
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image3.png" alt="Question 6.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image9.png" alt="Question 6.a">
+
+</details>
+
+
+**Question 7:** Given the vector field $\vec{F} = \langle yz, xz, xy \rangle$ where $C$ is a helix defined as $\vec{r}(t) = \langle cos(t), sin(t), t\rangle$. Calculate $\int_{C} \vec{F} \cdot d\vec{r}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image6.png" alt="Question 7">
+</details>
+
+**Question 8:** Given the vector field $\vec{F} = \langle y^{2}, z, xz \rangle$ and $C$ being the line segment going from $(1,2,3)$ to $(4,5,6)$ find $\int_{C} \vec{F} \cdot d\vec{r}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image4.png" alt="Question 8">
+</details>
+
+
+
+
+
+
 
 
 
