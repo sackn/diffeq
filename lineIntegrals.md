@@ -114,6 +114,30 @@ Warning: You will run into a basically impossible integral, so do it numerically
 
 So far we have calculated line integrals with respect to all the variables in the system, but sometimes you want to only a line integral with respect to one varible (disregarded any contribution from the other varibles). In the 2D we know that the $ds$ is composed to $dx$ and $dy$. Take the following drawing:
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/ds.png" alt="ds">
+
+We have used $ds$ so far in line integrals accounting for contributions of both $dx$ and $dy$. However, what if we want to integrate with only respect to $x$ completely forgetting about the contributions of $y$ to the integral. Well its pretty simple take the $ds$ equation and just remove $dy$. Doing so will leave with just $dx$. 
+
+$$\int_{C} f(x,y) dx $$
+
+If we account for the fact that our line integral uses we parametric curve we get the following formula for the line integral over the curve $C$ with respect to $x$
+$$= \int_{a}^{b} f(t) \dot{x} dt$$
+Logically follows that the line inetgral with repect to y is the following,
+$$= \int_{a}^{b} f(t) \dot{y} dt$$
+
+
+That's all cool but, what exactly does the integral of a curve with respect to a single varible look like? I don't have fancy images to explain this, so the first minute of this video has a really good analogy and visuals. I did not create the video: [https://www.youtube.com/watch?v=2fcT5X5tUvM](url)
+
+When integrating with respect to a varible you treat all other varibles as constants. For example, 
+$$\int x+y(dx) = \frac{x^{2}}{2}+xy$$
+
+
+
+
+The concept of doing line integrals with respect to a single varible also scaled up to higher dimensions as you make expect. There literally is no difference outside of the fact that you just have more variables.
+
+
+
 
 
 
@@ -197,6 +221,10 @@ $$\int_{b}^{a} f(x) dx=  -\int_{a}^{b} f(x) dx$$
 If we apply the same to our integral we just get the negative version of our original answer and that answer supports the claim that $\int_{C} \vec{F} d\vec{r}  = -\int_{C} \vec{F} \cdot d\vec{r}$.
 
 $$8 \int_{0}^{1} t(dt)$$
+
+You may remember intergating with respect to a specific varible. The defintion of a line integral over a vector field plays complete into the ability to integrate with respect to a single varible. For a scenario with two indepdent varibles we know the vector field $\vec{F}$ to take the form of $\langle P, Q \rangle$ and we know that $d\vec{r}$ can be decomposed into $\langle dx, dy \rangle$. Those two facts make the following also true,
+$$\int_{C} \vec{F} \cdot d\vec{r} = \int_{C} P dx + \int_{C} Q dy$$
+
 
 
 **Question 1:** Given the vector field $\vec{F} = \langle x^{2}, y^{2} \rangle$ where $C$ is the part of a circle centered at the originwi wth a radius of two that lies in the first quadrant find $\int_{C} \vec{F} \cdot d\vec{r}$
