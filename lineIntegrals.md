@@ -330,6 +330,24 @@ $$\int_{C} \vec{F} \cdot d\vec{r} = \int_{C} P dx + \int_{C} Q dy$$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegralOverVectors/image4.png" alt="Question 8">
 </details>
 
+## Conservative Vector Field and the Fundamnetal Theorem of Line Integrals
+
+You might remember the fundamental theorem of calculus which states and I quote "If $f$ is continous on the interval $[a,b]$ and $F $is any function that satisifies $F'(x) = f(x)$ on this interval" then,
+$$\int_{a}^{b} f(x) dx = F(b) - F(a)$$
+The fundamnetal theorem of calculus makes the claim that if you find the anti-derivative to a function then the only thing you have to know to find the area of an interval are the locations of its end points. However, the fundamnetal theorem puts some has some a pre-conditions to the theorem. The function much be continous on the interval in question. It must in behave "nicely" for it to count.
+
+All of these caveats and details are almost the exact same for the fundamnetal theorem of line integrals. The fundamnetal theorem of line integrals considers a smooth curve $C$ defined by some $\vec{r}$ on the inteval $t \in [a,b]$. It also consider some function $f$ who has a continous gradient vector $\nalba f$on the curve C. If both are satisifed then the following must be also true:
+
+$$\int_{C} \nabla f \cdot d\vec{r} = f(\vec{r}(b)) - f(\vec{r}(a))$$
+
+There is a lot to unpack here so lets take it one step at a time. First concerning the gradient vector field of $f$ which is $\nabla f$. There is another definition I want to introduce briefly and thats the idea of a conservative vector field.A function is considered conservative if there exists some function $g$ such that $g = \nabla f$. In other words, the function $f$ is represents the gradient vector field of some function. The function $f$ is often called a potential function.
+
+The word potential might ring a few bells. You might think of gravitational potential energy for example and how it could represnt a potential function. Gravitiational potential energy (atleast on small scales asumming #U_{Gravity} = mgh #) increases at a linear rate the farther away from the ground you are ($h$ increases). If gravitional potential energy can represent a potential function like $f$ then what is its corresponding $g$ such that $g = \nabla f$. The function g in this case would be gravitional force more specifically f= mg (where g is reference to gravity, and f is force). Its not very hard to get between the two since in this case the gradient of a function acts exactly like a derivative since we are working in a singular dimension.
+
+Since gravitional force has a potential function that implies that it is a conservaitve vector field, but what properties does a conservative vector field even have. Gravity is a vector field and gravity will do work on an object. You let go of an object and gravity will apply work onto the object and push it down towards the Earth. Consider the two paths of an object as falls down:
+
+Both boxes start at the same spot and end at the same height (the dotted line), but there paths to that point are very different which box was helped out more by gravity (gravity did more work)?
+
 
 
 
