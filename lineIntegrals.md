@@ -90,8 +90,11 @@ Finishing off this integral we get that,
 $$2 \int_{0}^{1} 2 + 6t + 4t^{2} = $$
 $$2((2(1)  + 3(1)^{2} + \frac{4}{3}(1)^{3} - 0) = \frac{38}{3} \quad \square$$
 
-The concept of doing line integrals with respect to a single varible also scaled up to higher dimensions as you make expect. There literally is no difference outside of the fact that you just have more variables.
+When it comes to line integrals the phrase positive direction and negative direction doesn't have much meaning do the ambiguity of the path which is why the way that you traverse a path doesn't effect the area. However when you are integrating with respect to a singular variable there does exist a "positive" and "negative direction", so the following statements are true (similar to the fact that $\int_{a}^{b} f(x) dx$ = - \int_{b}^{a} f(x) dx$):
+$$\int_{C} f(x)dx = -\int_{C} f(x) dx$$
+The same is true for any other varible
 
+The concept of doing line integrals with respect to a single varible also scaled up to higher dimensions as you make expect. There literally is no difference outside of the fact that you just have more variables.
 
 ### Questions and Solutions 
 For the questions you can assume positive orientation (counter-clockwise movement, left to right traversal)
