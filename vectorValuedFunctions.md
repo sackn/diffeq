@@ -134,10 +134,27 @@ $$\vec{L}(t) = \langle 4 + \frac{4t}{29}, 4+\frac{2t}{29}, 7 + \frac{3t}{29} \ra
 
 **Normal Vectors**
 
-Another important vector quantitiy that can be obtained from a parametric curve is the normal vector. The normal vector will point exactly orthagonal to the tangent vector. That may be hard to visualize to below is an image showing what a normal vector might look like on a curve:
+Another important vector quantitiy that can be obtained from a parametric curve is the normal vector $$\vec{N}$$. The normal vector $$\vec{N}$$ by defintion will point exactly orthagonal to the tangent vector $$\vec{T}$$  (think of it as pointing outwards). That may be hard to visualize to below is an image showing what a normal vector might look like on a curve:
+<img src="https://github.com/sackn/diffeq/blob/main/Images/normalVector.png" alt="Normal Vector">
 
+We usually define our vector quantities as unit vectors. The definition for the unit normal vector $\vec{N}$ is the following:
+$$\vec{N}(t) = \frac{T'(t)}{||\vec{T}'(t)||}$$
+The previous definition for the unit tangent vector was pretty intuitive becuase the tangent vector was completley built from the rate of change of the position vector. However, the fact that the normal vector is comprised of the rate of change of the unit tangent vector might be a little strange. This relationship between the rate of change of the tangent vector and the normal vector can be described through the very definition of the normal vector. I don't want to copy a proof, but there is a good one on [https://tutorial.math.lamar.edu/Classes/CalcIII/TangentNormalVectors.aspx](url). It turns out that that as long as magnitude stays constant then $\vec{r}'(t) \cdot \vec{r}(t) = 0$. We know the unit tangent vector to always have a mangitude of 1 (given the definition of a unit vector) by substituing $\vec{r}(t) = \vec{T}(t)$ we can get that $\vec{T}'(t) \cdot \vec{T}(t) = 0$. The previous statement is saying that the if the tangent vector is a unit vector then, the rate of change of the tangent vector $\vec{T}'(t)$ is always orthagonal (which is the definition of the normal vector).
 
+We can create a tangent line from our tangent vector because its will always parallel similarly we can also create a "normal line" from our normal vector since it will also always be parallel.
 
+**Worked Example (Normal Vectors on a Curve)**
+
+Let $C$ be a smooth curve in three-dimensional space paramertized by $\vec{r}(t) = \langle t, t^{2}, 2t \rangle$. Find the normal vector at $t=1$.
+
+In order to get our normal vector we need to figure out our tangent vector. The process is the exact same as the previous worked example, so here is a shorthanded version of the work. First take derivative and find its magnitude.
+
+$$\vec{r}'(t) = \langle 1, 2t, 2\rangle$$
+$$||\vec{r}'(t)|| = \sqrt{1^{2} + (2t)^{2} + 2^{2}} = \sqrt{4t^{2} + 5}$$
+
+Apply unit tangent vector definition
+$$\vec{T}(t) =  \langle \frac{1}{\sqrt{4t^{2} + 5}, \frac{2t}{\sqrt{4t^{2} + 5}, \frac{2}{\sqrt{4t^{2} + 5} \rangle}$$
+In order to get to our unit normal vector we must take the derivative of out tangent vector $\vec{T}(t)$. This is a pretty tedious process, but after doing so we will end up with the following,
 
 
 
