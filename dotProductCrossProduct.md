@@ -1,6 +1,8 @@
 
 
-
+### Extra Practice and Solutions
+UCB section 4 is all about cross product
+Shimamoto section 2.5 is also all about cross product and orthagonality. 
 
 **UCB Question 4.1**
 <details>
@@ -52,7 +54,6 @@
   $$\langle x-2, y-2, z \rangle \cdot \langle 1,1,-1 \rangle = 0$$
   $$(x-2) + (y-2) - z = 0$$
   $$x+y-z=4 \quad \square$$
-
   
 </details>
 <details>
