@@ -151,10 +151,10 @@ In order to get our normal vector we need to figure out our tangent vector. The 
 
 $$\vec{r}'(t) = \langle 1, 2t, 2\rangle$$
 
-$$||\vec{r}'(t)|| = \sqrt{ 1^2 + (2t)^2 + 2^2 }$$
+$$||\vec{r}'(t)|| = \sqrt{ 1^2 + (2t)^2 + 2^2 } = \sqrt{4t^2 + 5}$$
 
 Apply unit tangent vector definition
-$$\vec{T}(t) =  \langle \frac{1}{\sqrt{4t^{2} + 5}, \frac{2t}{\sqrt{4t^{2} + 5}, \frac{2}{\sqrt{4t^{2} + 5} \rangle}$$
+$$\vec{T}(t) =  \langle \frac{1}{\sqrt{4t^{2} + 5}}, \frac{2t}{\sqrt{4t^{2} + 5}}, \frac{2}{\sqrt{4t^{2} + 5}} \rangle}$$
 In order to get to our unit normal vector we must take the derivative of out tangent vector $\vec{T}(t)$. This is a pretty tedious process, but after doing so we will end up with the following,
 
 
