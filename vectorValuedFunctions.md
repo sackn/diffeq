@@ -122,11 +122,11 @@ $$\vec{T}(t) = \frac{\vec{r}'(t)}{||\vec{r}'(t)||}$$
 $$\vec{T}(t) = \frac{\langle 2t, 2, 3\rangle}{\sqrt{4t^{2} + 13}}$$
 $$\vec{T}(t) = \langle \frac{2t}{\sqrt{4t^{2} + 13}}, \frac{2}{\sqrt{4t^{2} + 13}}, \frac{3}{\sqrt{4t^{2} + 13}} \rangle$$
 We have our general form by plugging int $t=2$ we can find the unit tangent vector at that specific point.
-$$\vec{T}(2) = \langle \frac{4}{29}}, \frac{2}{29}, \frac{3}{29} \rangle$$ 
+$$\vec{T}(2) = \langle \frac{4}{29}, \frac{2}{29}, \frac{3}{29} \rangle$$ 
 We also want to get the tangent line at $t=2$. We have a vector parallel at $\vec{T}(2)$,but we also need a point on the line. We can get a point on the line by just evaluating its the original function at $t = 2$. 
 $$\vec{r}(2) = \langle 4, 4, 7\rangle$$
 Now that we have a point and a line parallel to the the line we can write the full definition for our tangent line:
-$$\vec{L}(t) = \langle 4,4,7 \rangle + t \langle \frac{4}{29}}, \frac{2}{29}, \frac{3}{29} \rangle$$
+$$\vec{L}(t) = \langle 4,4,7 \rangle + t \langle \frac{4}{29}, \frac{2}{29}, \frac{3}{29} \rangle$$
 $$\vec{L}(t) = \langle 4 + \frac{4t}{29}, 4+\frac{2t}{29}, 7 + \frac{3t}{29} \rangle \quad \square$$
 
 
