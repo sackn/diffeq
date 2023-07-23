@@ -150,7 +150,8 @@ Let $C$ be a smooth curve in three-dimensional space paramertized by $\vec{r}(t)
 In order to get our normal vector we need to figure out our tangent vector. The process is the exact same as the previous worked example, so here is a shorthanded version of the work. First take derivative and find its magnitude.
 
 $$\vec{r}'(t) = \langle 1, 2t, 2\rangle$$
-$$||\vec{r}'(t)|| = \sqrt{1^{2} + (2t)^{2} + 2^{2}}$$
+
+$$||\vec{r}'(t)|| = \sqrt{ 1^2 + (2t)^2 + 2^2 }$$
 
 Apply unit tangent vector definition
 $$\vec{T}(t) =  \langle \frac{1}{\sqrt{4t^{2} + 5}, \frac{2t}{\sqrt{4t^{2} + 5}, \frac{2}{\sqrt{4t^{2} + 5} \rangle}$$
