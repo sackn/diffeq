@@ -160,11 +160,16 @@ $$\vec{T}'(t) = \langle -\frac{4t}{(4t^{2} + 5)^{\frac{3}{2}}}, \frac{10}{(4t^{2
 In order to make it a unit normal vector we need to find the magnitude of $\vec{T}'(t)$
 $$||\vec{T}'(t)|| = \sqrt{\frac{16t^2}{(4t^2 + 5)^3} + \frac{100}{(4t^2 + 5)^3} + \frac{64t^2}{(4t^2 + 5)^3}}$$
 $$||\vec{T}'(t)|| = \frac{\sqrt{80t^2 + 100}}{(4t^2 + 5)^{\frac{3}{2}}}$$
-Now plugging our results into the formula for the unit normal vector we get the following,
+Now plugging our results into the formula for the unit normal vector we get the following general form for our normal vectors,
 
 $$\vec{N}(t) = \frac{T'(t)}{||\vec{T}'(t)||}$$
 
 $$\vec{N}(t) = \frac{\langle -\frac{4t}{(4t^{2} + 5)^{\frac{3}{2}}}, \frac{10}{(4t^{2} + 5)^{\frac{3}{2}}}, -\frac{8t}{(4t^{2} + 5)^{\frac{3}{2}}} \rangle}{\frac{\sqrt{80t^2 + 100}}{(4t^2 + 5)^{\frac{3}{2}}}}$$
+
+$$\vec{N}(t) = \langle -\frac{4t}{\sqrt{80t^2 + 100}}, \frac{10}{\sqrt{80t^2 + 100}}, -\frac{8t}{\sqrt{80t^2 + 100}} rangle$$
+We wanted our normal vectors at $t=1$. Evalulating our normal vector at that point will give us the final solution to the problem:
+$$$$
+
 
 
 
