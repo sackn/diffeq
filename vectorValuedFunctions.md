@@ -158,7 +158,7 @@ $$\vec{T}(t) =  \langle \frac{1}{\sqrt{4t^{2} + 5}}, \frac{2t}{\sqrt{4t^{2} + 5}
 In order to get to our unit normal vector we must take the derivative of out tangent vector $\vec{T}(t)$. This is a pretty tedious process, but after doing so we will end up with the following,
 $$\vec{T}'(t) = \langle -\frac{4t}{(4t^{2} + 5)^{\frac{3}{2}}}, \frac{10}{(4t^{2} + 5)^{\frac{3}{2}}}, -\frac{8t}{(4t^{2} + 5)^{\frac{3}{2}}} \rangle$$
 In order to make it a unit normal vector we need to find the magnitude of $\vec{T}'(t)$
-$$||\vec{T}'(t)|| = \sqrt{\frac{16t^{2}}{(4t^{2} + 5)^{3}, \frac{100}{(4t^{2} + 5)^{3}, \frac{64t}{(4t^{2} + 5)^{3} }$$
+$$||\vec{T}'(t)|| = \sqrt{\frac{16t^{2}}{(4t^{2} + 5)^{3}, \frac{100}{(4t^{2} + 5)^{3}, \frac{64t}{(4t^{2} + 5)^{3} }}$$
 
 
 
