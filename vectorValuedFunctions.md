@@ -162,6 +162,9 @@ $$||\vec{T}'(t)|| = \sqrt{\frac{16t^2}{(4t^2 + 5)^3} + \frac{100}{(4t^2 + 5)^3} 
 $$||\vec{T}'(t)|| = \frac{\sqrt{80t^2 + 100}}{(4t^2 + 5)^{\frac{3}{2}}}$$
 Now plugging our results into the formula for the unit normal vector we get the following,
 
+$$\vec{N}(t) = \frac{T'(t)}{||\vec{T}'(t)||}$$
+$$\vec{N}(t) = \frac{\langle -\frac{4t}{(4t^{2} + 5)^{\frac{3}{2}}}, \frac{10}{(4t^{2} + 5)^{\frac{3}{2}}}, -\frac{8t}{(4t^{2} + 5)^{\frac{3}{2}}} \rangle}{\frac{\sqrt{80t^2 + 100}}{(4t^2 + 5)^{\frac{3}{2}}}}$$
+
 
 
 ## Arc Length with Vector Functions
