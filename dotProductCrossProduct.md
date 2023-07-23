@@ -79,9 +79,55 @@ Shimamoto section 2.5 is also all about cross product and orthagonality.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image1.png" alt="UCB Problem 4.3.c">
 </details>
 
-**Shimamoto 5.2**
+
+**Shimamoto 2.5.1**
 <details>
   <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image4.png" alt="UCB Problem 4.3.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image7.png" alt="Shimamoto 2.5.1.a">
 </details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image8.png" alt="Shimamoto 2.5.1.b">
+</details>
+
+**Shimamoto 2.5.2**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image1.png" alt="Shimamoto 2.5.2.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image4.png" alt="Shimamoto 2.5.2.b">
+</details>
+
+**Shimamoto 2.5.3**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image5.png" alt="Shimamoto 2.5.3.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image3.png" alt="Shimamoto 2.5.3.b">
+</details>
+
+
+**Shimamoto 2.5.4**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image9.png" alt="Shimamoto 2.5.4.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image6.png" alt="Shimamoto 2.5.4.b">
+</details>
+
+
+**Shimamoto 2.5.6**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image2.png" alt="Shimamoto 2.5.4.a">
+</details>
+
+
+
 
