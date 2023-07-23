@@ -460,13 +460,13 @@ Shimamoto section 2.3 focuses on line integrals. Refer to this pdf for the quest
 **Shimamoto 2.3.3** 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.3/image1.png" alt="Question 4">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.3/image4.png" alt="Question 3">
 </details>
 
 **Shimamoto 2.3.4** 
 <details>
   <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.3/image3.png" alt="Question 3">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.3/image3.png" alt="Question 4">
 </details>
 
 
