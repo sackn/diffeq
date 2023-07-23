@@ -101,6 +101,9 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
 ## Parametric Equation of a Plane
 
 ## Tangent, Normal, and Binormal Vectors of a Vector Vaued Function
+
+**Tangent Vectors**
+
 One of the uses of vector value function is how easily we can define different vectors that describe its properties. Firstly, we can define the unit tangent vector which by is parallel to the tangent line (so it can therefore be used to define it) at some point A. We define the unit tangent vector as the following,
 
 $$\vec{T}(t) = \frac{\vec{r}'(t)}{||\vec{r}'(t)||}$$
@@ -128,6 +131,11 @@ $$\vec{r}(2) = \langle 4, 4, 7\rangle$$
 Now that we have a point and a line parallel to the the line we can write the full definition for our tangent line:
 $$\vec{L}(t) = \langle 4,4,7 \rangle + t \langle \frac{4}{29}, \frac{2}{29}, \frac{3}{29} \rangle$$
 $$\vec{L}(t) = \langle 4 + \frac{4t}{29}, 4+\frac{2t}{29}, 7 + \frac{3t}{29} \rangle \quad \square$$
+
+**Normal Vectors**
+
+Another important vector quantitiy that can be obtained from a parametric curve is the normal vector. The normal vector will point exactly orthagonal to the tangent vector. That may be hard to visualize to below is an image showing what a normal vector might look like on a curve:
+
 
 
 
