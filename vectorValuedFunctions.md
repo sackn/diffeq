@@ -98,6 +98,10 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
 
 ## Parametric Equation of a Plane
 
+## Tangent, Normal, and Binormal Vectors of a Vector Vaued Function
+One of the uses of vector value function is how easily we can define different vectors that describe its properties. Firstly, we can define the unit tangent vector which by is parallel to the tangent line (so it can therefore be used to define it) at some point A. We define the unit tangent vector as the following,
+
+Where $T(t)$ refer to the unit tangent vector and $r(t)$ refering to the position vector (making $r'(t)$ the rate of change of the position vector). A tangent vector drawn on a curve might look something like the following (I do not own this image): 
 
 
 ## Arc Length with Vector Functions
