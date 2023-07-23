@@ -29,8 +29,10 @@ $$\vec{A} = \langle -3, 2, 1 \rangle \quad \vec{B} = \langle 2, -1, 3 \rangle$$
 We can get the "slope" of the line through finding the seperation vector between the points. 
 $$\vec{u} = \vec{B} - \vec{A} = \langle 5, -3, 2 \rangle$$
 We have the slope now all we need is a point on the line, so that we can get our paremetric equation. Getting points on the line isn't hard since the question prompt quite literally gives us two points already on the line. Choosing arbitrarily point $(3,2,1)$ the parametric equation of our line is the following:
+
 $$\vec{r}(t) = \vec{A} + t \vec{u}$$
 $$\vec{r}(t) = \langle -3,2,1 \rangle + t \langle 5, -3 ,2 \rangle$$
+
 We can use vector arithmetic and add the two to get a more condensed formula:
 $$ \vec{r}(t) = \langle -3 + 5t, 2 - 3t, 1 + 2t \rangle \quad \square$$
 
@@ -112,9 +114,9 @@ Where $\vec{T}(t)$ refer to the unit tangent vector and $r(t)$ refering to the p
 Let $C$ be a curve in three-dimensional space paramertrized by $\vec{r}(t) =\langle t^{2} + 2t, 3t + 1\rangle$. Find the unit tangent vector $\vec{T}(t) at t=2$. 
 
 We can start the problem by differentiating our parametric equation. This will give us the rate of change of our position vector \vec{r}'(t) :
-\vec{r}'(t) = \langle 2t, 2, 3 \rangle
+$$\vec{r}'(t) = \langle 2t, 2, 3 \rangle$$
 Since we want the unit tangent vectors we will also need to find the mangitude of the rate of change of our position vector \vec{r}'(t)  (remember the definition of a unit vector $\vec{u} = \frac{\vec{v}}{||\vec{v}||}$):
-$||\vec{r}'(t)|| = \sqrt{ (2t)^{2} + (2)^2 + (3)^{2}}$ = \sqrt{4t^{2} + 13}$$
+$$||\vec{r}'(t)|| = \sqrt{ (2t)^{2} + (2)^2 + (3)^{2}}$ = \sqrt{4t^{2} + 13}$$
 Putting of these results together we can find the general equation for our tangent vector
 $$\vec{T}(t) = \frac{\vec{r}'(t)}{||\vec{r}'(t)||}$$
 $$\vec{T}(t) = \frac{\langle 2t, 2, 3\rangle}{\sqrt{4t^{2} + 13}}$$
