@@ -111,7 +111,7 @@ Where $\vec{T}(t)$ refer to the unit tangent vector and $r(t)$ refering to the p
 
 **Worked Example (Tangent Vectors on a Curve)** 
 
-Let $C$ be a curve in three-dimensional space paramertrized by $\vec{r}(t) =\langle t^{2} + 2t, 3t + 1\rangle$. Find the unit tangent vector $\vec{T}(t) at t=2$. 
+Let $C$ be a curve in three-dimensional space paramertrized by $\vec{r}(t) =\langle t^{2} + 2t, 3t + 1\rangle$. Find the unit tangent vector $\vec{T}(t) at t=2$. Also find the tangent line at that point.
 
 We can start the problem by differentiating our parametric equation. This will give us the rate of change of our position vector \vec{r}'(t) :
 $$\vec{r}'(t) = \langle 2t, 2, 3 \rangle$$
@@ -121,6 +121,7 @@ Putting of these results together we can find the general equation for our tange
 $$\vec{T}(t) = \frac{\vec{r}'(t)}{||\vec{r}'(t)||}$$
 $$\vec{T}(t) = \frac{\langle 2t, 2, 3\rangle}{\sqrt{4t^{2} + 13}}$$
 $$\vec{T}(t) = \langle \frac{2t}{\sqrt{4t^{2} + 13}}, \frac{2}{\sqrt{4t^{2} + 13}}, \frac{3}{\sqrt{4t^{2} + 13}} \rangle$$
+We have our general form by plugging int $t=2$ we can find the unit tangent vector at that specific point.
 
 
 
