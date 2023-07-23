@@ -441,6 +441,15 @@ $$f(x,y) = x^{2}y + \frac{x^3}{3} + \frac{y^{3}}{3} + y + c \quad \square$$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/conservativeVectorField/image3.png" alt="Question 3">
 </details>
 
+## Extra Practice
+
+Shimamoto section 2.3 focuses on line integrals. Refer to this pdf for the questions [https://drive.google.com/drive/folders/1VBn7HiZBlvOVbMCcjL1Yh5AoJcB7gj-j](url) (pdf called Multivarible_Calculus_Shimamoto)
+
+**Shimamoto 2.3.1** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/conservativeVectorField/image3.png" alt="Question 3">
+</details>
 
 
 
