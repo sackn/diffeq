@@ -79,3 +79,9 @@ Shimamoto section 2.5 is also all about cross product and orthagonality.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image1.png" alt="UCB Problem 4.3.c">
 </details>
 
+**Shimamoto 5.2**
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image4.png" alt="UCB Problem 4.3.a">
+</details>
+
