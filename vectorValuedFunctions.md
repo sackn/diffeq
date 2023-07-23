@@ -134,7 +134,7 @@ $$\vec{L}(t) = \langle 4 + \frac{4t}{29}, 4+\frac{2t}{29}, 7 + \frac{3t}{29} \ra
 
 **Normal Vectors**
 
-Another important vector quantitiy that can be obtained from a parametric curve is the normal vector $$\vec{N}$$. The normal vector $$\vec{N}$$ by defintion will point exactly orthagonal to the tangent vector $$\vec{T}$$  (think of it as pointing outwards). That may be hard to visualize to below is an image showing what a normal vector might look like on a curve:
+Another important vector quantitiy that can be obtained from a parametric curve is the normal vector $\vec{N}$. The normal vector $\vec{N}$ by defintion will point exactly orthagonal to the tangent vector $\vec{T}$  (think of it as pointing outwards). That may be hard to visualize to below is an image showing what a normal vector might look like on a curve:
 <img src="https://github.com/sackn/diffeq/blob/main/Images/normalVector.png" alt="Normal Vector">
 
 We usually define our vector quantities as unit vectors. The definition for the unit normal vector $\vec{N}$ is the following:
@@ -150,7 +150,7 @@ Let $C$ be a smooth curve in three-dimensional space paramertized by $\vec{r}(t)
 In order to get our normal vector we need to figure out our tangent vector. The process is the exact same as the previous worked example, so here is a shorthanded version of the work. First take derivative and find its magnitude.
 
 $$\vec{r}'(t) = \langle 1, 2t, 2\rangle$$
-$$||\vec{r}'(t)|| = \sqrt{1^{2} + (2t)^{2} + 2^{2}} = \sqrt{4t^{2} + 5}$$
+$$||\vec{r}'(t)|| = \sqrt{1^{2} + (2t)^{2} + 2^{2}}$$
 
 Apply unit tangent vector definition
 $$\vec{T}(t) =  \langle \frac{1}{\sqrt{4t^{2} + 5}, \frac{2t}{\sqrt{4t^{2} + 5}, \frac{2}{\sqrt{4t^{2} + 5} \rangle}$$
