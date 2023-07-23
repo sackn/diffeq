@@ -156,9 +156,11 @@ The dx and dy are analagous to the x&y components of our tangent vectors.
 
 
 
-### Problems and Solutions
+## Extra Problems and Solutions
 
 Shimamota 2.1 is all about parametric equations.
+Shimamota 2.2 is velocity, speed, acceleration, and arc length.
+Shimamoto 2.4 is all about tangent and normal vectors of vector valued equations.
 
 **Shimamota Question 2.1.2:** Graph and indicate the direction of $\alpha(t) = \langle tcos(t), sin(t) \rangle$ on the interval $t \in [0, 6\pi]$
 <details>
@@ -199,7 +201,6 @@ Shimamota 2.1 is all about parametric equations.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image2.png" alt="2.1.12">
 </details>
 
-
 **Shimamota Question 2.1.14:** Find a point and a vector which parrallel to the line $\alpha(t) = \langle 1+2t, -3t, 4+5t \rangle$
 <details>
   <summary>Solution</summary>
@@ -212,13 +213,7 @@ Shimamota 2.1 is all about parametric equations.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image3.png" alt="2.1.14">
 </details>
 
-
-
-#### Problems and Solutions**
-
-Shimamota 2.2 is velocity, speed, acceleration, and arc length.
-
-**Shimamota Question 2.2.1**
+**Shimamoto Question 2.2.1**
 
 $\vec{r}(t) = \langle 3t^{2}, 6t, 6 \rangle$
 
@@ -235,7 +230,7 @@ Part B: Arc Length on the interval $t \in [0,4]$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/VectorValue/image3.png" alt="2.2.1.b">
 </details>
 
-**Shimamota Question 2.2.2**
+**Shimamoto Question 2.2.2**
 
 $\vec{r}(t) = \langle \frac{1}{2}t^{2}, 2t, \frac{4}{3}t^{\frac{3}{2}} \rangle$
 
@@ -252,7 +247,7 @@ Part B: Arc Length on the interval $t \in [2,4]$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/VectorValue/image4.png" alt="2.2.2.b">
 </details>
 
-**Shimamota Question 2.2.3**
+**Shimamoto Question 2.2.3**
 
 $\vec{r}(t) = \langle cos(2t), sin(2t), 4t^{3/2} \rangle $
 
@@ -269,7 +264,7 @@ Part B: Arc Length on the interval $t \in [1,2]$
   <img src="https://github.com/sackn/diffeq/blob/main/Images/VectorValue/image2.png" alt="2.2.2.b">
 </details>
 
-**Shimamota Question 2.2.4**
+**Shimamoto Question 2.2.4**
 
 For some arbitrary constants $a,b$. Assume $a>0$.
 
@@ -287,3 +282,26 @@ Part B: Arc Length on the interval $t \in [0, 2\pi]$
   <summary>Part B Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/VectorValue/image1.png" alt="2.2.2.b">
 </details>
+
+**Shimamoto Question 2.4.1:**
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.4/image2.png" alt="Shimamoto 2.4.1.a">
+</details>
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.4/image4.png" alt="Shimamoto 2.4.1.b">
+</details>
+
+**Shimamota Question 2.4.2:**
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.4/image3.png" alt="Shimamoto 2.4.2.a">
+</details>
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.4/image1.png" alt="Shimamoto 2.4.2.b">
+</details>
+
