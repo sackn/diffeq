@@ -111,7 +111,7 @@ Where $\vec{T}(t)$ refer to the unit tangent vector and $r(t)$ refering to the p
 
 **Worked Example (Tangent Vectors on a Curve)** 
 
-Let $C$ be a curve in three-dimensional space paramertrized by $\vec{r}(t) =\langle t^{2} + 2t, 3t + 1\rangle$. Find the unit tangent vector $\vec{T}(t) at t=2$. Also find the tangent line at that point.
+Let $C$ be a curve in three-dimensional space paramertrized by $\vec{r}(t) =\langle t^{2}, 2t, 3t + 1\rangle$. Find the unit tangent vector $\vec{T}(t) at t=2$ and form the tangent line using it.
 
 We can start the problem by differentiating our parametric equation. This will give us the rate of change of our position vector \vec{r}'(t) :
 $$\vec{r}'(t) = \langle 2t, 2, 3 \rangle$$
@@ -122,6 +122,13 @@ $$\vec{T}(t) = \frac{\vec{r}'(t)}{||\vec{r}'(t)||}$$
 $$\vec{T}(t) = \frac{\langle 2t, 2, 3\rangle}{\sqrt{4t^{2} + 13}}$$
 $$\vec{T}(t) = \langle \frac{2t}{\sqrt{4t^{2} + 13}}, \frac{2}{\sqrt{4t^{2} + 13}}, \frac{3}{\sqrt{4t^{2} + 13}} \rangle$$
 We have our general form by plugging int $t=2$ we can find the unit tangent vector at that specific point.
+$$\vec{T}(2) = \langle \frac{4}{29}}, \frac{2}{29}, \frac{3}{29} \rangle$$ 
+We also want to get the tangent line at $t=2$. We have a vector parallel at $\vec{T}(2)$,but we also need a point on the line. We can get a point on the line by just evaluating its the original function at $t = 2$. 
+$$\vec{r}(2) = \langle 4, 4, 7\rangle$$
+Now that we have a point and a line parallel to the the line we can write the full definition for our tangent line:
+$$\vec{L}(t) = \langle 4,4,7 \rangle + t \langle \frac{4}{29}}, \frac{2}{29}, \frac{3}{29} \rangle$$
+$$\vec{L}(t) = \langle 4 + \frac{4t}{29}, 4+\frac{2t}{29}, 7 + \frac{3t}{29} \rangle \quad \square$$
+
 
 
 
