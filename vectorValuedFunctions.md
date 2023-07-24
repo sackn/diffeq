@@ -116,14 +116,14 @@ You might be asking how we actually get the normal to the plane. We can do that 
 
 **Worked Example**
 
-Find the equation to the plane that contains A$(1,2,-1)$. B$(2,-1,3)$, and C$(-2,0,1)$
+Find the equation to the plane that contains A $(1,2,-1)$. B $(2,-1,3)$, and C $(-2,0,1)$
 
 We have three points and we need two different vectors to help us find the normal through a cross product calculation. Subtrating any two points we can get a vector inside the plane. Picking any unique set of pairs we can get two vectors int he plane $\vec{u}$ and $\vec{v}$ (my choices are arbitrary there are other combinations that will also work to get a normal)
 $$\vec{u} = B-A = \langle 1, -3, 4\rangle$$
 $$\vec{v} = C-A = \langle -3, -2, 2\rangle$$
 In order to find the normal to the plane we need to find the cross product between the two vectors $\vec{u} \times \vec{v}$. Doing so, will get us the following vector,
 
-\[\mathbf{v} \times \mathbf{w} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k} \\-1 & -3 & 4 \\-3 & -2 & 2\end{vmatrix}\]
+$$\[\mathbf{v} \times \mathbf{w} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k} \\-1 & -3 & 4 \\-3 & -2 & 2\end{vmatrix}\]$$
 
 
 
