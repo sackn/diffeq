@@ -513,10 +513,7 @@ curl \vec{F} = \nabla \times \vec{F} =
 ```
 We can do the cross product using the coverup method. Covering up $\mathbf{i}$
 ```math
-\begin{bmatrix}
-a & b \\
-c & d \\
-\end{bmatrix}
+\begin{vmatrix} a & b \\ c & d \\ \end{vmatrix}
 ```
 
 
