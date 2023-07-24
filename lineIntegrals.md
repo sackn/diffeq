@@ -484,7 +484,14 @@ The curl operator measures how much a vector field tends to rotate around a poin
 
 A good visualization is to think of a windmill at a certain point and try to imagine the vector field as wind causing it to turn in different direction. We can then measure what direction the "windmill" spins (clockwise or counterclockwise) and how fast it spins. In order to calculatet the curl of a vector field we apply the curl operator onto a vector field. The curl of a vector field in three dimensional space $\vec{F} = \langle F_x, F_y, F_z\rangle$ is defined as the following,
 
-$$curl \vec{F} = \nabla \times \vec{F} = \nabla \times \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix}$$
+```math
+curl \vec{F} = \nabla \times \vec{F} =
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+F_x & F_y & F_z
+\end{vmatrix}
+```
 
 Curl is defined as the cross product between the differential operator and the vector field (much like how divergence is the dot product between differential operator and the vector field). When we calculate the curl of a vector field we get another vector unlike divergence which is just a scalar quantity. The magnitude of the curl vector is akin to how fast much the vector field rotates or how fast the "windmill" is spinning at that point. The direction of the curl vector will give the axis of rotation. To determine what way the vector field is spinning around the axis of rotation we can use the right hand rule. If you point your thumb in the direction of curl vector then your curled fingers represent which way the field is rotating (either clockwise or counterclockwise). 
 
@@ -515,7 +522,7 @@ curl \vec{F} = \nabla \times \mathbf{F} =
   <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image3.png" alt="Question 7">
 </details>
 
-
+https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image1.png
 
 
 
