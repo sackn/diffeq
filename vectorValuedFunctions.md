@@ -114,6 +114,8 @@ $$ax + by + cz = ax_0 + by_0 + cz_0$$
 
 You might be asking how we actually get the normal to the plane. We can do that with the vector cross product. If we know two vectors inside the plane then we can take the cross product between them to find a vector normal to the entire plane. In order to define a plane you need atleast two vectors which would also imply that you need atleast 3 points to define a plane. 
 
+It also shouldn't be a suprise that if you any addiition of vectors of scalar multiplication that the vector will also lie in the plane. 
+
 **Worked Example**
 
 Find the equation to the plane that contains A $(1,2,-1)$. B $(2,-1,3)$, and C $(-2,0,1)$
@@ -121,11 +123,30 @@ Find the equation to the plane that contains A $(1,2,-1)$. B $(2,-1,3)$, and C $
 We have three points and we need two different vectors to help us find the normal through a cross product calculation. Subtrating any two points we can get a vector inside the plane. Picking any unique set of pairs we can get two vectors int he plane $\vec{u}$ and $\vec{v}$ (my choices are arbitrary there are other combinations that will also work to get a normal)
 $$\vec{u} = B-A = \langle 1, -3, 4\rangle$$
 $$\vec{v} = C-A = \langle -3, -2, 2\rangle$$
-In order to find the normal to the plane we need to find the cross product between the two vectors $\vec{u} \times \vec{v}$. Doing so, will get us the following vector,
+In order to find the normal to the plane we need to find the cross product between the two vectors $\vec{u} \times \vec{v}$. Doing so, will get us the following vector (put work for this later),
+$$\vec{N} = \vec{u} \times \vec{v} = \langle 2, 14, 5\rangle$$
+Plugging our normal vector into the equation for a plane (remeber that $\vec{N} = \langle a,b,c \rangle$:
+$$2(x-x_0) + 14(y-y_0) + 5(z-z_0) = 0$$
+In order to complete or equation we need to find a point that lies in a plane. This isn't very difficult since the problem already supplies us with these points. Picking point A for no specific reason we get our final equation for a plane
+$$2(x-1) + 14(y-2) + 5(z+1) = 0 \quad \square$$
 
-![cross_product](https://latex.codecogs.com/svg.latex?\bg_white&space;\mathbf{v}&space;\times&space;\mathbf{w}&space;=&space;\begin{vmatrix}&space;\mathbf{i}&space;&&space;\mathbf{j}&space;&&space;\mathbf{k}&space;\\&space;-1&space;&&space;-3&space;&&space;4&space;\\&space;-3&space;&&space;-2&space;&&space;2&space;\end{vmatrix})
+### Questions and Solutions
+
+Remember there may be multiple answers depending on what point you use as your initial point.
+
+**Question 1:** Find the equation for the plane that passes through the point $(1,2,3)$ and perpendicular to the vector \langle 2, -1, 4\rangle 
+<details>
+  <summary>Solution</summary>
+  This problem isn't very hard all. We are given all the necessary information for defining a plane in the prompt:
+  $$2(x-1) - (y-2) +4 (z-3) = 0 \quad \square$$
+</details>
 
 
+**Question 2:** Find the equation to the plane that has an x-intercept of $(3,0,0)$, a y-intercept of $(0,5,0)$, and a z-intercept of $(0,0,2)$
+<details>
+  <summary>Solution</summary>
+  The most important part to tackling this question is to realize that I just gave you 3 points in the plane (much like the worked example). These points just happen to also be the intercepts.
+</details>
 
 
 
