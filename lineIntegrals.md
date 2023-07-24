@@ -524,64 +524,61 @@ Covering up $\mathbf{k}$:
 \begin{vmatrix} \frac{\partial}{\partial x} & \frac{\partial}{\partial y} \\ 2xy & x^3+y^2 \\ \end{vmatrix} = \frac{\partial}{\partial y}(x^3 + y^2) - \frac{\partial}{\partial y} (2xy) = 3x^{2} - 2y
 ```
 Combining the three results we can get our final curve vector 
-$$\curl \vec{F} = \langle 0,0, 3x^2 - 2y\rangle \quad \square$$
+$$curl \vec{F} = \langle 0,0, 3x^2 - 2y\rangle \quad \square$$
 We can make a little not that our vector field $\vec{F}$ is rotational. Only when the following relationship holds $\frac{3}{2}x^2 = y$ do we have points that exhibit irrotational behavior (in order to have curl your vecto must have a magnitude of zero).
 
 
 
 ### Questions and Solutions
 
-**Question 1:**
+**Question 1:** Given the vector field $\vec{F} = \langle x^2 + y, 2xy-3\rangle$ Find $\nabla \cdot \vec{F}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image2.png" alt="Question 1">
 </details>
 
-**Question 2:**
+**Question 2:** Given the vector field $\vec{F} = \langle xyz, x^2 + y^2 + z^2, e^z \rangle$ Find $div \vec{F}$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image1.png" alt="Question27">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image1.png" alt="Question2">
 </details>
 
-**Question 3:**
+**Question 3:** Given the vector field $\vec{F} = \langle 2x, 3y, z^2 \rangle$ determine if the vector field has any sources or sinks:
 <details>
   <summary>Solution</summary>
+  What I wrote on the paper is a little wrong (I don't why I wrote rotational). The field must have both sources and sinks since divergence is not always zero. For example a choice of $z = -10$ will locate a sink and choice of $z=0$ will locate a source.
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image4.png" alt="Question 3">
 </details>
 
-**Question 4:**
+**Question 4:** A consider a fluid velocity field given by $\vec{F} = \langle 3yz, 2xz, x^2 + y^2\rangle$ describes some properties of the field in terms of fluid flow.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image7.png" alt="Question 4">
 </details>
 
-**Question 5:**
+**Question 5:** Given the vector field $\vec{F} = \langle x^2 - y, 3xy\rangle$ find $\nabla \times \vec{F}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image3.png" alt="Question 5">
 </details>
 
-**Question 6:**
+**Question 6:** Given the vector field $\vec{F} = \langle 3xz, -2yz, x^2 - y^2\rangle$ Find $curl \vec{F}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image6.png" alt="Question 6">
 </details>
 
-**Question 7:**
+**Question 7:** Given the vector field $\vec{F} = \langle x,y, 2z\rangle$ describe some basic properties in terms of curl.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image5.png" alt="Question 7">
 </details>
 
-**Question 8:**
+**Question 8:** Given a eletrical field defined with $\vec{E} = \langle 2xz, y, -xy^2\rangle$ determine when where curl is zero
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image8.png" alt="Question 8">
 </details>
-
-
-
-
 
 
 ## Extra Practice
