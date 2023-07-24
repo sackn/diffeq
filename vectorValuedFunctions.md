@@ -181,6 +181,49 @@ The binormal vector is orthagonal to both the unit tangent vector and the unit n
 ### Problems and Solutions
 
 
+**Question 1**
+<details>
+  <summary>Part ASolution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image4.png" alt="Question 1.a">
+</details>
+<details>
+  <summary>Part BSolution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 1.b">
+</details>
+<details>
+  <summary>Part C Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 1.c.1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image2.png" alt="Quetsion 1.c.2">
+</details>
+<details>
+  <summary>Part D Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 1.d">
+</details>
+
+
+**Question 2**
+
+Warnining: This problem gets very messy, so you will see me use substituions to keep the amount of work minimal. 
+
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image3.png" alt="Question 2.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image1.png" alt="Question 2.b">
+</details>
+<details>
+  <summary>Part CSolution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 2.c">
+</details>
+<details>
+  <summary>Part DSolution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 2.d">
+</details>
+
+
+
 ## Arc Length with Vector Functions
 Recall for a function $y=f(t)$ on an interval $x \in [a,b]$ it will have an arc length equal to the following:
 $$L = \int_{a}^{b} \sqrt{1 + \frac{df}{dt}}(dt)$$
