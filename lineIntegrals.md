@@ -482,12 +482,28 @@ The curl operator measures how much a vector field tends to rotate around a poin
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/curl.png" alt="Curl Visualization">
 
-A good visualization is to think of a windmill at a certain point and try to imagine the vector field as wind causing it to turn in different direction. We can then measure what direction the "windmill" spins (clockwise or counterclockwise) and how fast it spins. In order to calculatet the curl of a vector field we apply the curl operator onto a vector field. The curl of a vector field $\vec{F} = F_x + F_y + F_z$ is defined as the following,
+A good visualization is to think of a windmill at a certain point and try to imagine the vector field as wind causing it to turn in different direction. We can then measure what direction the "windmill" spins (clockwise or counterclockwise) and how fast it spins. In order to calculatet the curl of a vector field we apply the curl operator onto a vector field. The curl of a vector field in three dimensional space $\vec{F} = \langle F_x, F_y, F_z\rangle$ is defined as the following,
 
 $$curl \vec{F} = \nabla \times \vec{F} = \nabla \times \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix}$$
 
+Curl is defined as the cross product between the differential operator and the vector field (much like how divergence is the dot product between differential operator and the vector field). When we calculate the curl of a vector field we get another vector unlike divergence which is just a scalar quantity. The magnitude of the curl vector is akin to how fast much the vector field rotates or how fast the "windmill" is spinning at that point. The direction of the curl vector will give the axis of rotation. To determine what way the vector field is spinning around the axis of rotation we can use the right hand rule. If you point your thumb in the direction of curl vector then your curled fingers represent which way the field is rotating (either clockwise or counterclockwise).
 
-$$\nabla \times \mathbf{F} = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix}$$
+We can connect back to a previous section. We know that if $\nabla \times \vec{F} = 0$ then our vector field is conservative and therefore is line integrals with respect to the field are path indepdendent. 
+
+**Worked Example (Curl)**
+
+Consider the vector field $\vec{F} = \langle 2xy, x^3 + y^2, 3z \rangle$
+
+```math
+\nabla \times \mathbf{F} =
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+F_x & F_y & F_z
+\end{vmatrix}
+```
+
+
 ## Extra Practice
 
 Shimamoto section 2.3 focuses on line integrals. Refer to this pdf for the questions [https://drive.google.com/drive/folders/1VBn7HiZBlvOVbMCcjL1Yh5AoJcB7gj-j](url) (pdf called Multivarible_Calculus_Shimamoto, exercise section)
