@@ -100,7 +100,7 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
 
 ## Parametric Equation of a Plane
 
-## Tangent, Normal, and Binormal Vectors of a Vector Vaued Function
+## Tangent, Normal, and Binormal Vectors on a curve
 
 **Tangent Vectors**
 
@@ -166,11 +166,19 @@ $$\vec{N}(t) = \frac{T'(t)}{||\vec{T}'(t)||}$$
 
 $$\vec{N}(t) = \frac{\langle -\frac{4t}{(4t^{2} + 5)^{\frac{3}{2}}}, \frac{10}{(4t^{2} + 5)^{\frac{3}{2}}}, -\frac{8t}{(4t^{2} + 5)^{\frac{3}{2}}} \rangle}{\frac{\sqrt{80t^2 + 100}}{(4t^2 + 5)^{\frac{3}{2}}}}$$
 
-$$\vec{N}(t) = \langle -\frac{4t}{\sqrt{80t^2 + 100}}, \frac{10}{\sqrt{80t^2 + 100}}, -\frac{8t}{\sqrt{80t^2 + 100}} rangle$$
+$$\vec{N}(t) = \langle -\frac{4t}{\sqrt{80t^2 + 100}}, \frac{10}{\sqrt{80t^2 + 100}}, -\frac{8t}{\sqrt{80t^2 + 100}} \rangle$$
 We wanted our normal vectors at $t=1$. Evalulating our normal vector at that point will give us the final solution to the problem:
-$$$$
+$$\vec{N}(1) = \langle -frac{4}{\sqrt{180}}, frac{10}{\sqrt{180}}, -frac{8}{\sqrt{180}} \quad \square$$
 
+**Binormal Vectors**
 
+The binormal vector is the final vector valued property that we are going to talk about. The binormal vector is define as the following:
+
+$$\vec{B} = \vec{T} \times \vec{N}$$
+
+The binormal vector is orthagonal to both the unit tangent vector and the unit normal vector. That means for some reason if we wanted to make a plane formed between the tangent and normal vector we could just use the birnomal vector to define it. 
+
+### Problems and Solutions
 
 
 ## Arc Length with Vector Functions
