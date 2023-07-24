@@ -448,8 +448,32 @@ Divergence and curl operators show up a lot in nature and mathematics. Divergenc
 
 **Divergence Operator**
 
-Divergence is the measure how much a vector field measures the outwardness/expansion of a vector field. A vector field could have "sources" and "sinks". Sources refering to place where the vectors seem to eminate from and sinks refeing to placing where vectors seem to point towards and disappear. Imagine a vector field and draw a small circle around a point. If the vectors that enter the circle tend to stay in the circle then that point is probably is a sink. If the no vectors there are no vectors entering the circle and all the vectors already inside the circle look like they are trying to leave then, you probably have a source. IF the vectors enter the circle and leave the circle (like they are just passing through) then you have neither a sink nor source. Refer to the image below:
+Divergence is the measure how much a vector field measures the outwardness/expansion of a vector field. A vector field could have "sources" and "sinks". Sources refering to place where the vectors seem to eminate from and sinks refeing to placing where vectors seem to point towards and disappear. Imagine a vector field and draw a small circle around a point. If the vectors that enter the circle tend to stay in the circle then that point is probably is a sink. If the no vectors there are no vectors entering the circle and all the vectors already inside the circle look like they are trying to leave then, you probably have a source. IF the vectors enter the circle and leave the circle (like they are just passing through) then you have neither a sink nor source. Refer to the visualization below (I do own the image):
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/divergence.png" alt="Divergence Visualization">
+
+On the left the point like a sink ("attracting" the vector field). In the middle the point acts like a source ("emitting" vectors). On the right you have neither a source nor sink (Vector field passing through). At any point the divergence can be calculated. In a sink the divergence is negative (literally the opposite of outward, it is inward). In a source the divergence is positive (outward). In the scenario where it is neither a source nor sink the divergence is zero. 
+
+Divergence is an operator much like a derivative. It needs to act on another object just like how a $\frac{d}{dx}$ is pretty useless. Divergence acts on a vector field as the following:
+$$div \vec{F} = \nabla \cdot \vec{F}$$
+There are two main ways to write divergence. $div \vec{F}$ is usually the shorthand and $\nabla \cdot \vec{F}$ is the actual full definition of divergence. Divergence is the dot product between differential operator $\nabla$ and the vector field. The differential operator is just a vector a storing the partial deriviative operator for all varibles present. For a scenario we three indepdent varibles the differential operator is:
+
+$$\nabla = \langle \frac{\parital}{\parital x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\rangle$$
+When you dot produc the differential operator starts to act on the vector field. Again for a 3D scenario where we have the vector field $\vec{F} = \langle F_x, F_y, F_z \rangle$,
+
+$$div \vec{F} = \langle \frac{\parital}{\parital x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\rangle \cdot \langle F_x, F_y, F_z\rangle$$
+$$div \vec{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}$$
+
+**Worked Example (Divergence)**
+
+Given the vector field $\vec{F} = \langle xy, x^2+y, e^xy \rangle$ find $div \vec{F}$
+
+We know from the definition divergence that the following is true:
+$$div \vec{F} =\langle \frac{\parital}{\parital x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\rangle \cdot \langle xy, x^2+y, e^xy \rangle$$
+Applying the dot product we get that,
+$$div \vec{F} = \frac{\partial}{\partial x} xy + \frac{\partial}{\partial y} (x^{2} + y) + \frac{\partial}{\partial z} e^{xy}$$
+If we then apply the partial derivative we can get out final answer
+$$div \vec{F} = y + 1 \quad \square$$
 
 
 
