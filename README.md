@@ -391,3 +391,14 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 
 
 
+## Method Undetermined Coefficients
+
+The method of undetermined coefficients is used to solve non-homogenous differential equations like the following:
+$$\ddot{y} - 4 \cdot{y} + 4y = 8e^{2x}$$
+So far we have been used to solving homogenous differential equations (using the characterisitc equation). By removing the 8e^{2x} on the right side of the equation we can get a homogenous differential equation,
+$$\ddot{y} - 4 \cdot{y} + 4y = 0$$
+
+
+
+
+
