@@ -141,12 +141,40 @@ Remember there may be multiple answers depending on what point you use as your i
   $$2(x-1) - (y-2) +4 (z-3) = 0 \quad \square$$
 </details>
 
-
 **Question 2:** Find the equation to the plane that has an x-intercept of $(3,0,0)$, a y-intercept of $(0,5,0)$, and a z-intercept of $(0,0,2)$
 <details>
   <summary>Solution</summary>
   The most important part to tackling this question is to realize that I just gave you 3 points in the plane (much like the worked example). These points just happen to also be the intercepts.
+
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/planeEquation/image2.png" alt="Question 2">
 </details>
+
+**Question 3:** Find the equation of the plane that contains the point $A (2,-1,3)$, $B (1,4,-2)$, and $C (0,01)$.
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/planeEquation/image1.png" alt="Question 3">
+</details>
+
+**Question 4:** Find the equation to the plane which is perpendiulcar to the vector $\vec{a} = \langle 2,1,-1 \rangle$ and $\vec{b} = \langle -3,5,2 \rangle$. The new plane should also include the point $(1,-2,3)$
+<details>
+  <summary>Solution</summary>
+
+  It is possible to get two vectors in our new plane. The vectors $\vec{a}$ and $\vec{b}$ will form a plane which has its own normal vector. By definition of the problem this normal vector will also lie in our new plane. We know the point $(1,-2,3)$ to be in our plane. Since the addition of vectors also lies inside the plane we can create another vector by adding the normal of $vec{a} \times \vec{b}$ and the position vector of our initial point $\langle 1, -2, 3\rangle$
+  
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/planeEquation/image3.png" alt="Question 4.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/planeEquation/image4.png" alt="Question 4.b">
+</details>
+
+**Question 5:** Find the equation to the plane that contains the point $(1,2,1)$ and which is parallel to the plane defined by $2x + 3y -5z = 7$
+<details>
+  <summary>Solution</summary>
+  This is very similar to question one. We are given all the information necssary in the prompt, but this time our perpendicular vector is a little hidden. We know our orthagonal vector to be $\vec{n} = \langle 2,3,-5\rangle$ since the planes are parallel to one another. That makes our equation:
+  $$2(x-1) + 3(y-2) -5(z-1) = 0 \quad \square$$
+  
+</details>
+
+
+
 
 
 
