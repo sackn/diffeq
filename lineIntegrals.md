@@ -480,6 +480,12 @@ The divergence of the above example tells us that when $ y > -1$ we have source 
 **Curl Operator**
 The curl operator measures how much a vector field tends to rotate around a point. There might be certain points in the vector field that "cause other vectors to rotate/curl around it". If we again consider a wind vector field the eye of a tornado would have an extremely high curl because it causes the wind to rotate around itself. In the image below point $(0,0)$ has high curl and could represent something like the center of a tornado. 
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/curl.png" alt="Curl Visualization">
+
+A good visualization is to think of a windmill at a certain point and try to imagine the vector field as wind causing it to turn in different direction. We can then measure what direction the "windmill" spins (clockwise or counterclockwise) and how fast it spins. In order to calculatet the curl of a vector field we apply the curl operator onto a vector field. The curl of a vector field $\vec{F} = F_x + F_y + F_z$ is defined as the following,
+
+$$curl \vec{F} = \nabla \times \vec{F} = \nabla \times \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix}$$
+
 
 
 ## Extra Practice
