@@ -513,12 +513,20 @@ curl \vec{F} = \nabla \times \vec{F} =
 ```
 We can do the cross product using the coverup method. Covering up $\mathbf{i}$:
 ```math
-\begin{vmatrix} \frac{\partial}{\parital y} & \frac{\partial}{\parital z} \\ x^{3} + y^2 & 3z \\ \end{vmatrix} = \frac{\partial}{\parital y}(3z) + \frac{\partial}{\partial z} (x^3 + y^2) = 0
+\begin{vmatrix} \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ x^{3} + y^2 & 3z \\ \end{vmatrix} = \frac{\partial}{\partial y}(3z) - \frac{\partial}{\partial z} (x^3 + y^2) = 0
 ```
 Covering up $\mathbf{j}$:
+```math
+\begin{vmatrix} \frac{\partial}{\partial x} & \frac{\partial}{\partial z} \\ 2xy & 3z \\ \end{vmatrix} = \frac{\partial}{\partial x}(3z) - \frac{\partial}{\partial z} (2xy) = 0
+```
+Covering up $\mathbf{k}$:
+```math
+\begin{vmatrix} \frac{\partial}{\partial x} & \frac{\partial}{\partial y} \\ 2xy & x^3+y^2 \\ \end{vmatrix} = \frac{\partial}{\partial y}(x^3 + y^2) - \frac{\partial}{\partial y} (2xy) = 3x^{2} - 2y
+```
+Combining the three results we can get our final curve vector 
+$$\curl \vec{F} = \langle 0,0, 3x^2 - 2y\rangle \quad \square$$
+We can make a little not that our vector field $\vec{F}$ is rotational. Only when the following relationship holds $\frac{3}{2}x^2 = y$ do we have points that exhibit irrotational behavior (in order to have curl your vecto must have a magnitude of zero).
 
-
-Covering up $\mathbf{j}$:
 
 
 ### Questions and Solutions
