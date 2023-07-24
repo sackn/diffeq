@@ -504,25 +504,74 @@ We can connect back to a previous section. We know that if $\nabla \times \vec{F
 Consider the vector field $\vec{F} = \langle 2xy, x^3 + y^2, 3z \rangle$. By apply the definition of curl we get, 
 
 ```math
-curl \vec{F} = \nabla \times \mathbf{F} =
+curl \vec{F} = \nabla \times \vec{F} =
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
 2xy & x^{3} + y^{2} & 3z
 \end{vmatrix}
 ```
+We can do the cross product using the coverup method. Covering up $\mathbf{i}$
+```math
+\begin{bmatrix}
+a & b \\
+c & d \\
+\end{bmatrix}
+```
 
-**Finish this later when you figure out matrices**
 
 ### Questions and Solutions
 
-**Question 7:** A curve $C$ is defined as a circle of radius two on $\theta \in [\frac{\pi}{6}, \frac{\pi}{3}]$ find $\int_{C} \frac{x^2-y^{2}}{x} dx$
+**Question 1:**
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image3.png" alt="Question 7">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image2.png" alt="Question 1">
 </details>
 
-https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image1.png
+**Question 2:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image1.png" alt="Question27">
+</details>
+
+**Question 3:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image4.png" alt="Question 3">
+</details>
+
+**Question 4:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image7.png" alt="Question 4">
+</details>
+
+**Question 5:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image3.png" alt="Question 5">
+</details>
+
+**Question 6:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image6.png" alt="Question 6">
+</details>
+
+**Question 7:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image5.png" alt="Question 7">
+</details>
+
+**Question 8:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/curlDiv/image8.png" alt="Question 8">
+</details>
+
+
+
 
 
 
