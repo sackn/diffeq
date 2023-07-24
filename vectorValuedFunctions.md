@@ -123,7 +123,10 @@ $$\vec{u} = B-A = \langle 1, -3, 4\rangle$$
 $$\vec{v} = C-A = \langle -3, -2, 2\rangle$$
 In order to find the normal to the plane we need to find the cross product between the two vectors $\vec{u} \times \vec{v}$. Doing so, will get us the following vector,
 
-$$\[\mathbf{v} \times \mathbf{w} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k} \\-1 & -3 & 4 \\-3 & -2 & 2\end{vmatrix}\]$$
+$$\[\mathbf{v} \times \mathbf{w} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k} \\-1 & -3 & 4 \\-3 & -2 & 2\end{vmatrix}\]
+
+\[
+\mathbf{v} \times \mathbf{w} = \left(\mathbf{i} \cdot (-3 \cdot 2 - 4 \cdot (-2))\right) - \left(\mathbf{j} \cdot (-1 \cdot 2 - 4 \cdot (-3))\right) + \left(\mathbf{k} \cdot (-1 \cdot (-2) - (-3) \cdot (-3))\right)$$
 
 
 
