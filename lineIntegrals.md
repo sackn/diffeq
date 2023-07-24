@@ -511,10 +511,14 @@ curl \vec{F} = \nabla \times \vec{F} =
 2xy & x^{3} + y^{2} & 3z
 \end{vmatrix}
 ```
-We can do the cross product using the coverup method. Covering up $\mathbf{i}$
+We can do the cross product using the coverup method. Covering up $\mathbf{i}$:
 ```math
-\begin{vmatrix} a & b \\ c & d \\ \end{vmatrix}
+\begin{vmatrix} \frac{\partial}{\parital y} & \frac{\partial}{\parital z} \\ x^{3} + y^2 & 3z \\ \end{vmatrix} = \frac{\partial}{\parital y}(3z) + \frac{\partial}{\partial z} (x^3 + y^2) = 0
 ```
+Covering up $\mathbf{j}$:
+
+
+Covering up $\mathbf{j}$:
 
 
 ### Questions and Solutions
