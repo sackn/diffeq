@@ -100,9 +100,18 @@ Our definition of a line is pretty flexible. In fact with the way we designed it
 
 ## Parametric Equation of a Plane
 
-We want to define an equation for a plane. Most commonly a plane is defined by a point in the plane a vector $orthagonal$ (perpendicular) to the plane. A plane is just a set of points and we can obviously form a vector between any two points. It key to the equation of a plane to understand that the seperation vector between two points(in the same plane) will also lie in that the same plane. The seperation vector between two points is the difference between there position vectors. For some constant position vector $\vec{r}_0$ and any the position vector of any other point $\vec{r}$ we get that there seperation vector is simply $\vec{r} - \vec{r}_0$.
+We want to define an equation for a plane. Most commonly a plane is defined by a point in the plane a vector orthagonal $\vec{N}$ to the plane. A plane is just a set of points and we can obviously form a vector between any two points. It key to the equation of a plane to understand that the seperation vector between two points(in the same plane) will also lie in that the same plane. The seperation vector between two points is the difference between there position vectors. For some constant position vector $\vec{r}_0$ and any the position vector of any other point $\vec{r}$ we get that there seperation vector is
+simply $\vec{r} - \vec{r}_0$. Below is a visualization of what I just said , 
 
-We want t
+<img src="https://github.com/sackn/diffeq/blob/main/Images/plane.png" alt="Plane">
+
+We know that the any seperation vector between point in the plane will also lie in the plane. That means if we define a normal vector that is orthagonal to the plane the $\vec{N} \cdot (\vec{r} - \vec{r}_0) = 0$ will always hold. If we take this equation and expand it with some genernic varibles we get,
+$$\langle a,b,c \rangle \cdot \langle x-x_0, y-y_0, z-z_0\rangle$$
+Applying the dot product we get the definition of a plane.
+$$a(x-x_0) + b(y-y_0) + c(z-z_0) = 0$$
+Alternatively some people may write it as the following
+$$ax + by + cz = ax_0 + by_0 + cz_0$$
+
 
 ## Tangent, Normal, and Binormal Vectors on a curve
 
