@@ -108,9 +108,25 @@ simply $\vec{r} - \vec{r}_0$. Below is a visualization of what I just said ,
 We know that the any seperation vector between point in the plane will also lie in the plane. That means if we define a normal vector that is orthagonal to the plane the $\vec{N} \cdot (\vec{r} - \vec{r}_0) = 0$ will always hold. If we take this equation and expand it with some genernic varibles we get,
 $$\langle a,b,c \rangle \cdot \langle x-x_0, y-y_0, z-z_0\rangle$$
 Applying the dot product we get the definition of a plane.
-$$a(x-x_0) + b(y-y_0) + c(z-z_0) = 0$$
+$$a(x-x_0) + b(y-y_0) + c(z-z_0) = 0 \quad \sqaure$$
 Alternatively some people may write it as the following
 $$ax + by + cz = ax_0 + by_0 + cz_0$$
+
+You might be asking how we actually get the normal to the plane. We can do that with the vector cross product. If we know two vectors inside the plane then we can take the cross product between them to find a vector normal to the entire plane. In order to define a plane you need atleast two vectors which would also imply that you need atleast 3 points to define a plane. 
+
+**Worked Example**
+
+Find the equation to the plane that contains A$(1,2,-1)$. B$(2,-1,3)$, and C$(-2,0,1)$
+
+We have three points and we need two different vectors to help us find the normal through a cross product calculation. Subtrating any two points we can get a vector inside the plane. Picking any unique set of pairs we can get two vectors int he plane $\vec{u}$ and $\vec{v}$ (my choices are arbitrary there are other combinations that will also work to get a normal)
+$$\vec{u} = B-A = \langle 1, -3, 4\rangle$$
+$$\vec{v} = C-A = \langle -3, -2, 2\rangle$$
+In order to find the normal to the plane we need to find the cross product between the two vectors $\vec{u} \times \vec{v}$. Doing so, will get us the following vector,
+
+\[\mathbf{v} \times \mathbf{w} = \begin{vmatrix}\mathbf{i} & \mathbf{j} & \mathbf{k} \\-1 & -3 & 4 \\-3 & -2 & 2\end{vmatrix}\]
+
+
+
 
 
 ## Tangent, Normal, and Binormal Vectors on a curve
