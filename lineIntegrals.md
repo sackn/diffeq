@@ -487,7 +487,14 @@ A good visualization is to think of a windmill at a certain point and try to ima
 $$curl \vec{F} = \nabla \times \vec{F} = \nabla \times \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix}$$
 
 
+$$
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+F_x & F_y & F_z
+\end{vmatrix}
 
+$$
 ## Extra Practice
 
 Shimamoto section 2.3 focuses on line integrals. Refer to this pdf for the questions [https://drive.google.com/drive/folders/1VBn7HiZBlvOVbMCcjL1Yh5AoJcB7gj-j](url) (pdf called Multivarible_Calculus_Shimamoto, exercise section)
