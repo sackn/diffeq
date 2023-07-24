@@ -394,11 +394,65 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 ## Method Undetermined Coefficients
 
 The method of undetermined coefficients is used to solve non-homogenous differential equations like the following:
-$$\ddot{y} - 4 \cdot{y} + 4y = 8e^{2x}$$
+$$\ddot{y} - 4 \dot{y} + 4y = 8e^{2x}$$
 So far we have been used to solving homogenous differential equations (using the characterisitc equation). By removing the 8e^{2x} on the right side of the equation we can get a homogenous differential equation,
-$$\ddot{y} - 4 \cdot{y} + 4y = 0$$
+$$\ddot{y} - 4 \dot{y} + 4y = 0$$
+In differential equations we call the solutuion that solves the non-homogenous secnario the particular solution often denoted $y_p$ and we call the solution that solve the homogenous equation the homogenous solution often denoted $y_h$. Some person a long time ago worried what would happen if he added the particulawr solution and the homogenous solution $y_p + y_h$. Would it still solve either equation and if so which one would it solve?
+
+$$\ddot{y} - 4 \dot{y} + 4y = 8e^{2x} \implies \text{non-homogenous, particular solution}$$
+$$\ddot{y} - 4 \dot{y} + 4y = 0$$ implies \text{homogenous, homogenous solution}$$
+
+It turns out that $y_p + y_h$ will solve the non-homogenous equation. More specifically it is the general solution and can enumerate all possible solutions. The proof is pretty simple, but I'm going to prove it for our current scenario because it probably makes more sense that way. If we plug in $y_h + y_p$ into the non-homogenous differential equation we get
+$$(y_h + y_p)'' - 4(y_h + y_p)' - 3(y_h + y_p) = 8e^{2x}$$
+$$\ddot{y_h} + \ddot{y_p} - 4\dot{y_h} - 4\dot{y_p} -3y_h -3y_p = 8e^{2x} $$
+We can then move around the terms a little to get 
+$$(\ddot{y_h} -4\dot{y_h} -3y_h) + (\ddot{y_p} -4\dot{y_p} - 3y_p) = 8e^{2x}$$
+We can recognize that our left grouping is just our homogenous equation which we know to be equal to zero and our right grouping to be our particular solution which we know to equal $8e^{2x}$. If we do a little substituion we figure out that $y_h + y_p$ is a general solution to the non-homogenous differential equation
+$$0 + 8e^{2x} = 8e^{2x} \quad \square$$
+
+The general process of solving with the method of undetermined coefficients is based on the property that $y_h +y_p$ is the general solution. In other word the general solution $y_g$ is $y_g = y_h + y_p$. Firstly we can find our homogenous solution pretty easily. All we need to do is set the right side to zero and do as we always have through using the characeristic equation. The particular solution on the other hand is a little bit more difficult.
+
+Finding some particular solution is based on guessing its general form. For equation $\ddot{y} - 4 \dot{y} + 4y = 8e^{2x}$ we might "randomly" guess that our particular solution is $y_p = Ae^{2x}$ where A is just some constant that we will have to solve for. If check how well our guess is by plugging it into the differentail equation. If our solution is valid then we theoretically should be able to guess at the constant A to find a particular solution $y_p$.
+
+The final part involves getting the general solution $y_g$ which is just adding the homogenous and particular solutions together.  
+
+The above process might be a little hard to visualize so here is an example:
+
+**Worked Example**
+
+Find the general solution to $\ddot{y} - 5\dot{y} + 6y = 12e^{4x}$ and then solve the IVP where the equation subject to the initial conditions $y(0) = 1$ and $\dot{y}(0) = 3$
+
+We know that in order to create our general formula we need both the homogenous solution and the particular solution. We can start by setting the right hand side of equation to zero, so that we can find our homogenous solution.
+$$\ddot{y} - 5\dot{y} + 6y = 0$$
+You already should be able to solve the equation above so I'm going to be quick about it. Below is all the work necessary,
+$$r^2 - 5r + 6 = 0$$
+$$(r-3)(r-2) = 0 \implies r=2,3$$
+$$y_h = c_1e^{2x} + c2e^{3x}$$
+We have our homogenous solution and now we need our particular solution. We have to guess a solution to,
+$$\ddot{y} - 5\dot{y} + 6y = 12e^{4x}$$
+I'm going to guess that our particular solution take the form of $y_p = Ae^{4x}$ (more about why I guess this later) where $A$ is some constant I will find later. I can plug this solution into our differential equation to try and find the constant A. If I do so I will get,
+$$(Ae^{4x})'' - 5(Ae^{4x})' + 6(Ae^{4x}) = 12e^{4x}$$
+Applying the derivatives we get,
+$$16Ae^{4x} - 20Ae^{4x} + 6Ae^{4x} = 12e^{4x}$$
+$$2Ae^{4x} = 12e^{4x}$$
+At this point its pretty clear that $A=6$. That means that our particular solution is $y_p = 6e^{4x}$. The final step is to put our homogenous and particular solutions together to get our final general solution.
+$$y_g = y_h + y_p$$
+$$y_g = c_1e^{2x} + c_2e^{3x} + 6e^{4x}$
+Notice that the constants originate from the homogenous solution not the particular solution. One of our initial conditions require $\dot{y}(0)$ so we will differentiate our general solution.
+$$y_g = 2c_1e^{2x}+3c_2e^{3x} + 24e^{4x}$$
+If we plug in both initial conditions at the same time we get thest two equations:
+$$y(0)=1 \implies 1=c_1 +c_2 + 6$$
+$$\dot{y}(0) = 3 \implies 3 = 2c_1 + 3c_2 + 24$$
+We have a system of equations and with a little bit of basic algebra (you can use matrices if you wish) we can find out that,
+$$c_1 = 6 \quad c_2 = -11$$
+Putting our constants into our general soluton we get our final answer
+$$y_g = 6e^{2x} -11e^{3x} + 6e^{4x}$
 
 
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Cell 1   | Cell 2   | Cell 3   |
+| Cell 4   | Cell 5   | Cell 6   |
 
 
 
