@@ -180,46 +180,56 @@ The binormal vector is orthagonal to both the unit tangent vector and the unit n
 
 ### Problems and Solutions
 
+**Question 1** Consider the curve defined by $\vec{r}(t) = \langle cos(t), sin(t), t\rangle$
 
-**Question 1**
+a) Find the unit tangent vector $\vec{T}(t)$
+b) Find the unit normal vector $\vec{N}(t)$
+c) Find the birnomal vector $\vec{B}(t)$
+d) Evalulate $\vec{T}(t)$, $\vec{N}(t)$, and $\vec{B}(t)$ at $t=\frac{\pi}{4}$
+
 <details>
   <summary>Part ASolution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image4.png" alt="Question 1.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image4.png" alt="Question 1.a">
 </details>
 <details>
-  <summary>Part BSolution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 1.b">
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image9.png" alt="Question 1.b">
 </details>
 <details>
   <summary>Part C Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 1.c.1">
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image2.png" alt="Quetsion 1.c.2">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image6.png" alt="Question 1.c.1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image2.png" alt="Quetsion 1.c.2">
 </details>
 <details>
   <summary>Part D Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 1.d">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image5.png" alt="Question 1.d">
 </details>
 
 
-**Question 2**
+**Question 2** Consider the curve defined by $\vec{r}(t) \langle t, t^2, t^3\rangle$
+
+a) Find the unit tangent vector $\vec{T}(t)$
+b) Find the unit normal vector $\vec{N}(t)$
+c) Find the birnomal vector $\vec{B}(t)$
+d) Evalulate $\vec{T}(t)$, $\vec{N}(t)$, and $\vec{B}(t)$ at $t=1$
 
 Warnining: This problem gets very messy, so you will see me use substituions to keep the amount of work minimal. 
 
 <details>
   <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image3.png" alt="Question 2.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image3.png" alt="Question 2.a">
 </details>
 <details>
   <summary>Part B Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image1.png" alt="Question 2.b">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image1.png" alt="Question 2.b">
 </details>
 <details>
   <summary>Part CSolution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 2.c">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image7.png" alt="Question 2.c">
 </details>
 <details>
   <summary>Part DSolution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/Parametric/image5.png" alt="Question 2.d">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/tangentNormalBinormal/image8.png" alt="Question 2.d">
 </details>
 
 
