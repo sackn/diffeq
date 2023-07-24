@@ -446,13 +446,14 @@ $$\dot{y}(0) = 3 \implies 3 = 2c_1 + 3c_2 + 24$$
 We have a system of equations and with a little bit of basic algebra (you can use matrices if you wish) we can find out that,
 $$c_1 = 6 \quad c_2 = -11$$
 Putting our constants into our general soluton we get our final answer
-$$y_g = 6e^{2x} -11e^{3x} + 6e^{4x}$
+$$y_g = 6e^{2x} -11e^{3x} + 6e^{4x} \square \quad$
 
+As promised I'm going to talk about what types of guesses you should make when you are trying to find your particular solution. Below is a table denoting what the right side of the equation looks like and the best thing to guess.
 
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Cell 1   | Cell 2   | Cell 3   |
-| Cell 4   | Cell 5   | Cell 6   |
-
-
+| Right Side of the Equation | What you should guess |
+|----------|----------|
+| Row 1    | Row 1    |
+| Row 2    | Row 2    |
+| Row 3    | Row 3    |
+| Row 4    | Row 4    |
 
