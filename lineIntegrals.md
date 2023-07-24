@@ -475,7 +475,10 @@ $$div \vec{F} = \frac{\partial}{\partial x} xy + \frac{\partial}{\partial y} (x^
 If we then apply the partial derivative we can get out final answer
 $$div \vec{F} = y + 1 \quad \square$$
 
+The divergence of the above example tells us that when $ y > -1$ we have source behavior and when $y < -1$ we have sink behavior. Everywhere where $y=0$ the vectors will simply past by, it is neither a sink nor source.
 
+**Curl Operator**
+The curl operator measures how much a vector field tends to rotate around a point. There might be certain points in the vector field that "cause other vectors to rotate/curl around it". If we again consider a wind vector field the eye of a tornado would have an extremely high curl because it causes the wind to rotate around itself. In the image below point $(0,0)$ has high curl and could represent something like the center of a tornado. 
 
 
 
