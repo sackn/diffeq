@@ -183,8 +183,11 @@ The binormal vector is orthagonal to both the unit tangent vector and the unit n
 **Question 1** Consider the curve defined by $\vec{r}(t) = \langle cos(t), sin(t), t\rangle$
 
 a) Find the unit tangent vector $\vec{T}(t)$
+
 b) Find the unit normal vector $\vec{N}(t)$
+
 c) Find the birnomal vector $\vec{B}(t)$
+
 d) Evalulate $\vec{T}(t)$, $\vec{N}(t)$, and $\vec{B}(t)$ at $t=\frac{\pi}{4}$
 
 <details>
@@ -209,8 +212,11 @@ d) Evalulate $\vec{T}(t)$, $\vec{N}(t)$, and $\vec{B}(t)$ at $t=\frac{\pi}{4}$
 **Question 2** Consider the curve defined by $\vec{r}(t) \langle t, t^2, t^3\rangle$
 
 a) Find the unit tangent vector $\vec{T}(t)$
+
 b) Find the unit normal vector $\vec{N}(t)$
+
 c) Find the birnomal vector $\vec{B}(t)$
+
 d) Evalulate $\vec{T}(t)$, $\vec{N}(t)$, and $\vec{B}(t)$ at $t=1$
 
 Warnining: This problem gets very messy, so you will see me use substituions to keep the amount of work minimal. 
