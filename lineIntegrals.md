@@ -444,7 +444,7 @@ $$f(x,y) = x^{2}y + \frac{x^3}{3} + \frac{y^{3}}{3} + y + c \quad \square$$
 
 
 ## Divergence and Curl Operators
-Divergence and curl operators show up a lot in nature and mathematics. Divergence and curl provide an general analysis of some the properties of a vector field. 
+Divergence and curl operators show up a lot in nature and mathematics. Divergence and curl provide an general analysis of some the properties of a vector field. It is common to think of a lot of these problems in terms of fluid moving around. 
 
 **Divergence Operator**
 
@@ -486,22 +486,32 @@ A good visualization is to think of a windmill at a certain point and try to ima
 
 $$curl \vec{F} = \nabla \times \vec{F} = \nabla \times \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\ F_x & F_y & F_z \end{vmatrix}$$
 
-Curl is defined as the cross product between the differential operator and the vector field (much like how divergence is the dot product between differential operator and the vector field). When we calculate the curl of a vector field we get another vector unlike divergence which is just a scalar quantity. The magnitude of the curl vector is akin to how fast much the vector field rotates or how fast the "windmill" is spinning at that point. The direction of the curl vector will give the axis of rotation. To determine what way the vector field is spinning around the axis of rotation we can use the right hand rule. If you point your thumb in the direction of curl vector then your curled fingers represent which way the field is rotating (either clockwise or counterclockwise).
+Curl is defined as the cross product between the differential operator and the vector field (much like how divergence is the dot product between differential operator and the vector field). When we calculate the curl of a vector field we get another vector unlike divergence which is just a scalar quantity. The magnitude of the curl vector is akin to how fast much the vector field rotates or how fast the "windmill" is spinning at that point. The direction of the curl vector will give the axis of rotation. To determine what way the vector field is spinning around the axis of rotation we can use the right hand rule. If you point your thumb in the direction of curl vector then your curled fingers represent which way the field is rotating (either clockwise or counterclockwise). 
+
+Also note that a curl of zero (magnitude zero) implies that the vector field is irrotional at that point. In general the entire "flow" is called irrotational if $curl \vec{F} = 0 $ at every point.
 
 We can connect back to a previous section. We know that if $\nabla \times \vec{F} = 0$ then our vector field is conservative and therefore is line integrals with respect to the field are path indepdendent. 
 
 **Worked Example (Curl)**
 
-Consider the vector field $\vec{F} = \langle 2xy, x^3 + y^2, 3z \rangle$
+Consider the vector field $\vec{F} = \langle 2xy, x^3 + y^2, 3z \rangle$. By apply the definition of curl we get, 
 
 ```math
-\nabla \times \mathbf{F} =
+curl \vec{F} = \nabla \times \mathbf{F} =
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
-F_x & F_y & F_z
+2xy & x^{3} + y^{2} & 3z
 \end{vmatrix}
 ```
+
+**Finish this later when you figure out matrices**
+
+### Questions and Solutions
+
+****
+
+
 
 
 ## Extra Practice
