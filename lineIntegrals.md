@@ -421,6 +421,7 @@ Plugging our newly found $h(y)$ back into our previously solved for $f(x,y)$ we 
 $$f(x,y) = x^{2}y + \frac{x^3}{3} + \frac{y^{3}}{3} + y + c \quad \square$$
 
 
+
 ### Questions and Solutions
 
 **Question 1:** Given the vetor field $(2x^{2} + e^{y})dx + (2y +xe^{y})dy =0$ determine if its conserative and if so find the potential function
@@ -440,6 +441,19 @@ $$f(x,y) = x^{2}y + \frac{x^3}{3} + \frac{y^{3}}{3} + y + c \quad \square$$
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/conservativeVectorField/image3.png" alt="Question 3">
 </details>
+
+
+## Divergence and Curl Operators
+Divergence and curl operators show up a lot in nature and mathematics. Divergence and curl provide an general analysis of some the properties of a vector field. 
+
+**Divergence Operator**
+
+Divergence is the measure how much a vector field measures the outwardness/expansion of a vector field. A vector field could have "sources" and "sinks". Sources refering to place where the vectors seem to eminate from and sinks refeing to placing where vectors seem to point towards and disappear. Imagine a vector field and draw a small circle around a point. If the vectors that enter the circle tend to stay in the circle then that point is probably is a sink. If the no vectors there are no vectors entering the circle and all the vectors already inside the circle look like they are trying to leave then, you probably have a source. IF the vectors enter the circle and leave the circle (like they are just passing through) then you have neither a sink nor source. Refer to the image below:
+
+
+
+
+
 
 ## Extra Practice
 
