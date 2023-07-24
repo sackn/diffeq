@@ -509,7 +509,12 @@ curl \vec{F} = \nabla \times \mathbf{F} =
 
 ### Questions and Solutions
 
-****
+**Question 7:** A curve $C$ is defined as a circle of radius two on $\theta \in [\frac{\pi}{6}, \frac{\pi}{3}]$ find $\int_{C} \frac{x^2-y^{2}}{x} dx$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/lineIntegral2/image3.png" alt="Question 7">
+</details>
+
 
 
 
