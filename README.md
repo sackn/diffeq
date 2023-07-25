@@ -458,6 +458,14 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 ## Higher Order Linear Homogenous Differential Equations
 
 
+In some of the problems I will use synthetic division and rational roots theorem to get factors. The synthetic division thing usually looks like a table and its an easy way to divide polynomails (given certain conditions).
+
+**Question 2.2.7:** $2\ddot{y} + 50y = 0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/2ndorder/image5.png" alt="2.2.4">
+</details>
+
 
 ## Method Undetermined Coefficients
 
