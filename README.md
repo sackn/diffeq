@@ -148,6 +148,74 @@ $$F(x,y) = x^{2} + xy - 2y^{2} + c$$
 
 <hr>
 
+## Autonomous Equations and Equilibrium
+
+We can tell whether the stabitlity of an equilibrium solution through is second derivative. More specifically,
+- $\frac{d^2 y}{dx^2} < 0$. Equilibrium is stable
+- $\frac{d^2 y}{dx^2} > 0$. Equilbrium is unstable
+- $\frac{d^2 y}{dx^2} = 0$. Inconclusive most likely have to draw the slope field
+
+For drawing slope fields you can use this desmos link (I did not make this) [https://www.desmos.com/calculator/p7vd3cdmei](url) . It's not perfect and there do exist more accurate alternatives, but its really accessible. 
+
+**Add Images and annotations later**
+
+Note for some of the problems you may have to approximate a zero. However make sure to approximate a zero only when you know that it exists. If you function is asymoptoic to zero it isn't a equilibrium solution.
+
+**Question 1:**  For the autonomous equation $\frac{dy}{dx} = y(3-y)$ identify and classify equilibrium solutions.
+<details>
+  <summary>Solution</summary>
+   $$0 = y(3-y) \implies y=0,3$$
+   Our eqiulbrium solutions happen at $y=0$ and $y=3$. Looking at the slope field we see that $y=3$ is stable and $y=0$ in unstable
+</details>
+
+**Question 2:**  For the autonomous equation $\frac{dy}{dx} = 2y^2 -5y + 2$ identify and classify equilibrium solutions.
+<details>
+  <summary>Solution</summary>
+  $$2y^{2} - 5y + 2$$
+  $$(2y-1)(y-2) =0 \implies y=\frac{1}{2}, 2$$
+  Our equilibrium solutions happen at $y=\frac{1}{2}$ and $y=2$. Looking at the slope field we can see that $y=2$ is unstable and $y=\frac{1}{2}$ is stable
+</details>
+
+**Question 3:**  For the autonomous equation $\frac{dy}{dx} = y^3 -4y^2 + 3y$ identify and classify equilibrium solutions. 
+<details>
+  <summary>Solution</summary>
+  $$y(y^2 - 4y + 3) = y(y-1)(y-3) \implies y=0,1,3$$
+  Our equilibrium solutions happen at $y = 0,1,3$. Looking at the slope field we can see that $y=3$ is unstable, $y=1$ is stable, and $y=0$ is unstable.
+  
+</details>
+
+**Question 4:**  For the autonomous equation $\frac{dy}{dx} = 2e^{-y}-y$ identify and classify equilibrium solutions.
+<details>
+  <summary>Solution</summary>
+  $$0 = 2e^{-y}-y$$
+  Using numerical methods we can figure out that our eqiulibrium soltuions appears at $y\approx 0.853$. Looking at the slope field the eqiulibrum at $y = 0.853$ is stable
+  
+</details>
+
+**Question 5:**  For the autonomous equation $\frac{dy}{dx} = \frac{y^2}{y+1}$ identify and classify equilibrium solutions.
+<details>
+  <summary>Solution</summary>
+  $$0 = frac{y^2}{y+1}$$
+  We know that $y=0$ will be the location of an equilibrium solution, but we also have a discontinuity at $y=-1$. Looking at a slope field the equilibrium at $y=0$ semi-stable.
+</details>
+
+**Question 6:**  For the autonomous equation $\frac{dy}{dx} = y(4-y)(y-2)$ identify and classify equilibrium solutions.
+<details>
+  <summary>Solution</summary>
+  $$0 = y(4-y)(y-2) \implies y=0,2,4$$
+  Looking at a slope field the equilibrium solution at $y=0$ is stable, the solution at $y=2$ is unstable, and the solution at $y=4$ is stable.
+  
+</details>
+
+**Question 7:**  For the autonomous equation $\frac{dy}{dx} = e^y -2$ identify and classify equilibrium solutions.
+<details>
+  <summary>Solution</summary>
+  $$0 = e^y - 2 \implies y = ln(2)$$
+  Looking at a slope field the equilbrium solution at $y =ln(2)$ is unstable.
+</details>
+
+
+
 
 # 2nd and Higher Order Differential Equations
 
