@@ -457,3 +457,81 @@ As promised I'm going to talk about what types of guesses you should make when y
 | Row 3    | Row 3    |
 | Row 4    | Row 4    |
 
+### Questions and Solutions
+
+
+
+**Question 1** Solve for the general solution of $\ddot{y} - 4\dot{y} + 4y = 3e^{8x}$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 2** Solve for the general solution of $\ddot{y} + 2\dot{y} - 3y = 5x^2 + 6x + 2$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 3** Solve  for the general solution of $\ddot{y} - y -2y = 4sin(3x)$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 4** Solve the IVP $\ddot{y} - 4\dot{y} + 4y = 3e^{8x}$ with the initial conditions $y(0)=1$ and $\dot{y}(0) = 2$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 5** Solve the IVP $\ddot{y} + y = 5cos(3x)$ with the initial conditions $y(0)=0$ and $\dot{y}(0) = 1$
+<details>
+  <summary>Solution</summary>
+</details>
+
+
+**Question 6** Solve the IVP $\ddot{y}-6\dot{y} + 9y = e^{4x} + 12$ with the initial conditions $y(0)=0$ and $\dot{y}(0) = -13$
+<details>
+  <summary>Solution</summary>
+</details>
+
+**Question 7** Solve the IVP $\ddot{y} + 4y = 8sin(x) + 4e^{4x}$ with the initial conditions $y(0)=2$ and $\dot{y}(0) = 1$
+<details>
+  <summary>Solution</summary>
+</details>
+
+For question 8-10 beware of overlaps between the homogenous solutions and your guess. If they are duplicates they will not work and you attach a factor of $x$ to maintain linear independence.
+
+**Question 8** For the differential equation $\ddot{y} + 2\dot{y} -3y = 3x^{3} + 4e^{x} + 5sin(2x) + 6cos(3x)$ 
+<details>
+  <summary>Solution</summary>
+  Solving the homogenous
+  $$r^{2} + 2r -3 = 0 \implies r= -2, -1$$
+  $$y_h = c_1e^{-2x} + c_2e^{-x}$$
+  If we compare our particular guess and our homogenous solution our general solution will have no overlapping terms the best guess is the following:
+  $$y_p = Ax^{3} + Bx^{2} + Cx^ + D + Ee^{x} + Fsin(2x) + Gcos(2x) + Hcos(3x) + Isin(3x) \quad \square $$
+</details>
+
+**Question 9** For the differential equation $\ddot{y} + 4y = e^{3x} + 2cos(2x) -5sin(3x)$ 
+<details>
+  <summary>Solution</summary>
+  Solving the homogenous:
+  $$r^2 + 4 =0 \implies r = 0 \pm 2i$$
+  $$y_h = c_1 cos(2x) + c_2sin(2x)$$
+  Notice that we have some duplicate terms specifically with our guess for $2cos(2x)$ (which will turn into $cos(2x) + sin(2x)$). Lets keep the homogenous solution portion and attach x to the things that repeat in order to maintain linear independence between solutions
+  $$y_p = Ae^{3x} + Bxcos(2x) + Cxsin(2x) + Dcos(3x) + Esin(3x) \quad \square$$
+</details>
+
+**Question 10** For the differential equation $\ddot{y} - 4\dot{y} + 4y = e^{2x} + 2sin(x) - 3cos(3x) + x^{2}$
+<details>
+  <summary>Solution</summary>
+  Solving the homogenous:
+  $$r^{2} - 4r + 4 \implies r = -2 \text{mult.}2 $$
+  $$y_h = c_1e^{-2x} + c_2xe^{-2x}$$
+  Notice we are duplicating our solution $e^{2x}$ if we make the normal guess of $Ae^{2x}$. Also notice that if we adjust by adding a single $x$ we are still duplicating $Axe^{2x}$. We need to add $x^{2}$ to keep linear independence amongst solution $Ax^{2}e^{2x}$
+  $$y_g = Ax^{2}e^{2x} + Bsin(x) + Csin(x) + Dcos(3x) + Esin(3x) + Fx^{2} + Gx + H \quad \square$$
+  
+  
+  
+  
+</details>
+
+
+
