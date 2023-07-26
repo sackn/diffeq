@@ -1,3 +1,9 @@
+## Double Integrals on Rectangles
+
+
+## Double Integrals on more Complex Regions
+
+
 ## Double Integrals with Polar Coordinates
 
 **Question 1:** Find the double integral $\iint\limits_R x^2 + y^2 dA$ where $R$ is a circle of radius two centered at the origin
