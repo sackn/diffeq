@@ -35,31 +35,31 @@ I did questions 1-5 by integrating with respect to x first and I did question 6-
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image9.png" alt="Question 5">
 </details>
 
-**Question 6:**
+**Question 6:** Find $\iint\limits_R (3xy^2) dA$ where $R$ is rectangles on the 0<x<2 and -1<y<1
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image7.png" alt="Question 6">
 </details>
 
-**Question 7:**
+**Question 7:** Find $\iint\limits_R (\frac{1}{x^2} + \frac{1}{y^2}) dA$ where $R$ is rectangles on the 1<x<2 and 1<y<2
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image8.png" alt="Question 7">
 </details>
 
-**Question 8:**
+**Question 8:** Find $\iint\limits_R (x^2 - y^2) dA$ where $R$ is rectangles on the -1<x<1 and 0<y<2
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image11.png" alt="Question 8">
 </details>
 
-**Question 9:**
+**Question 9:**  Find $\iint\limits_R e^{x}cos(y) dA$ where $R$ is rectangles on the 0<x<$\frac{\pi}{4}$ and 0<y<$\frac{\pi}{2}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image2.png" alt="Question 9">
 </details>
 
-**Question 10:**
+**Question 10:** Find $\iint\limits_R (x+y)^{2} dA$ where $R$ is rectangles on the 0<x<1 and 0<y<2
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image10.png" alt="Question 10">
