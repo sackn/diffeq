@@ -1,6 +1,6 @@
 ## Double Integrals with Polar Coordinates
 
-**Question 1:** Find the double integral $\iint\limits_R x^2 + y^2 dA$ $where $R$ is a circle of radius two centered at the origin
+**Question 1:** Find the double integral $\iint\limits_R x^2 + y^2 dA$ where $R$ is a circle of radius two centered at the origin
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image4.png" alt="Question 1">
