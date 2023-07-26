@@ -593,42 +593,47 @@ As promised I'm going to talk about what types of guesses you should make when y
 
 ### Questions and Solutions
 
-
-
 **Question 1** Solve for the general solution of $\ddot{y} - 4\dot{y} + 4y = 3e^{8x}$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image1.png" alt="Question 1">
 </details>
 
 **Question 2** Solve for the general solution of $\ddot{y} + 2\dot{y} - 3y = 5x^2 + 6x + 2$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image4.png" alt="Question 2">
 </details>
 
 **Question 3** Solve  for the general solution of $\ddot{y} - y -2y = 4sin(3x)$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image2.png" alt="Question 3">
 </details>
 
 **Question 4** Solve the IVP $\ddot{y} - 4\dot{y} + 4y = 3e^{8x}$ with the initial conditions $y(0)=1$ and $\dot{y}(0) = 2$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image6.png" alt="Question 4">
 </details>
 
 **Question 5** Solve the IVP $\ddot{y} + y = 5cos(3x)$ with the initial conditions $y(0)=0$ and $\dot{y}(0) = 1$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image5.png" alt="Question 5">
 </details>
 
 
 **Question 6** Solve the IVP $\ddot{y}-6\dot{y} + 9y = e^{4x} + 12$ with the initial conditions $y(0)=0$ and $\dot{y}(0) = -13$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image7.png" alt="Question 6">
 </details>
 
 **Question 7** Solve the IVP $\ddot{y} + 4y = 8sin(x) + 4e^{4x}$ with the initial conditions $y(0)=2$ and $\dot{y}(0) = 1$
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/undeterminedCoeff/image3.png" alt="Question 7">
 </details>
 
 For question 8-10 beware of overlaps between the homogenous solutions and your guess. If they are duplicates they will not work and you attach a factor of $x$ to maintain linear independence.
