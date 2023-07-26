@@ -4,6 +4,8 @@
 
 I did questions 1-5 by integrating with respect to x first and I did question 6-10 by integrating with respect to y first. 
 
+Find $\iint\limits_R (x+y) dA$ where $R$ is the rectangle that on $0 <x < 1$ and $0 <y <3$.
+
 **Question 1:** 
 <details>
   <summary>Solution</summary>
