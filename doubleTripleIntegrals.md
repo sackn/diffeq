@@ -5,7 +5,7 @@
 I did questions 1-5 by integrating with respect to x first and I did question 6-10 by integrating with respect to y first. 
 
 
-**Question 1:** Find $\iint\limits_R (x+y) dA$ 
+**Question 1:** Find the double integral $\iint\limits_R (x^2 + y^2) dA$ where $R$ is a circle of radius two centered at the origin
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image1.png" alt="Question 1">
