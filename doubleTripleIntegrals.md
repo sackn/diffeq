@@ -151,13 +151,13 @@ I did questions 1-5 by integrating with respect to x first and I did question 6-
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image3.png" alt="Question 2">
 </details>
 
-**Question 3:** Find the double integral $\iint\limits_R (x^2 - y^2) dA$ where $R$ is the area between a circle of radius 2 and a circle of radius 1 both centered at the origin
+**Question 3:** Find the double integral $\iint\limits_R (x^2 - y^2) dA$ where $R$ is the area between a circle of radius 2 and a circle of radius 1 both centered at the origin whos parts lie in quadrant 1 only.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image2.png" alt="Question 3">
 </details>
 
-**Question 4:** Find the double integral $\iint\limits_R xy dA$ where $R$ is a circle of radius two centered at the origin
+**Question 4:** Find the double integral $\iint\limits_R xy dA$ where $R$ is a circle of radius two centered at the origin whos part lie in quadrant 1 only.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image5.png" alt="Question 4">
