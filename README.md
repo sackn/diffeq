@@ -460,11 +460,69 @@ Note that it is perfectly fine if you need to use a system of equations to find 
 
 In some of the problems I will use synthetic division and rational roots theorem to get factors. The synthetic division thing usually looks like a table and its an easy way to divide polynomails (given certain conditions).
 
-**Question 2.2.7:** $2\ddot{y} + 50y = 0$
+### Questions and Solutions
+
+**Question 1:** Solve $\dddot{y} -6\ddot{y} + 11\dot{y} - 6y = 0$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/2ndorder/image5.png" alt="2.2.4">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image10.png" alt="Question 1">
 </details>
+
+**Question 2:** Solve $\dddot{y} - 3\ddot{y} + 2\dot{y} =0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image3.png" alt="Question 2">
+</details>
+
+**Question 3:** Solve $\dddot{y} + 3\ddot{y} + 3\dot{y} + y =0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image7.png" alt="Question 3">
+</details>
+
+**Question 4:** Solve $\dddot{y} - 5\ddot{y} + 4\dot{y} =0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image8.png" alt="Question 4">
+</details>
+
+**Question 5:** Solve $\dddot{y} - 4\ddot{y} + 3\dot{y} = 0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image4.png" alt="Question 5">
+</details>
+
+**Question 6:** Solve $y^{(4)} + 4\dddot{y} +6\ddot{y} + 4\dot{y} + y = 0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image5.png" alt="Question 6">
+</details>
+
+**Question 7:** Solve $y^{(4)} + - 5 \dddot{y} + 10\ddot{y} - 10\dot{y} + 4 =0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image6.png" alt="Question 7">
+</details>
+
+**Question 8:** Solve $y^{(4)} + 3\dddot{y} + 2\ddot{y} - 2\dot{y} = 0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image1.png" alt="Question 8">
+</details>
+
+**Question 9:** Solve $y^{(4)} + 6\dddot{6} + 8\ddot{y} + 2\dot{y} = 0$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image2.png" alt="Question 9">
+</details>
+
+**Question 10:** Solve $y^{(4)} - 4\dddot{y} + 6\ddot{y} -4\dot{y} + y = 0$ 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/higherOrder/image9.png" alt="Question 10">
+</details>
+
+
 
 
 ## Method Undetermined Coefficients
