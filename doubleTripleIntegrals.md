@@ -5,25 +5,25 @@
 I did questions 1-5 by integrating with respect to x first and I did question 6-10 by integrating with respect to y first. 
 
 
-**Question 1:** Find $\iint\limits_R (x+y) dA$ where $R$ is rectangles on the $0<x<1$ and $0<y<3$.
+**Question 1:** Find $\iint\limits_R (x+y) dA$ where $R$ is rectangles on the 0<x<1 and 0<y<1
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image1.png" alt="Question 1">
 </details>
 
-**Question 2:** Find $\iint\limits_R (2x-3y) dA$ where $R$ is rectangles on the $0<x<2$ and $0<y<3$.
+**Question 2:** Find $\iint\limits_R (2x-3y) dA$ where $R$ is rectangles on the 0<x<2 and 0<y<3
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image4.png" alt="Question 2">
 </details>
 
-**Question 3:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ is rectangles on the $0<x<2$ and $1<y<3$.
+**Question 3:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ is rectangles on the 0<x<2 and 1<y<3
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image5.png" alt="Question 3">
 </details>
 
-**Question 4:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ is rectangles on the $0<x<1$ and $0<y<3$.
+**Question 4:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ is rectangles on the 0<x<1 and 0<y<3
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image6.png" alt="Question 4">
