@@ -77,55 +77,55 @@ I did questions 1-5 by integrating with respect to x first and I did question 6-
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image3.png" alt="Question 1">
 </details>
 
-**Question 2:** Find $\iint\limits_R 3xy dA$ where $R$ the area enclosed by $y=x^2$,$y=2x^2$ and $y=1$.
+**Question 2:** Find $\iint\limits_R 3xy dA$ where $R$ the area enclosed by $y=x^2$, $y=2x^2$ and $y=1$.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image10.png" alt="Question 2">
 </details>
 
-**Question 3:** Find $\iint\limits_R (x+y) dA$ where $R$ the area enclosed by $y=3x$, y=2, and the y-axis.
+**Question 3:** Find $\iint\limits_R (x+y) dA$ where $R$ the area enclosed by $y=3x$, $y=2$, and the y-axis.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image5.png" alt="Question 3">
 </details>
 
-**Question 4:** 
+**Question 4:** Find $\iint\limits_R e^{x}sin(y) dA$ where $R$ the area enclosed by $y=2x$, $y=x$, and $x=1$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image8.png" alt="Question 4">
 </details>
 
-**Question 5:** 
+**Question 5:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ the area enclosed by $x+y = 2$, $y=x$, and $y=0$.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image9.png" alt="Question 5">
 </details>
 
-**Question 6:** 
+**Question 6:** Find $\iint\limits_R 3xy dA$ where $R$ the area enclosed by triangle with vertices $(0,0)$, $(2,0)$, and $(1,3)$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image2.png" alt="Question 6">
 </details>
-
-**Question 7:** 
+ 
+**Question 7:** Find $\iint\limits_R (x+y) dA$ where $R$ the area enclosed by $y=4$ and $y=x^2$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image7.png" alt="Question 7">
 </details>
 
-**Question 8:** 
+**Question 8:** Find $\iint\limits_R e^x sin(y) dA$ where $R$ the area enclosed by the trapezoid $(0,0)$, $(1,0)$, $(2, \pi)$, and $(0,\pi)$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image4.png" alt="Question 8">
 </details>
 
-**Question 9:** 
+**Question 9:** Find $\iint\limits_R (x^2 + y) dA$ where $R$ the area enclosed by $x^2 + y^2 = 4$, $y=0$, and $y=x$.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image1.png" alt="Question 9">
 </details>
 
-**Question 10:** 
+**Question 10:** Find $\iint\limits_R (x^2 + 2xy) dA$ where $R$ the area enclosed by $y=2x+2$ and $x=-1$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image6.png" alt="Question 10">
