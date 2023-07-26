@@ -71,19 +71,19 @@ I did questions 1-5 by integrating with respect to x first and I did question 6-
 
 ### Question and Solutions
 
-**Question 1:** 
+**Question 1:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ the area enclosed by $y=x^2$ and $y=2x$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image3.png" alt="Question 1">
 </details>
 
-**Question 2:** 
+**Question 2:** Find $\iint\limits_R 3xy dA$ where $R$ the area enclosed by $y=x^2$,$y=2x^2$ and $y=1$.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image10.png" alt="Question 2">
 </details>
 
-**Question 3:** 
+**Question 3:** Find $\iint\limits_R (x+y) dA$ where $R$ the area enclosed by $y=3x$, y=2, and the y-axis.
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image5.png" alt="Question 3">
