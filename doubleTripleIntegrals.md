@@ -1,5 +1,71 @@
 ## Double Integrals on Rectangles
 
+### Questions and Solutions
+
+I did questions 1-5 by integrating with respect to x first and I did question 6-10 by integrating with respect to y first. 
+
+**Question 1:** Find $\iint\limits_R (x+y) dA$ where $R$ is the rectangle that on $0 <x < 1$ and $0 <y <3$.
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image1.png" alt="Question 1">
+</details>
+
+**Question 2:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image4.png" alt="Question 2">
+</details>
+
+**Question 3:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image5.png" alt="Question 3">
+</details>
+
+**Question 4:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image6.png" alt="Question 4">
+</details>
+
+**Question 5:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image9.png" alt="Question 5">
+</details>
+
+**Question 6:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image7.png" alt="Question 6">
+</details>
+
+**Question 7:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image8.png" alt="Question 7">
+</details>
+
+**Question 8:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image11.png" alt="Question 8">
+</details>
+
+**Question 9:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image2.png" alt="Question 9">
+</details>
+
+**Question 10:**
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image10.png" alt="Question 10">
+</details>
+
+
+
 
 ## Double Integrals on more Complex Regions
 
