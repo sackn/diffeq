@@ -2,7 +2,7 @@
 
 ### Questions and Solutions
 
-I did questions 1-5 by integrating with respect to x first and I did question 6-10 by integrating with respect to y first. 
+I did questions 1-5 by integrating with respect to x first and I did question 6-10 by integrating with respect to y first. Sorry for bad formatting LaTex kept exploding.
 
 
 **Question 1:** Find $\iint\limits_R (x+y) dA$ where $R$ is rectangles on the 0<x<1 and 0<y<1
