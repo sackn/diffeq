@@ -3,6 +3,7 @@
 **Question 1:**
 <details>
   <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/UCB4/image5.png" alt="UCB Question 4.4">
 </details>
 
 **Question 2:**
