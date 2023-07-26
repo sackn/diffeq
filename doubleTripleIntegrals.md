@@ -6,19 +6,19 @@
 
 ## Double Integrals with Polar Coordinates
 
-**Question 1:** Find the double integral $\iint\limits_R x^2 + y^2 dA$ where $R$ is a circle of radius two centered at the origin
+**Question 1:** Find the double integral $\iint\limits_R (x^2 + y^2) dA$ where $R$ is a circle of radius two centered at the origin
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image4.png" alt="Question 1">
 </details>
 
-**Question 2:** Find the double integral $\iint\limits_R x+y dA$ where $R$ is the area enclosed by $x^2 + y^2 = 9$ and $x^2 + y^2 =1$
+**Question 2:** Find the double integral $\iint\limits_R (x+y) dA$ where $R$ is the area enclosed by $x^2 + y^2 = 9$ and $x^2 + y^2 =1$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image3.png" alt="Question 2">
 </details>
 
-**Question 3:** Find the double integral $\iint\limits_R x^2 - y^2 dA$ where $R$ is the area between a circle of radius 2 and a circle of radius 1 both centered at the origin
+**Question 3:** Find the double integral $\iint\limits_R (x^2 - y^2) dA$ where $R$ is the area between a circle of radius 2 and a circle of radius 1 both centered at the origin
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/polarDouble/image2.png" alt="Question 3">
