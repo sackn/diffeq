@@ -67,8 +67,74 @@ I did questions 1-5 by integrating with respect to x first and I did question 6-
 
 
 
-
 ## Double Integrals on more Complex Regions
+
+### Question and Solutions
+
+**Question 1:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image3.png" alt="Question 1">
+</details>
+
+**Question 2:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image10.png" alt="Question 2">
+</details>
+
+**Question 3:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image5.png" alt="Question 3">
+</details>
+
+**Question 4:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image8.png" alt="Question 4">
+</details>
+
+**Question 5:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image9.png" alt="Question 5">
+</details>
+
+**Question 6:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image2.png" alt="Question 6">
+</details>
+
+**Question 7:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image7.png" alt="Question 7">
+</details>
+
+**Question 8:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image4.png" alt="Question 8">
+</details>
+
+**Question 9:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image1.png" alt="Question 9">
+</details>
+
+**Question 10:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/generalDouble/image6.png" alt="Question 10">
+</details>
+
+
+
+
+
 
 
 ## Double Integrals with Polar Coordinates
