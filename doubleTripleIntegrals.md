@@ -23,13 +23,13 @@ I did questions 1-5 by integrating with respect to x first and I did question 6-
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image5.png" alt="Question 3">
 </details>
 
-**Question 4:** Find $\iint\limits_R (x^2 + y^2) dA$ where $R$ is rectangles on the 0<x<1 and 0<y<3
+**Question 4:** Find $\iint\limits_R (x^3 + 2xy) dA$ where $R$ is rectangles on the 0<x<1 and -1<y<1
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image6.png" alt="Question 4">
 </details>
 
-**Question 5:**
+**Question 5:** Find $\iint\limits_R (e^{x}sin(y)) dA$ where $R$ is rectangles on the 0<x<1 and 0<y< $\frac{\pi}{2}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/doubleIntegral/image9.png" alt="Question 5">
