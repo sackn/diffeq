@@ -252,28 +252,243 @@ A = \begin{vmatrix}
 ```math 
 \begin{vmatrix}
     2 & 1 & \vert & 5 \\
-    4 & 2 & \vert & 10 \\
+    4 & 2 & \vert & 10 
 \end{vmatrix}
 ```
 
 ```math
 L = \begin{vmatrix}
 1 & 0 \\
-2 & 1 \\
+2 & 1 
 \end{vmatrix}
 
 \qquad
 
 U = \begin{vmatrix}
 2 & 1 \\
-0 & 0 \\
+0 & 0 
 \end{vmatrix}
 ```
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image7.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image8a.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image8b.png" alt="Question 1">
 </details>
+
+
+**Question 9** Solve the follow system using the corresponding L and U matrices given:
+
+```math 
+\begin{vmatrix}
+    1 & 1 & 1 & \vert & 6 \\
+    2 & 3 & 2 & \vert & 15 \\
+    4 & 6 & 4 & \vert & 24
+\end{vmatrix}
+```
+
+```math
+L = \begin{vmatrix}
+1 & 0 & 0 \\
+2 & 1 & 0 \\
+4 & 2 & 1
+\end{vmatrix}
+
+\qquad
+
+L = \begin{vmatrix}
+1 & 1 & 1 \\
+0 & 1 & 0 \\
+0 & 0 & 0
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image9a.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image9b.png" alt="Question 1">
+</details>
+
+
+**Question 10** Solve the follow system using the corresponding L and U matrices given:
+
+```math 
+\begin{vmatrix}
+    1 & 2 & -1 & \vert & 5 \\
+    3 & 13 & 2 & \vert & 8 \\
+    4 & 57 & 37 & \vert & 5
+\end{vmatrix}
+```
+
+```math
+L = \begin{vmatrix}
+1 & 0 & 0 \\
+3 & 1 & 0 \\
+4 & 7 & 1
+\end{vmatrix}
+
+\qquad
+
+L = \begin{vmatrix}
+1 & 2 & -1 \\
+0 & 7 & 5 \\
+0 & 0 & 6
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image10.png" alt="Question 1">
+</details>
+
+**Question 11** Solve the follow system using the corresponding L and U matrices given:
+
+```math 
+\begin{vmatrix}
+    1 & 1 & \vert & 3 \\
+    2 & 2 & \vert & 6 
+\end{vmatrix}
+```
+
+```math
+L = \begin{vmatrix}
+1 & 0 \\
+2 & 1 
+\end{vmatrix}
+
+\qquad
+
+U = \begin{vmatrix}
+1 & 1 \\
+0 & 0 
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image11.png" alt="Question 1">
+</details>
+
+**Question 12** Solve the follow system using the corresponding L and U matrices given:
+
+```math 
+\begin{vmatrix}
+    1 & 2 & 1 & \vert & 8 \\
+    2 & 3 & 2 & \vert & 14 \\
+    3 & 5 & 3 & \vert & 20
+\end{vmatrix}
+```
+
+```math
+L = \begin{vmatrix}
+1 & 0 & 0 \\
+2 & 1 & 0 \\
+3 & 1 & 1
+\end{vmatrix}
+
+\qquad
+
+L = \begin{vmatrix}
+1 & 2 & -1 \\
+0 & -1 & 0 \\
+0 & 0 & 0
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image12a.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image12b.png" alt="Question 1">
+</details>
+
+
+**Question 13** Solve the follow system:
+
+```math 
+\begin{vmatrix}
+    2 & 1 & \vert & 5 \\
+    4 & 2 & \vert & 10 
+\end{vmatrix}
+```
+Part A: Find the LU Decomposition
+Part B: Solve the system Using LU Decomposition
+
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image13a.png" alt="Question 1">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image13b.png" alt="Question 1">
+</details>
+
+
+**Question 14** Solve the follow system:
+
+```math 
+\begin{vmatrix}
+    1 & 1 & 1 & \vert & 6 \\
+    2 & 3 & 2 & \vert & 15 \\
+    4 & 6 & 4 & \vert & 24
+\end{vmatrix}
+```
+Part A: Find the LU Decomposition
+Part B: Solve the system Using LU Decomposition
+
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image14a.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image14b.png" alt="Question 1">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image14c.png" alt="Question 1">
+</details>
+
+**Question 15** Solve the follow system:
+
+```math 
+\begin{vmatrix}
+    2 & -1 & 1 & \vert & 3 \\
+    1 & 2 & -3 & \vert & 4 \\
+    3 & -1 & 2 & \vert & 1
+\end{vmatrix}
+```
+Part A: Find the LU Decomposition
+Part B: Solve the system Using LU Decomposition
+
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image15a.png" alt="Question 1">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image15b.png" alt="Question 1">
+</details>
+
+**Question 13** Solve the follow system:
+
+```math 
+\begin{vmatrix}
+    3 & 2 & \vert & 12 \\
+    5 & -1 & \vert & 7 
+\end{vmatrix}
+```
+Part A: Find the LU Decomposition
+Part B: Solve the system Using LU Decomposition
+
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image16a.png" alt="Question 1">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image16b.png" alt="Question 1">
+</details>
+
+
+
+
 
 
 
