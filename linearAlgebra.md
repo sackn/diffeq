@@ -296,7 +296,7 @@ L = \begin{vmatrix}
 
 \qquad
 
-L = \begin{vmatrix}
+U = \begin{vmatrix}
 1 & 1 & 1 \\
 0 & 1 & 0 \\
 0 & 0 & 0
@@ -329,7 +329,7 @@ L = \begin{vmatrix}
 
 \qquad
 
-L = \begin{vmatrix}
+U = \begin{vmatrix}
 1 & 2 & -1 \\
 0 & 7 & 5 \\
 0 & 0 & 6
@@ -388,7 +388,7 @@ L = \begin{vmatrix}
 
 \qquad
 
-L = \begin{vmatrix}
+U = \begin{vmatrix}
 1 & 2 & -1 \\
 0 & -1 & 0 \\
 0 & 0 & 0
