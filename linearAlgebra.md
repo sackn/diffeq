@@ -247,6 +247,30 @@ A = \begin{vmatrix}
 </details>
 
 
+**Question 8** Solve the follow system using the corresponding L and U matrices given:
+
+```math 
+\begin{vmatrix}
+    2 & 1 & -3 & \vert & 5 \\
+    0 & 3 & 1 & \vert & 8 \\
+    -1 & 2 & 4 & \vert & 3 \\
+\end{vmatrix}
+```
+
+```math
+A = \begin{vmatrix}
+3 & 6 & 9 \\
+1 & 2 & 3 \\
+4 & 8 & 12
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image7.png" alt="Question 1">
+</details>
+
+
 
 
 
