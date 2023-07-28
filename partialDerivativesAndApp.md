@@ -1,3 +1,6 @@
+## Partial Derivatives
+
+
 ## Multivaraible Chainrule
 
 ### Questions and Solutions
