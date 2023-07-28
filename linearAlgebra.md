@@ -7,7 +7,7 @@ https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png
 ```math
 A = \begin{vmatrix}
 2 & 1 \\
-4 & 3 \\
+4 & 3 
 \end{vmatrix}
 ```
 
