@@ -251,17 +251,22 @@ A = \begin{vmatrix}
 
 ```math 
 \begin{vmatrix}
-    2 & 1 & -3 & \vert & 5 \\
-    0 & 3 & 1 & \vert & 8 \\
-    -1 & 2 & 4 & \vert & 3 \\
+    2 & 1 & \vert & 5 \\
+    4 & 2 & \vert & 10 \\
 \end{vmatrix}
 ```
 
 ```math
-A = \begin{vmatrix}
-3 & 6 & 9 \\
-1 & 2 & 3 \\
-4 & 8 & 12
+L = \begin{vmatrix}
+1 & 0 \\
+2 & 1 \\
+\end{vmatrix}
+
+\qquad
+
+U = \begin{vmatrix}
+2 & 1 \\
+0 & 0 \\
 \end{vmatrix}
 ```
 
