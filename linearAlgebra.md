@@ -140,3 +140,44 @@ A = \begin{vmatrix}
 
 ## LU Decomposition and Solutions to Systems
 
+
+**Question 1** Find the inverse of the following matrix $A^{-1}$
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+</details>
+
+
+**Question 1** Find the inverse of the following matrix $A^{-1}$
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+</details>
+
+
+**Question 1** Find the inverse of the following matrix $A^{-1}$
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+</details>
+
+
+**Question 1** Find the inverse of the following matrix $A^{-1}$
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+</details>
+
+
+**Question 1** Find the inverse of the following matrix $A^{-1}$
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+</details>
+
+
