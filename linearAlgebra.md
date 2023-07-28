@@ -13,7 +13,7 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image5.png" alt="Question 1">
 </details>
 
 **Question 2** Find the inverse of the following matrix $A^{-1}$
@@ -26,7 +26,7 @@ A = \begin{vmatrix}
 ```
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image10.png" alt="Question 2">
 </details>
 
 **Question 3** Find the inverse of the following matrix $A^{-1}$
@@ -41,7 +41,7 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image3.png" alt="Question 3">
 </details>
 
 
@@ -57,7 +57,8 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image4.png" alt="Question 4.a">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image6.png" alt="Question 4.b">
 </details>
 
 
@@ -73,7 +74,7 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image7.png" alt="Question 5">
 </details>
 
 
@@ -89,7 +90,7 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image2.png" alt="Question 6">
 </details>
 
 
@@ -104,7 +105,7 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 7">
 </details>
 
 **Question 8** Find the inverse of the following matrix $A^{-1}$
@@ -119,7 +120,7 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
 </details>
 
 
@@ -134,6 +135,6 @@ A = \begin{vmatrix}
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image1.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image8.png" alt="Question 9">
 </details>
 
