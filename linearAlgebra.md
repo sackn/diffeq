@@ -138,3 +138,5 @@ A = \begin{vmatrix}
   <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image8.png" alt="Question 9">
 </details>
 
+## LU Decomposition and Solutions to Systems
+
