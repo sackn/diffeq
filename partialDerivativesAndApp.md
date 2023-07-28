@@ -2,11 +2,50 @@
 
 ### Questions and Solutions
 
-**Question 5:** For the function $f(x,y,z) = x^{2} + 2y^{2} + 3z^{2}$ determine the direction where the directional derivative is zeor at the point $(1,-1,2)$
+
+**Question 1:** Find $\frac{\partial z}{\partial t}$ given that $z=e^{x^2+y^2}$, $x=3t$, and $y=2t$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image4.png" alt="Question 5">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image7.png" alt="Question 1">
 </details>
+
+**Question 2:** Find $\frac{\partial u}{\partial s}$ given that $u=sin(x^{2}y)$, $x=s+t$, and $y=s-t$ 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image1.png" alt="Question 2">
+</details>
+
+**Question 3:** Find $\frac{\partial z}{\partial u}$ given that $z=e^{xy} + ln(u)$, $x=u^2 + 1$, and $y=\sqrt{u}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image6.png" alt="Question 3">
+</details>
+
+**Question 4:** Find $\frac{\partial w}{\partial s}$ given that $w=cos(x+y) +e^{xy}$, $x=s^2$, and $y=2s$.
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image3.png" alt="Question 4">
+</details>
+
+**Question 5:** Find $\frac{\partial v}{\partial t}$ given that $v=ln(x^2 + y^2)$, $x=e^t$, and $y=e^{-t}$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image4.png" alt="Question 5">
+</details>
+
+**Question 6:** Find $\frac{\partial u}{\partial v}$ given that $u =sin(xy)$,$x=v^2 + 1$, and $y = v^3 - 1$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image2.png" alt="Question 6">
+</details>
+
+**Question 7:** Find $\frac{\partial z}{\partial t}$ given that $z=\sqrt{xy}+cos(t^2)$, $x=t^2 + 1$, and $y=t^3 -1$
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image5.png" alt="Question 7">
+</details>
+
+
 
 
 ## Directional Derivatives and Graident Vectors
@@ -72,6 +111,7 @@ $$\vec{u} = \frac{\vec{v}}{||\vec{v}||}$$
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image4.png" alt="Question 5">
 </details>
+
 
 ### Tangents Planes and Approximations
 As you may remember in calculus one we were able to define a tangent line at some given point. In 2D space, the general form for a tangent line at point $(x_0, f(x_0) )$ of the function $f(x,y)$ was:
@@ -460,4 +500,6 @@ For the UCB problems I took it from this link[ https://math.berkeley.edu/~hutchi
   <summary>Part Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image3.png" alt="Problem 2">
 </details>
+
+
 
