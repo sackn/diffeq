@@ -140,44 +140,114 @@ A = \begin{vmatrix}
 
 ## LU Decomposition and Solutions to Systems
 
+**Question 1** Find the LU Decomposition of the following matrix:
 
-**Question 1** Find the inverse of the following matrix $A^{-1}$
-
-<details>
-  <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
-</details>
-
-
-**Question 1** Find the inverse of the following matrix $A^{-1}$
+```math
+A = \begin{vmatrix}
+2 & 4 \\
+1 & 3 
+\end{vmatrix}
+```
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image1.png" alt="Question 1">
 </details>
 
+**Question 2** Find the LU Decomposition of the following matrix:
 
-**Question 1** Find the inverse of the following matrix $A^{-1}$
+```math
+A = \begin{vmatrix}
+3 & 1 & 2 \\
+6 & 2 & 4 \\
+3 & 5 & 1
+\end{vmatrix}
+```
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image2.png" alt="Question 1">
 </details>
 
+**Question 3** Find the LU Decomposition of the following matrix:
 
-**Question 1** Find the inverse of the following matrix $A^{-1}$
+```math
+A = \begin{vmatrix}
+1 & 2 & 0 \\
+3 & 4 & 1 \\
+2 & 2 & 2
+\end{vmatrix}
+```
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image3.png" alt="Question 1">
 </details>
 
+**Question 4** Find the LU Decomposition of the following matrix:
 
-**Question 1** Find the inverse of the following matrix $A^{-1}$
+```math
+A = \begin{vmatrix}
+4 & 2 & 1 \\
+8 & 7 & 2 \\
+4 & 8 & 3
+\end{vmatrix}
+```
 
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/matrixInverse/image9.png" alt="Question 8">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image4.png" alt="Question 1">
 </details>
+
+**Question 5** Find the LU Decomposition of the following matrix:
+
+```math
+A = \begin{vmatrix}
+1 & 3 \\
+2 & 7 
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image5.png" alt="Question 1">
+</details>
+
+
+**Question 6** Find the LU Decomposition of the following matrix:
+
+```math
+A = \begin{vmatrix}
+5 & 2 & 1 \\
+1 & 4 & 2 \\
+3 & 2 & 6
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image6a.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image6b.png" alt="Question 1">
+</details>
+
+
+**Question 7** Find the LU Decomposition of the following matrix:
+
+```math
+A = \begin{vmatrix}
+3 & 6 & 9 \\
+1 & 2 & 3 \\
+4 & 8 & 12
+\end{vmatrix}
+```
+
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image7.png" alt="Question 1">
+</details>
+
+
+
+
 
 
