@@ -1,43 +1,12 @@
 ## Multivaraible Chainrule
 
 ### Questions and Solutions
-For the UCB problems I took it from this link[ https://math.berkeley.edu/~hutching/teach/53-2015/53worksheets.pdf ](url). I'm not sure if its legal to use this resource. The pdf is cut into sections for each topic and each section has one part for "questions" and one part for "problems". All of the questions below are from chapter 12 multivarible chain rule. 
 
-**UCB 12 Question 1** 
+**Question 5:** For the function $f(x,y,z) = x^{2} + 2y^{2} + 3z^{2}$ determine the direction where the directional derivative is zeor at the point $(1,-1,2)$
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image2.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/directional/image4.png" alt="Question 5">
 </details>
-
-**UCB 12 Question 2** 
-<details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image4.png" alt="Question 2.a">
-</details>
-<details>
-  <summary>Part B Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image1.png" alt="Question 2.b">
-</details>
-<details>
-  <summary>Part C Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image5.png" alt="Question 2.c">
-</details>
-
-**UCB 12 Problem 1** (Don't waste your time trying part b) 
-<details>
-  <summary>Part A Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image6.png" alt="Problem 1">
-</details>
-
-**UCB 12 Problem 2**
-<details>
-  <summary>Part Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image3.png" alt="Problem 2">
-</details>
-
-
-
-
 
 
 ## Directional Derivatives and Graident Vectors
@@ -383,6 +352,8 @@ Also, in the worked example above we calculated the absolute extrema of the func
 ## Extra Practice Questions
 Shimamota Questions mainly partial derivatives, tangent approximations, and gradient vectors.
 
+For the UCB problems I took it from this link[ https://math.berkeley.edu/~hutching/teach/53-2015/53worksheets.pdf ](url). I'm not sure if its legal to use this resource. The pdf is cut into sections for each topic and each section has one part for "questions" and one part for "problems". All of the questions below are from chapter 12 multivarible chain rule. 
+
 **Shimamota Question 4.1.1:**
 <details>
   <summary>Part A Solution</summary>
@@ -458,5 +429,35 @@ Shimamota Questions mainly partial derivatives, tangent approximations, and grad
   <img src="https://github.com/sackn/diffeq/blob/main/Images/4.13.1/image15.png" alt="Shimamota 4.1.12.b">
 </details>
 
+**UCB 12 Question 1** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image2.png" alt="Question 1">
+</details>
 
+**UCB 12 Question 2** 
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image4.png" alt="Question 2.a">
+</details>
+<details>
+  <summary>Part B Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image1.png" alt="Question 2.b">
+</details>
+<details>
+  <summary>Part C Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image5.png" alt="Question 2.c">
+</details>
+
+**UCB 12 Problem 1** (Don't waste your time trying part b) 
+<details>
+  <summary>Part A Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image6.png" alt="Problem 1">
+</details>
+
+**UCB 12 Problem 2**
+<details>
+  <summary>Part Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/chainRule/image3.png" alt="Problem 2">
+</details>
 
