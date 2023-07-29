@@ -488,6 +488,63 @@ Part B: Solve the system Using LU Decomposition
 
 ## Determinents
 
+**Introduction**
+
+You probably already know that there pretty straight forward formula for finding the inverse of a 2 by 2 matrix. For some arbitrary matrix $A$ the invesre matrix $A^{-1}$ is the following:
+
+```math 
+A = \begin{vmatrix}
+    a & b  \\
+    c & d 
+\end{vmatrix}
+
+\qquad
+A^{-1} = \frac{1}{ad-bc}\begin{vmatrix}
+    d & -b  \\
+    -c & a 
+\end{vmatrix}
+```
+
+From the information above we know that an inverse will only exist as long as the scalar factor on the outside exists. In other words, $$ad-bc \neq 0$$. The reciporical of the factor on the outside of the matrix is called the determinent. That means for a 2x2 matrix the determinent is $ad-bc$.
+
+A key property of the determinent is that for a matrix A. If its an invertible matrix ($A^{-1}$ exists) then $det A \neq 0$
+
+**Definition of a determinent**
+
+We know that for a 2x2 matrix $det A = ad-bc$, but how do we even get this relation. First consider something called a permutation of a list of elements. A permutation of an array is another array that can be obtained by swapping around elements. All permutations include all possible ways to write the elements where order matters. Let say you had the list [1,2,3] then the permutations include:
+- [1, 2, 3]
+- [1, 3, 2]
+- [2, 1, 3]
+- [2, 3, 1]
+- [3, 1, 2]
+- [3, 2, 1]
+
+Each permutation has a "parity" (even or odd). We know that we can obtain any permutation of [1,2,3] via some number of swaps of elements. For example we can go from [3,2,1] to [1,2,3] by swapping 3 and 1. If it takes an odd number of swaps to obtain a permutation then the permutation is considered odd. If it takes an even number of swaps to obtain a permutation then the permutation is consider even.
+
+This may raise many immediate questions. When deciding parity of a permutation we need to count how many the parity of swaps it takes to get from this permutation to EVERY other permutation. However, a nice quality of permutation is is that a odd permutation (one that requires an odd numbers of swap) is always odd with respect to every other permutation.
+
+In more simple terms, if you have some other permutation it will always take an odd number of swaps. It obviously may not take the same number of swaps as another permutation that is "closer", but the number of swaps will always be an odd number. I like to think of the parity of a permutation as "indepndent of path" as an even permutation is always even regardless of how you get there. Also note that 0 swaps is even.
+
+Introduce the sign function which is a logical continuation to our talk about even/odd permutations. Consider some permutation $\sigma$:
+```math
+sig(\sigma) = 
+\begin{cases}
+    1, & \text{if } \sigma \text{ is even} \\
+    -1, & \text{if } \sigma \text{ is odd}
+\end{cases}
+```
+For an example sign([1,3,2]) = -1 (swap 3 and 2) and sign([2,1,3]) = 1 (swap 2 and 3. Then swap 1 and 2). Before I get to the actual definition of the determinent when I mention a permutation of $n$ I'm refering to some order of the number [1, 2 ... n-1, n]
+
+For an n by n matrix M:
+$$det(M) = \sum_{\sigma} sign(\sigma)m_{1,\sigma(1)}m_{2,\sigma(2)}\ldots m_{n,\sigma(n)}$$
+
+
+
+
+
+**Calculating Determinents through Code**
+
+Below is some haphazardly written code for calculating the determinent of a matrix (done by yours truley). I'm pretty sure it works, but the parity function portion is probably not optimal. As usual the determinent requires that the matrix is square (nxn).
 
 ```python
 def parity(arr):
@@ -523,6 +580,17 @@ def det(curr):
 
 print(det([]))
 ```
+
+I thought it would be good practice to write the determinent operation myself, but below is probably the code that you are more likely to use to calculate the determinent of a square matrix. 
+```python
+import numpy as np
+
+matrix = np.array([[-1, -8, 9], [4, 12, -7], [-10, 3, 2]])
+print(np.linalg.det(matrix))
+```
+
+Note that $np.linalg.det$ works conceptually a little different from my code. My code will always produce the exact answer (as so I claim). Numpy will use approxmiative methods to get the determinent which means you will be off by a very slight margin.
+
 
 
 
