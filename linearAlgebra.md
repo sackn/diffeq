@@ -538,6 +538,35 @@ For an example sign([1,3,2]) = -1 (swap 3 and 2) and sign([2,1,3]) = 1 (swap 2 a
 For an n by n matrix M:
 $$det(M) = \sum_{\sigma} sign(\sigma)m_{1,\sigma(1)}m_{2,\sigma(2)}\ldots m_{n,\sigma(n)}$$
 
+The summation sign implies that you sum over all possible permutations. The definition might be a little complicated so, I'm going to break it down a little. Firstly, we enumerate all permutations of n (For 2x2 [1,2] and [2,1]). We can see that we pick an item from each row in the matrix M and the item we pick in each row is determined by the permutation we are currently considering ($\sigma(i)$ refers to picking the ith element permutation ). If we are currently consider [2,1] in a 2 by 2 matrix then that term in the sum would be $sign([1,2]) m_{1,2} m_{2,1}$. Note that the item we pick will never be in a column with another item that is already picked. After we have to consider the parity of the permutation we are considering which can be done through guess and check.
+
+**Worked Example**
+
+Consider the general form of a 2x2 matrix A find the determinent
+```math 
+A = \begin{vmatrix}
+    a & b  \\
+    c & d 
+\end{vmatrix}
+```
+
+We can first enumerate our permutation. We have exactly $2!$ permutation which are [1,2] and [2,1]. Lets consider the [1,2] permutation first. We know that $\sigma(1) = 1$ and $\sigma(2)=2$. Plugging that into our formula for this term we gets so far,
+$$sign([1,2]) m_{1,1} m_{2,2}$$
+Replacing $m_{1,1}$ (row 1 column 1 entry)and $m_{2,2}$ (row 2 column 2 entry) with there actual value in the matrix we get,
+$$sign([1,2]) ad$$
+Now we need to find $sign([1,2])$. Since it takes zero swaps to go from [1,2] to [1,2] the parity is even and thus $sign([1,2]) = 1$. So we simply have $ad$. Lets consider the other permutation [2,1]. We know that  $\sigma(1) = 2$ and $\sigma(2)=1$. Plugging that into our formula we get,
+$$sign([2,1]) m_{1,2} m_{2,1}$$
+Replacing with the actual entries
+$$sign([2,1]) bc$$
+Now we need to find $sign([2,1])$ it takes 1 swap to go from [1,2] to [2,1] so its an odd permutation which implies $sign([2,1]) = -1$ giving us $-bc$. The determinent is the sum of all these results so the determient of some general 2D matrix is the following
+$$det(A) = ad-bc$$
+
+
+
+
+
+
+
 
 
 
