@@ -486,6 +486,43 @@ Part B: Solve the system Using LU Decomposition
   <img src="https://github.com/sackn/diffeq/blob/main/Images/LU/image16b.png" alt="Question 1">
 </details>
 
+## Determinents
+
+
+```python
+def parity(arr):
+    swaps = 0
+    for i in range(len(arr)):
+        if (i + 1) != arr[i]:
+            swaps += 1
+            for j in range(i + 1, len(arr)):
+                if arr[j] == (i + 1):
+                    tmp = arr[i]
+                    arr[i] = arr[j]
+                    arr[j] = tmp
+
+    if swaps % 2 == 0:
+        return 1
+    return -1
+
+
+matrix = [[-1, -8, 9],
+          [4, 12, -7],
+          [-10, 3, 2]]
+
+
+def det(curr):
+    if len(curr) == len(matrix):
+        ret = 1
+        for i in range(len(curr)):
+            ret *= matrix[i][curr[i] - 1]
+        return parity(curr) * ret
+
+    return sum([det(curr + [i]) for i in range(1, len(matrix) + 1) if i not in curr])
+
+
+print(det([]))
+```
 
 
 
