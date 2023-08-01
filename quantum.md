@@ -100,3 +100,7 @@ $$a_1 = (1)(1) + (0)(1) = 1$$
 $$a_0 = (0)(0) + (1)(1) = 1$$
 
 $$a_1 = (1)(0) + (0)(1)$$
+
+**H - Gate**
+
+We been talking about a lot of scenarios that have a 100% of being a single outcome. How do we make a qubit exist in a state where it has a mulitude of outcomes. Consider the H-Gate.
