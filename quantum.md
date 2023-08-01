@@ -58,7 +58,7 @@ A = \begin{vmatrix}
 
 Below we can show that through matrix multiplication we can prove that the X-gate will cause $\vert 0 \rangle \implies \vert 1 \rangle$  and $\vert 1 \rangle \implies \vert 0 \rangle$.
 
-``` math
+```math
 $\vert 0 \rangle \implies \vert 1 \rangle$ \quad
 begin{vmatrix}
 0 & 1 \\
@@ -74,5 +74,6 @@ begin{vmatrix}
 1 
 \end{vmatrix}
 ```
+
 $$a_0 = (0)(1) + (1)(0) = 0$$
 $$a_1 = (1)(1) + (0)(1)$$
