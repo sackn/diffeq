@@ -23,6 +23,38 @@ $$\vert x \rangle = \frac{1}{2} \vert 00 \rangle + \frac{1}{2} \vert 01 \rangle 
 
 In quantum computing gates can act on these qubits. Some gates operate on a singular bit while other gates operate of a pair/group of bits. Gates can be written as a matrix multiplication or a trasnsformation on the original qubit.
 
+For a single qubit I will often write it in column notation (where $a_0$ and $a_1$ represent the probability amplitudes)
+```math
+A = \begin{vmatrix}
+a_0 \\
+a_1
+\end{vmatrix}
+```
+That means that for a qubit which is always in the zero state we have the following column vector
+```math
+A = \begin{vmatrix}
+1 \\
+0
+\end{vmatrix}
+```
+or always in the one state 
+```math
+A = \begin{vmatrix}
+0 \\
+1
+\end{vmatrix}
+```
+
 **X Gate**
 
 The most common gate is the X-gate (a NOT/INVERTER gate). The X-gate wil work on a singule qubit. The X-gate will simply swap the state of the qubit. If a qubit is in the zero state it will be swapped to the one state. If a qubit is in the one state it will be swapped to the zero state. The matrix represnetation of the x-gate is the following:
+
+X = ```math
+A = \begin{vmatrix}
+0 & 1 \\
+1 & 0 
+\end{vmatrix}
+```
+
+Below we can show that through matrix multiplication we can prove that the X-gate will cause $\vert 0 \rangle \implies \vert 1 \rangle$  and $\vert 1 \rangle \implies \vert 0 \rangle$.
+
