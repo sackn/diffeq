@@ -12,3 +12,7 @@ $$\vert \psi \rangle = \frac{1}{\sqrt{2}} \vert 0 \rangle + \frac{1}{\sqrt{2}} \
 We can obviously have systems with more that one qubit. In a single qubit there was two possible states $\vert 0 \rangle$ and $\vert 1 \rangle$. If you have two qubits there are four states $\vert 00 \rangle$, $\vert 01 \rangle$, $\vert 10 \rangle$, and $\vert 11 \rangle$. If you have three qubits you would have eight different states. In general for a system of n qubits you have $2^n$ different possible states. Much like the single qubit state we can also write a two qubit state as superposition of all possible measurements (the four listed previously):
 
 $$\vert x \rangle = a_{00} \vert 00 \rangle + a_{01} \vert 01 \rangle + a_{10} \vert 10 \rangle + a_{11} \vert 11 \rangle $$
+ 
+Before continuing its important to note that if we wanted to given allocate an equal probabilty to every state we would not make all the coefficients $\frac{1}{\sqrt{2}}$. If we assign $\frac{1}{\sqrt{2}}$ to our four qubits and we add up all the probabilities we get $4(\frac{1}{\sqrt{2}})^2$ which is equal two. That doesn't make very much sense. Our probabilities are adding up to 200% when they should always be adding up to 100% . In order to give all our states the same possible outcome chance (25%) we would make each coefficent $\frac{1}{2}$ so that way the sum of all probabilities is exactly one.
+
+$$\vert x \rangle = \frac{1}{2} \vert 00 \rangle + \frac{1}{2} \vert 01 \rangle + \frac{1}{2} \vert 10 \rangle + \frac{1}{2} \vert 11 \rangle $$
