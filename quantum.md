@@ -76,4 +76,5 @@ Below we can show that through matrix multiplication we can prove that the X-gat
 ```
 
 $$a_0 = (0)(1) + (1)(0) = 0$$
+
 $$a_1 = (1)(1) + (0)(1)$$
