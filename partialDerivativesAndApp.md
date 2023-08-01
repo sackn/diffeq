@@ -1,9 +1,51 @@
 ## Partial Derivatives
 
-**Question 1:** 
+**Question 1:** Given $f(x,y) = x^2y+sin(xy)$ find $\frac{\partial f}{\partial x}$  
 <details>
   <summary>Solution</summary>
-  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image7.png" alt="Question 1">
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image2.png" alt="Question 1">
+</details>
+
+**Question 2:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image6.png" alt="Question 2">
+</details>
+
+**Question 3:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image3.png" alt="Question 3">
+</details>
+
+**Question 4:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image4.png" alt="Question 4">
+</details>
+
+**Question 5:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image8.png" alt="Question 5">
+</details>
+
+**Question 6:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image1.png" alt="Question 6">
+</details>
+
+**Question 7:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image7.png" alt="Question 7">
+</details>
+
+**Question 8:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image5.png" alt="Question 8">
 </details>
 
 
