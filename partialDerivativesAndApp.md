@@ -18,31 +18,31 @@
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image3.png" alt="Question 3">
 </details>
 
-**Question 4:** 
+**Question 4:** Given $h(u,v,w) = \frac{u^2 v}{ln(w)}$ find $\frac{\partial h}{\partial w}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image4.png" alt="Question 4">
 </details>
 
-**Question 5:** 
+**Question 5:**  Given $f(x,y) = e^{xsin(xy)}$ find $\frac{\partial f}{\partial x}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image8.png" alt="Question 5">
 </details>
 
-**Question 6:** 
+**Question 6:** Given $g(x,y,z) = \sqrt{x^2 + y^2}sin(2xz)$ find $\frac{\partial g}{\partial z}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image1.png" alt="Question 6">
 </details>
 
-**Question 7:** 
+**Question 7:** Given $f(u,v) = cos(u^2v)e^{uv}$ find $\frac{\partial f}{\partial v}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image7.png" alt="Question 7">
 </details>
 
-**Question 8:** 
+**Question 8:** Given $g(x,y,z) = e^{xyz}ln(x^2 + y^2 + z^2)$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image5.png" alt="Question 8">
