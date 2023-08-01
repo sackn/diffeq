@@ -1,5 +1,12 @@
 ## Partial Derivatives
 
+**Question 1:** 
+<details>
+  <summary>Solution</summary>
+  <img src="https://github.com/sackn/diffeq/blob/main/Images/multivarChain/image7.png" alt="Question 1">
+</details>
+
+
 
 ## Multivaraible Chainrule
 
