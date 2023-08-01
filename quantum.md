@@ -60,16 +60,16 @@ Below we can show that through matrix multiplication we can prove that the X-gat
 
 ```math
 \vert 0 \rangle \implies \vert 1 \rangle \quad
-begin{vmatrix}
+\begin{vmatrix}
 0 & 1 \\
 1 & 0 
 \end{vmatrix}
-begin{vmatrix}
+\begin{vmatrix}
 1 \\
 0 
 \end{vmatrix}
 =
-begin{vmatrix}
+\begin{vmatrix}
 0 \\
 1 
 \end{vmatrix}
