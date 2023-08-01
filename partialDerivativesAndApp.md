@@ -6,13 +6,13 @@
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image2.png" alt="Question 1">
 </details>
 
-**Question 2:** 
+**Question 2:** Given $g(x,y,z) = ln(x^2y) + z^3$ find $\frac{\partial g}{\partial z}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image6.png" alt="Question 2">
 </details>
 
-**Question 3:** 
+**Question 3:** Given $f(u,v) = e^{uv}+cos(v^2u)$ find $\frac{\partial f}{\partial u}$
 <details>
   <summary>Solution</summary>
   <img src="https://github.com/sackn/diffeq/blob/main/Images/partial/image3.png" alt="Question 3">
