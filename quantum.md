@@ -49,8 +49,8 @@ A = \begin{vmatrix}
 
 The most common gate is the X-gate (a NOT/INVERTER gate). The X-gate wil work on a singule qubit. The X-gate will simply swap the state of the qubit. If a qubit is in the zero state it will be swapped to the one state. If a qubit is in the one state it will be swapped to the zero state. The matrix represnetation of the x-gate is the following:
 
-X = ```math
-A = \begin{vmatrix}
+```math
+X = \begin{vmatrix}
 0 & 1 \\
 1 & 0 
 \end{vmatrix}
