@@ -77,4 +77,26 @@ Below we can show that through matrix multiplication we can prove that the X-gat
 
 $$a_0 = (0)(1) + (1)(0) = 0$$
 
-$$a_1 = (1)(1) + (0)(1)$$
+$$a_1 = (1)(1) + (0)(1) = 1$$
+
+
+```math
+\vert 1 \rangle \implies \vert 0 \rangle \quad
+\begin{vmatrix}
+0 & 1 \\
+1 & 0 
+\end{vmatrix}
+\begin{vmatrix}
+0 \\
+1 
+\end{vmatrix}
+=
+\begin{vmatrix}
+1 \\
+0 
+\end{vmatrix}
+```
+
+$$a_0 = (0)(0) + (1)(1) = 1$$
+
+$$a_1 = (1)(0) + (0)(1)$$
