@@ -164,8 +164,17 @@ If we combine two H-gates together we end up with the same matrix operation as a
 Controlled gates take in a pair of qubits rather than just a singular qubit. In a controlled gate one of the qubits is a control and one is a target. The control qubit won't change and will instead act as a "trigger" for whhat the target qubit to should change to. You may have noticed that all operation that happen on a single qubit are 2x2 matrices which should make sense if you draw out what exactly each entry is doing. Each entry is describing a different possible scenario refer to the 2x2 matrix below:
 
 ```math
-H = \frac{1}{\sqrt{2}}\begin{bmatrix}
+\begin{bmatrix}
 a_{0 \implies 0} & a_{0 \implies 1} \\
 a_{1 \implies 0} & a_{1 \implies 1} 
+\end{bmatrix}
+```
+Each entry controls a different possible input and its corresponding output. It should be pretty intuitive that an n qubit will require a $2^n \times 2^n$ to cover all possbible input combination. Below is a generic 4x4 matrix operation:
+```math
+\begin{bmatrix}
+a_{00 \implies 00} & a_{01 \implies 00} & a_{10 \implies 00} & a_{11 \implies 00} \\
+a_{00 \implies 01} & a_{01 \implies 01} & a_{10 \implies 01} & a_{11 \implies 01} \\
+a_{00 \implies 10} & a_{01 \implies 10} & a_{10 \implies 10} & a_{11 \implies 10} \\
+a_{00 \implies 10} & a_{01 \implies 10} & a_{10 \implies 10} & a_{11 \implies 10} \\
 \end{bmatrix}
 ```
