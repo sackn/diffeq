@@ -159,3 +159,13 @@ Since probability is the sum of the squares of the amplitudes the qubit still ha
 ```
 If we combine two H-gates together we end up with the same matrix operation as an X-gate. That means the two h-gates diretly after each other will just swap the state of the qubit ($\vert 0 \rangle \implies \vert 1 \rangle, \vert 1 \rangle \implies \vert 0 \rangle $). The offset phases from the first H-gate are what causes this cancellation leading to a non-probabilistic output.
 
+**Controlled Not Gate (CNOT)**
+
+Controlled gates take in a pair of qubits rather than just a singular qubit. In a controlled gate one of the qubits is a control and one is a target. The control qubit won't change and will instead act as a "trigger" for whhat the target qubit to should change to. You may have noticed that all operation that happen on a single qubit are 2x2 matrices which should make sense if you draw out what exactly each entry is doing. Each entry is describing a different possible scenario refer to the 2x2 matrix below:
+
+```math
+H = \frac{1}{\sqrt{2}}\begin{bmatrix}
+a_{0 \implies 0} & a_{0 \implies 1} \\
+a_{1 \implies 0} & a_{1 \implies 1} 
+\end{bmatrix}
+```
