@@ -593,12 +593,21 @@ sin(\frac{\theta}{2}) & cos(\frac{\theta}{2})
 \end{bmatrix}
 ```
 
-The uncertainity principle states that for some pairs of properties it is impossible to know both with certainity. More specifically the more certain you are about a single property the less certain you are about the other property. For example consider two different wayas to measure a qubit (call one x-measurement and other z-measurement)
+The uncertainity principle states that for some pairs of properties it is impossible to know both with certainity. More specifically the more certain you are about a single property the less certain you are about the other property. For example consider two different wayas to measure a qubit (call one x-measurement and other z-measurement):
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image8.png" alt="Entangled State 4">
 
+Notice that we know the x-measurement is going to be zero with a 100% certainity while the z-measurement is a complete 50/50 between 0 and 1. 
 
-If you 
+More formally define the following for a certain measurement method:
+$$\langle X \rangle = P_x(0) - P_x(1)$$
+Read out in English: The expected value of X is the difference between the proability of being zero and the probability of it being 1. We can have any values between -1 and 1. A certain zero will be a 1 and a certain one will be a -1. However, if know for certain either its a 0 or a 1 then we know that $\langle X \rangle^2$ is 1. If we define something similar in the case of $\langle Z \rangle$ the uncertainity principle can be written as the following inequliaty:
+$$\langle X \rangle^{2} + \langle Z \rangle^2 \leq 1$$
+It formally describes that if you know X for certain you know nothing about Z. The more you know about one thing the less you know about other thing. Consider these adjusted X-measurement and Z-measurements where I just tacked on a H-gate to them:
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image9.png" alt="Entangled State 4">
+Notice that we can now have no clue about the x-measurement and we know the z-measurement for certain thus maintaing the uncertainity principle. This will hold regarldess of what operations come prior to the x-measurements and z-measurements, the uncertain principle is something fundamnental.
 
 Lets consider the following gates to be our x-measurement and our z-measurement. According to the uncertainity principle the following relationship should hold $\langle X \rangle^{2} + \langle Z \rangle^2 \leq 1$
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image10.png" alt="Entangled State 4">
 
 First looking at the x-measurement we can calculate its probability by first applying the $\frac{\pi}{5}$ through the use of a Ry gate giving us the following:
 ```math
