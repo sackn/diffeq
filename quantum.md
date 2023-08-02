@@ -593,16 +593,18 @@ sin(\frac{\theta}{2}) & cos(\frac{\theta}{2})
 \end{bmatrix}
 ```
 
-The uncertainity principle states that for some pairs of properties it is impossible to know both with certainity. More specifically the more certain you are about a single property the less certain you are about the other property. 
+The uncertainity principle states that for some pairs of properties it is impossible to know both with certainity. More specifically the more certain you are about a single property the less certain you are about the other property. For example consider two different wayas to measure a qubit (call one x-measurement and other z-measurement)
 
+
+If you 
 
 Lets consider the following gates to be our x-measurement and our z-measurement. According to the uncertainity principle the following relationship should hold $\langle X \rangle^{2} + \langle Z \rangle^2 \leq 1$
 
 First looking at the x-measurement we can calculate its probability by first applying the $\frac{\pi}{5}$ through the use of a Ry gate giving us the following:
 ```math
 \begin{bmatrix}
-cos(\frac{\theta}{10}) & -sin(\frac{\theta}{10}) \\
-sin(\frac{\theta}{10}) & cos(\frac{\theta}{10})
+cos(\frac{\pi}{10}) & -sin(\frac{\pi}{10}) \\
+sin(\frac{\pi}{10}) & cos(\frac{\pi}{10})
 \end{bmatrix}
 \begin{bmatrix}
 1 \\
@@ -629,8 +631,8 @@ Now looking at the z-measurement we can calculate its probability by first apply
 1 & -1
 \end{bmatrix}
 \begin{bmatrix}
-cos(\frac{\theta}{10}) & -sin(\frac{\theta}{10}) \\
-sin(\frac{\theta}{10}) & cos(\frac{\theta}{10})
+cos(\frac{\pi}{10}) & -sin(\frac{\pi}{10}) \\
+sin(\frac{\pi}{10}) & cos(\frac{\pi}{10})
 \end{bmatrix}
 \begin{bmatrix}
 1 \\
