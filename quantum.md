@@ -353,7 +353,7 @@ $$\vert \psi_{-} \rangle = \frac{1}{\sqrt{2}} \vert 01 \rangle - \frac{1}{\sqrt{
 
 One of the key properties of the bell basis is when they are passed through a very specific circuit called the bell analyzer. You probably know that qubits can be measured it turns out that when you measure the two qubits present in each bell basis vector they will always give a distinct answer. The bell analyzer circuit looks like the following:
 
-<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image1.png" alt="bell analyzer">
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image2.png" alt="bell analyzer">
 
 For each of the bell basis they have a certain classical output after passing through the bell analyzer:
 - $\vert \phi_{+} \rangle \implies \text{m0 = 0, m1 = 0}$
@@ -398,6 +398,27 @@ Now that the qubits are untangled we can properly write this pair probability am
 1
 \end{bmatrix}
 ```
+We know that $\vert X_1 \rangle$ will always be a one and thus $m_1 = 1$.To find the classical value of the other qubit we need to pass $\vert X_0 \rangle$ through a H-gate. 
+```math
+\frac{1}{2}
+\begin{bmatrix}
+1 & 1 \\
+1 & -1
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+-1
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+```
+After passing the zeroth qubit through a H-gate we geta deterministic result. $\vert X_0 \rangle$ will always evalulate to zero and thus $m_0$ = 0. In total,
+$$\vert \phi_{-} \rangle \implies \text{m0 = 1, m1 = 0}$$
+
+
 
 
 ### Superdense Coding
