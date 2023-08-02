@@ -319,8 +319,7 @@ Notice that if we combine the two indivudal results for the qubits we get the or
 Now consider a the following scenario and try to break it up into two seperate indepdent qubit probability amplitudes
 
 ```math
-\vert \phi_{+} \rangle =  
-\vert ba \rangle = \begin{bmatrix}
+\vert \phi_{+} \rangle =  \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
 0 \\
 0 \\
@@ -334,7 +333,7 @@ If tried you tried a little you probably realized that its not actually possible
 \frac{1}{2} \\
 \frac{1}{2}  \\
 \frac{1}{2}  \\
-\frac{1}{2}}
+\frac{1}{2}
 \end{bmatrix} 
 
 ```
