@@ -596,15 +596,62 @@ sin(\frac{\theta}{2}) & cos(\frac{\theta}{2})
 The uncertainity principle states that for some pairs of properties it is impossible to know both with certainity. More specifically the more certain you are about a single property the less certain you are about the other property. 
 
 
-Lets consider the following gates to be our x-measurement and our z-measurement. According to the uncertainity principle the following relationship should hold $$$$
+Lets consider the following gates to be our x-measurement and our z-measurement. According to the uncertainity principle the following relationship should hold $\langle X \rangle^{2} + \langle Z \rangle^2 \leq 1$
 
 First looking at the x-measurement we can calculate its probability by first applying the $\frac{\pi}{5}$ through the use of a Ry gate giving us the following:
+```math
+\begin{bmatrix}
+cos(\frac{\theta}{10}) & -sin(\frac{\theta}{10}) \\
+sin(\frac{\theta}{10}) & cos(\frac{\theta}{10})
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0.9511 \\
+0.3090
+\end{bmatrix}
+```
 
 The first component is the probability amplitude of getting a zero and the second component is the probabiity amplitude of getting a one. We can square these values to get the classical definition probability for 0 and 1.
 $$P_x(0) = 0.9046$$
-$$P_z(0) = 0.0954$$
+$$P_x(1) = 0.0954$$
 With this information we can then calculate the square of the expected value of the x measurement, $\langle X \rangle^{2}$
-$$\langle X \rangle 0.6548 $$
+$$\langle X \rangle^{2} = 0.6548 $$
+
+Now looking at the z-measurement we can calculate its probability by first apply a $\frac{\pi}{5}$ rotation and then passing it through an H-gate.
+```math
+\frac{1}{\sqrt{2}}
+\begin{bmatrix}
+1 & 1 \\
+1 & -1
+\end{bmatrix}
+\begin{bmatrix}
+cos(\frac{\theta}{10}) & -sin(\frac{\theta}{10}) \\
+sin(\frac{\theta}{10}) & cos(\frac{\theta}{10})
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0.8910 \\
+0.4540
+\end{bmatrix}
+```
+We can square to get our probabilities for the z-measurement:
+$$P_z(0)=0.7939$$
+$$-_z(1) = 0.2061$$
+Calculating the square of the expected value we get, $\langle Z \rangle^2$:
+$$\langle Z \rangle^2 = 0.3455$$
+
+If we combine our two results $\langle X \rangle^{2}$ and $\langle Z \rangle$^{2} we can see that it obeys the uncertainity principle (ignoring my rounding):
+$$\langle X \rangle+ \langle Z \rangle \leq 1$$
+$$0.6548 + .3455 \leq 1$$
+
 
 
 
