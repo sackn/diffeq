@@ -520,11 +520,11 @@ As a sidenote before continuing you might have realize on our path to get to $\v
 
  ```math
 \begin{bmatrix}
+0 & 1 & 0 & 0 \\
 1 & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 \\
-0 & 0 & 1 & 0 \\
-0 & 1 & 0 & 0 
-\end{bmatrix} 
+0 & 0 & 1 & 0
+\end{bmatrix}
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -532,20 +532,41 @@ As a sidenote before continuing you might have realize on our path to get to $\v
 0 & 0 & 0 & -1
 \end{bmatrix}
 \begin{bmatrix}
-0 & 1 & 0 & 0 \\
 1 & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 \\
-0 & 0 & 1 & 0
-\end{bmatrix}
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix} 
 =
 \begin{bmatrix}
-0 & 1 & 0 & 0 \\
-0 & 0 & -1 & 0 \\
 0 & 0 & 0 & 1 \\
-1 & 0 & 0 & 0
+1 & 0 & 0 & 0 \\
+0 & -1 & 0 & 0 \\
+0 & 0 & 1 & 0
 \end{bmatrix}
 ```
 
+```math
+\begin{bmatrix}
+0 & 0 & 0 & 1 \\
+1 & 0 & 0 & 0 \\
+0 & -1 & 0 & 0 \\
+0 & 0 & 1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+1\\
+0\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+1\\
+-1\\
+0
+\end{bmatrix}
+```
 
 
 
