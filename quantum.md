@@ -270,20 +270,19 @@ Refer to the following probability amplitude of a pair of qubits.
 \frac{1}{\sqrt{2}} \\
 0 \\
 \frac{1}{\sqrt{2}} 
-\end{bmatrix} = \frac{1}{\sqrt{2}} \vert 01 \rangle + \frac{1}{\sqrt{2}} \vert \11 \rangle
+\end{bmatrix} = \frac{1}{\sqrt{2}} \vert 01 \rangle + \frac{1}{\sqrt{2}} \vert 11 \rangle
 ```
 
 You may have noticed that we can actual describe this pair of bits as two seperate qubits with there own probabilities. The two possible states are $\vert 01 \rangle$ and $\vert 11 \rangle$. Notice that the zeroth qubit is always one, so we can represent it as own qubit:
 ```math
-\vert X_0 \rangle = 
-\vert X \rangle = \begin{bmatrix}
+\vert X_0 \rangle = \begin{bmatrix}
 0 \\
 1
 \end{bmatrix}
 ```
 Since the zeroth qubit is always one and the probability of getting  $\vert 01 \rangle$ and $\vert 11 \rangle$ is 50% that implies that qubit one must have the following state
 ```math
-\vert X_0 \rangle = \begin{bmatrix}
+\vert X_1 \rangle = \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
 \frac{1}{\sqrt{2}}
 \end{bmatrix}
@@ -317,5 +316,27 @@ Notice that if we combine the two indivudal results for the qubits we get the or
 \end{bmatrix}
 ```
 
+Now consider a the following scenario and try to break it up into two seperate indepdent qubit probability amplitudes
+
+```math
+\vert \phi_{+} \rangle =  
+\vert ba \rangle = \begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+0 \\
+0 \\
+\frac{1}{\sqrt{2}}
+\end{bmatrix} 
+```
+
+If tried you tried a little you probably realized that its not actually possible to break this up into two indepdent qubits states. As a pair each qubit has a possiblity to be zero or a one. However, if each qubit individually had the ability to be a 0 or 1 we would have the following vector:
+```math
+ \begin{bmatrix}
+\frac{1}{2} \\
+\frac{1}{2}  \\
+\frac{1}{2}  \\
+\frac{1}{2}}
+\end{bmatrix} 
+
+```
 
 ### Superdense Coding
