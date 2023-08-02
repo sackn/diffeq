@@ -570,7 +570,18 @@ As a sidenote before continuing you might have realize on our path to get to $\v
 
 ### Superdense Coding
 
-Superdense coding relies on the capabilities of the bell basis vectors. In superdense coding it is possible to use a singular qubit to send two classical bits worth of information. Observe the circuit digram that I stole from this video (which I do not own obviously): [https://www.youtube.com/watch?v=UrAZHBwIAFQ](url)
+Superdense coding relies on the capabilities of the bell basis vectors and entanglement. In superdense coding it is possible to use a singular qubit to send two classical bits worth of information. Observe the circuit digram that I stole from this video (which I do not own obviously): [https://www.youtube.com/watch?v=UrAZHBwIAFQ](url)
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image7.png" alt="Entangled State 4">
+
+In the above scenario Bob wishes to send a message to Alice. Alice is aware of this and she generates two qubits and she entangles them (using the h-gate and controlled not). Now the qubits are entangled she hands only one of th qubit to Bob. Bob then encodes this qubit then sends is back to Alice. Alice will then take her qubit from earlier and the qubit she got from Bob and will be able to decipher the message. She will get a total of two classical bits of information despite the fact that Bob only ever saw/edited one of the qubits. 
+
+If we bring this back to what we learned earlier. Effectively Alice and Bob first create an entangled pair and then Bob uses unitary operation on his qubit in order to get encodes his message. That involves swapping to one of the four different vectors in the bell basis $\vert \phi_{+}\rangle$,  $\vert \phi_{-}\rangle$, $\vert \psi_{+}\rangle$, or $\vert \psi_{-}\rangle$. Bob knows that if he choose a specific maximally entangled pair that Alice will be able to untangle them through the use of a bell analyzer (discussed earlier). Depending on the input to the bell analyzer it will always output a UNIQUE classical binary string for each maximally entangled pair possiblity. 
+
+For example if Bob causes the maximally entangled pair to be $\vert \psi_{+} \rangle = \frac{1}{\sqrt{2}}(\vert 01 \rangle + \vert 10 \rangle)$, Alice will decipher the classical bits $m_0 = 0$ and $m_1 = 1$. If you forgot what bell basis corresponds to which classical output:
+- $\vert \phi_{+} \rangle \implies \text{m0 = 0, m1 = 0}$
+- $\vert \phi_{-} \rangle \implies \text{m0 = 1, m1 = 0}$
+- $\vert \psi_{+} \rangle \implies \text{m0 = 0, m1 = 1}$
+- $\vert \psi_{-} \rangle \implies \text{m0 = 1, m1 = 1}$
 
 
 
