@@ -516,7 +516,37 @@ As a sidenote before continuing you might have realize on our path to get to $\v
 0
 \end{bmatrix}
 ```
- We finally obtains the $\vert \psi_{-} \rangle$ state which has the superposition $\frac{1}{\sqrt{2}} \vert 01 \rangle - \frac{1}{\sqrt{2}}\vert 10 \rangle$
+ We finally obtains the $\vert \psi_{-} \rangle$ state which has the superposition $\frac{1}{\sqrt{2}} \vert 01 \rangle - \frac{1}{\sqrt{2}}\vert 10 \rangle$. Since we were using linear operations we really could have done this all in one step by combining all of our gates starting from the controlled not gate all in a singular matrix operation by multiplying them all together and then operating on our pair of qubits:
+
+ ```math
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix} 
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & -1
+\end{bmatrix}
+\begin{bmatrix}
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 1 & 0 & 0 \\
+0 & 0 & -1 & 0 \\
+0 & 0 & 0 & 1 \\
+1 & 0 & 0 & 0
+\end{bmatrix}
+```
+
+
 
 
 ### Superdense Coding
