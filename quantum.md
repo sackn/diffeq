@@ -157,4 +157,5 @@ Since probability is the sum of the squares of the amplitudes the qubit still ha
 1 & 0 
 \end{bmatrix}
 ```
+If we combine two H-gates together we end up with the same matrix operation as an X-gate. That means the two h-gates diretly after each other will just swap the state of the qubit ($\vert 0 \rangle \implies \vert 1 \rangle, \vert 1 \rangle \implies \vert 0 \rangle $). The offset phases from the first H-gate are what causes this cancellation leading to a non-probabilistic output.
 
