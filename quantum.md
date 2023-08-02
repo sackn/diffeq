@@ -583,6 +583,28 @@ For example if Bob causes the maximally entangled pair to be $\vert \psi_{+} \ra
 - $\vert \psi_{+} \rangle \implies \text{m0 = 0, m1 = 1}$
 - $\vert \psi_{-} \rangle \implies \text{m0 = 1, m1 = 1}$
 
+### Uncertainity Principle
+
+Before getting to the uncertainity principle I want to introduce another gate that will help with a futur example. I present Ry gate which effectively rotates your qubits state by some $\theta$. The Ry gate has the following matrix definition:
+```math
+\begin{bmatrix}
+cos(\frac{\theta}{2}) & -sin(\frac{\theta}{2}) \\
+sin(\frac{\theta}{2}) & cos(\frac{\theta}{2})
+\end{bmatrix}
+```
+
+The uncertainity principle states that for some pairs of properties it is impossible to know both with certainity. More specifically the more certain you are about a single property the less certain you are about the other property. 
+
+
+Lets consider the following gates to be our x-measurement and our z-measurement. According to the uncertainity principle the following relationship should hold $$$$
+
+First looking at the x-measurement we can calculate its probability by first applying the $\frac{\pi}{5}$ through the use of a Ry gate giving us the following:
+
+The first component is the probability amplitude of getting a zero and the second component is the probabiity amplitude of getting a one. We can square these values to get the classical definition probability for 0 and 1.
+$$P_x(0) = 0.9046$$
+$$P_z(0) = 0.0954$$
+With this information we can then calculate the square of the expected value of the x measurement, $\langle X \rangle^{2}$
+$$\langle X \rangle 0.6548 $$
 
 
 
