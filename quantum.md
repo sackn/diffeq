@@ -175,6 +175,29 @@ Each entry controls a different possible input and its corresponding output. It 
 a_{00 \implies 00} & a_{01 \implies 00} & a_{10 \implies 00} & a_{11 \implies 00} \\
 a_{00 \implies 01} & a_{01 \implies 01} & a_{10 \implies 01} & a_{11 \implies 01} \\
 a_{00 \implies 10} & a_{01 \implies 10} & a_{10 \implies 10} & a_{11 \implies 10} \\
-a_{00 \implies 10} & a_{01 \implies 10} & a_{10 \implies 10} & a_{11 \implies 10} \\
+a_{00 \implies 11} & a_{01 \implies 11} & a_{10 \implies 11} & a_{11 \implies 11} \\
 \end{bmatrix}
 ```
+The matrix definition for a controlled not gate is the following:
+```math
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix}
+```
+
+That is a 4x4 matrix, so it would only make sense to multiply it against a 4x1 vector. We can express a two qubits all possible qunaities as either a column vector or a sum like the following:
+
+```math
+\vert X \rangle =
+\begin{bmatrix}
+a_{00} \\
+a_{01} \\
+a_{10} \\
+a_{11} 
+\end{bmatrix}
+= a_{00} \vert 00 \rangle + a_{01} \vert 01 \rangle + a_{10}  \vert 10 \rangle + a_{11} \vert 11 \rangle
+```
+
