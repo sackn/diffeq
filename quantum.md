@@ -282,14 +282,14 @@ You may have noticed that we can actual describe this pair of bits as two sepera
 \end{bmatrix}
 ```
 Since the zeroth qubit is always one and the probability of getting  $\vert 01 \rangle$ and $\vert 11 \rangle$ is 50% that implies that qubit one must have the following state
-\vert X_0 \rangle = 
-\vert X \rangle = \begin{bmatrix}
+\vert X_0 \rangle = \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
 \frac{1}{\sqrt{2}}
 \end{bmatrix}
 ```
 
 We have successfully broken up our pair into two seperate qubits with there own probabilities. In other words, each qubit is independent and does not require input from the other qubit. This scenario is called a product state where the possiblites can be written as the product of two INDEPENDENT qubit probabilities. We define product between two qubits as following:
+
 ```math
 \vert ba \rangle = \begin{bmatrix}
 b_0a_0 \\
@@ -298,6 +298,7 @@ b_1a_0 \\
 b_1 a_2
 \end{bmatrix} 
 ```
+
 Notice that if we combine the two indivudal results for the qubits we get the original 4x1 state vector.
 ```math
 \vert X \rangle = \begin{bmatrix}
