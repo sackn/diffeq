@@ -423,11 +423,101 @@ We are able to analyze things that maximally entangled, but how do we even get t
 <img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image3.png" alt="Entangled State 1">
 
 If you run through all the math you will notice that this specific circuit will yield the maximally entangled state $\vert \phi_{+} \rangle$. From the state $\vert \phi_{+} \rangle$ it is possible to reach all other maximally entangled scenarios through unitary operators (the x-gate and z-gate discussed earlier) to the first qubit. For example to obtain the maximally entangled state $\vert \phi_{- } \rangle$ the circuit would look like:
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image4.png" alt="Entangled State 2">
 
 For $\vert \psi_{+} \rangle$
-
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image4.png" alt="Entangled State 3">
 
 For $\vert \psi_{-} \rangle$
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image4.png" alt="Entangled State 4">
+
+I'm going to run through the matrix algebra for the $\vert \psi_{-} \rangle$ scenario. Both qubit initially start in the zero state. The zeroth qubit is then passed through an H-gate yielding:
+```math
+\frac{1}{\sqrt{2}}
+\begin{bmatrix}
+1 & 1 \\
+1 & -1
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+\implies
+\vert X_0 \rangle =
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+\frac{1}{\sqrt{2}}
+\end{bmatrix}
+```
+Combining this with the other qubit we get the pair state. Passing it through a controlled not gate we get:
+```math
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix}
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+\frac{1}{\sqrt{2}}  \\
+0\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+0 \\
+0\\
+\frac{1}{\sqrt{2}}
+\end{bmatrix}
+```
+Applying a modified z-gate such that the only the $\vert 11 \rangle$ becomes negative we get:
+```math
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & -1
+\end{bmatrix}
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+0 \\
+0\\
+\frac{1}{\sqrt{2}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+0 \\
+0\\
+-\frac{1}{\sqrt{2}}
+\end{bmatrix}
+```
+As a sidenote before continuing you might have realize on our path to get to $\vert \psi_{-} \rangle$ we created the $\vert \phi_{+} \rangle$. Now apply a modified z-gate to our output:
+```math
+
+\begin{bmatrix}
+0 & 1 & 0 & 0 \\
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0
+\end{bmatrix}
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+0 \\
+0\\
+-\frac{1}{\sqrt{2}}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+\frac{1}{\sqrt{2}} \\
+-\frac{1}{\sqrt{2}} \\
+0
+\end{bmatrix}
+```
+ We finally obtains the $\vert \psi_{-} \rangle$ state which has the superposition $\frac{1}{\sqrt{2}} \vert 01 \rangle - \frac{1}{\sqrt{2}}\vert 10 \rangle$
+
 
 ### Superdense Coding
 
