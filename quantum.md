@@ -101,6 +101,20 @@ $$a_0 = (0)(0) + (1)(1) = 1$$
 
 $$a_1 = (1)(0) + (0)(1)$$
 
+
+**Z-Gate** 
+
+The Z-gate is another simple unitary opertation. All the z-gate does is it changes the sign of the of the probability amplitude of a qubit being in $\vert 1 \rangle$. The matrix representation is following:
+
+```math
+Z = \begin{bmatrix}
+1 & 0 \\
+0 & -1 
+\end{bmatrix}
+```
+
+The Z-gate rotates the probability vector over by $\pi$. The Z-gate isn't important right now, but it will be when we get to entangled states.
+
 **H - Gate**
 
 We been talking about a lot of scenarios that have a 100% of being a single outcome. How do we make a single qubit exist in a state where it has a mulitude of outcomes. Consider the H-Gate which has the following the matrix definition:
@@ -201,7 +215,7 @@ a_{11}
 = a_{00} \vert 00 \rangle + a_{01} \vert 01 \rangle + a_{10}  \vert 10 \rangle + a_{11} \vert 11 \rangle
 ```
 
-Lets pass a generic two qubit state $\vert X \rangle$ through a controlled not gate:
+Lets pass a generic two qubit state $\vert X \rangle$ through a controlled not gate. Lets assume that the qubit in the rightmost most position is the control bit and the qubit in the left is the target qubit (the thing actually changing) :
 
 ```math
 \begin{bmatrix}
@@ -222,5 +236,27 @@ a_{00} \\
 a_{11} \\
 a_{10} \\
 a_{01}  
+\end{bmatrix}
+```
+The controlled not gate has the effect of making $a_{01} \implies a_{11}$ and $a_{11} \implies a_{01}$. The Controlled Not gate works as a X-gate (NOT gate) on a target gate, but only when controlled bit is in 1 state. Also note that when we apply to CNOT gates in sequence we end up with an identitiy matrix which means it equivaelnt to no operation at all
+```math
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 1 
 \end{bmatrix}
 ```
