@@ -201,3 +201,26 @@ a_{11}
 = a_{00} \vert 00 \rangle + a_{01} \vert 01 \rangle + a_{10}  \vert 10 \rangle + a_{11} \vert 11 \rangle
 ```
 
+Lets pass a generic two qubit state $\vert X \rangle$ through a controlled not gate:
+
+```math
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix}
+\begin{bmatrix}
+a_{00} \\
+a_{01} \\
+a_{10} \\
+a_{11} 
+\end{bmatrix}
+=
+\begin{bmatrix}
+a_{00} \\
+a_{11} \\
+a_{10} \\
+a_{01}  
+\end{bmatrix}
+```
