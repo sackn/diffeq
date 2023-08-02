@@ -121,7 +121,40 @@ Noitce the factor of $\frac{1}{\sqrt{2}}$ on the outside. Remeber that the total
 1 & -1 
 \end{bmatrix}
 \begin{bmatrix}
+1 \\
+0
+\end{bmatrix}
+= \frac{1}{\sqrt{2}} \vert 0 \rangle + \frac{1}{\sqrt{2}} \vert 1 \rangle
+```
+The H-gate gate will turn a qubit in a zero "deterministic" state into a probabilistic state. When measured it has a 50% chance to be 0 and a 50% chance to be a 1.  Now consider what happens when the H-gate operates on a qubit with the a 1 state.
+
+```math
+\frac{1}{\sqrt{2}}\begin{bmatrix}
 1 & 1 \\
 1 & -1 
 \end{bmatrix}
+\begin{bmatrix}
+0 \\
+1
+\end{bmatrix}
+= \frac{1}{\sqrt{2}} \vert 0 \rangle + -\frac{1}{\sqrt{2}} \vert 1 \rangle
 ```
+Since probability is the sum of the squares of the amplitudes the qubit still has a 50% chance of being a 0 and a 50% chance to be a 1. The only difference between the scenario with $\vert 1 \rangle$ and $\vert 0 \rangle$ is that in this case the phase was rotated by a factor of $\pi$. The fact that the phase shifted slightly will help describe the behavior when we link two H-gates together. Refer to the following:
+
+```math
+\frac{1}{2}
+\begin{bmatrix}
+1 & 1 \\
+1 & -1 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 1 \\
+1 & -1 
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 & 1 \\
+1 & 0 
+\end{bmatrix}
+```
+
