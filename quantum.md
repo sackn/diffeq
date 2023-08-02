@@ -335,7 +335,24 @@ If tried you tried a little you probably realized that its not actually possible
 \frac{1}{2}  \\
 \frac{1}{2}
 \end{bmatrix} 
-
 ```
 
+It's impossible to write as a product state and thus we call this scenario an entangled state. The qubits in some way rely on each other. The state of one qubit can't be confimed without the state of the other qubit. 
+
+**Bell Basis**
+
+A 2 qubit pair is a vector in 4-dimensional hilbert space. The bell basis is a common basis for the hilbert space. The four basis vectors are the "maximally entangled" states and every possible 2 qubit pair can be described as a super position of them. The four maximally entangled states / bell basis vectors are the following:
+
+$$\vert \phi_{+} \rangle = \frac{1}{\sqrt{2}} \vert 00 \rangle + \frac{1}{\sqrt{2}} \vert 11 \rangle$$
+$$\vert \phi_{-} \rangle = \frac{1}{\sqrt{2}} \vert 00 \rangle - \frac{1}{\sqrt{2}} \vert 11 \rangle$$
+$$\vert \psi_{+} \rangle = \frac{1}{\sqrt{2}} \vert 01 \rangle + \frac{1}{\sqrt{2}} \vert 10 \rangle$$
+$$\vert \psi_{-} \rangle = \frac{1}{\sqrt{2}} \vert 01 \rangle - \frac{1}{\sqrt{2}} \vert 10 \rangle$$
+
+One of the key properties of the bell basis is when they are passed through a very specific circuit called the bell analyzer. You probably know that qubits can be measured it turns out that when you measure the two qubits present in each bell basis vector they will always give a distinct answer. The bell analyzer circuit looks like the following:
+
+
 ### Superdense Coding
+
+
+
+
