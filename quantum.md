@@ -282,6 +282,7 @@ You may have noticed that we can actual describe this pair of bits as two sepera
 \end{bmatrix}
 ```
 Since the zeroth qubit is always one and the probability of getting  $\vert 01 \rangle$ and $\vert 11 \rangle$ is 50% that implies that qubit one must have the following state
+```math
 \vert X_0 \rangle = \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
 \frac{1}{\sqrt{2}}
