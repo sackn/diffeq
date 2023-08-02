@@ -355,6 +355,13 @@ One of the key properties of the bell basis is when they are passed through a ve
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image1.png" alt="bell analyzer">
 
+For each of the bell basis they have a certain classical output after passing through the bell analyzer:
+- $\vert \phi_{+} \rangle \implies \text{m0 = 0, m1 = 0}$
+- $\vert \phi_{-} \rangle \implies \text{m0 = 1, m1 = 0}$
+- $\vert \psi_{+} \rangle \implies \text{m0 = 0, m1 = 1}$
+- $\vert \psi_{-} \rangle \implies \text{m0 = 1, m1 = 1}$
+
+
 ### Superdense Coding
 
 
