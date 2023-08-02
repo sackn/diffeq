@@ -25,24 +25,24 @@ In quantum computing gates can act on these qubits. Some gates operate on a sing
 
 For a single qubit I will often write it in column notation (where $a_0$ and $a_1$ represent the probability amplitudes)
 ```math
-A = \begin{vmatrix}
+A = \begin{bmatrix}
 a_0 \\
 a_1
-\end{vmatrix}
+\end{bmatrix}
 ```
 That means that for a qubit which is always in the zero state we have the following column vector
 ```math
-A = \begin{vmatrix}
+A = \begin{bmatrix}
 1 \\
 0
-\end{vmatrix}
+\end{bmatrix}
 ```
 or always in the one state 
 ```math
-A = \begin{vmatrix}
+A = \begin{bmatrix}
 0 \\
 1
-\end{vmatrix}
+\end{bmatrix}
 ```
 
 **X Gate**
@@ -50,29 +50,29 @@ A = \begin{vmatrix}
 The most common gate is the X-gate (a NOT/INVERTER gate). The X-gate wil work on a singule qubit. The X-gate will simply swap the state of the qubit. If a qubit is in the zero state it will be swapped to the one state. If a qubit is in the one state it will be swapped to the zero state. The matrix represnetation of the x-gate is the following:
 
 ```math
-X = \begin{vmatrix}
+X = \begin{bmatrix}
 0 & 1 \\
 1 & 0 
-\end{vmatrix}
+\end{bmatrix}
 ```
 
 Below we can show that through matrix multiplication we can prove that the X-gate will cause $\vert 0 \rangle \implies \vert 1 \rangle$  and $\vert 1 \rangle \implies \vert 0 \rangle$.
 
 ```math
 \vert 0 \rangle \implies \vert 1 \rangle \quad
-\begin{vmatrix}
+\begin{bmatrix}
 0 & 1 \\
 1 & 0 
-\end{vmatrix}
-\begin{vmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 1 \\
 0 
-\end{vmatrix}
+\end{bmatrix}
 =
-\begin{vmatrix}
+\begin{bmatrix}
 0 \\
 1 
-\end{vmatrix}
+\end{bmatrix}
 ```
 
 $$a_0 = (0)(1) + (1)(0) = 0$$
@@ -82,19 +82,19 @@ $$a_1 = (1)(1) + (0)(1) = 1$$
 
 ```math
 \vert 1 \rangle \implies \vert 0 \rangle \quad
-\begin{vmatrix}
+\begin{bmatrix}
 0 & 1 \\
 1 & 0 
-\end{vmatrix}
-\begin{vmatrix}
+\end{bmatrix}
+\begin{bmatrix}
 0 \\
 1 
-\end{vmatrix}
+\end{bmatrix}
 =
-\begin{vmatrix}
+\begin{bmatrix}
 1 \\
 0 
-\end{vmatrix}
+\end{bmatrix}
 ```
 
 $$a_0 = (0)(0) + (1)(1) = 1$$
@@ -103,4 +103,25 @@ $$a_1 = (1)(0) + (0)(1)$$
 
 **H - Gate**
 
-We been talking about a lot of scenarios that have a 100% of being a single outcome. How do we make a qubit exist in a state where it has a mulitude of outcomes. Consider the H-Gate.
+We been talking about a lot of scenarios that have a 100% of being a single outcome. How do we make a single qubit exist in a state where it has a mulitude of outcomes. Consider the H-Gate which has the following the matrix definition:
+
+
+```math
+H = \frac{1}{\sqrt{2}}\begin{bmatrix}
+1 & 1 \\
+1 & -1 
+\end{bmatrix}
+```
+
+Noitce the factor of $\frac{1}{\sqrt{2}}$ on the outside. Remeber that the total sum of probabilities of a qubit must be one, and transformation should not alter that fact the factor on the outside "noramlizes" the transformation. Notice what happens when the H-Gate is applied onto a qubit in the zeroth state:
+
+```math
+\frac{1}{\sqrt{2}}\begin{bmatrix}
+1 & 1 \\
+1 & -1 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 1 \\
+1 & -1 
+\end{bmatrix}
+```
