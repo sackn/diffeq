@@ -568,9 +568,10 @@ As a sidenote before continuing you might have realize on our path to get to $\v
 \end{bmatrix} = \vert \psi_{-} \rangle
 ```
 
-
-
 ### Superdense Coding
+
+Superdense coding relies on the capabilities of the bell basis vectors. In superdense coding it is possible to use a singular qubit to send two classical bits worth of information. Observe the circuit digram that I stole from this video (which I do not own obviously): [https://www.youtube.com/watch?v=UrAZHBwIAFQ](url)
+
 
 
 
