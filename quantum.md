@@ -388,7 +388,7 @@ Now that the qubits are untangled we can properly write this pair probability am
 ```math
 \vert X_0 \rangle = 
 \begin{bmatrix}
-\frac{1}{\sqrt{2}}
+\frac{1}{\sqrt{2}} \\ 
 -\frac{1}{\sqrt{2}}
 \end{bmatrix}
 \qquad
@@ -418,6 +418,7 @@ We know that $\vert X_1 \rangle$ will always be a one and thus $m_1 = 1$.To find
 After passing the zeroth qubit through a H-gate we geta deterministic result. $\vert X_0 \rangle$ will always evalulate to zero and thus $m_0$ = 0. In total,
 $$\vert \phi_{-} \rangle \implies \text{m0 = 1, m1 = 0}$$
 
+We are able to analyze things that maximally entangled, but how do we even get to this point in the first place. We can reach one of these four states by starting off with the following circuit:
 
 
 
