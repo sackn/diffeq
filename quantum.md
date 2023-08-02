@@ -337,7 +337,7 @@ If tried you tried a little you probably realized that its not actually possible
 \end{bmatrix} 
 ```
 
-It's impossible to write as a product state and thus we call this scenario an entangled state. The qubits in some way rely on each other. The state of one qubit can't be confimed without the state of the other qubit. 
+It's impossible to write as a product state and thus we call this scenario an entangled state. The qubits in some way rely on each other. The state of one qubit can't be confimed without the state of the other qubit. You may regonize that gates that act on a single qubit won't cause a pair of qubits to become entangled. However, gates that act on multiple qubits like the controlled not gate will cause bits to become entangled. 
 
 **Bell Basis**
 
@@ -360,6 +360,44 @@ For each of the bell basis they have a certain classical output after passing th
 - $\vert \phi_{-} \rangle \implies \text{m0 = 1, m1 = 0}$
 - $\vert \psi_{+} \rangle \implies \text{m0 = 0, m1 = 1}$
 - $\vert \psi_{-} \rangle \implies \text{m0 = 1, m1 = 1}$
+
+If you don't trust me just telling you you can run through the matrix algebra. Take the $\vert \phi_{-} \rangle$. First pass is through a controlled not gate which effectively untangles the pair of qubits:
+```math
+\frac{1}{\sqrt{2}}
+\begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 
+\end{bmatrix}
+\begin{bmatrix}
+1 \\
+0 \\
+0 \\
+-1
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{1}{\sqrt{2}} \\
+-\frac{1}{\sqrt{2}} \\
+0 \\
+0
+\end{bmatrix}
+```
+Now that the qubits are untangled we can properly write this pair probability amplitude as two seperate indepdent qubits of the following:
+```math
+\vert X_0 \rangle = 
+\begin{bmatrix}
+\frac{1}{\sqrt{2}}
+-\frac{1}{\sqrt{2}}
+\end{bmatrix}
+\qquad
+\vert X_1 \rangle = 
+\begin{bmatrix}
+0 \\
+1
+\end{bmatrix}
+```
 
 
 ### Superdense Coding
