@@ -353,6 +353,7 @@ $$\vert \psi_{-} \rangle = \frac{1}{\sqrt{2}} \vert 01 \rangle - \frac{1}{\sqrt{
 
 One of the key properties of the bell basis is when they are passed through a very specific circuit called the bell analyzer. You probably know that qubits can be measured it turns out that when you measure the two qubits present in each bell basis vector they will always give a distinct answer. The bell analyzer circuit looks like the following:
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image1.png" alt="bell analyzer">
 
 ### Superdense Coding
 
