@@ -565,7 +565,7 @@ As a sidenote before continuing you might have realize on our path to get to $\v
 1\\
 -1\\
 0
-\end{bmatrix}
+\end{bmatrix} = \vert \psi_{-} \rangle
 ```
 
 
