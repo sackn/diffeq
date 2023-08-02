@@ -420,7 +420,14 @@ $$\vert \phi_{-} \rangle \implies \text{m0 = 1, m1 = 0}$$
 
 We are able to analyze things that maximally entangled, but how do we even get to this point in the first place. We can reach one of these four states by starting off with the following circuit:
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/quantum/image3.png" alt="Entangled State 1">
 
+If you run through all the math you will notice that this specific circuit will yield the maximally entangled state $\vert \phi_{+} \rangle$. From the state $\vert \phi_{+} \rangle$ it is possible to reach all other maximally entangled scenarios through unitary operators (the x-gate and z-gate discussed earlier) to the first qubit. For example to obtain the maximally entangled state $\vert \phi_{- } \rangle$ the circuit would look like:
+
+For $\vert \psi_{+} \rangle$
+
+
+For $\vert \psi_{-} \rangle$
 
 ### Superdense Coding
 
