@@ -4,8 +4,8 @@
 We can obtain the area of our desired region by subtracting two different parts. Notice the right angle traiangle that we form with the point and the x axis. That region over approximates the area of our region because there exists a portion of the triangle whcih we don't want. That area is left unshaded. If we can find the area of the total triangle and subtract form it the unshaded area then we would have the area of the region we want.
 
 The total area of the triangle isn't very complicated its a triangle and therefore,
-$$A_{Triangle} = \frac{1}{2}bh$$
-$$A_{Triangle} = \frac{1}{2}cosh(x)sinh(x)$$
+$$A_{triangle} = \frac{1}{2}bh$$
+$$A_{triangle} = \frac{1}{2}cosh(x)sinh(x)$$
 
 Our triangle initially starts at the origin and goes out to the point defined by $(cosh(x),sinh(x))$ which is why we can simply substitute $x=cosh(x)$ and $y=sinh(x)$
 
@@ -23,7 +23,7 @@ We know our starting limit to be one always however, our limit $b$ changes. It s
 
 $$\int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
-By definition the area of the region of interest is $\frac{x}{2}$ (which again is analagous to traditional trig functions and the unit circle). If we put all of the parts together that means that the following relationship must be true (where the first term is $A_{Triangle}$:
+By definition the area of the region of interest is $\frac{x}{2}$ (which again is analagous to traditional trig functions and the unit circle). If we put all of the parts together that means that the following relationship must be true (where the first term is $A_{triangle}$):
 
 $$\frac{x}{2} = \frac{1}{2}cosh(x)sinh(x) - \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
