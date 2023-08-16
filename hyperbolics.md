@@ -23,3 +23,9 @@ We know our starting limit to be one always however, our limit $b$ changes. It s
 
 $$\int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
+By definition the area of the region of interest is $\frac{x}{2}$ (which again is analagous to traditional trig functions and the unit circle). If we put all of the parts together that means that the following relationship must be true (where the first term is $A_{Triangle}$:
+
+$$\frac{x}{2} = \frac{1}{2}cosh(x)sinh(x) - \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
+
+
+
