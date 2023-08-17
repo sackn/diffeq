@@ -61,13 +61,18 @@ However, what do we do with $tan(\theta)$. If we know $sec(\theta)$ then $tan(\t
 $$tan(\theta) = \sqrt{x^2 - 1}$$
 
 Plugging all of this in we can now put our limits of integration $a = 1$ and $b = cosh(x)$ in (the lower limit a=1 is zero):
-$$\int_{1}^{cosh(x)} sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x \quad |_{1}^{cosh(x)} $$
+$$\int_{1}^{cosh(x)} sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x \quad \vert_{1}^{cosh(x)} $$
 $$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} - \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2(x) -1}|$$
 There is a pretty nice substituion that will further clean up our solution. We already previously discussed that $cosh^2(x)-sinh^2(x) = 1$. If we move terms around a little we  can replace all $\sqrt{cosh^2(x)} -1$ with $sinh(x)$. Doing so give us our first equation.
 $$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
 
 **Integrating $sec(x)$**
 
-Integrating the 2nd integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate. We will have the same issue with differential giving us $\theta$ preventing us from directly plugging in our limits which were meant for $x$. However the same substituions are still valid $sec(\theta) = x$ and $tan(\theta) = sinh(x)$
+Integrating the 2nd integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate. We will have the same issue with differential giving us $\theta$ preventing us from directly plugging in our limits which were meant for $x$. However the same substituions are still valid $sec(\theta) = x$ and $tan(\theta) = \sqrt{x^2 - 1}$. Below is the work for the entire integral:
+
+$$\int_{1}^{cosh(x)} sec(\theta) d\theta = -ln|tan(\theta) + sec(\theta)| \quad \vert_{1}^{cosh(x)} $$
+$$= -ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
+$$= -ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
+$$= -ln|sinh(x) + cosh(x)|$$
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
