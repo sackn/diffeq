@@ -124,4 +124,9 @@ $$-(cosh(x)-sinh(x) = e^{-x})$$
 $$2sinh(x) = e^{x} - e^{-x}$$
 $$sinh(x) = \frac{e^{x} - e^{-x}{2}  $$
 
+**Results**
+
+We found that the two following hyperobolic definition
+$$cosh(x) = \frac{e^{x} + e^{-x}}{2} \qqquad sinh(x) = \frac{e^{x} - e^{-x}{2} \quad \qed $$
+
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
