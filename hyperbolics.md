@@ -111,7 +111,7 @@ $$cosh(x)-sinh(x) = e^{-x}$$
 We now have this manipulate formula which is a way easier to deal with. We can this equation and perform elimination by adding it onto $cosh(x)+sinh(x) = e^{x}$
 $$cosh(x) + sinh(x) = e^{x}$$
 $$+ cosh(x)-sinh(x) = e^{-x}$$
-$$\par\noindent\rule{\textwidth}{0.4pt}$$
+$$\rule{0.1pt}{0.4pt}$$
 $$2cosh(x) = e^{x} + e^{-x}$$
 
 Moving the two over we get our definition for $cosh(x)$:
