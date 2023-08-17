@@ -62,7 +62,7 @@ $$tan(\theta) = \sqrt{x^2 - 1}$$
 
 Plugging all of this in we can now put our limits of integration $a = 1$ and $b = cosh(x)$ in (the lower limit a=1 is zero):
 $$\int_{1}^{cosh(x)} sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x \quad \vert_{1}^{cosh(x)} $$
-$$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} - \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2(x) -1}|$$
+$$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} - \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2(x) -1}| - 0$$
 There is a pretty nice substituion that will further clean up our solution. We already previously discussed that $cosh^2(x)-sinh^2(x) = 1$. If we move terms around a little we  can replace all $\sqrt{cosh^2(x)} -1$ with $sinh(x)$. Doing so give us our first equation.
 $$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
 
