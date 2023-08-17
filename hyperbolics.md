@@ -93,6 +93,14 @@ $$\frac{x}{2} = A_{triangle} - A_{unshaded}$$
 We have already found $A_{triangle}$ and $A_{unshaded}$. Plugging our them we get that our area $\frac{x}{2}$ is equal to: 
 
 $$\frac{x}{2} = (\frac{1}{2}cosh(x)sinh(x)) - (\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x)+sinh(x)|)$$
+$$x = ln|cosh(x)+ sinh(x)|$$
 
+We can then expoentiate both sides to then get relationship
+$$cosh(x) + sinh(x) = e^x$$
+
+**A System**
+
+From the work in the previous section we got that $cosh(x) + sinh(x) = e^{x}$. If we wish to derive both $cosh(x)$ and $sinh(x)$ we need another equation. We already this second equation and its the definition of a unit hyperbola $cosh^2(x) - sinh^2(x) = 1$. We now have the two following equation and we can solve this non-linear system to get an solution for our two unknowns $cosh(x)$ and $sinh(x)$.
+$$cosh(x) + sinh(x) = e^{x} \qquad cosh^2(x) - sinh^2(x) = 1$$
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
