@@ -42,3 +42,9 @@ $$\int_{1}^{cosh(x)} tan^2(\theta)sec(\theta) d\theta $$
 
 The first step to evlauating this integral involves the substituion $tan^2(\theta)= sec^{\theta} - 1$. If we distribute we can then split the integral into two different ones:
 $$= \int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
+
+Both of the integrals are extremely common and notably annoying to do. Most people have them memorized and below I listed the the general solutions to each integral:
+$$\int sec(x)(dx) = ln|tan(x) + sec(x)|$$
+$$\int sec^3(x)(dx) = \frac{1}{2}sec(x)tan(x) + \frac{1}{2} ln|tan(x) + sec(x)|$$
+
+### Extra: Integral of $sec(x)$ and $$sec^3(x)$$ 
