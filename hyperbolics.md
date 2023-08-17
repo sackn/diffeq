@@ -174,10 +174,15 @@ $$sinh(x) = \frac{e^{x} - e^{-x}}{2} \qquad (12)$$
 
 We found that the two following hyperobolic definition (equation 11 and equation 12)
 $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}  \qquad \square$$
+
 ---
 ## Extra: Integral of $sec(x)$ and $sec^3(x)$$
 
+Most of these intgrals are pretty fast. If its too fast there are a bunch of places that explain the exact same thing.
+
 ### Integral of sec(x)
+Note: If you don't understand partial fractions I would recommend watching some video on it prior
+
 I'm going to do the integral of $sec(x)$ becuase the integral of $sec^3(x)$ involves you also solving $sec(x)$. We have the integral:
 $$\int sec(x)(dx)$$
 Alternatively,
@@ -185,6 +190,13 @@ $$\int \frac{1}{cos(x)}(dx)$$
 If we multiply both top and bottom by cos(x) and we use the relationship that $cos^2(x) + sin^2(x) = 1$ we get that
 $$\int \frac{cos(x)}{1-sin^2(x)}(dx)$$
 Doing u-sub with $u = sin(x)$ we get,
+$$\int \frac{1}{1-u^2}(du)$$
+Factoring the denominator
+$$\int \frac{1}{(1-u)(1+u)}(du)$$
+The integral can be solved by partial fractions. Decompoising the fraction we get the following two partial fractions:
+$$\frac{1}{(1-u)(1+u)} = \frac{1}{2}\frac{1}{1-u} +  \frac{1}{2}\frac{1}{1+u}$$
+
+$$ \frac{1}{2} \int \frac{1}{1-u} + \frac{1}{1+u}(du)$$
 
 
 
