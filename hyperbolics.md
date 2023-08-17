@@ -33,4 +33,9 @@ The longest part of the derivation is the integral of the unshaded area. Below i
 $$ \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 First our going to do a trigonmetric substituion. Remember the trig relationship $cos^2(\theta) + sin^2(\theta) = 1$? If we divide everything by $cos^2(\theta)$ and move around the terms a little we get the following relationship:
 $$tan^2(\theta) = sec^2{\theta} - 1$$
-
+Notice that if make that substituion $x=sec(\theta)$. Ignoring the differential and limits of integration for now we will get the following integral:
+$$\int_{1}^{cosh(x)} \sqrt{sec^2 - 1} dx$$
+We chose this trig identitiy for a reason. Under the square root we convienly have an alternative definition for $tan^2(\theta)$ (tan^2(\theta) = sec^2{\theta} - 1). If we make that substituion we are left with:
+$$\int_{1}^{cosh(x)} tan(\theta) dx$$
+We made a varible substituion, so we must also change the differential. Our substituion was $x=sec(\theta)$. If we differentiate both sides we get the following $dx = sec(\theta)tan(\theta) d\theta$. Replacing our current differential with the new one we get the integral:
+$$\int_{1}^{cosh(x)} tan^2(\theta)sec(\theta) d\theta $$
