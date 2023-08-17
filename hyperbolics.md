@@ -58,5 +58,5 @@ However, what do we do with $tan(\theta)$. If we know $sec(\theta)$ then $tan(\t
 $$tan(\theta) = \sqrt{x^2 - 1}$$
 
 Plugging all of this in we can now put our limits of integration $a = 1$ and $b = cosh(x)$ in:
-$$\int sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x| $$
+$$\int sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x |_{1}^{cosh(x)} $$
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
