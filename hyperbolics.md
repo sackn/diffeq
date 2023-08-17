@@ -1,11 +1,27 @@
 
-## Hyperbolic cosine and sin derivation
+# Hyperbolic Functions
+
+I will mark important results of the solving process with a number, so I can reference them in different places.
 
 ## Introduction
 
 Most people are already familiar with the unit circle and the "traditional" trigonmetric functions. We have known for a while that the unit circle is defined to be $x^2 + y^2 = 1$ and that the x-coordinate is equal to the $cos(\theta)$ and the y-coordinate is equal to $sin(\theta)$.
 
 If we only consider the first quadrant we also know that the area of the sector formed with an angle theta is equal to $\frac{\theta}{2}$. This isn't very hard to prove as the area of a sector on the circle is pretty well known to be $A = \frac{1}{2}r^2 \theta$ (in the case of the unit circle $r=1$)
+
+Now instead of a unit circle lets define the unit hyperbola to be $x^2 - y^2 = 1$. Mathematicians wanted functions for hyperbolas that were analagous to that of a circle. Therefore, they decided that on the unit hyperbola that the x-coordinate would be equal to some mystery function $cosh(x)$ (hyperbolic cosine) and the y-coordinate would be equal to some other mystery function $sinh(x)$ (hyperbolic sine).
+
+The functions $cosh(x)$ and $sinh(x)$ serve the exact purpose as $cos(x)$ and $sin(x)$. The only difference is that the hyperbolic functions are used on hyperbolas while trig functions are used on circles. For a unit hyperbola any point is defined as $(cosh(x), sinh(x))$
+
+It would be nice if we continue to develop our theory behind hyperbolas in a similar way to circle. As mentioned previously the area of a sector swept by an angle theta is the $A = \frac{\theta}{2}$ on the unit circle. Mathematacians decided that it would be nice if the unit hyperbolic functions had a similar relationship with the unit hyperbola. They decided that they wanted the area of the "curvy triangle" to be also equal to $\frac{\theta}{2}$. Refer to the image below (technically there are two sides to the hyperbola but we only want to consider the first quadrant):
+
+
+Going back to our unit circle we know it is defined by $x^2 + y^2 = 1$. We also already know that $x=cos(\theta)$ and $y=sin(\theta)$ and therefore we have the following trig identity:
+$$cos^2(\theta) + sin^2(\theta) = 1$$
+If we now consider our unit hyperbhola which is defined as $x^2 - y^2 = 1$. We have already defined that x-coordinate is $cosh(x)$ and that our y-coordinate is $sinh(x)$. Plugging our mysterious functions we get a similar relationship to that of the unit circle
+$$cosh^2(x) - sinh^2(x) = 1$$
+
+# Hyperbolic cosine and sin derivation
 
 ## The Idea
 We can obtain the area of our desired region by subtracting two different parts. Notice the right angle traiangle that we form with the point and the x axis. That region over approximates the area of our region because there exists a portion of the triangle whcih we don't want. That area is left unshaded. If we can find the area of the total triangle and subtract form it the unshaded area then we would have the area of the region we want.
