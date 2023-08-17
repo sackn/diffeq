@@ -103,4 +103,23 @@ $$cosh(x) + sinh(x) = e^x$$
 From the work in the previous section we got that $cosh(x) + sinh(x) = e^{x}$. If we wish to derive both $cosh(x)$ and $sinh(x)$ we need another equation. We already this second equation and its the definition of a unit hyperbola $cosh^2(x) - sinh^2(x) = 1$. We now have the two following equation and we can solve this non-linear system to get an solution for our two unknowns $cosh(x)$ and $sinh(x)$.
 $$cosh(x) + sinh(x) = e^{x} \qquad cosh^2(x) - sinh^2(x) = 1$$
 
+To solve this system we can start by factoring our right equation and substiting in our other equation.
+$$(cosh(x)-sinh(x))(cosh(x) + sinh(x)) = 1$$
+$$(cosh(x)-sinh(x))e^x = 1$$
+$$cosh(x)-sinh(x) = e^{-x}$$
+
+We now have this manipulate formula which is a way easier to deal with. We can this equation and perform elimination by adding it onto $cosh(x)+sinh(x) = e^{x}$
+$$cosh(x) + sinh(x) = e^{x}$$
+$$+ cosh(x)-sinh(x) = e^{-x}$$
+$$\par\noindent\rule{\textwidth}{0.4pt}$$
+$$2cosh(x) = e^{x} + e^{-x}$$
+
+Moving the two over we get our definition for $cosh(x)$:
+$$cosh(x) = \frac{e^{x} + e^{-x}}{2}$$
+
+We can then bring back out equations, but this time instead of adding them together we can subtract them. Doing so will give us the definition for hyperbolic sine.
+$$cosh(x) + sinh(x) = e^{x}$$
+$$- cosh(x)-sinh(x) = e^{-x}$$
+$$2cosh(x) = e^{x} + e^{-x}$$
+
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
