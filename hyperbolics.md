@@ -39,3 +39,7 @@ We chose this trig identitiy for a reason. Under the square root we convienly ha
 $$\int_{1}^{cosh(x)} tan(\theta) dx$$
 We made a varible substituion, so we must also change the differential. Our substituion was $x=sec(\theta)$. If we differentiate both sides we get the following $dx = sec(\theta)tan(\theta) d\theta$. Replacing our current differential with the new one we get the integral:
 $$\int_{1}^{cosh(x)} tan^2(\theta)sec(\theta) d\theta $$
+
+The first step to evlauating this integral involves the substituion $tan^2(\theta)= sec^{\theta} - 1$. If we distribute we can then split the integral into two different ones:
+
+$$$$
