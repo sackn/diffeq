@@ -1,6 +1,8 @@
 
 # Hyperbolic Functions
 
+<img src="https://github.com/sackn/diffeq/blob/main/Images/2.3.5/image8.png" alt="Shimamoto 2.5.1.b">
+
 I will mark important results of the solving process with a number, so I can reference them in different places.
 
 ## Introduction
