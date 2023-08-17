@@ -62,9 +62,9 @@ $$tan(\theta) = \sqrt{x^2 - 1}$$
 
 Plugging all of this in we can now put our limits of integration $a = 1$ and $b = cosh(x)$ in (the lower limit a=1 is zero):
 $$\int_{1}^{cosh(x)} sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x \quad \vert_{1}^{cosh(x)} $$
-$$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} - \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2(x) -1}| - 0$$
+$$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} + \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2(x) -1}| - 0$$
 There is a pretty nice substituion that will further clean up our solution. We already previously discussed that $cosh^2(x)-sinh^2(x) = 1$. If we move terms around a little we  can replace all $\sqrt{cosh^2(x)} -1$ with $sinh(x)$. Doing so give us our first equation.
-$$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
+$$\frac{1}{2}cosh(x)sinh(x) + \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
 
 **Integrating $sec(x)$**
 
@@ -80,10 +80,17 @@ $$= ln|sinh(x) + cosh(x)| \qquad (2)$$
 We spent a lot of time doing the individual integral that you may have forgotten why we were even doing them in the same place. The area of the unshaded region which we are subtracting for our traingle to get the region that we want is the following integral:
 $$\int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
 
-In the previous two sections we integrated each term seperately. If we sub our previous results into the integral,
+In the previous two sections we integrated each term seperately. If we sub our previous results into the integral we can get the general solution for the area of the unshaded region,
 
-$$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| - ln|sinh(x) + cosh(x)| $$
-$$= \frac{1}{2}\text{cosh}(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| - ln|sinh(x) + cosh(x)| $$
+$$\frac{1}{2}cosh(x)sinh(x) + \frac{1}{2} ln|cosh(x) + sinh(x)| - ln|sinh(x) + cosh(x)| $$
+$$A_{unshaded} = \frac{1}{2}\text{cosh}(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)|$$
+
+
+Again we are searching of the highlighted region $A_{highlighted}$ which by definition has the area $\frac{x}{2}$. In other words the following must be true:
+
+$$\frac{x}{2} = A_{triangle} - A_{unshaded}$$
+
+
 
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
