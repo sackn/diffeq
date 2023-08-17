@@ -70,9 +70,20 @@ $$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
 
 Integrating the 2nd integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate. We will have the same issue with differential giving us $\theta$ preventing us from directly plugging in our limits which were meant for $x$. However the same substituions are still valid $sec(\theta) = x$ and $tan(\theta) = \sqrt{x^2 - 1}$. Below is the work for the entire integral:
 
-$$\int_{1}^{cosh(x)} sec(\theta) d\theta = -ln|tan(\theta) + sec(\theta)| \quad \vert_{1}^{cosh(x)} $$
-$$= -ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
-$$= -ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
-$$= -ln|sinh(x) + cosh(x)|$$
+$$\int_{1}^{cosh(x)} sec(\theta) d\theta = ln|tan(\theta) + sec(\theta)| \quad \vert_{1}^{cosh(x)} $$
+$$= ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
+$$= ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
+$$= ln|sinh(x) + cosh(x)| \qquad (2)$$
+
+**Putting it back together**
+
+We spent a lot of time doing the individual integral that you may have forgotten why we were even doing them in the same place. The area of the unshaded region which we are subtracting for our traingle to get the region that we want is the following integral:
+$$\int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
+
+In the previous two sections we integrated each term seperately. If we sub our previous results into the integral,
+
+$$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| - ln|sinh(x) + cosh(x)| $$
+$$= \frac{1}{2}\text{cosh}(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| - ln|sinh(x) + cosh(x)| $$
+
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
