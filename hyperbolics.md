@@ -40,12 +40,15 @@ $$\int_{1}^{cosh(x)} tan(\theta) dx$$
 We made a varible substituion, so we must also change the differential. Our substituion was $x=sec(\theta)$. If we differentiate both sides we get the following $dx = sec(\theta)tan(\theta) d\theta$. Replacing our current differential with the new one we get the integral:
 $$\int_{1}^{cosh(x)} tan^2(\theta)sec(\theta) d\theta $$
 
+
 The first step to evlauating this integral involves the substituion $tan^2(\theta)= sec^{\theta} - 1$. If we distribute we can then split the integral into two different ones:
 $$\int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
 
 Both of the integrals are extremely common and notably annoying to do. Most people have them memorized and below I listed the the general solutions to each integral (I do the derivations for each of these integrals later):
 $$\int sec(x)(dx) = ln|tan(x) + sec(x)|$$
 $$\int sec^3(x)(dx) = \frac{1}{2}sec(x)tan(x) + \frac{1}{2} ln|tan(x) + sec(x)|$$
+
+**Integrating $sec^3(x)$**
 
 We can do the first integral by using the formula listed above for $sec^3(x)$. Remeber that we are integrating with respect to theta not the generic varibable $x$. 
 $$\int sec^3(\theta)(d\theta) = \frac{1}{2}sec(\theta)tan(\theta) + \frac{1}{2} ln|tan(\theta) + sec(\theta)| $$
@@ -60,7 +63,11 @@ $$tan(\theta) = \sqrt{x^2 - 1}$$
 Plugging all of this in we can now put our limits of integration $a = 1$ and $b = cosh(x)$ in (the lower limit a=1 is zero):
 $$\int_{1}^{cosh(x)} sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x \quad |_{1}^{cosh(x)} $$
 $$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} - \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2(x) -1}|$$
-There is a pretty nice substituion that will further clean up our solution. We already previously discussed that $cosh^2(x)-sinh^2(x) = 1$. If we move terms around a little we  can replace all $\sqrt{cosh^2(x)} -1$ with $sinh(x)$.
+There is a pretty nice substituion that will further clean up our solution. We already previously discussed that $cosh^2(x)-sinh^2(x) = 1$. If we move terms around a little we  can replace all $\sqrt{cosh^2(x)} -1$ with $sinh(x)$. Doing so give us our first equation.
 $$\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
+
+**Integrating $sec(x)$**
+
+Integrating the 2nd integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate. We will have the same issue with differential giving us $\theta$ preventing us from directly plugging in our limits which were meant for $x$. However the same substituions are still valid $sec(\theta) = x$ and $tan(\theta) = sinh(x)$
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
