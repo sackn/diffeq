@@ -1,6 +1,12 @@
 
 ## Hyperbolic cosine and sin derivation
 
+## Introduction
+
+Most people are already familiar with the unit circle and the "traditional" trigonmetric functions. We have known for a while that the unit circle is defined to be $x^2 + y^2 = 1$ and that the x-coordinate is equal to the $cos(\theta)$ and the y-coordinate is equal to $sin(\theta)$.
+
+If we only consider the first quadrant we also know that the area of the sector formed with an angle theta is equal to $\frac{\theta}{2}$. This isn't very hard to prove as the area of a sector on the circle is pretty well known to be $A = \frac{1}{2}r^2 \theta$ (in the case of the unit circle $r=1$)
+
 ## The Idea
 We can obtain the area of our desired region by subtracting two different parts. Notice the right angle traiangle that we form with the point and the x axis. That region over approximates the area of our region because there exists a portion of the triangle whcih we don't want. That area is left unshaded. If we can find the area of the total triangle and subtract form it the unshaded area then we would have the area of the region we want.
 
