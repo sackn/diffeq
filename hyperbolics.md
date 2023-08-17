@@ -28,7 +28,7 @@ By definition the area of the region of interest is $\frac{x}{2}$ (which again i
 
 $$\frac{x}{2} = \frac{1}{2}cosh(x)sinh(x) - \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
-### The Integral
+### The Integral (kind of annoying)
 The longest part of the derivation is the integral of the unshaded area. Below is the work to compute the entire integral
 $$ \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 First our going to do a trigonmetric substituion. Remember the trig relationship $cos^2(\theta) + sin^2(\theta) = 1$? If we divide everything by $cos^2(\theta)$ and move around the terms a little we get the following relationship:
@@ -41,10 +41,22 @@ We made a varible substituion, so we must also change the differential. Our subs
 $$\int_{1}^{cosh(x)} tan^2(\theta)sec(\theta) d\theta $$
 
 The first step to evlauating this integral involves the substituion $tan^2(\theta)= sec^{\theta} - 1$. If we distribute we can then split the integral into two different ones:
-$$= \int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
+$$\int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
 
-Both of the integrals are extremely common and notably annoying to do. Most people have them memorized and below I listed the the general solutions to each integral:
+Both of the integrals are extremely common and notably annoying to do. Most people have them memorized and below I listed the the general solutions to each integral (I do the derivations for each of these integrals later):
 $$\int sec(x)(dx) = ln|tan(x) + sec(x)|$$
 $$\int sec^3(x)(dx) = \frac{1}{2}sec(x)tan(x) + \frac{1}{2} ln|tan(x) + sec(x)|$$
 
-### Extra: Integral of $sec(x)$ and $$sec^3(x)$$ 
+We can do the first integral by using the formula listed above for $sec^3(x)$. Remeber that we are integrating with respect to theta not the generic varibable $x$. 
+$$\int sec^3(\theta)(d\theta) = \frac{1}{2}sec(\theta)tan(\theta) + \frac{1}{2} ln|tan(\theta) + sec(\theta)| $$
+We can just plug in our limits yet since they were defined when we were dealing with the differential $dx$ (we did not change them during the substituion). We want need to find a way to express it in terms of $x$ before evalulating it with $1$ and $cosh(x)$. Lucklily at the start we made the assertion that $sec(\theta) = x$. That means whereever we see a $sec(\theta)$ in our formula we can just replace it with an $x$.
+
+$$\int sec^3(\theta)(d\theta) = \frac{1}{2}xtan(\theta) + \frac{1}{2} ln|tan(\theta) + x| $$
+
+However, what do we do with $tan(\theta)$. If we know $sec(\theta)$ then $tan(\theta)$ isn't very hard to derive. We know the relationship $tan^2(\theta) = sec^2{\theta} - 1$ to be true. If we manipulate a little we get $tan(\theta) = \sqrt{sec^2(\theta) - 1}$ (we only consider the 1st quadrant so the $\pm$ is always $+$) . Using the fact that $sec(\theta) = x$ again we get that:
+
+$$tan(\theta) = \sqrt{x^2 - 1}$$
+
+Plugging all of this in we can now put our limits of integration $a = 1$ and $b = cosh(x)$ in:
+$$\int sec^3(\theta)(d\theta) = \frac{1}{2}x\sqrt{x^2 - 1} + \frac{1}{2} ln|\sqrt{x^2 - 1} + x| $$
+ ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
