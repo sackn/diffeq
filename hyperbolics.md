@@ -1,6 +1,7 @@
 
 ## Hyperbolic cosine and sin derivation
 
+### The Idea
 We can obtain the area of our desired region by subtracting two different parts. Notice the right angle traiangle that we form with the point and the x axis. That region over approximates the area of our region because there exists a portion of the triangle whcih we don't want. That area is left unshaded. If we can find the area of the total triangle and subtract form it the unshaded area then we would have the area of the region we want.
 
 The total area of the triangle isn't very complicated its a triangle and therefore,
@@ -27,5 +28,9 @@ By definition the area of the region of interest is $\frac{x}{2}$ (which again i
 
 $$\frac{x}{2} = \frac{1}{2}cosh(x)sinh(x) - \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
-
+### The Integral
+The longest part of the derivation is the integral of the unshaded area. Below is the work to compute the entire integral
+$$ \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
+First our going to do a trigonmetric substituion. Remember the trig relationship $cos^2(\theta) + sin^2(\theta) = 1$? If we divide everything by $cos^2(\theta)$ and move around the terms a little we get the following relationship:
+$$tan^2(\theta) = sec^2{\theta} - 1$$
 
