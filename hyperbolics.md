@@ -103,10 +103,10 @@ $$\frac{1}{2}cosh(x)sinh(x) + \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (7)$$
 
 Integrating the 2nd integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate (Equation 5). We will have the same issue with differential giving us $\theta$ preventing us from directly plugging in our limits which were meant for $x$. However the same substituions are still valid $sec(\theta) = x$ and $tan(\theta) = \sqrt{x^2 - 1}$. Below is the work for the entire integral:
 
-$$\int_{1}^{cosh(x)} sec(\theta) d\theta = ln|tan(\theta) + sec(\theta)| \quad \vert_{1}^{cosh(x)} $$
-$$= ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
-$$= ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
-$$= ln|sinh(x) + cosh(x)| \qquad (2) \qquad (8)$$
+$$\int_{1}^{cosh(x)} sec(\theta) d\theta = ln|tan(\theta) + sec(\theta)| \quad \vert_{1}^{cosh(x)}$$
+$$ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
+$$ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
+$$ln|sinh(x) + cosh(x)| \qquad (2) \qquad (8)$$
 
 ---
 ### Putting it back together
