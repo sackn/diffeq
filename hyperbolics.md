@@ -127,6 +127,6 @@ $$sinh(x) = \frac{e^{x} - e^{-x}{2}  $$
 **Results**
 
 We found that the two following hyperobolic definition
-$$cosh(x) = \frac{e^{x} + e^{-x}}{2} \qqquad sinh(x) = \frac{e^{x} - e^{-x}{2} \quad \qed $$
+$$cosh(x) = \frac{e^{x} + e^{-x}}{2} \qqquad sinh(x) = \frac{e^{x} - e^{-x}{2} \quad \square $$
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
