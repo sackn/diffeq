@@ -130,7 +130,7 @@ $$cosh(x) + sinh(x) = e^{x}$$
 $$-(cosh(x)-sinh(x) = e^{-x})$$
 
 $$2sinh(x) = e^{x} - e^{-x}$$
-$$sinh(x) = \frac{e^{x} - e^{-x}{2}  $$
+$$sinh(x) = \frac{e^{x} - e^{-x}{2}$$
 
 ---
 ### Results
