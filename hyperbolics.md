@@ -41,5 +41,5 @@ We made a varible substituion, so we must also change the differential. Our subs
 $$\int_{1}^{cosh(x)} tan^2(\theta)sec(\theta) d\theta $$
 
 The first step to evlauating this integral involves the substituion $tan^2(\theta)= sec^{\theta} - 1$. If we distribute we can then split the integral into two different ones:
-
-$$$$
+$$\int_{1}^{cosh(x)} (sec^2(\theta) - 1)sec(\theta) d\theta $$
+$$\int_{1}^{cosh(x)} sec^3(\theta) d\theta - \int_{1}^{cosh(x)}  sec(\theta) d\theta$$
