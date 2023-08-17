@@ -90,7 +90,9 @@ Again we are searching of the highlighted region $A_{highlighted}$ which by defi
 
 $$\frac{x}{2} = A_{triangle} - A_{unshaded}$$
 
+We have already found $A_{triangle}$ and $A_{unshaded}$. Plugging our them we get that our area $\frac{x}{2}$ is equal to: 
 
+$$\frac{x}{2} = (\frac{1}{2}cosh(x)sinh(x)) - (\frac{1}{2}cosh(x)sinh(x) - \frac{1}{2} ln|cosh(x)+sinh(x)|)$$
 
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
