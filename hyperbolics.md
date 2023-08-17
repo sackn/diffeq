@@ -28,6 +28,8 @@ By definition the area of the region of interest is $\frac{x}{2}$ (which again i
 
 $$\frac{x}{2} = \frac{1}{2}cosh(x)sinh(x) - \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
+---
+
 ## The Integral (kind of annoying)
 The longest part of the derivation is the integral of the unshaded area. Below is the work to compute the entire integral
 $$ \int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
@@ -48,7 +50,9 @@ Both of the integrals are extremely common and notably annoying to do. Most peop
 $$\int sec(x)(dx) = ln|tan(x) + sec(x)|$$
 $$\int sec^3(x)(dx) = \frac{1}{2}sec(x)tan(x) + \frac{1}{2} ln|tan(x) + sec(x)|$$
 
-**Integrating $sec^3(x)$**
+---
+
+### Integrating $sec^3(x)$
 
 We can do the first integral by using the formula listed above for $sec^3(x)$. Remeber that we are integrating with respect to theta not the generic varibable $x$. 
 $$\int sec^3(\theta)(d\theta) = \frac{1}{2}sec(\theta)tan(\theta) + \frac{1}{2} ln|tan(\theta) + sec(\theta)| $$
@@ -66,6 +70,8 @@ $$\frac{1}{2}cosh(x)\sqrt{cosh^2{x} - 1} + \frac{1}{2} ln|cosh(x) + \sqrt{cosh^2
 There is a pretty nice substituion that will further clean up our solution. We already previously discussed that $cosh^2(x)-sinh^2(x) = 1$. If we move terms around a little we  can replace all $\sqrt{cosh^2(x)} -1$ with $sinh(x)$. Doing so give us our first equation.
 $$\frac{1}{2}cosh(x)sinh(x) + \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (1)$$
 
+---
+
 ### Integrating $sec(x)$
 
 Integrating the 2nd integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate. We will have the same issue with differential giving us $\theta$ preventing us from directly plugging in our limits which were meant for $x$. However the same substituions are still valid $sec(\theta) = x$ and $tan(\theta) = \sqrt{x^2 - 1}$. Below is the work for the entire integral:
@@ -75,6 +81,7 @@ $$= ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
 $$= ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
 $$= ln|sinh(x) + cosh(x)| \qquad (2)$$
 
+---
 ### Putting it back together
 
 We spent a lot of time doing the individual integral that you may have forgotten why we were even doing them in the same place. The area of the unshaded region which we are subtracting for our traingle to get the region that we want is the following integral:
@@ -98,6 +105,7 @@ $$x = ln|cosh(x)+ sinh(x)|$$
 We can then expoentiate both sides to then get relationship
 $$cosh(x) + sinh(x) = e^x$$
 
+---
 ### A System
 
 From the work in the previous section we got that $cosh(x) + sinh(x) = e^{x}$. If we wish to derive both $cosh(x)$ and $sinh(x)$ we need another equation. We already this second equation and its the definition of a unit hyperbola $cosh^2(x) - sinh^2(x) = 1$. We now have the two following equation and we can solve this non-linear system to get an solution for our two unknowns $cosh(x)$ and $sinh(x)$.
@@ -124,9 +132,11 @@ $$-(cosh(x)-sinh(x) = e^{-x})$$
 $$2sinh(x) = e^{x} - e^{-x}$$
 $$sinh(x) = \frac{e^{x} - e^{-x}{2}  $$
 
+---
 ### Results
 
 We found that the two following hyperobolic definition
 $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}  $$
 
- ## Extra: Integral of $sec(x)$ and $sec^3(x)$$
+---
+## Extra: Integral of $sec(x)$ and $sec^3(x)$$
