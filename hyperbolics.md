@@ -110,7 +110,7 @@ $$cosh(x)-sinh(x) = e^{-x}$$
 
 We now have this manipulate formula which is a way easier to deal with. We can this equation and perform elimination by adding it onto $cosh(x)+sinh(x) = e^{x}$
 $$cosh(x) + sinh(x) = e^{x}$$
-$$+ cosh(x)-sinh(x) = e^{-x}$$
+$$+(cosh(x)-sinh(x) = e^{-x})$$
 
 $$2cosh(x) = e^{x} + e^{-x}$$
 
@@ -119,9 +119,9 @@ $$cosh(x) = \frac{e^{x} + e^{-x}}{2}$$
 
 We can then bring back out equations, but this time instead of adding them together we can subtract them. Doing so will give us the definition for hyperbolic sine.
 $$cosh(x) + sinh(x) = e^{x}$$
-$$- cosh(x)-sinh(x) = e^{-x}$$
+$$-(cosh(x)-sinh(x) = e^{-x})$$
 
-$$-2sinh(x) = e^{x} - e^{-x}$$
-$$sinh(x) = \frac{e^{-x} - e^{x}}{2}  $$
+$$2sinh(x) = e^{x} - e^{-x}$$
+$$sinh(x) = \frac{e^{x} - e^{-x}{2}  $$
 
  ### Extra: Integral of $sec(x)$ and $sec^3(x)$$
