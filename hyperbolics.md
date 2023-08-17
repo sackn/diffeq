@@ -109,7 +109,9 @@ $$ln|\sqrt{x^2 - 1} + x| \vert_{1}^{cosh(x)} \quad \vert_{1}^{cosh(x)}$$
 
 $$ln|\sqrt{cosh^2(x) -1} + cosh(x)| - 0$$
 
-$$ln|sinh(x) + cosh(x)| \qquad (2) \qquad (8)$$
+$$ln|sinh(x) + cosh(x)| \qquad (8)$$
+
+---
 
 
 ### Putting it back together
