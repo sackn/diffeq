@@ -41,7 +41,7 @@ $$\dot{y} - y = e^{3x} \qquad y(0) = 3$$
 From the formulas that we previously derived we know that our integrating factor is equal to the following:
 $$\mu = e^{\int -1(dx)} = e^{-x}$$
 
-Our general soltuion then takes the following form:
+Our general solution then takes the following form:
 $$y = \frac{1}{e^{-x}} \left( \int e^{-x}e^{3x} + c \right)$$
 We can simplying the factor out front and the integral on the inside is pretty simplistic (remember to that $e^{-x}e^{3x} = e^{2x}$)
 $$y = e^{x}(\frac{1}{2}e^{2x} + c)$$
