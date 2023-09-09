@@ -8,7 +8,7 @@ $$sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$$
 
 $$cos(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$$
 
-$$tan^{-1}(x) \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
+$$tan^{-1}(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
 
 
 ### Questions and Solutions
