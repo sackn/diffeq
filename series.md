@@ -3,7 +3,9 @@
 ### Common Taylor Series Expansions (cenetered at zero)
 
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
+
 $$sin(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$$
+
 $$cos(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$$
 
 $$tan^{-1}(x) \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
@@ -26,7 +28,7 @@ $$tan^{-1}(x) \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
 <details>
   <summary>Solution</summary>
   We know the Macluarin series of $tan^{-1}(x)$ to be the following:
-  $$tan^{-1}(x) \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
+  $$tan^{-1}(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
 
   If we allow $u = x^2$ our function is now,
   $$f(x) = tan^{-1}(u)$$
