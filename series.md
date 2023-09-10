@@ -4,7 +4,7 @@ The nth term test for divergence is the simpliest way to determine whether a ser
 
 **The nth term test**
 
-If $\sum_{0}^{\infty} a_n$ converge, then $\lim_{n\to\infty} a_n =0 $
+$$ \text{If} \sum_{0}^{\infty} a_n \text{converge, then} \lim_{n\to\infty} a_n =0 $$
 
 In other words if $\lim_{n\to\infty} a_n \neq 0$, then $\sum_{0}^{\infty} a_n$ diverges.
 
