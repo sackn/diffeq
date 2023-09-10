@@ -214,9 +214,22 @@ The integral test is one of the most common methods for determining whether a se
 
 **The Integral Test**
 
-Consider a function such that $a_n = f(x)$. If the function satisifies:
+Consider a function such that $a_n = f(x)$. If the function satisifies the following three coniditions 
+- positive
+- continous
+- decreasing
+on an interval $[m, \infty]$ where m is some positive integer then,
 
+$$\sum_{n=1}^{\infty} a_n \text{ and } \int_{1}^{\infty} f(x) dx$$
+
+either both converge or both diverge
 ***
+Positive,continous, and decreasing function are all pretty self explanatory. These three conditions need to be satisfied at some point m and for any point after m for the integral test. As long there exist some positve integer m where this is the case then the integral test can be applied.
+
+The lower limit most of the time doesn't effect the sum to be safe its probably best to set the lower limit equal to the starting index of the series.
+
+**Worked Example 1**
+
 
 
 
