@@ -2,14 +2,58 @@
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
 
-**The nth term test**
+**The nth term test for divergence**
 
 $$ \text{If } \sum_{0}^{\infty} a_n \text{ converge, then } \lim_{n\to\infty} a_n =0 $$
 
 $$ \text{In other words if} \lim_{n\to\infty} a_n \neq 0 \text{, then } \sum_{0}^{\infty} a_n \text{ diverges.}$$
 
+This should be pretty intuitive if the terms you add don't become zero you will keep eventaully reach some sort infinity. Infinately adding 100, -1, or 0.0001 will all end up in a series that doesn't converge to a single. The only way for a series to converge is if the amount of value you add onto the series becomes zero and thus prevents the series from changing at some point.
+
+As mentioned previously it is key to know that a series whos terms converge to zero, does not instantly make in convergent. When the limit is zero the nth term test is considered indeterminate. We are also considering what happens to the terms as they approach inifnity so like most convergence/divergence tests the starting index of the series doesn't matter at all.
+
+**Worked Example 1**
+
+Determine if the following series diverges or if it is indeterminate under the nth term test:
+
+$$\sum_{n=1}^{\infty} \frac{n^2 + 1}{2n^2 + 3}$$\
+
+We can take the limit of the terms in the series as the amount of terms approaches infinity:
+
+$$\lim_{n\to\infty} \frac{n^2 + 1}{2n^2 + 3}$$
+
+The two dominating terms are $n^2$ on the top and $2n^{2}$. From elementary calculus we know that the following limit is equal to $\frac{1}{2}$
+
+$$\lim_{n\to\infty} \frac{n^2 + 1}{2n^2 + 3} = \frac{1}{2}$$
+
+This results means that at really point in the series we will effecitvely be adding $\frac{1}{2}$ every term. Adding $\frac{1}{2}$ infinatenamount of times most definately puts the sum at infinity and therefore it diverges.
+
+**Worked Example 2**
+
+Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=3}^{\infty} \frac{n^2 + 1}{n^3 + 3}$$
+
+We can take the limit of the terms in the series as the amount of terms approaches infinity:
+
+$$\lim_{n\to\infty} \frac{n^2 + 1}{n^3 + 3}$$
+
+The denominator grows faster than the numerator so the we know that the terms will approach zero eventaully:
+
+$$\lim_{n\to\infty} \frac{n^2 + 1}{n^3 + 3} = 0$$
+
+At some point in the series the terms basically contribute nothing to the total sum of the series. As mentioned previously this does not mean that the series diverges or converges the nth term test simply isn't the right tool (indeterminate under the nth term test).
+
+### Questions and Solutions
+
+**Problem 1:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{1}{n}$$
 
 
+<details>
+  <summary>Solution</summary>
+</details>
 
 ## Taylor Series
 
