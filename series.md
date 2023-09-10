@@ -1,3 +1,45 @@
+## Geometric Series
+
+A geometric series is a special type of series that takes the form:
+
+$$\sum_{n=1} a_1{r}^{n-1}$$
+
+Geometric series are series whos each subsequent term differs from the previous by some common ratio $r$. The common ratio can be positive or negative. A negative common ratio implies that the signs of the terms swap. Also note that $a_1$ deonates the first term in the series. Some example of geometric series are the following:
+- 3,9,27,81... each differs by a factor of 3
+- 4,2,1,0.5,0.25,0.125,... each differs by a factor of 0.5
+- 2,-4,8,-16,32,-64,... each differs by a factor of -2
+
+The geometric series is one of the only forms of infinate series that we can actually find the value it converges to. Most of this unit is about figuring out whether a series converge or diverge, and it basically says nothing about what values it reaches if the series does converge. The formula for finding the sum of a finite geometric series is the following:
+
+$$S_n = \frac{a (r^n - 1)}{r-1}$$
+
+- $a$ = the first term that you want to start your summation with (this does not necessarily need to be first term in the entire series if you want to get sum of terms 2-10 $a$ would technically be the value of $a_2$)
+- $r$ = the common ratio of the geometric series
+- $n$ = the number of terms that you are summing over
+
+Since we are talking about infinate series we can see what happens to the sum of the geometric series as we let the number of terms we sum over approach infinity. 
+
+$$\lim_{n\to\infty} \frac{a(r^n - 1)}{r-1}$$
+$$\lim_{n\to\infty} \frac{ar^n}{r-1} + \frac{a}{r-1}$$
+
+Only the first term contains the varible that we are taking the limit with respect to. Notice that the value of r that we choose can actually dictate wheter we can determine a finite value or not. If r is something like 100, if we let n approach infinity then the first term will become infinity and sum of the geometric series will also be infinity (meaning its divergent). However, if our common ratio is something like $-\frac{1}{4}$ the first term will approach zero at infinity only the second term making the sum of the geometric series equal to$\frac{a}{1-r}$. 
+
+In turns out that the first term will only converge if zero and leading us to get a finite value for the series (not infinity) only if $-1 < r < 1$ (alternatively $|r| < 1$). If the common ratio doesn't satisfy the constraint then the geometric series blows off to ininifty and we doesn't converge to a single value.
+
+In a more concise manner for some geometric series:
+$$\sum_{n=1}^{\infty} a_1 (r)^(n-1)$$
+If $|r| < 1$ then all the series will have converge to 
+
+$$S_n = \frac{a_1}{1-r}$$
+Otherwise the geometric series diverges and approaches infinity.
+
+
+
+
+
+
+
+
 ## Nth term test
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
@@ -158,6 +200,10 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 
   Diverges by the nth term test. $sin(x)$ itself doesn't have a limit and therefore it converge to a single value. It will continue oscillating between values. It doesn't blow off to infinity but it most definately does not approach a singleular number either. 
 </details>
+
+
+## The Integral Test
+
 
 
 ## Taylor Series
