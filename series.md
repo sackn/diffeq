@@ -206,9 +206,55 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 
 
 
-## Taylor Series
+## Taylor / Maclaurin Series
 
-### Common Taylor Series Expansions (cenetered at zero)
+**The Maclaurin Series of e^{x}**
+
+We can start by listing out a few of the deriviatve of $e^{x}$ and there values as the center of the taylor series (c=0)
+
+$$f(x) = e^{x} \qquad f(x) = e^0 = 1$$
+
+$$f'(x) = e^{x} \qquad f'(x) = 1$$
+
+$$f''(x) = e^{x} \qquad f''(x) = 1$$
+
+$$f'''(x) = e^{x} \qquad f'''(x) = 1$$
+
+We know that a Macluarin series expansion takes the following form
+
+$$\sum_{n=0}^{\infty} \frac{f^{(n)}(0)x^n}{n!}$$
+
+As shown above $f^{(n)}(0)$ will always be one so the taylor series expansion of $e^x$ is the following;
+
+$$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
+
+**The Maclaurin Series of sin(x)**
+
+We can again start by listing out a few deriviatves of $sin(x)$ and there vaues at the center of the taylor series (c=0)
+
+$$f(x) = sin(x) \qquad f(0) = 0$$
+
+$$f'(x) = cos(x) \qquad f'(0) = 1$$
+
+$$f''(x) = -sin(x) \qquad f''(0) = 0$$
+
+$$f'''(x) = -cos(x) \qquad f'''(0) = -1$$
+
+$$f''''(x) = sin(x) \qquad f''''(0) = 0$$
+
+$$f'''''(x) = cos(x) \qquad f''''(0) = 1$$
+
+Note all terms of the taylor series actually contribute so we can write a series that only hits those that do add add value. The only important terms are the even terms. In other words only terms with indicies $2n+1$ need to be considered. Between the even terms of the series they also swap signs so we will need $(-1)^n$ (since it starts positive). Considering all of those things we get that the series expansion of $sin(x)$
+
+$$e^x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$$
+
+Our series skips all of the odd terms and adjust for that fact by having the exponent on x and the exponent on n be adjusted skip every other term starting from the 2nd term. It would recommend looking into the series an proving to yourself that this does indeed describe the behavior of $f^{n}(x)$
+
+**The Maclaurin Series of cos(x)**
+
+
+
+### Common Taylor Series Expansions (cenetered at zero) to remember:
 
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
 
