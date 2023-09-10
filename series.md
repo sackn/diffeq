@@ -49,11 +49,116 @@ At some point in the series the terms basically contribute nothing to the total 
 **Problem 1:** Determine if the following series diverge or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{1}{n}$$
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{1}{n} = 0$$
+  Indeterminate under the nth term test. Althought it might make sense for a series whos terms converge to zero to also have its summation converge, but $\frac{1}{n}$ is a perfect example. According to the nth term test it each term will eventually equal zero however, the series actually is divergent (we will learn why this is the case later)
+</details>
 
+**Problem 2:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{(-1)^n}{n}$$
 
 <details>
   <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{(-1)^n}{n} = 0$$
+  Indeterminate under the nth term test. Even though the terms of the series swap signs they will get infinately close to zero. You will learn later that this series actually converge which might be a little confusing if you also did problem 1. Is it possible for $\frac{1}{n}$ to diverge and $\frac{(-1)^n}{n}$ to converge (the answer is yes, more about this later).
 </details>
+
+**Problem 3:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{(n^3}{n^2 ln(n)}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{n^3}{n^2 ln(n)} = \infty$$
+
+  The series diverge by the nth term test. The numerator grows much faster than the denomnator so the value each term adds will continue increase. We keep adding bigger and bigger numbers which pretty obviously makes it impossible for us to converge to a single value.
+</details>
+
+**Problem 4:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{(n^n}{n!}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{n^n}{n!} = \infty$$
+
+  The series diverges by the nth term test. 
+
+  This limit is a little more difficult to see, but if you expand $n^n$ and $n!$ it becomes a little more obvious.
+
+  $$n^n = (n)(n)(n)(n)(n)(n)(n)...$$
+  $$n! = (n)(n-1)(n-2)(n-3)(n-4)(n-5)(n-6)....$$
+
+  Its pretty clear that $n^n$ will out pace $n!$
+  
+</details>
+
+**Problem 5:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{n^3 - 1}{n^3 + 2n + 1}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{n^3 - 1}{n^3 + 2n + 1} = 1$$
+
+  Diverges by nth term test.
+</details>
+
+**Problem 6:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{2^n}{n!}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{2^n}{n!} = 0$$
+
+  Indeterminate under the nth term test. $n!$ grows faster than $2^n$. Expanding $n!$ into some of its factors is a good way for determining that a factorial will always grow faster than an exponetital.
+</details>
+
+**Problem 7:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{(-1)^n}{n}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{1}{n} = 0$$
+</details>
+
+**Problem 8:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{n^2}{2^n}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{n^2}{2^n} = 0$$
+
+  Indeterminate under the nth term test.
+</details>
+
+**Problem 9:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} \frac{1}{tan^{-1}(n)}$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} \frac{1}{tan^{-1}(n)} = \frac{2}{\pi}$$
+
+  Diverges by the nth term test. Note that $tan^{-1}(x)$ approaches $\frac{pi}{2}$ at infinity.
+</details>
+
+**Problem 10:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+
+$$\sum_{n=0}^{\infty} sin(n)$$
+
+<details>
+  <summary>Solution</summary>
+  $$\lim_{n\to\infty} sin(n) = \text{does not exist}$$
+
+  Diverges by the nth term test. $sin(x)$ itself doesn't have a limit and therefore it converge to a single value. It will continue oscillating between values. It doesn't blow off to infinity but it most definately does not approach a singleular number either. 
+</details>
+
 
 ## Taylor Series
 
