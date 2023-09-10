@@ -1,3 +1,16 @@
+## Nth term test
+
+The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
+
+**The nth term test**
+
+If $\sum_{0}^{\infty} a_n converge, then \lim_{n\to\infty} a_n =0 $
+
+In other words if \lim_{n\to\infty} a_n \neq 0, then $\sum_{0}^{\infty} a_n 
+
+
+
+
 ## Taylor Series
 
 ### Common Taylor Series Expansions (cenetered at zero)
