@@ -44,11 +44,15 @@ Otherwise the geometric series diverges and approaches infinity.
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
 
+***
+
 **The nth term test for divergence**
 
 $$ \text{If } \sum_{0}^{\infty} a_n \text{ converge, then } \lim_{n\to\infty} a_n =0 $$
 
 $$ \text{In other words if} \lim_{n\to\infty} a_n \neq 0 \text{, then } \sum_{0}^{\infty} a_n \text{ diverges.}$$
+
+***
 
 This should be pretty intuitive if the terms you add don't become zero you will keep eventaully reach some sort infinity. Infinately adding 100, -1, or 0.0001 will all end up in a series that doesn't converge to a single. The only way for a series to converge is if the amount of value you add onto the series becomes zero and thus prevents the series from changing at some point.
 
@@ -202,7 +206,17 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 </details>
 
 
-## The Integral Test
+## The Integral Test and P-Series Test
+
+The integral test is one of the most common methods for determining whether a series a converge or diverges and it employs improper integrals. 
+
+***
+
+**The Integral Test**
+
+Consider a function such that $a_n = f(x)$. If the function satisifies:
+
+***
 
 
 
@@ -252,7 +266,23 @@ Our series skips all of the odd terms and adjust for that fact by having the exp
 
 **The Maclaurin Series of cos(x)**
 
+The Maclaurin series for cos(x) is super similar to the expansion of sin(x) as is probably expected. If we list our some derivaitves and there values at 0 we get:
 
+$$f(x) = cos(x) \qquad f(0) = 1$$
+
+$$f'(x) = -sin(x) \qquad f'(0) = 0$$
+
+$$f''(x) = -cos(x) \qquad f''(0) = -1$$
+
+$$f'''(x) = sin(x) \qquad f'''(0) = 0$$
+
+$$f''''(x) = cos(x) \qquad f''''(0) = 1$$
+
+$$f'''''(x) = -sin(x) \qquad f''''(0) = 0$$
+
+Cosine is the same story as sine except for that fact that odd terms (terms 1,3,5,7,...) are the only ones that contribute rather than even terms. The Macularin expansion for cosine is the following:
+
+$$e^x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$$
 
 ### Common Taylor Series Expansions (cenetered at zero) to remember:
 
