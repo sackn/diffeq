@@ -336,7 +336,7 @@ $$\sum_{n=0}^{\infty} \frac{1}{n{\frac{5}{2}}}$$
 
 **Problem 2:** Determine if the following series diverge or converges:
 
-$$\sum_{n=0}^{\infty} \frac{1}{\sqrt{n}}}$$
+$$\sum_{n=0}^{\infty} \frac{1}{\sqrt{n}}$$
 
 <details>
   <summary>Solution</summary>
