@@ -208,11 +208,14 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 
 ## The Integral Test and P-Series Test
 
+
+### The Integral Test
+
 The integral test is one of the most common methods for determining whether a series a converge or diverges and it employs improper integrals. 
 
 ***
 
-**The Integral Test**
+**The Integral Test Statement**
 
 Consider a function such that $a_n = f(x)$. If the function satisifies the following three coniditions 
 - positive
@@ -230,7 +233,48 @@ The lower limit most of the time doesn't effect the sum to be safe its probably 
 
 **Worked Example 1**
 
+Determine whether the following series converges of diverges:
 
+$$\sum_{n=2}^{\infty} \frac{1}{n ln(n)}$$
+
+We can turn our discrete sequence of terms into the following continous function (basically just swapping all n's for x's):
+
+$$f(x) = \frac{1}{xln(x)}$$
+
+In order to use the integral test the function needs to satisfty the three conditions (positive, contionous, and decreasing). On the domain $(1, \infty]$ its pretty clear that the function will continous and positive. Also since the denominator is growing faster than the numerator the function is also decreasing for atlaest $x > 1$.
+
+Since our function meets the three conditiosn we can check the converge of its improper integral to determine whether the orginal series also converges. 
+
+$$\int_{n=2}^{\infty} \frac{1}{xln(x)} dx$$
+
+Using a the u-substituion of $u=ln(x)$ our integral then becomes:
+
+$$\int_{n=2}^{\infty} \frac{1}{u}du$$
+
+The fundamnetal theorem of calculus doesn't like it when we have a non-finite value as the limit so we can write the upper limit in terms as a limit. 
+
+$$\lim_{b\to\infty} \int_{n=2}^{b} \frac{1}{u} du$$
+
+After integrating,
+
+$$\lim_{b\to\infty} ( ln(ln(b)) - ln(ln(2))) = \infty$$
+
+Our improper diverges, so according to the integral test the original series of also diverges.
+
+### The P-Series Test
+
+The P-series test an extremely fast test that can be used to determine the convergence or divergence of simple series. The p-series test will work on the series of the following form (where p is some positive number): 
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}3^{p} + ...$$
+
+
+
+
+
+
+**Worked Example**
+
+Consider the following 
 
 
 ## Taylor / Maclaurin Series
