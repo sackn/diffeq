@@ -366,11 +366,35 @@ $$\sum_{n=0}^{\infty} \frac{n}{n^2 + 1}$$
 
   The integral diveges so therefor the original series also diverges. 
 
-  
 </details>
 
+**Problem 4:** Determine if the following series diverges or converges:
 
+$$\sum_{n=2}^{\infty} \frac{1}{n (ln(n))^2}$$
 
+<details>
+  <summary>Solution</summary>
+  
+  $$f(x) = \frac{1}{x (ln(x))^2}$$
+
+  From inspection we know that the series positive, contionous, and decreasing for all $x>1$.
+
+  $$\int_{2}^{\infty} \frac{1}{x (ln(x))^2} dx$$
+  
+  $$\lim_{b\to\infty} \int_{2}^{b} \frac{1}{x (ln(x))^2} dx$$
+
+  Using the u-substiution $u = ln(x)$:
+
+  $$\lim_{b\to\infty} \int_{2}^{b} \frac{1}{u^2} du $$
+
+  $$\lim_{b\to\infty} -\frac{1}{ln(x)} \vert_{2}^{b}  $$
+
+  $$\lim_{b\to\infty} -\frac{1}{ln(b)} + \frac{1}{ln(2)}  = \frac{1}{ln(2)} $$
+
+  Our integral converges to a finite value that means that our original series also converges. However, keep in mind that $\frac{1}{ln(2)}$ is not the total sum of the series.
+
+</details>
+  
 
 
 ## Taylor / Maclaurin Series
