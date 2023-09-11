@@ -231,6 +231,8 @@ Positive,continous, and decreasing function are all pretty self explanatory. The
 
 The lower limit most of the time doesn't effect the sum to be safe its probably best to set the lower limit equal to the starting index of the series.
 
+Also, the improper integral is only able to tell whether the original series divergeces or converges. If the integral converges that DOES NOT mean that the value it converges to is the sum of the series. They have no relation what so ever. 
+
 **Worked Example 1**
 
 Determine whether the following series converges of diverges:
@@ -261,6 +263,7 @@ $$\lim_{b\to\infty} ( ln(ln(b)) - ln(ln(2))) = \infty$$
 
 Our improper diverges, so according to the integral test the original series of also diverges.
 
+
 ### The P-Series Test
 
 The P-series test an extremely fast test that can be used to determine the convergence or divergence of simple series. The p-series test will work on the series of the following form (where p is some positive number): 
@@ -288,10 +291,86 @@ After integrating:
 
 $$ \lim_{b\to\infty} (\frac{-1}{(1-p)x^{1-p}} \vert_{1}^{b})$$
 
+$$ \lim_{b\to\infty} \frac{-1}{(1-p)b^{p-1} - \frac{-1}{(1-p)1^{p-1}} $$
 
-**Worked Example**
+For convergence we only need to worry about the first term. Note that if p is a really big number like 100 then the denominator will grow infinately and make the first term zero allowing our integral to converge. However, if the p value is really small like $\frac{1}{4}$ then the first term will diverge to infinity. The threshold for when the integral starts diverging is at one. If p is strictly greater than 1 the integral will converge else it will diverge.
 
-Consider the following 
+Since if the convergence/divergence is the same as the series if p is strictly greater than 1 the series will also converge else it will diverge. 
+
+***
+**The P-Series Test**
+For any positive integer k and p the series:
+
+$$\sum_{n=k}^{\infty} \frac{1}{n^p}$$
+
+will converge if $p>1$ and will diverge if $p \leq 1$
+***
+
+That means according to the p-series test the following series will converge:
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^2}$$
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^{\frac{9}{2}}}$$
+
+and the two following series will diverge:
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^{\frac{1}{3}}}$$
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^{\frac{1}{100}}}$$
+
+As a side point, we have a special name for the series where $p=1$. It is called the harominic series and it diverges according to the p-series test. 
+
+$$\sum_{n=1}^{\infty} \frac{1}{n}$$
+
+### Questions and Solutions
+
+**Problem 1:** Determine if the following series diverge or converges:
+
+$$\sum_{n=0}^{\infty} \frac{1}{n{\frac{5}{2}}}$$
+
+<details>
+  <summary>Solution</summary>
+  Since $p = \frac{5}{2}$ the series converges by the p-series test
+</details>
+
+
+**Problem 2:** Determine if the following series diverge or converges:
+
+$$\sum_{n=0}^{\infty} \frac{1}{\sqrt{n}}}$$
+
+<details>
+  <summary>Solution</summary>
+  Since $p = \frac{1}{2}$ the series diverges by the p-series test
+</details>
+
+**Problem 3:** Determine if the following series diverge or converges:
+
+$$\sum_{n=0}^{\infty} \frac{n}{n^2 + 1}$$
+
+<details>
+  <summary>Solution</summary>
+  
+  $$f(x) \frac{x}{x^2 + 1}$$
+  
+  From inspection we know that the series positive, contionous, and decreasing for all $x>1$.
+
+  $$\int_{0}^{\infty} \frac{x}{x^2 + 1} dx$$
+  
+  $$\lim_{b\to\infty} \int_{0}^{b} \frac{x}{x^2 + 1} dx$$
+
+  Using the u-substituion $u = x^2 + 1$.
+
+  $$\frac{1}{2} \lim_{b\to\infty} ln|x^2+1| \vert_{0}^{b}$$
+
+  $$\frac{1}{2} \lim_{b\to\infty} ln|b^2 + 1| - ln|1| = \infty$$
+
+  The integral diveges so therefor the original series also diverges. 
+
+  
+</details>
+
+
+
 
 
 ## Taylor / Maclaurin Series
