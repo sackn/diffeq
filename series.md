@@ -291,7 +291,7 @@ After integrating:
 
 $$ \lim_{b\to\infty} (\frac{-1}{(1-p)x^{1-p}} \vert_{1}^{b})$$
 
-$$ \lim_{b\to\infty} \frac{-1}{(1-p)b^{p-1} - \frac{-1}{(1-p)1^{p-1}} $$
+$$ \lim_{b\to\infty} \frac{-1}{(1-p)b^{p-1}} - \frac{-1}{(1-p)1^{p-1}} $$
 
 For convergence we only need to worry about the first term. Note that if p is a really big number like 100 then the denominator will grow infinately and make the first term zero allowing our integral to converge. However, if the p value is really small like $\frac{1}{4}$ then the first term will diverge to infinity. The threshold for when the integral starts diverging is at one. If p is strictly greater than 1 the integral will converge else it will diverge.
 
