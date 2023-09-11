@@ -484,7 +484,121 @@ Or as a decimanl approximation (safely rounded to three decimal)
 
 $$0.473 \geq S \leq 0.760 $$
 
+In order to have some closure, the infinate series is equal to $ln(2)$
 
+$$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}  ln(2)$$
+
+The true value of $ln(2)$ definately falls within the error bounds
+
+$$0.473 \geq 0.693 \leq 0.760 $$
+
+### Questions and Soltuions
+
+**Question 1**
+
+**Problem 1:** Determine if the following series diverge or converges:
+
+$$\sum_{n=1}^{\infty} \frac{(-1)^n n^2}{n^3 + 1}$$
+
+<details>
+  <summary>Solution</summary>
+  First condition is satisifed:
+
+  $$\lim_{n\to\infty} \frac{n^2}{n^3 + 1} = 0$$
+  
+  Second Coniditon is satisifed through inspection. The denominator grows faster than the numerator so the value of each term is always decreasing (which implies $a_{n+1} \leq a_n$ )
+
+  $$\frac{(n+1)^2}{(n+1)^3 + 1} \leq \frac{n^2}{n^3 + 1}$$
+
+  Therefore the series convergeces by the altnerating series test. 
+  
+</details>
+
+**Problem 2:** Determine if the following series diverge or converges:
+
+$$\sum_{n=1}^{\infty} \frac{(-1)^{n+3}}{3n + 2}$$
+
+<details>
+  <summary>Solution</summary>
+  The first coniditon is not satifisfied 
+
+  $$\lim_{n\to\infty} \frac{n+3}{3n+2} = \frac{1}{3}$$
+  $$\lim_{n\to\infty} a_n \neq 0$$
+  
+  Therefore the series diverges by the altnerating series test. 
+
+</details>
+
+**Problem 3:** Determine if the following series diverges of converges:
+
+$$\sum_{n=0}^{\infty} \frac{cos(n\pi) ln(n+1)}{n+1}$$
+
+<details>
+  <summary>Solution</summary>
+  Notice that the alternator in this series is $cos(n\pi)$ and not the standard $(-1)^n$
+
+  The first condition is satisified 
+
+  $$\lim_{n\to\infty} \frac{ln(n+1)}{n+1} = 0$$
+
+  Second Coniditon is satisifed through inspection. The denominator grows faster than the numerator so the value of each term is always decreasing (which implies $a_{n+1} \leq a_n$ )
+
+  $$\frac{ln(n+2)}{n+2} \leq \frac{ln(n+1)}{n+1}$$
+
+  Therefore the series converges by the alternating series test. 
+  
+</details>
+
+**Problem 4:** Determine if the follwoing series diverges or converges:
+
+$$\sum_{n=1}^{\infty} (-1)^n cos(n)$$
+
+<details>
+  <summary>Solution</summary>
+  The first condition is not satifiseid (since the limit of cos(n) as it n approaches infinity doesnt exist):
+
+  $$\lim_{n\to\infty} cos(n) = DNE$$
+
+  Therefore the series diverges by the alternating series test.
+  
+</details>
+
+**Problem 5:** Determine if the follwoing series diverges or converges:
+
+$$\sum_{n=1}^{\infty} (-1)^n \frac{sin(n)}{n}$$
+
+<details>
+  <summary>Solution</summary>
+  The first conidtion is satisfied:
+
+  $$\lim_{n\to\infty} \frac{sin(n)}{n} = 0$$
+  
+  However, if you thought real hard you might have recognized that you can't even apply the alternating series test in this scenario. The alternating series test only works when $a_n$ is positive. 
+
+  Alternating series are known for swapping signs every term but if $a_n$ can be negative then the sign swap might not be every other term. At integers n sin(n) can most definately be a negative number/
+
+  We can't find convergence of this series with the altnerating series test and we will need to wait until later.
+
+
+**Problem 6:** Determine if the follwoing series diverges or converges:
+
+$$\sum_{n=1}^{\infty} (-1)^n \frac{n!}{n^n}$$
+
+<details>
+  <summary>Solution</summary>
+  The the first condition is noy satisifed($n!$ grows faster than $n^n$):
+
+  $$\lim_{n\to\infty} \frac{n!}{n^n} = \infty$$
+
+  Therfore the series diverges by the altnerating series test. 
+
+  
+</details>
+
+  
+    
+  
+</details>
 
 
 ## Taylor / Maclaurin Series
