@@ -265,11 +265,28 @@ Our improper diverges, so according to the integral test the original series of 
 
 The P-series test an extremely fast test that can be used to determine the convergence or divergence of simple series. The p-series test will work on the series of the following form (where p is some positive number): 
 
-$$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}3^{p} + ...$$
+$$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}{3^p} + ...$$
 
+The result of the p-series test on convergence can be directly derived use the p series test:
 
+**Worked Example 2**
 
+For the following seires determine whether it converges or not (again p is some positive number):
 
+$$\sum_{n=1}^{\infty} \frac{1}{n^p}$$
+
+We know the corresponding function:
+
+$$f(x) = \frac{1}{x^p}$$
+
+From inspection its pretty obvious that as long as p is a some positive number we are always continous, decreasing, and positive for any x>1. That means that we can employ the integral test to determine its convergence.
+
+$$\int_{1}^{\infty} \frac{1}{x^p} dx$$
+$$\lim_{b\to\infty} \int_{1}^{b} \frac{1}{x^p} dx$$
+
+After integrating:
+
+$$ \lim_{b\to\infty} (\frac{-1}{(1-p)x^{1-p}} \vert_{1}^{b})$$
 
 
 **Worked Example**
