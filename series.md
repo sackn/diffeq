@@ -395,6 +395,96 @@ $$\sum_{n=2}^{\infty} \frac{1}{n (ln(n))^2}$$
 
 </details>
   
+## Alternating Series
+
+Alternating series are series whos every subsequent term switches signs. The two most common alternating series take the form of the following (where $a_n$ can be be basically anything):
+
+$$\sum_{n=0}^{\infty} (-1)^n a_n$$
+
+$$\sum_{n=0}^{\infty} (-1)^{n+1} a_n$$
+
+These series are both alternating. The only difference is that the first series starts with a positive term while the ssecond series starts with a negative term. When it comes to convergence whether the series starts off with a poitive or negative term won't matter. 
+
+The term that causes the series to swap signs every term is caLled the "alternator" in the above series that would be $(-1)^n$ and $(-1)^{n+1}$. The Alternators liek $(-1)^n$ are the most common but they are not the only ones. Consider the following alternating series:
+
+$$\sum_{n=0}^{\infty} cos(n \pi)a_n$$
+
+Since n can only be an integer the term $cos(n\pi)$ is the alternator as it swap betwteen 1 and -1 (starting with 1). It can be rewritten as $(-1)^n$
+
+***
+
+**Alternating Series Test**
+If $a_n$ >0. Then the alternating series of either of the forms
+
+$$\sum_{n=1}^{\infty} (-1)^n a_n \text{  and  } \sum_{n=1}^{\infty} (-1)^{n+1} a_n$$
+
+will converge if the following two conditions are satisifed:
+- $\lim_{n\to\infty} a_n = 0$
+- $a_{n+1} \leq a_n$ for all n (non-increasing)
+
+***
+
+I want to clear up that when determining convergence with the alternating series test we do the limit of everything that isn't alternating $a_n$. Notice that the altnerating series have an extremely leniant conditions for convergence. It turns out taht there are certain $a_n$ (the non alternating poriton) that will only converge if they are attached to an alternator. This topic will discussed more later when I talk about absolute and conditional convergence. 
+
+**Worked Example**
+
+Determine whether the following series is convergent or divergent:
+
+$$\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$$
+
+We easily recgonize that this is an alternating series becasue of $(-1)^n$ and we know that the $a_n > 0$ because $\frac{1}{n} > 0$. We can test the first condition (limit goes to zero) and figure out that the series satisifies it.
+
+$$\lim_{n\to\infty} \frac{1}{n} = 0$$
+
+For the second condition we know that $a_n = \frac{1}{n}$ and $a_{n+1} = \frac{1}{n+1}$. We can easily prove that the series is non-decreasing:
+
+$$a_{n+1} \leq a_{n}$$
+
+$$\frac{1}{n+1} \leq \frac{1}{n}$$
+
+$$n+1 \geq n$$
+
+Since our series satisifes both conditions that means it converges by the altnerating series test. 
+
+**Alternating Series Error Bound**
+
+So far in this series section we have talked a lot about convergence and divergence, but not what the actual valuefo the series is. Unfortunately, when it comes to altenating series there isn't a super good way to determine the value. Like all series we can approximate the infinate sum by just adding the like the first 100 terms. However, what is different about the alternating series is that we can get an extremely tight error bound on how inaccurate our "approximation" is.
+
+With the alternating series we can figure out how far we can possibly be from the true value when we add up the first n terms. Obviously the more terms we add up the closer we will be to the true value, but we can't do that so the next best thing is figuring out how far off we potentially are.
+
+***
+
+**Alternating Series Error Bound**
+
+If an alternating seeries converges. Then the error of adding up the first n terms to the real sum is equal to first unused term in the series. M
+
+$$Error = |S-S_n| \leq |a_{n+1}|$$
+
+***
+
+**Worked Example**
+
+Find the range of possbile values of the following alternating series if you add the first 6 terms:
+
+$$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}$$
+
+First we can enumerate the first six terms of the series and get there sum:
+
+$$\frac{1}{1} - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} = \frac{37}{60}$$
+
+We used the first 6 terms so our first unused term $a_n+1$ is the 7th term which is $\frac{1}{7}$. That means that maximum amount that $\frac{37}{60}$ can be off from the real answer is $\frac{1}{7}$ in either the positive or negative direction.
+
+$$Error = |S-\frac{37}{60}| \leq |\frac{1}{7}|$$
+
+We that information on the max error in other direction we can figure out that the value that hte altnerating series converges to must lie somewhere within the following range of values:
+
+$$\frac{37}{60} - \frac{1}{7} \geq S \leq \frac{37}{60} + \frac{1}{7}$$
+
+Or as a decimanl approximation (safely rounded to three decimal)
+
+$$0.473 \geq S \leq 0.760 $$
+
+
 
 
 ## Taylor / Maclaurin Series
