@@ -8,3 +8,4 @@ $$\frac{d\vec{R}}{dt} = \lim_{h\to0} \frac{\vec{R}(t+h)-\vec{R}(t)}{h}$$
 
 The limit will give us the tangent vectors along the curve. If we expand $\frac{d\vec{R}}{dt}$ with the fact that $x=u(t)$ and $y=v(t)$ we get the following
 
+$$\frac{d\vec{R}}{dt} = \frac{d\vec{R}}{dx} \frac{dx}{dt} + \frac{d\vec{R}}{dy} \frac{dy}{dt}$$
