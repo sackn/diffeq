@@ -10,4 +10,4 @@ The limit will give us the tangent vectors along the curve. If we expand $\frac{
 
 $$\frac{d\vec{R}}{dt} = \frac{d\vec{R}}{dx} \frac{dx}{dt} + \frac{d\vec{R}}{dy} \frac{dy}{dt}$$
 
-Note that things like $\frac{dx}{dt}$ are scalar while $\frac{d\vec{R}}{dt}$ are vector values. What effectively we have the deriative $\frac{d\vec{R}}{dt}$ written as two component scalar values ($\frac{dx}{dt}$ and $\frac{dy}{dt}) each paired with there own "basis vector" ($\frac{d\vec{R}}{dx}$ and $\frac{d\vec{R}}{dy}$)
+Note that things like $\frac{dx}{dt}$ are scalar while $\frac{d\vec{R}}{dt}$ are vector values. What effectively we have the deriative $\frac{d\vec{R}}{dt}$ written as two component scalar values ($\frac{dx}{dt}$ and $\frac{dy}{dt}$) each paired with there own "basis vector" ($\frac{d\vec{R}}{dx}$ and $\frac{d\vec{R}}{dy}$)
