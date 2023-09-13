@@ -6,4 +6,5 @@ If want to the tangent vectors over the curve we have to find the deriviatve $\f
 
 $$\frac{d\vec{R}}{dt} = \lim_{h\to0} \frac{\vec{R}(t+h)-\vec{R}(t)}{h}$$
 
+The limit will give us the tangent vectors along the curve. If we expand $\frac{d\vec{R}}{dt}$ with the fact that $x=u(t)$ and $y=v(t)$ we get the following
 
