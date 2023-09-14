@@ -1,3 +1,6 @@
+# Written by Chad Wong (Work in Progress)
+
+
 # First Order Differential Equations
 
 ## Integrating Factor Method for Differential Equations
