@@ -60,5 +60,17 @@
   - Matrix Inverses (only practice problems)
   - LU Decomposition and Solutions to Systems (only practice problems)
   - Determinents
- 
+
+**Tensor Calculus (Heavy Work in Progress)**
+- [Tensor Calculus](https://github.com/sackn/diffeq/blob/main/tensor.md) (tensor.md)
+  - Derivatives as Vectors
+  - The Jacobian
+
+**Quantum Computing from a Mathematical Standpoint (Heavy Work in Progress)**
+- [Quantum Computing](https://github.com/sackn/diffeq/blob/main/quantum.md) (quantum.md)
+  - Broad Overview of Quantum Computing
+  - Classical and Quantum Gates
+  - Quantum Entanglment
+  - Superdense Coding
+  - Uncertainity Principle
 
