@@ -1,10 +1,10 @@
 # Introduction
 
-Welcome to my online textboook. I wrote this textbook over the summer of 2023 as a rising highshool senior. I wanted to explore higher matheamatics and thought it would be cool if I kept a little online website with all of the stuff I learned. That led me to creating this online textbook. The online textbook includes content from Calculus 2, Caclulus 3, Differential equations, and more. Everything is "hand-written" by me and no writing is AI-generated. Majority of sections include thoughtful writing along with worked examples. For most the sections they also include practice problems at the end. For each practice problems I provide a solution which is either an image of my pen and paper work or full solution written in laTex. 
+Welcome to my online textboook. I wrote this textbook over the summer of 2023 as a rising high school senior. I wanted to explore higher mathematics and thought it would be cool if I kept a little online website with all of the stuff I learned. That led me to create this online textbook. The online textbook includes content from Calculus 2, Caclulus 3, Differential Equations, and more. Everything is "hand-written" by me, and no writing is AI-generated. The majority of sections include thoughtful writing along with worked examples. For most of the sections, they also include practice problems at the end. For each practice problem, I provide a solution, which is either an image of my pen and paper work or a full solution written in LaTex.
 
-The textbook is far from complete and you may notice that some sections listed below aren't completley finished, however I will try my best to work on them. If you have notice any issues feel free whether that be about a typo (historically there have been a lot of laTex errors) or an incorrect solution feel free to make a pull request and I will work to fix it. 
+The textbook is far from complete, and you may notice that some sections listed below aren't completely finished. However,  I will try my best to work on them. If you have noticed any issues, feel free to make a pull request, and I will work to fix them.
 
-I hope some of my knowledge can do you well and enjoy the textbook!
+I hope some of my knowledge can do you well and that you enjoy the textbook!
 
 # Table Contents (Sections Grouped by Class)
 
@@ -83,12 +83,12 @@ I hope some of my knowledge can do you well and enjoy the textbook!
 
 **Caclulus 2**
 
-I already finished Caclulus 2 by the time I wrote this textbook, so I didn't spend much time writing that section of the textbook. If your interested in finding the entire standard Caclulus 2 circulum refer to another online textbook (which I did not contribute to) by a teacher at Lamar University [Paul's Online Notes Calculus 2](https://tutorial.math.lamar.edu/classes/calcII/calcII.aspx). The notable missing portions are:
+I had already finished Caclulus 2 by the time I wrote this textbook, so I didn't spend much time writing that section of the textbook. If you're interested in finding the entire standard Caclulus 2 circulum, refer to another online textbook (which I did not contribute to) by a teacher at Lamar University [Paul's Online Notes Calculus 2] (https://tutorial.math.lamar.edu/classes/calcII/calcII.aspx). The notable missing portions are:
   - Integration Methods (integration by parts, trignometric substituion, and partial fraction)
   - Improper Integrals
   - Application of Single varible Integral
   - Calculus with parametric equation and the polar coordinate system
-The last section in the other online textbook lists vectors and an introduction to 3D-space. I did not choose to group them in the Calulus 2 section as I belive that they better fit into their own section (cross product / dot product) or the start of multivariable caclulus (vector-valued function).
+The last section in the other online textbook lists vectors and an introduction to 3D space. I did not choose to group them in the Calulus 2 section, as I believe that they would better fit into their own section (cross product or dot product) or the start of the multivariable caclulus (vector-valued function).
 
 **Caclulus 3**
 
@@ -96,7 +96,7 @@ The notable missing portion are:
 - Triple Integrals 
 - Green's Theorem
 - Surface Integrals (includes Stokes and Divergence Theorem)
-A teacher from Lamar University also created an online resource for Calculus 3 (which again I did not contribute to) [Paul's Online Notes Calculus 3](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx). For extra problems I also provided some solutions to "Multivarible Caclulus" by Don Shimamota linked [Multivarible Calculus](https://open.umn.edu/opentextbooks/textbooks/780).
+A teacher from Lamar University also created an online resource for Calculus 3 (which again I did not contribute to) [Paul's Online Notes Calculus 3] (https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx). For extra problems, I also provided some solutions to "Multivariable Caclulus" by Don Shimamota linked to [Multivariable Calculus] (https://open.umn.edu/opentextbooks/textbooks/780).
 
 **Differential Equations**
 
@@ -104,8 +104,8 @@ The notable missing portions are:
 - Series Solutions for Differential Equations / Fourier Series
 - System of Differential Equations
 
-A same teacher from Lamar Univesrity also created an online resource forordinary differential equations (which again I did not contribute to) [Paul's Online Notes Differential Equations](https://tutorial.math.lamar.edu/Classes/DE/DE.aspx). I also looked at another online textbook "Differential Equation for Engineers" by Jiří Lebl. 
+The same teacher from Lamar University also created an online resource for ordinary differential equations (which again I did not contribute to): Paul's Online Notes on Differential Equations (https://tutorial.math.lamar.edu/Classes/DE/DE.aspx). I also looked at another online textbook, "Differential Equation for Engineers" by Jiří Lebl.
 
 **Everything Else**
 
-For all of the other section I would advise against using my textbook as your sole source of content. The remaning sections are missing signifigant portions of their circulum. I am not particuarly strong in any of the remaining topics however, I would recommend watchign the MIT open course ware lectures by Gilbert Strang if you were interested in studying Linear Algebra. 
+For all of the other sections, I would advise against using my textbook as your sole source of content. The remaining sections are missing significant portions of their circulum. I am not particularly strong in any of the remaining topics; however, I would recommend watching the MIT Open Courseware lectures by Gilbert Strang if you are interested in studying linear algebra.
