@@ -38,13 +38,16 @@
   - Divergence and Curl Operators
  
 **Ordinary Differential Equations**
+
 -[First Order Differential Equations](https://github.com/sackn/diffeq/blob/main/firstOrderDifferentialEquations.md) (firstOrderDifferentialEquations.md)
   - Integrating Factor Method for Differential Equations
   - Exact Equations
   - Autonomous Equation and Equilibrium
-- [Higher Order Differential Equations](https://github.com/sackn/diffeq/blob/main/higherOrderDifferential%20Equations)
-
-
+- [Higher Order Differential Equations](https://github.com/sackn/diffeq/blob/main/higherOrderDifferentialEquations.md) (higherOrderDifferentialEquations.md)
+  - 2nd Order Linear Homogenous Differential Equations
+  - Solving Second Order Constant Linear Homogenous Differential Equations
+  - Higher Order Linear Homogenous Differential Equations
+  - Method of Undetermined Coefficients for Sovling Non-Homogenous Second order Differential Equations
 - [Laplace Transforms]
   - Introduction to Laplace Transforms
   - Partial Fractions and Laplace Transforms of Derivatives
