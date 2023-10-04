@@ -1,7 +1,12 @@
 # Introduction
 
-# Table Contents (Sections Grouped by Class)
+Welcome to my online textboook. I wrote this textbook over the summer of 2023 as a rising highshool senior. I wanted to explore higher matheamatics and thought it would be cool if I kept a little online website with all of the stuff I learned. That led me to creating this online textbook. The online textbook includes content from Calculus 2, Caclulus 3, Differential equations, and more. Everything is "hand-written" by me and no writing is AI-generated. Majority of sections include thoughtful writing along with worked examples. For most the sections they also include practice problems at the end. For each practice problems I provide a solution which is either an image of my pen and paper work or full solution written in laTex. 
 
+The textbook is far from complete and you may notice that some sections listed below aren't completley finished, however I will try my best to work on them. If you have notice any issues feel free whether that be about a typo (historically there have been a lot of laTex errors) or an incorrect solution feel free to make a pull request and I will work to fix it. 
+
+I hope some of my knowledge can do you well and enjoy the textbook!
+
+# Table Contents (Sections Grouped by Class)
 
 **Caclulus 2 (AP Calculus BC)**
 - [Series](https://github.com/sackn/diffeq/blob/main/series.md) (series.md)
