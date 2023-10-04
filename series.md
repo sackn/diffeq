@@ -51,7 +51,7 @@ $$S_n = \frac{a_1}{1-r}$$
 Otherwise the geometric series diverges and approaches infinity.
 
 ---
-## Nth term test
+# Nth term test
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
 
