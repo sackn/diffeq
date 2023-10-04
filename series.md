@@ -12,7 +12,13 @@ This section focuses on the analysis of series. Most of the section are devoted 
 
 The main things that have not been written yet is power series and numerous other convergence/divergence tests (comparison, root, and ratio tests).
 
+---
+
 #
+
+##
+
+###
 
 ## Geometric Series
 
