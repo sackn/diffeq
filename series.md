@@ -15,7 +15,9 @@ The main things that have not been written yet is power series and numerous othe
 ---
 
 ***
+
 ___
+
 
 ## Geometric Series
 
