@@ -96,9 +96,10 @@ The notable missing portion are:
 - Triple Integrals 
 - Green's Theorem
 - Surface Integrals (includes Stokes and Divergence Theorem)
-A teacher from Lamar University also created an online resource for Calculus 3 (which again I did not contribute to) [Paul's Online Notes Calculus 3](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx). For extra problems I also provided some solutions to "Multivarible Caclulus" by Don Shimamota.
+A teacher from Lamar University also created an online resource for Calculus 3 (which again I did not contribute to) [Paul's Online Notes Calculus 3](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx). For extra problems I also provided some solutions to "Multivarible Caclulus" by Don Shimamota linked [Multivarible Calculus](https://open.umn.edu/opentextbooks/textbooks/780).
 
 **Differential Equations**
+
 The notable missing portions are:
 - Series Solutions for Differential Equations / Fourier Series
 - System of Differential Equations
