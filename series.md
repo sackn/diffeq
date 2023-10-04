@@ -13,10 +13,9 @@ This section focuses on the analysis of series. Most of the section are devoted 
 The main things that have not been written yet is power series and numerous other convergence/divergence tests (comparison, root, and ratio tests).
 
 ---
----
----
 
-## Geometric Series
+
+# Geometric Series
 
 A geometric series is a special type of series that takes the form:
 
@@ -51,8 +50,6 @@ If $|r| < 1$ then all the series will have converge to
 $$S_n = \frac{a_1}{1-r}$$
 Otherwise the geometric series diverges and approaches infinity.
 
----
----
 ---
 ## Nth term test
 
@@ -228,9 +225,7 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 ##
 
 ---
----
----
-## The Integral Test and P-Series Test
+# The Integral Test and P-Series Test
 
 ### The Integral Test
 
@@ -432,10 +427,8 @@ $$\sum_{n=2}^{\infty} \frac{1}{n (ln(n))^2}$$
 </details>
 
 ---
----
----
   
-## Alternating Series
+# Alternating Series
 
 Alternating series are series whos every subsequent term switches signs. The two most common alternating series take the form of the following (where $a_n$ can be be basically anything):
 
@@ -642,10 +635,8 @@ $$\sum_{n=1}^{\infty} (-1)^n \frac{n!}{n^n}$$
 </details>
 
 ---
----
----
 
-## Taylor / Maclaurin Series
+# Taylor / Maclaurin Series
 
 ##
 
