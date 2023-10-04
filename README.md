@@ -83,7 +83,7 @@ I hope some of my knowledge can do you well and enjoy the textbook!
 
 **Caclulus 2**
 
-I already finished Caclulus 2 by the time I wrote this textbook, so I didn't spend much time writing that section of the textbook. If your interested in finding the entire standard Caclulus 2 circulum refer to another online textbook (which I did not contribute to) by a teacher at Lamar University [Paul's Online Notes](https://tutorial.math.lamar.edu/classes/calcII/calcII.aspx). The notable missing portions are:
+I already finished Caclulus 2 by the time I wrote this textbook, so I didn't spend much time writing that section of the textbook. If your interested in finding the entire standard Caclulus 2 circulum refer to another online textbook (which I did not contribute to) by a teacher at Lamar University [Paul's Online Notes Calculus 2](https://tutorial.math.lamar.edu/classes/calcII/calcII.aspx). The notable missing portions are:
   - Integration Methods (integration by parts, trignometric substituion, and partial fraction)
   - Improper Integrals
   - Application of Single varible Integral
@@ -96,5 +96,15 @@ The notable missing portion are:
 - Triple Integrals 
 - Green's Theorem
 - Surface Integrals (includes Stokes and Divergence Theorem)
+A teacher from Lamar University also created an online resource for Calculus 3 (which again I did not contribute to) [Paul's Online Notes Calculus 3](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx). For extra problems I also provided some solutions to "Multivarible Caclulus" by Don Shimamota.
 
+**Differential Equations**
+The notable missing portions are:
+- Series Solutions for Differential Equations / Fourier Series
+- System of Differential Equations
 
+A same teacher from Lamar Univesrity also created an online resource forordinary differential equations (which again I did not contribute to) [Paul's Online Notes Differential Equations](https://tutorial.math.lamar.edu/Classes/DE/DE.aspx). I also looked at another online textbook "Differential Equation for Engineers" by Jiří Lebl. 
+
+**Everything Else**
+
+For all of the other section I would advise against using my textbook as your sole source of content. The remaning sections are missing signifigant portions of their circulum. I am not particuarly strong in any of the remaining topics however, I would recommend watchign the MIT open course ware lectures by Gilbert Strang if you were interested in studying Linear Algebra. 
