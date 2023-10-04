@@ -38,21 +38,27 @@
   - Divergence and Curl Operators
  
 **Ordinary Differential Equations (Typically Calculus 4)**
-
 - [First Order Differential Equations](https://github.com/sackn/diffeq/blob/main/firstOrderDifferentialEquations.md) (firstOrderDifferentialEquations.md)
   - Integrating Factor Method for Differential Equations
   - Exact Equations
   - Autonomous Equation and Equilibrium
-  
 - [Higher Order Differential Equations](https://github.com/sackn/diffeq/blob/main/higherOrderDifferentialEquations.md) (higherOrderDifferentialEquations.md)
   - 2nd Order Linear Homogenous Differential Equations
   - Solving Second Order Constant Linear Homogenous Differential Equations
   - Higher Order Linear Homogenous Differential Equations
   - Method of Undetermined Coefficients for Sovling Non-Homogenous Second order Differential Equations
- 
 - [Laplace Transforms](https://github.com/sackn/diffeq/blob/main/laplaceTransforms.md) (laplaceTransforms.md)
   - Introduction to Laplace Transforms
   - Partial Fractions and Laplace Transforms of Derivatives
   - Laplace Transforms for Solving Differential Equations
   - The Convolution Operator
   - Delta Functions and Impulses
+- [Partial Differential Equations](https://github.com/sackn/diffeq/blob/main/partialDifferentialEquations.md) (partialDifferentialEquations.md) (Heavy Work in Progress)
+
+**Linear Algebra (Heavy Work in Progress)**
+- [Linear Algebra](https://github.com/sackn/diffeq/blob/main/linearAlgebra.md) (linearAlgebra.md)
+  - Matrix Inverses (only practice problems)
+  - LU Decomposition and Solutions to Systems (only practice problems)
+  - Determinents
+ 
+
