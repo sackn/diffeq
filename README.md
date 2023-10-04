@@ -79,3 +79,22 @@ I hope some of my knowledge can do you well and enjoy the textbook!
   - Superdense Coding
   - Uncertainity Principle
 
+# Notable Topics Currently Missing from Each Section
+
+**Caclulus 2**
+
+I already finished Caclulus 2 by the time I wrote this textbook, so I didn't spend much time writing that section of the textbook. If your interested in finding the entire standard Caclulus 2 circulum refer to another online textbook (which I did not contribute to) by a teacher at Lamar University [Paul's Online Notes](https://tutorial.math.lamar.edu/classes/calcII/calcII.aspx). The notable missing portions are:
+  - Integration Methods (integration by parts, trignometric substituion, and partial fraction)
+  - Improper Integrals
+  - Application of Single varible Integral
+  - Calculus with parametric equation and the polar coordinate system
+The last section in the other online textbook lists vectors and an introduction to 3D-space. I did not choose to group them in the Calulus 2 section as I belive that they better fit into their own section (cross product / dot product) or the start of multivariable caclulus (vector-valued function).
+
+**Caclulus 3**
+
+The notable missing portion are:
+- Triple Integrals 
+- Green's Theorem
+- Surface Integrals (includes Stokes and Divergence Theorem)
+
+
