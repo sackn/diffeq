@@ -37,9 +37,9 @@
   - Conservative Vecotor Fields and the Fundamental Theorem of Line Integrals
   - Divergence and Curl Operators
  
-**Ordinary Differential Equations**
+**Ordinary Differential Equations (Typically Calculus 4)**
 
--[First Order Differential Equations](https://github.com/sackn/diffeq/blob/main/firstOrderDifferentialEquations.md) (firstOrderDifferentialEquations.md)
+- [First Order Differential Equations](https://github.com/sackn/diffeq/blob/main/firstOrderDifferentialEquations.md) (firstOrderDifferentialEquations.md)
   - Integrating Factor Method for Differential Equations
   - Exact Equations
   - Autonomous Equation and Equilibrium
@@ -50,7 +50,7 @@
   - Higher Order Linear Homogenous Differential Equations
   - Method of Undetermined Coefficients for Sovling Non-Homogenous Second order Differential Equations
  
-- [Laplace Transforms]
+- [Laplace Transforms](https://github.com/sackn/diffeq/blob/main/laplaceTransforms.md) (laplaceTransforms.md)
   - Introduction to Laplace Transforms
   - Partial Fractions and Laplace Transforms of Derivatives
   - Laplace Transforms for Solving Differential Equations
