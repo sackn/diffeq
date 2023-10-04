@@ -1,8 +1,5 @@
 # Introduction
 
+# Table Contents (Sections Grouped by Class)
 
-# Table of Contents
-
-
-
-# Sections Grouped by Class
+### Caclulus 2 (Ap Calculus BC)
