@@ -14,6 +14,9 @@ The main things that have not been written yet is power series and numerous othe
 
 ---
 
+***
+___
+
 ## Geometric Series
 
 A geometric series is a special type of series that takes the form:
