@@ -14,12 +14,6 @@ The main things that have not been written yet is power series and numerous othe
 
 ---
 
-#
-
-##
-
-###
-
 ## Geometric Series
 
 A geometric series is a special type of series that takes the form:
@@ -60,7 +54,7 @@ Otherwise the geometric series diverges and approaches infinity.
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
 
-***
+##
 
 **The nth term test for divergence**
 
@@ -68,11 +62,13 @@ $$ \text{If } \sum_{0}^{\infty} a_n \text{ converge, then } \lim_{n\to\infty} a_
 
 $$ \text{In other words if} \lim_{n\to\infty} a_n \neq 0 \text{, then } \sum_{0}^{\infty} a_n \text{ diverges.}$$
 
-***
+##
 
 This should be pretty intuitive if the terms you add don't become zero you will keep eventaully reach some sort infinity. Infinately adding 100, -1, or 0.0001 will all end up in a series that doesn't converge to a single. The only way for a series to converge is if the amount of value you add onto the series becomes zero and thus prevents the series from changing at some point.
 
 As mentioned previously it is key to know that a series whos terms converge to zero, does not instantly make in convergent. When the limit is zero the nth term test is considered indeterminate. We are also considering what happens to the terms as they approach inifnity so like most convergence/divergence tests the starting index of the series doesn't matter at all.
+
+##
 
 **Worked Example 1**
 
@@ -90,6 +86,8 @@ $$\lim_{n\to\infty} \frac{n^2 + 1}{2n^2 + 3} = \frac{1}{2}$$
 
 This results means that at really point in the series we will effecitvely be adding $\frac{1}{2}$ every term. Adding $\frac{1}{2}$ infinatenamount of times most definately puts the sum at infinity and therefore it diverges.
 
+##
+
 **Worked Example 2**
 
 Determine if the following series diverge or if it is indeterminate under the nth term test:
@@ -105,6 +103,8 @@ The denominator grows faster than the numerator so the we know that the terms wi
 $$\lim_{n\to\infty} \frac{n^2 + 1}{n^3 + 3} = 0$$
 
 At some point in the series the terms basically contribute nothing to the total sum of the series. As mentioned previously this does not mean that the series diverges or converges the nth term test simply isn't the right tool (indeterminate under the nth term test).
+
+##
 
 ### Questions and Solutions
 
@@ -221,15 +221,16 @@ $$\sum_{n=0}^{\infty} sin(n)$$
   Diverges by the nth term test. $sin(x)$ itself doesn't have a limit and therefore it converge to a single value. It will continue oscillating between values. It doesn't blow off to infinity but it most definately does not approach a singleular number either. 
 </details>
 
+##
 
+---
 ## The Integral Test and P-Series Test
-
 
 ### The Integral Test
 
 The integral test is one of the most common methods for determining whether a series a converge or diverges and it employs improper integrals. 
 
-***
+##
 
 **The Integral Test Statement**
 
@@ -242,12 +243,15 @@ on an interval $[m, \infty]$ where m is some positive integer then,
 $$\sum_{n=1}^{\infty} a_n \text{ and } \int_{1}^{\infty} f(x) dx$$
 
 either both converge or both diverge
-***
+##
+
 Positive,continous, and decreasing function are all pretty self explanatory. These three conditions need to be satisfied at some point m and for any point after m for the integral test. As long there exist some positve integer m where this is the case then the integral test can be applied.
 
 The lower limit most of the time doesn't effect the sum to be safe its probably best to set the lower limit equal to the starting index of the series.
 
 Also, the improper integral is only able to tell whether the original series divergeces or converges. If the integral converges that DOES NOT mean that the value it converges to is the sum of the series. They have no relation what so ever. 
+
+##
 
 **Worked Example 1**
 
@@ -279,6 +283,7 @@ $$\lim_{b\to\infty} ( ln(ln(b)) - ln(ln(2))) = \infty$$
 
 Our improper diverges, so according to the integral test the original series of also diverges.
 
+##
 
 ### The P-Series Test
 
@@ -287,6 +292,8 @@ The P-series test an extremely fast test that can be used to determine the conve
 $$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}{3^p} + ...$$
 
 The result of the p-series test on convergence can be directly derived use the p series test:
+
+##
 
 **Worked Example 2**
 
@@ -311,16 +318,21 @@ $$ \lim_{b\to\infty} \frac{-1}{(1-p)b^{p-1}} - \frac{-1}{(1-p)1^{p-1}} $$
 
 For convergence we only need to worry about the first term. Note that if p is a really big number like 100 then the denominator will grow infinately and make the first term zero allowing our integral to converge. However, if the p value is really small like $\frac{1}{4}$ then the first term will diverge to infinity. The threshold for when the integral starts diverging is at one. If p is strictly greater than 1 the integral will converge else it will diverge.
 
+##
+
 Since if the convergence/divergence is the same as the series if p is strictly greater than 1 the series will also converge else it will diverge. 
 
-***
+##
+
 **The P-Series Test**
 For any positive integer k and p the series:
 
 $$\sum_{n=k}^{\infty} \frac{1}{n^p}$$
 
 will converge if $p>1$ and will diverge if $p \leq 1$
-***
+
+
+##
 
 That means according to the p-series test the following series will converge:
 
@@ -337,6 +349,8 @@ $$\sum_{n=1}^{\infty} \frac{1}{n^{\frac{1}{100}}}$$
 As a side point, we have a special name for the series where $p=1$. It is called the harominic series and it diverges according to the p-series test. 
 
 $$\sum_{n=1}^{\infty} \frac{1}{n}$$
+
+## 
 
 ### Questions and Solutions
 
@@ -410,6 +424,8 @@ $$\sum_{n=2}^{\infty} \frac{1}{n (ln(n))^2}$$
   Our integral converges to a finite value that means that our original series also converges. However, keep in mind that $\frac{1}{ln(2)}$ is not the total sum of the series.
 
 </details>
+
+---
   
 ## Alternating Series
 
@@ -427,7 +443,7 @@ $$\sum_{n=0}^{\infty} cos(n \pi)a_n$$
 
 Since n can only be an integer the term $cos(n\pi)$ is the alternator as it swap betwteen 1 and -1 (starting with 1). It can be rewritten as $(-1)^n$
 
-***
+##
 
 **Alternating Series Test**
 If $a_n$ >0. Then the alternating series of either of the forms
@@ -438,9 +454,11 @@ will converge if the following two conditions are satisifed:
 - $\lim_{n\to\infty} a_n = 0$
 - $a_{n+1} \leq a_n$ for all n (non-increasing)
 
-***
+##
 
 I want to clear up that when determining convergence with the alternating series test we do the limit of everything that isn't alternating $a_n$. Notice that the altnerating series have an extremely leniant conditions for convergence. It turns out taht there are certain $a_n$ (the non alternating poriton) that will only converge if they are attached to an alternator. This topic will discussed more later when I talk about absolute and conditional convergence. 
+
+##
 
 **Worked Example**
 
@@ -462,13 +480,15 @@ $$n+1 \geq n$$
 
 Since our series satisifes both conditions that means it converges by the altnerating series test. 
 
+##
+
 **Alternating Series Error Bound**
 
 So far in this series section we have talked a lot about convergence and divergence, but not what the actual valuefo the series is. Unfortunately, when it comes to altenating series there isn't a super good way to determine the value. Like all series we can approximate the infinate sum by just adding the like the first 100 terms. However, what is different about the alternating series is that we can get an extremely tight error bound on how inaccurate our "approximation" is.
 
 With the alternating series we can figure out how far we can possibly be from the true value when we add up the first n terms. Obviously the more terms we add up the closer we will be to the true value, but we can't do that so the next best thing is figuring out how far off we potentially are.
 
-***
+##
 
 **Alternating Series Error Bound**
 
@@ -476,7 +496,7 @@ If an alternating seeries converges. Then the error of adding up the first n ter
 
 $$Error = |S-S_n| \leq |a_{n+1}|$$
 
-***
+##
 
 **Worked Example**
 
@@ -507,6 +527,8 @@ $$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}  ln(2)$$
 The true value of $ln(2)$ definately falls within the error bounds
 
 $$0.473 \geq 0.693 \leq 0.760 $$
+
+##
 
 ### Questions and Soltuions
 
@@ -611,13 +633,11 @@ $$\sum_{n=1}^{\infty} (-1)^n \frac{n!}{n^n}$$
   
 </details>
 
-  
-    
-  
-</details>
-
+---
 
 ## Taylor / Maclaurin Series
+
+##
 
 **The Maclaurin Series of e^{x}**
 
@@ -638,6 +658,8 @@ $$\sum_{n=0}^{\infty} \frac{f^{(n)}(0)x^n}{n!}$$
 As shown above $f^{(n)}(0)$ will always be one so the taylor series expansion of $e^x$ is the following;
 
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
+
+##
 
 **The Maclaurin Series of sin(x)**
 
@@ -661,6 +683,8 @@ $$e^x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$$
 
 Our series skips all of the odd terms and adjust for that fact by having the exponent on x and the exponent on n be adjusted skip every other term starting from the 2nd term. It would recommend looking into the series an proving to yourself that this does indeed describe the behavior of $f^{n}(x)$
 
+##
+
 **The Maclaurin Series of cos(x)**
 
 The Maclaurin series for cos(x) is super similar to the expansion of sin(x) as is probably expected. If we list our some derivaitves and there values at 0 we get:
@@ -681,6 +705,8 @@ Cosine is the same story as sine except for that fact that odd terms (terms 1,3,
 
 $$e^x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$$
 
+##
+
 ### Common Taylor Series Expansions (cenetered at zero) to remember:
 
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
@@ -691,6 +717,7 @@ $$cos(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$$
 
 $$tan^{-1}(x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{2n+1}$$
 
+##
 
 ### Questions and Solutions
 
