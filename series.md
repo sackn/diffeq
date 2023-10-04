@@ -52,6 +52,8 @@ $$S_n = \frac{a_1}{1-r}$$
 Otherwise the geometric series diverges and approaches infinity.
 
 ---
+---
+---
 ## Nth term test
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
@@ -225,6 +227,8 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 
 ##
 
+---
+---
 ---
 ## The Integral Test and P-Series Test
 
@@ -427,6 +431,8 @@ $$\sum_{n=2}^{\infty} \frac{1}{n (ln(n))^2}$$
 
 </details>
 
+---
+---
 ---
   
 ## Alternating Series
@@ -635,6 +641,8 @@ $$\sum_{n=1}^{\infty} (-1)^n \frac{n!}{n^n}$$
   
 </details>
 
+---
+---
 ---
 
 ## Taylor / Maclaurin Series
