@@ -13,4 +13,8 @@
 
 
 **Calculus 3 (Multivarible Calculus)**
-- [Vector Valued Functions]
+- [Vector Valued Functions](https://github.com/sackn/diffeq/blob/main/vectorValuedFunctions.md) (vecotValuedFunctions.md)
+  - Parametric Definition of a Line
+  - Parametric Equation of a Plane
+  - Tangent, Normal, and Binormal Vectors on a Curve
+  - Arc Length with Vector Functions
