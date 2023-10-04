@@ -1,3 +1,4 @@
+---
 # Introduction to Series
 
 This section focuses on the analysis of series. Most of the section are devoted towards digging deep into infinate series and determining their behavior as the number of in the series grows towards infinity (convergence and divergence). Later in the section I introduce some applcations of infinate series such Taylor/Maclaurin series and polynomial approximations of a function at a specific point. All of the information about series are a part of the AP Calculus BC exam, however this section does not cover everything yet (work in progress).'
@@ -11,7 +12,7 @@ This section focuses on the analysis of series. Most of the section are devoted 
 
 The main things that have not been written yet is power series and numerous other convergence/divergence tests (comparison, root, and ratio tests).
 
-_________________
+---
 
 ## Geometric Series
 
@@ -49,12 +50,6 @@ $$S_n = \frac{a_1}{1-r}$$
 Otherwise the geometric series diverges and approaches infinity.
 
 ---
-
-
-
-
-
-
 ## Nth term test
 
 The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
