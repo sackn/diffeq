@@ -182,7 +182,7 @@ $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}  \
 ---
 ## Extra: Integral of $sec(x)$ and $sec^3(x)$$
 
-### Integral of sec(x)
+### Integral of $sec(x)$
 $$\int sec(x) dx$$
 
 To make the integral easier to solve through substitution, we can multiply the top and bottom by $sec(x) + tan(x)$.
@@ -196,7 +196,9 @@ $$\int \frac{sec^2(x) + sec(x)tan(x))}{u}\frac{du}{sec^2(x) + sec(x)tan(x)}$$
 $$\int \frac{1}{u} du = ln|u| + c$$
 We can then do a u-substitution, setting $u= sec(x) + tan(x)$. Substituting in our original value for $u$, we get the integral of sec(x).
 
-$$\int sec(x) dx = ln|sec(x) + tan(x)| + c$$
+$$\int sec(x) dx = ln|sec(x) + tan(x)| + c \qquad \square$$ 
 
+
+### Integral of $sec^3(x)$
 
 
