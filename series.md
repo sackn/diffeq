@@ -43,7 +43,7 @@ Only the first term contains the variable that we are taking the limit with resp
 It turns out that the first term will only converge if it is zero, leading us to get a finite value for the series (not infinity) only if $-1 < r < 1$ (alternatively, $|r| < 1$). If the common ratio doesn't satisfy the constraint, then the geometric series blows off to infinity, and we don't converge to a single value.
 
 In a more concise manner for some geometric series:
-$$\sum_{n=1}^{\infty} a_1 (r)^(n-1)$$
+$$\sum_{n=1}^{\infty} a_1 (r)^{(n-1)}$$
 If $|r| < 1$ then all the series will have converge to 
 
 $$S_n = \frac{a_1}{1-r}$$
@@ -74,7 +74,7 @@ As mentioned previously, it is key to know that a series whose terms converge to
 
 Determine if the following series diverges or if it is indeterminate under the nth term test:
 
-$$\sum_{n=1}^{\infty} \frac{n^2 + 1}{2n^2 + 3}$$\
+$$\sum_{n=1}^{\infty} \frac{n^2 + 1}{2n^2 + 3}$$
 
 We can take the limit of the terms in the series as the number of terms approaches infinity:
 
@@ -129,7 +129,7 @@ $$\sum_{n=0}^{\infty} \frac{(-1)^n}{n}$$
 
 **Problem 3:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
-$$\sum_{n=0}^{\infty} \frac{(n^3}{n^2 ln(n)}$$
+$$\sum_{n=0}^{\infty} \frac{n^3}{n^2 ln(n)}$$
 
 <details>
   <summary>Solution</summary>
@@ -140,7 +140,7 @@ $$\sum_{n=0}^{\infty} \frac{(n^3}{n^2 ln(n)}$$
 
 **Problem 4:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
-$$\sum_{n=0}^{\infty} \frac{(n^n}{n!}$$
+$$\sum_{n=0}^{\infty} \frac{n^n}{n!}$$
 
 <details>
   <summary>Solution</summary>
@@ -207,7 +207,7 @@ $$\sum_{n=0}^{\infty} \frac{1}{tan^{-1}(n)}$$
   <summary>Solution</summary>
   $$\lim_{n\to\infty} \frac{1}{tan^{-1}(n)} = \frac{2}{\pi}$$
 
-  Diverges by the nth term test. Note that $tan^{-1}(x)$ approaches $\frac{pi}{2}$ at infinity.
+  Diverges by the nth term test. Note that $tan^{-1}(x)$ approaches $\frac{\pi}{2}$ at infinity.
 </details>
 
 **Problem 10:** Determine if the following series diverges or if it is indeterminate under the nth term test:
@@ -289,7 +289,7 @@ Our improper integral diverges, so according to the integral test, the original 
 
 The P-series test is an extremely fast test that can be used to determine the convergence or divergence of simple series. The p-series test will work on the series of the following form (where p is some positive number):
 
-$$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}{3^p} + ...$$
+$$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}{3^p} + \quad ...$$
 
 The result of the p-series test on convergence can be directly derived using the p-series test:
 
@@ -356,7 +356,7 @@ $$\sum_{n=1}^{\infty} \frac{1}{n}$$
 
 **Problem 1:** Determine if the following series diverge or converges:
 
-$$\sum_{n=0}^{\infty} \frac{1}{n{\frac{5}{2}}}$$
+$$\sum_{n=0}^{\infty} \frac{1}{n^{\frac{5}{2}}}$$
 
 <details>
   <summary>Solution</summary>
@@ -502,7 +502,7 @@ $$Error = |S-S_n| \leq |a_{n+1}|$$
 
 Find the range of possible values of the following alternating series if you add the first six terms:
 
-$$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}$$
+$$\sum_{n=1}^{\infty} \frac{(-1)^{(n-1)}}{n}$$
 
 First, we can enumerate the first six terms of the series and get their sum:
 
@@ -522,7 +522,7 @@ $$0.473 \geq S \leq 0.760 $$
 
 In order to have some closure, the infinate series is actually equal to $ln(2)$.
 
-$$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}  ln(2)$$
+$$\sum_{n=1}^{\infty} \frac{(-1)^{(n-1)}}{n}  ln(2)$$
 
 The true value of $ln(2)$ definitely falls within the error bounds.
 
