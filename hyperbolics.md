@@ -12,7 +12,7 @@ If we only consider the first quadrant, we also know that the area of the sector
 
 <img src="https://github.com/sackn/diffeq/blob/main/Images/hyperbolic/image2.png" alt="Image 2">
 
-Now instead of a unit circle, let's define the unit hyperbola as $x^2 - y^2 = 1$. Mathematicians wanted functions for hyperbolas that were analogous to those of a circle. Therefore, they decided that on the unit hyperbola, the x-coordinate would be equal to some mystery function (cosh(x)) (hyperbolic cosine) and the y-coordinate would be equal to some other mystery function (sinh(x)) (hyperbolic sine).
+Now instead of a unit circle, let's define the unit hyperbola as $x^2 - y^2 = 1$. Mathematicians wanted functions for hyperbolas that were analogous to those of a circle. Therefore, they decided that on the unit hyperbola, the x-coordinate would be equal to some mystery function ($cosh(x)$ (hyperbolic cosine) and the y-coordinate would be equal to some other mystery function ($sinh(x)$ (hyperbolic sine).
 
 The functions $cosh(x)$ and $sinh(x)$ serve the same exact purpose as $cos(x)$ and $sin(x)$. The only difference is that hyperbolic functions are used on hyperbolas, while trig functions are used on circles. For a unit hyperbola, any point is defined as $(cosh(x), sinh(x))$.
 
@@ -24,7 +24,7 @@ $$cos^2(\theta) + sin^2(\theta) = 1$$
 If we now consider our unit hyperbhola, which is defined as $x^2 - y^2 = 1$, We have already defined that the x-coordinate is $cosh(x)$ and that our y-coordinate is $sinh(x)$. Plugging in our mysterious functions, we get a similar relationship to that of the unit circle.
 $$cosh^2(x) - sinh^2(x) = 1 \qquad (1)$$
 
-The above hyperbolic identity will become very important later when we derive the definition of these two mystery functions, cosh(x) and sinh(x). As a little bit of a preview, the definitions of cosh(x) and sinh(x) are the following:
+The above hyperbolic identity will become very important later when we derive the definition of these two mystery functions, $cosh(x)$ and $sinh(x)$. As a little bit of a preview, the definitions of $cosh(x)$ and $sinh(x)$ are the following:
 $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}$$
 
 The definitions are extremely strange at first glance, and in the next part, I will derive both of them.
@@ -50,7 +50,7 @@ $$x^2 - y^2 = 1$$
 $$x^2 - 0^2 = 1$$
 $$a=1$$
 
-We know our starting limit to be one always; however, our limit $b$ changes. It shouldn't be that much of a stretch to call the function cosh(x) our upper limit. If you look at the image, this should be pretty intuitive. That leaves us with the following integral:
+We know our starting limit to be one always; however, our limit $b$ changes. It shouldn't be that much of a stretch to call the function $cosh(x)$ our upper limit. If you look at the image, this should be pretty intuitive. That leaves us with the following integral:
 
 $$\int_{1}^{cosh(x)} \sqrt{x^2 - 1}dx$$
 
@@ -148,7 +148,7 @@ $$cosh(x) + sinh(x) = e^x \qquad (9)$$
 ---
 ### A System of Equations
 
-From the work in the previous section, we got that $cosh(x) + sinh(x) = e^{x}$ (Equation 9). If we wish to derive both cosh(x) and sinh(x), we need another equation. We already have this second equation, which is the definition of a unit hyperbola. $cosh^2(x) - sinh^2(x) = 1$ (Equation 1). We now have the two following equations, and we can solve this non-linear system to get a solution for our two unknowns, $cosh(x)$ and $sinh(x)$.
+From the work in the previous section, we got that $cosh(x) + sinh(x) = e^{x}$ (Equation 9). If we wish to derive both $cosh(x)$ and $sinh(x)$, we need another equation. We already have this second equation, which is the definition of a unit hyperbola. $cosh^2(x) - sinh^2(x) = 1$ (Equation 1). We now have the two following equations, and we can solve this non-linear system to get a solution for our two unknowns, $cosh(x)$ and $sinh(x)$.
 $$cosh(x) + sinh(x) = e^{x} \qquad cosh^2(x) - sinh^2(x) = 1$$
 
 To solve this system, we can start by factoring in our right equation and substituting in our other equation.
