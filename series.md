@@ -1,7 +1,7 @@
 ---
 # Introduction to Series
 
-This section focuses on the analysis of series. Most of the section are devoted towards digging deep into infinate series and determining their behavior as the number of in the series grows towards infinity (convergence and divergence). Later in the section I introduce some applcations of infinate series such Taylor/Maclaurin series and polynomial approximations of a function at a specific point. All of the information about series are a part of the AP Calculus BC exam, however this section does not cover everything yet (work in progress).'
+This section focuses on the analysis of series. Most of the section is devoted to digging deep into infinate series and determining their behavior as the number of infinate series grows towards infinity (convergence and divergence). Later in the section, I introduce some applications of infinate series, such as the Taylor/Maclaurin series, and polynomial approximations of a function at a specific point. All of the information about series is part of the AP Calculus BC exam; however, this section does not cover everything yet (work in progress).
 
 **Current Sections**
 - Geometric Series
@@ -10,10 +10,9 @@ This section focuses on the analysis of series. Most of the section are devoted 
 - Alternating Series Test and Alternating Series Error Bound
 - Maclaurin/Taylor Series
 
-The main things that have not been written yet is power series and numerous other convergence/divergence tests (comparison, root, and ratio tests).
+The main things that have not been written yet are power series and numerous other convergence/divergence tests (comparison, root, and ratio tests).
 
 ---
-
 
 # Geometric Series
 
@@ -21,39 +20,39 @@ A geometric series is a special type of series that takes the form:
 
 $$\sum_{n=1} a_1{r}^{n-1}$$
 
-Geometric series are series whos each subsequent term differs from the previous by some common ratio $r$. The common ratio can be positive or negative. A negative common ratio implies that the signs of the terms swap. Also note that $a_1$ deonates the first term in the series. Some example of geometric series are the following:
-- 3,9,27,81... each differs by a factor of 3
-- 4,2,1,0.5,0.25,0.125,... each differs by a factor of 0.5
-- 2,-4,8,-16,32,-64,... each differs by a factor of -2
+Geometric series are series in which each subsequent term differs from the previous by some common ratio (r). The common ratio can be positive or negative. A negative common ratio implies that the signs of the terms swap. Also note that $a_1$ denotes the first term in the series. Some examples of geometric series are the following:
+- 3,9,27,81... each term differs by a factor of 3
+- 4,2,1,0.5,0.25,0.125,... each term differs by a factor of 0.5
+- 2,-4,8,-16,32,-64,... each term differs by a factor of -2
 
-The geometric series is one of the only forms of infinate series that we can actually find the value it converges to. Most of this unit is about figuring out whether a series converge or diverge, and it basically says nothing about what values it reaches if the series does converge. The formula for finding the sum of a finite geometric series is the following:
+The geometric series is one of the only forms of infinite series for which we can actually find the value it converges to. Most of this unit is about figuring out whether a series converges or diverges, and it basically says nothing about what values it reaches if the series does converge. The formula for finding the sum of a finite geometric series is the following:
 
 $$S_n = \frac{a (r^n - 1)}{r-1}$$
 
-- $a$ = the first term that you want to start your summation with (this does not necessarily need to be first term in the entire series if you want to get sum of terms 2-10 $a$ would technically be the value of $a_2$)
+- $a$ = the first term that you want to start your summation with (this does not necessarily need to be first term in the entire series. If you want to get sum of terms 2-10 $a$ would technically be the value of $a_2$)
 - $r$ = the common ratio of the geometric series
 - $n$ = the number of terms that you are summing over
 
-Since we are talking about infinate series we can see what happens to the sum of the geometric series as we let the number of terms we sum over approach infinity. 
+Since we are talking about infinite series, we can see what happens to the sum of the geometric series as we let the number of terms we sum over approach infinity.
 
 $$\lim_{n\to\infty} \frac{a(r^n - 1)}{r-1}$$
 $$\lim_{n\to\infty} \frac{ar^n}{r-1} + \frac{a}{r-1}$$
 
-Only the first term contains the varible that we are taking the limit with respect to. Notice that the value of r that we choose can actually dictate wheter we can determine a finite value or not. If r is something like 100, if we let n approach infinity then the first term will become infinity and sum of the geometric series will also be infinity (meaning its divergent). However, if our common ratio is something like $-\frac{1}{4}$ the first term will approach zero at infinity only the second term making the sum of the geometric series equal to$\frac{a}{1-r}$. 
+Only the first term contains the variable that we are taking the limit with respect to. Notice that the value of r that we choose can actually dictate whether we can determine a finite value or not. If r is something like 100, if we let n approach infinity, then the first term will become infinity, and the sum of the geometric series will also be infinity (meaning it is divergent). However, if our common ratio is something like $-\frac{1}{4}$, the first term will approach zero at infinity, and only the second term will make the sum of the geometric series equal to $\frac{a}{1-r}$.
 
-In turns out that the first term will only converge if zero and leading us to get a finite value for the series (not infinity) only if $-1 < r < 1$ (alternatively $|r| < 1$). If the common ratio doesn't satisfy the constraint then the geometric series blows off to ininifty and we doesn't converge to a single value.
+It turns out that the first term will only converge if it is zero, leading us to get a finite value for the series (not infinity) only if $-1 < r < 1$ (alternatively, $|r| < 1$). If the common ratio doesn't satisfy the constraint, then the geometric series blows off to infinity, and we don't converge to a single value.
 
 In a more concise manner for some geometric series:
 $$\sum_{n=1}^{\infty} a_1 (r)^(n-1)$$
 If $|r| < 1$ then all the series will have converge to 
 
 $$S_n = \frac{a_1}{1-r}$$
-Otherwise the geometric series diverges and approaches infinity.
+Otherwise, the geometric series diverges and approaches infinity.
 
 ---
 # Nth term test
 
-The nth term test for divergence is the simpliest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge, passing the nth term test does not make the series convergent. 
+The Nth-term test for divergence is the simplest way to determine whether a series diverges. The nth term test is only able to determine whether a series is able to diverge; passing the nth term test does not make the series convergent.
 
 ##
 
@@ -65,9 +64,9 @@ $$ \text{In other words if} \lim_{n\to\infty} a_n \neq 0 \text{, then } \sum_{0}
 
 ##
 
-This should be pretty intuitive if the terms you add don't become zero you will keep eventaully reach some sort infinity. Infinately adding 100, -1, or 0.0001 will all end up in a series that doesn't converge to a single. The only way for a series to converge is if the amount of value you add onto the series becomes zero and thus prevents the series from changing at some point.
+This should be pretty intuitive; if the terms you add don't become zero, you will eventually reach some sort of infinity. Infinitely adding 100, -1, or 0.0001 will all end up in a series that doesn't converge to a single. The only way for a series to converge is if the amount of value you add to the series becomes zero, which prevents the series from changing at some point.
 
-As mentioned previously it is key to know that a series whos terms converge to zero, does not instantly make in convergent. When the limit is zero the nth term test is considered indeterminate. We are also considering what happens to the terms as they approach inifnity so like most convergence/divergence tests the starting index of the series doesn't matter at all.
+As mentioned previously, it is key to know that a series whose terms converge to zero does not instantly become convergent. When the limit is zero, the nth-term test is considered indeterminate. We are also considering what happens to the terms as they approach infinity, so like most convergence and divergence tests, the starting index of the series doesn't matter at all.
 
 ##
 
@@ -77,58 +76,58 @@ Determine if the following series diverges or if it is indeterminate under the n
 
 $$\sum_{n=1}^{\infty} \frac{n^2 + 1}{2n^2 + 3}$$\
 
-We can take the limit of the terms in the series as the amount of terms approaches infinity:
+We can take the limit of the terms in the series as the number of terms approaches infinity:
 
 $$\lim_{n\to\infty} \frac{n^2 + 1}{2n^2 + 3}$$
 
-The two dominating terms are $n^2$ on the top and $2n^{2}$. From elementary calculus we know that the following limit is equal to $\frac{1}{2}$
+The two dominating terms are $n^2$ on top and $2n^{2}$. From elementary calculus, we know that the following limit is equal to $\frac{1}{2}$.
 
 $$\lim_{n\to\infty} \frac{n^2 + 1}{2n^2 + 3} = \frac{1}{2}$$
 
-This results means that at really point in the series we will effecitvely be adding $\frac{1}{2}$ every term. Adding $\frac{1}{2}$ infinatenamount of times most definately puts the sum at infinity and therefore it diverges.
+This result means that at this point in the series, we will effectively be adding $\frac{1}{2}$ every term. Adding $\frac{1}{2}$ infinately many times most definitely puts the sum at infinity, and therefore it diverges.
 
 ##
 
 **Worked Example 2**
 
-Determine if the following series diverge or if it is indeterminate under the nth term test:
+Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=3}^{\infty} \frac{n^2 + 1}{n^3 + 3}$$
 
-We can take the limit of the terms in the series as the amount of terms approaches infinity:
+We can take the limit of the terms in the series as the number of terms approaches infinity:
 
 $$\lim_{n\to\infty} \frac{n^2 + 1}{n^3 + 3}$$
 
-The denominator grows faster than the numerator so the we know that the terms will approach zero eventaully:
+The denominator grows faster than the numerator, so we know that the terms will approach zero eventually.
 
 $$\lim_{n\to\infty} \frac{n^2 + 1}{n^3 + 3} = 0$$
 
-At some point in the series the terms basically contribute nothing to the total sum of the series. As mentioned previously this does not mean that the series diverges or converges the nth term test simply isn't the right tool (indeterminate under the nth term test).
+At some point in the series, the terms basically contribute nothing to the total sum of the series. As mentioned previously, this does not mean that the series diverges or converges; the nth term test simply isn't the right tool (indeterminate under the nth term test).
 
 ##
 
 ### Questions and Solutions
 
-**Problem 1:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 1:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{1}{n}$$
 <details>
   <summary>Solution</summary>
   $$\lim_{n\to\infty} \frac{1}{n} = 0$$
-  Indeterminate under the nth term test. Althought it might make sense for a series whos terms converge to zero to also have its summation converge, but $\frac{1}{n}$ is a perfect example. According to the nth term test it each term will eventually equal zero however, the series actually is divergent (we will learn why this is the case later)
+  Indeterminate under the nth term test. Although it might make sense for a series whose terms converge to zero to also have its summation converge, $\frac{1}{n}$ is a perfect example. According to the nth term test, each term will eventually equal zero; however, the series is actually divergent (we will learn why this is the case later).
 </details>
 
-**Problem 2:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 2:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{(-1)^n}{n}$$
 
 <details>
   <summary>Solution</summary>
   $$\lim_{n\to\infty} \frac{(-1)^n}{n} = 0$$
-  Indeterminate under the nth term test. Even though the terms of the series swap signs they will get infinately close to zero. You will learn later that this series actually converge which might be a little confusing if you also did problem 1. Is it possible for $\frac{1}{n}$ to diverge and $\frac{(-1)^n}{n}$ to converge (the answer is yes, more about this later).
+  Indeterminate under the nth term test. Even though the terms of the series swap signs, they will definitely get close to zero. You will learn later that this series actually converges, which might be a little confusing if you also did problem 1. Is it possible for $\frac{1}{n}$ to diverge and $\frac{(-1)^n}{n}$ to converge (the answer is yes; more about this later).
 </details>
 
-**Problem 3:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 3:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{(n^3}{n^2 ln(n)}$$
 
@@ -136,10 +135,10 @@ $$\sum_{n=0}^{\infty} \frac{(n^3}{n^2 ln(n)}$$
   <summary>Solution</summary>
   $$\lim_{n\to\infty} \frac{n^3}{n^2 ln(n)} = \infty$$
 
-  The series diverge by the nth term test. The numerator grows much faster than the denomnator so the value each term adds will continue increase. We keep adding bigger and bigger numbers which pretty obviously makes it impossible for us to converge to a single value.
+  The series diverges by the nth term test. The numerator grows much faster than the denominator, so the value each term adds will continue to increase. We keep adding bigger and bigger numbers, which pretty obviously makes it impossible for us to converge on a single value.
 </details>
 
-**Problem 4:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 4:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{(n^n}{n!}$$
 
@@ -149,7 +148,7 @@ $$\sum_{n=0}^{\infty} \frac{(n^n}{n!}$$
 
   The series diverges by the nth term test. 
 
-  This limit is a little more difficult to see, but if you expand $n^n$ and $n!$ it becomes a little more obvious.
+  This limit is a little more difficult to see, but if you expand $n^n$ and $n!$, it becomes a little more obvious.
 
   $$n^n = (n)(n)(n)(n)(n)(n)(n)...$$
   $$n! = (n)(n-1)(n-2)(n-3)(n-4)(n-5)(n-6)....$$
@@ -158,7 +157,7 @@ $$\sum_{n=0}^{\infty} \frac{(n^n}{n!}$$
   
 </details>
 
-**Problem 5:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 5:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{n^3 - 1}{n^3 + 2n + 1}$$
 
@@ -169,7 +168,7 @@ $$\sum_{n=0}^{\infty} \frac{n^3 - 1}{n^3 + 2n + 1}$$
   Diverges by nth term test.
 </details>
 
-**Problem 6:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 6:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{2^n}{n!}$$
 
@@ -180,7 +179,7 @@ $$\sum_{n=0}^{\infty} \frac{2^n}{n!}$$
   Indeterminate under the nth term test. $n!$ grows faster than $2^n$. Expanding $n!$ into some of its factors is a good way for determining that a factorial will always grow faster than an exponetital.
 </details>
 
-**Problem 7:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 7:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{(-1)^n}{n}$$
 
@@ -189,7 +188,7 @@ $$\sum_{n=0}^{\infty} \frac{(-1)^n}{n}$$
   $$\lim_{n\to\infty} \frac{1}{n} = 0$$
 </details>
 
-**Problem 8:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 8:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{n^2}{2^n}$$
 
@@ -200,7 +199,7 @@ $$\sum_{n=0}^{\infty} \frac{n^2}{2^n}$$
   Indeterminate under the nth term test.
 </details>
 
-**Problem 9:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 9:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} \frac{1}{tan^{-1}(n)}$$
 
@@ -211,7 +210,7 @@ $$\sum_{n=0}^{\infty} \frac{1}{tan^{-1}(n)}$$
   Diverges by the nth term test. Note that $tan^{-1}(x)$ approaches $\frac{pi}{2}$ at infinity.
 </details>
 
-**Problem 10:** Determine if the following series diverge or if it is indeterminate under the nth term test:
+**Problem 10:** Determine if the following series diverges or if it is indeterminate under the nth term test:
 
 $$\sum_{n=0}^{\infty} sin(n)$$
 
@@ -229,7 +228,7 @@ $$\sum_{n=0}^{\infty} sin(n)$$
 
 ### The Integral Test
 
-The integral test is one of the most common methods for determining whether a series a converge or diverges and it employs improper integrals. 
+The integral test is one of the most common methods for determining whether a series converges or diverges, and it employs improper integrals.
 
 ##
 
@@ -246,21 +245,21 @@ $$\sum_{n=1}^{\infty} a_n \text{ and } \int_{1}^{\infty} f(x) dx$$
 either both converge or both diverge
 ##
 
-Positive,continous, and decreasing function are all pretty self explanatory. These three conditions need to be satisfied at some point m and for any point after m for the integral test. As long there exist some positve integer m where this is the case then the integral test can be applied.
+Positive, constant, and decreasing functions are all pretty self-explanatory. These three conditions need to be satisfied at some point m and at any point after m for the integral test. As long as there is some positive integer m where this is the case, then the integral test can be applied.
 
-The lower limit most of the time doesn't effect the sum to be safe its probably best to set the lower limit equal to the starting index of the series.
+The lower limit Most of the time, this doesn't affect the sum. To be safe, it's probably best to set the lower limit equal to the starting index of the series.
 
-Also, the improper integral is only able to tell whether the original series divergeces or converges. If the integral converges that DOES NOT mean that the value it converges to is the sum of the series. They have no relation what so ever. 
+Also, the improper integral is only able to tell whether the original series diverges or converges. If the integral converges, that does not mean that the value it converges to is the sum of the series. They have no relation, what so ever.
 
 ##
 
 **Worked Example 1**
 
-Determine whether the following series converges of diverges:
+Determine whether the following series converges or diverges:
 
 $$\sum_{n=2}^{\infty} \frac{1}{n ln(n)}$$
 
-We can turn our discrete sequence of terms into the following continous function (basically just swapping all n's for x's):
+We can turn our discrete sequence of terms into the following continuous function (basically just swapping all n's for x's):
 
 $$f(x) = \frac{1}{xln(x)}$$
 
