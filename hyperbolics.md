@@ -184,6 +184,9 @@ $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}  \
 I recommended looking through the $sec(x)$ integral first because the integral of $sec^3(x)$ requires you to also integrate $sec(x)$.
 
 ### Integral of sec(x)
+
+##
+
 $$\int sec(x) dx$$
 
 To make the integral easier to solve through substitution, we can multiply the top and bottom by $sec(x) + tan(x)$.
@@ -199,6 +202,8 @@ We can then do a u-substitution, setting $u= sec(x) + tan(x)$. Substituting in o
 
 $$\int sec(x) dx = ln|sec(x) + tan(x)| + c \qquad \square$$ 
 
+##
+
 ### Integral of sec(x) cubed
 
 $$\int sec^3(x) dx$$
@@ -213,8 +218,10 @@ $$\int sec^3(x)dx = sec(x)tan(x) - \int sec^3(x) dx + \int sec(x) dx$$
 
 Notice that we have $sec^3(x)$ on both sides of the equation, which means that we can add $sec^3(x)$ on both sides and then divide by two to get an equivalent statement.
 
-$$\int sec^3(x) dx = \frac{1}{2} sec(x)tan(x) - \frac{1}{2} \int sec(x) dx$$
+$$\int sec^3(x) dx = \frac{1}{2} sec(x)tan(x) + \frac{1}{2} \int sec(x) dx$$
 
 Now all we have to do is substitute in the integral of $sec(x)$ which was derived earlier.
 
-$$\int sec^3(x) dx = \frac{1}{2} sec(x)tan(x) - \frac{1}{2} ln|sec(x) + tan(x)| + c \qquad \square$$
+$$\int sec^3(x) dx = \frac{1}{2} sec(x)tan(x) + \frac{1}{2} ln|sec(x) + tan(x)| + c \qquad \square$$
+
+##
