@@ -19,7 +19,7 @@ The functions $cosh(x)$ and $sinh(x)$ serve the same exact purpose as $cos(x)$ a
 It would be nice if we continued to develop our theory behind hyperbolas in a similar way to a circle. As mentioned previously, the area of a sector swept by an angle theta is $A = \frac{\theta}{2}$ on the unit circle. Mathematicians decided that it would be nice if the unit hyperbolic functions had a similar relationship with the unit hyperbola. They decided that they wanted the area of the "curvy triangle" to also be equal to $\frac{\theta}{2}$. Refer to the image below (technically, there are two sides to the hyperbola, but we only want to consider the first quadrant):
 <img src="https://github.com/sackn/diffeq/blob/main/Images/hyperbolic/image3.png" alt="Image 3">
 
-Going back to our unit circle, we know it is defined by x^2 + y^2 = 1. We also already know that $x=cos(\theta)$ and $y=sin(\theta)$, and therefore we have the following trigonometric identity:
+Going back to our unit circle, we know it is defined by $x^2 + y^2 = 1$. We also already know that $x=cos(\theta)$ and $y=sin(\theta)$, and therefore we have the following trigonometric identity:
 $$cos^2(\theta) + sin^2(\theta) = 1$$
 If we now consider our unit hyperbhola, which is defined as $x^2 - y^2 = 1$, We have already defined that the x-coordinate is $cosh(x)$ and that our y-coordinate is $sinh(x)$. Plugging in our mysterious functions, we get a similar relationship to that of the unit circle.
 $$cosh^2(x) - sinh^2(x) = 1 \qquad (1)$$
@@ -71,7 +71,7 @@ $$tan^2(\theta) = sec^2{\theta} - 1$$
 Notice that if you make that substitution, $x=sec(\theta)$. Ignoring the differential and limits of integration for now, we will get the following integral:
 $$\int_{1}^{cosh(x)} \sqrt{sec^2 - 1} dx$$
 
-We chose this identity for a reason. Under the square root, we clearly have an alternative definition for $tan^2(\theta)$ (tan^2(\theta) = sec^2{\theta} - 1). If we make that substitution, we are left with:
+We chose this identity for a reason. Under the square root, we clearly have an alternative definition for $tan^2(\theta)$ which is $tan^2(\theta) = sec^2{\theta} - 1$. If we make that substitution, we are left with:
 $$\int_{1}^{cosh(x)} tan(\theta) dx$$
 
 We made a variable substitution, so we must also change the differential. Our substitution was $x=sec(\theta)$. If we differentiate both sides, we get the following: $dx = sec(\theta)tan(\theta) d\theta$. Replacing our current differential with the new one, we get the integral:
@@ -87,13 +87,13 @@ $$\int sec^3(x)(dx) = \frac{1}{2}sec(x)tan(x) + \frac{1}{2} ln|tan(x) + sec(x)| 
 
 ---
 
-### Integrating $sec^3(x)$
+### Integrating sec(x) cubed
 
 We can do the first integral by using the formula listed above for $sec^3(x)$ (Equation 6). Remember that we are integrating with respect to theta, not the generic variable $x$.
 
 $$\int sec^3(\theta)(d\theta) = \frac{1}{2}sec(\theta)tan(\theta) + \frac{1}{2} ln|tan(\theta) + sec(\theta)| $$
 
-We can just plug in our limits since they were defined when we were dealing with the differential $dx$ (we did not change them during the substitution). We need to find a way to express it in terms of $x$ before evaluating it with $1$ and $cosh(x)$. Lucky for us, at the start, we made the assertion that $sec(\theta) = x$. That means wherever we see a "sec(\theta) in our formula, we can just replace it with an "x.
+We can just plug in our limits since they were defined when we were dealing with the differential $dx$ (we did not change them during the substitution). We need to find a way to express it in terms of $x$ before evaluating it with $1$ and $cosh(x)$. Lucky for us, at the start, we made the assertion that $sec(\theta) = x$. That means wherever we see a $sec(\theta)$ in our formula, we can just replace it with an x.
 
 $$\int sec^3(\theta)(d\theta) = \frac{1}{2}xtan(\theta) + \frac{1}{2} ln|tan(\theta) + x| $$
 
@@ -109,9 +109,9 @@ $$\frac{1}{2}cosh(x)sinh(x) + \frac{1}{2} ln|cosh(x) + sinh(x)| \qquad (7)$$
 
 ---
 
-### Integrating $sec(x)$
+### Integrating sec(x)
 
-Integrating the second integral is much like the first. We can use the general form for the integral of sec(x) to help us integrate (Equation 5). We will have the same issue with differential giving us $\theta$, preventing us from directly plugging in our limits, which were meant for $x$. However, the same substituions are still valid: $sec(\theta) = x$ and $tan(\theta) = \sqrt{x^2 - 1}$. Below is the work for the entire integral:
+Integrating the second integral is much like the first. We can use the general form for the integral of $sec(x)$ to help us integrate (Equation 5). We will have the same issue with differential giving us $\theta$, preventing us from directly plugging in our limits, which were meant for $x$. However, the same substituions are still valid: $sec(\theta) = x$ and $tan(\theta) = \sqrt{x^2 - 1}$. Below is the work for the entire integral:
 
 $$\int_{1}^{cosh(x)} sec(\theta) d\theta = ln|tan(\theta) + sec(\theta)| \quad \vert_{1}^{cosh(x)}$$
 
@@ -133,7 +133,7 @@ In the previous two sections, we integrated each term separately. If we sub our 
 $$\frac{1}{2}cosh(x)sinh(x) + \frac{1}{2} ln|cosh(x) + sinh(x)| - ln|sinh(x) + cosh(x)| $$
 $$A_{unshaded} = \frac{1}{2}\text{cosh}(x)sinh(x) - \frac{1}{2} ln|cosh(x) + sinh(x)|$$
 
-Again, we are searching for the highlighted region $A_{highlighted}$, which by definition has the area $\frac{x}{2}$. In other words, the following must be true (Equation two and A_{unshaded}$, which is directly above):
+Again, we are searching for the highlighted region $A_{highlighted}$, which by definition has the area $\frac{x}{2}$. In other words, the following must be true (Equation two and $A_{unshaded}$, which is directly above):
 
 $$\frac{x}{2} = A_{triangle} - A_{unshaded}$$
 
@@ -183,9 +183,9 @@ $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}  \
 ## Extra: Integral of sec(x) and sec(x) cubed
 I recommended looking through the $sec(x)$ integral first because the integral of $sec^3(x)$ requires you to also integrate $sec(x)$.
 
-### Integral of sec(x)
-
 ##
+
+### Integral of sec(x)
 
 $$\int sec(x) dx$$
 
