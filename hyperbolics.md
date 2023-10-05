@@ -1,7 +1,6 @@
-
 # Hyperbolic Functions
 
-I will mark important results of the solving process with a number, so I can reference them in different places.
+Hyperbolic is kind of a misfit mathematics topic. It doesn't necessarily fit into any specific class, like Calculus 1 or Caclulus 1. At my high school, hyperbolic is taught in AP Calculus BC. I will mark important results of the solving process with a number so I can reference them in different places.
 
 ## Introduction
 
