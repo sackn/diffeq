@@ -263,17 +263,17 @@ We can turn our discrete sequence of terms into the following continuous functio
 
 $$f(x) = \frac{1}{xln(x)}$$
 
-In order to use the integral test the function needs to satisfty the three conditions (positive, contionous, and decreasing). On the domain $(1, \infty]$ its pretty clear that the function will continous and positive. Also since the denominator is growing faster than the numerator the function is also decreasing for atlaest $x > 1$.
+In order to use the integral test, the function needs to satisfy the three conditions (positive, continuous, and decreasing). On the domain $(1, \infty]$ it's pretty clear that the function will be continuous and positive. Also, since the denominator is growing faster than the numerator, the function is also decreasing for at $x > 1$.
 
-Since our function meets the three conditiosn we can check the converge of its improper integral to determine whether the orginal series also converges. 
+Since our function meets the three conditions, we can check the convergence of its improper integral to determine whether the original series also converges.
 
 $$\int_{n=2}^{\infty} \frac{1}{xln(x)} dx$$
 
-Using a the u-substituion of $u=ln(x)$ our integral then becomes:
+Using the u substitution of $u=ln(x), our integral then becomes:
 
 $$\int_{n=2}^{\infty} \frac{1}{u}du$$
 
-The fundamnetal theorem of calculus doesn't like it when we have a non-finite value as the limit so we can write the upper limit in terms as a limit. 
+The fundamental theorem of calculus doesn't like it when we have a non-finite value as the limit, so we can write the upper limit in terms of a limit.
 
 $$\lim_{b\to\infty} \int_{n=2}^{b} \frac{1}{u} du$$
 
@@ -281,23 +281,23 @@ After integrating,
 
 $$\lim_{b\to\infty} ( ln(ln(b)) - ln(ln(2))) = \infty$$
 
-Our improper diverges, so according to the integral test the original series of also diverges.
+Our improper integral diverges, so according to the integral test, the original series also diverges.
 
 ##
 
 ### The P-Series Test
 
-The P-series test an extremely fast test that can be used to determine the convergence or divergence of simple series. The p-series test will work on the series of the following form (where p is some positive number): 
+The P-series test is an extremely fast test that can be used to determine the convergence or divergence of simple series. The p-series test will work on the series of the following form (where p is some positive number):
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}{3^p} + ...$$
 
-The result of the p-series test on convergence can be directly derived use the p series test:
+The result of the p-series test on convergence can be directly derived using the p-series test:
 
 ##
 
 **Worked Example 2**
 
-For the following seires determine whether it converges or not (again p is some positive number):
+For the following seizures, determine whether they converge or not (again, p is some positive number):
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^p}$$
 
@@ -305,7 +305,7 @@ We know the corresponding function:
 
 $$f(x) = \frac{1}{x^p}$$
 
-From inspection its pretty obvious that as long as p is a some positive number we are always continous, decreasing, and positive for any x>1. That means that we can employ the integral test to determine its convergence.
+From inspection, it's pretty obvious that as long as p is some positive number, we are always continuous, decreasing, and positive for any x > 1. That means that we can employ the integral test to determine its convergence.
 
 $$\int_{1}^{\infty} \frac{1}{x^p} dx$$
 $$\lim_{b\to\infty} \int_{1}^{b} \frac{1}{x^p} dx$$
@@ -316,11 +316,11 @@ $$ \lim_{b\to\infty} (\frac{-1}{(1-p)x^{1-p}} \vert_{1}^{b})$$
 
 $$ \lim_{b\to\infty} \frac{-1}{(1-p)b^{p-1}} - \frac{-1}{(1-p)1^{p-1}} $$
 
-For convergence we only need to worry about the first term. Note that if p is a really big number like 100 then the denominator will grow infinately and make the first term zero allowing our integral to converge. However, if the p value is really small like $\frac{1}{4}$ then the first term will diverge to infinity. The threshold for when the integral starts diverging is at one. If p is strictly greater than 1 the integral will converge else it will diverge.
+For convergence, we only need to worry about the first term. Note that if p is a really big number like 100, then the denominator will grow indefinitely and make the first term zero, allowing our integral to converge. However, if the p value is really small, like $\frac{1}{4}$, then the first term will diverge to infinity. The threshold for when the integral starts diverging is one. If p is strictly greater than 1, the integral will converge; otherwise, it will diverge.
 
 ##
 
-Since if the convergence/divergence is the same as the series if p is strictly greater than 1 the series will also converge else it will diverge. 
+Since if the convergence or divergence is the same as the series, if p is strictly greater than 1, the series will also converge; otherwise, it will diverge.
 
 ##
 
@@ -334,7 +334,7 @@ will converge if $p>1$ and will diverge if $p \leq 1$
 
 ##
 
-That means according to the p-series test the following series will converge:
+That means, according to the p-series test, the following series will converge:
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^2}$$
 
@@ -346,7 +346,7 @@ $$\sum_{n=1}^{\infty} \frac{1}{n^{\frac{1}{3}}}$$
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^{\frac{1}{100}}}$$
 
-As a side point, we have a special name for the series where $p=1$. It is called the harominic series and it diverges according to the p-series test. 
+As a side note, we have a special name for the series where p = 1.It is called the harominic series, and it diverges according to the p-series test.
 
 $$\sum_{n=1}^{\infty} \frac{1}{n}$$
 
@@ -429,19 +429,19 @@ $$\sum_{n=2}^{\infty} \frac{1}{n (ln(n))^2}$$
   
 # Alternating Series
 
-Alternating series are series whos every subsequent term switches signs. The two most common alternating series take the form of the following (where $a_n$ can be be basically anything):
+Alternating series are series in which every subsequent term switches signs. The two most common alternating series take the form of the following (where $a_n$ can be basically anything):
 
 $$\sum_{n=0}^{\infty} (-1)^n a_n$$
 
 $$\sum_{n=0}^{\infty} (-1)^{n+1} a_n$$
 
-These series are both alternating. The only difference is that the first series starts with a positive term while the ssecond series starts with a negative term. When it comes to convergence whether the series starts off with a poitive or negative term won't matter. 
+These series are both alternating. The only difference is that the first series starts with a positive term, while the second series starts with a negative term. When it comes to convergence, whether the series starts off with a positive or negative term won't matter.
 
-The term that causes the series to swap signs every term is caLled the "alternator" in the above series that would be $(-1)^n$ and $(-1)^{n+1}$. The Alternators liek $(-1)^n$ are the most common but they are not the only ones. Consider the following alternating series:
+The term that causes the series to swap signs every term is called the "alternator" in the above series, which would be $(-1)^n$ and $(-1)^{n+1}$. The alternators like $(-1)^n$ are the most common, but they are not the only ones. Consider the following alternating series:
 
 $$\sum_{n=0}^{\infty} cos(n \pi)a_n$$
 
-Since n can only be an integer the term $cos(n\pi)$ is the alternator as it swap betwteen 1 and -1 (starting with 1). It can be rewritten as $(-1)^n$
+Since n can only be an integer, the term $cos(n\pi)$ is the alternator as it swaps between 1 and -1 (starting with 1). It can be rewritten as $(-1)^n$.
 
 ##
 
@@ -456,7 +456,7 @@ will converge if the following two conditions are satisifed:
 
 ##
 
-I want to clear up that when determining convergence with the alternating series test we do the limit of everything that isn't alternating $a_n$. Notice that the altnerating series have an extremely leniant conditions for convergence. It turns out taht there are certain $a_n$ (the non alternating poriton) that will only converge if they are attached to an alternator. This topic will discussed more later when I talk about absolute and conditional convergence. 
+I want to clear up that when determining convergence with the alternating series test, we do the limit of everything that isn't alternating $a_n$. Notice that the alternating series has extremely lenient conditions for convergence. It turns out that there are certain $a_n$ (the non-alternating poriton) that will only converge if they are attached to an alternator. This topic will be discussed more later when I talk about absolute and conditional convergence.
 
 ##
 
@@ -466,11 +466,11 @@ Determine whether the following series is convergent or divergent:
 
 $$\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$$
 
-We easily recgonize that this is an alternating series becasue of $(-1)^n$ and we know that the $a_n > 0$ because $\frac{1}{n} > 0$. We can test the first condition (limit goes to zero) and figure out that the series satisifies it.
+We easily recognize that this is an alternating series because of $(-1)^n$, and we know that $a_n > 0$ because $\frac{1}{n} > 0$. We can test the first condition (the limit goes to zero) and figure out that the series satisfies it.
 
 $$\lim_{n\to\infty} \frac{1}{n} = 0$$
 
-For the second condition we know that $a_n = \frac{1}{n}$ and $a_{n+1} = \frac{1}{n+1}$. We can easily prove that the series is non-decreasing:
+For the second condition, we know that $a_n = \frac{1}{n}$ and $a_{n+1} = \frac{1}{n+1}$. We can easily prove that the series is non-decreasing:
 
 $$a_{n+1} \leq a_{n}$$
 
@@ -478,15 +478,15 @@ $$\frac{1}{n+1} \leq \frac{1}{n}$$
 
 $$n+1 \geq n$$
 
-Since our series satisifes both conditions that means it converges by the altnerating series test. 
+Since our series satisfies both conditions, that means it converges by the alternating series test.
 
 ##
 
 **Alternating Series Error Bound**
 
-So far in this series section we have talked a lot about convergence and divergence, but not what the actual valuefo the series is. Unfortunately, when it comes to altenating series there isn't a super good way to determine the value. Like all series we can approximate the infinate sum by just adding the like the first 100 terms. However, what is different about the alternating series is that we can get an extremely tight error bound on how inaccurate our "approximation" is.
+So far in this series section, we have talked a lot about convergence and divergence, but not what the actual value of the series is. Unfortunately, when it comes to altering series, there isn't a super good way to determine the value. Like all series, we can approximate the infinite sum by just adding the first 100 terms. However, what is different about the alternating series is that we can get an extremely tight error bound on how inaccurate our "approximation" is.
 
-With the alternating series we can figure out how far we can possibly be from the true value when we add up the first n terms. Obviously the more terms we add up the closer we will be to the true value, but we can't do that so the next best thing is figuring out how far off we potentially are.
+With the alternating series, we can figure out how far we can possibly be from the true value when we add up the first n terms. Obviously, the more terms we add up, the closer we will be to the true value, but we can't do that, so the next best thing is figuring out how far off we potentially are.
 
 ##
 
@@ -500,31 +500,31 @@ $$Error = |S-S_n| \leq |a_{n+1}|$$
 
 **Worked Example**
 
-Find the range of possbile values of the following alternating series if you add the first 6 terms:
+Find the range of possible values of the following alternating series if you add the first six terms:
 
 $$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}$$
 
-First we can enumerate the first six terms of the series and get there sum:
+First, we can enumerate the first six terms of the series and get their sum:
 
 $$\frac{1}{1} - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \frac{1}{5} - \frac{1}{6} = \frac{37}{60}$$
 
-We used the first 6 terms so our first unused term $a_n+1$ is the 7th term which is $\frac{1}{7}$. That means that maximum amount that $\frac{37}{60}$ can be off from the real answer is $\frac{1}{7}$ in either the positive or negative direction.
+We used the first 6 terms, so our first unused term, $a_n+1$, is the 7th term, which is $\frac{1}{7}$. That means the maximum amount that $\frac{37}{60}$ can be off from the real answer is $\frac{1}{7}$ in either the positive or negative direction.
 
 $$Error = |S-\frac{37}{60}| \leq |\frac{1}{7}|$$
 
-We that information on the max error in other direction we can figure out that the value that hte altnerating series converges to must lie somewhere within the following range of values:
+With that information on the maximum error in another direction, we can figure out that the value that the alternating series converges to must lie somewhere within the following range of values:
 
 $$\frac{37}{60} - \frac{1}{7} \geq S \leq \frac{37}{60} + \frac{1}{7}$$
 
-Or as a decimanl approximation (safely rounded to three decimal)
+Or as a decimal approximation (safely rounded to three decimals)
 
 $$0.473 \geq S \leq 0.760 $$
 
-In order to have some closure, the infinate series is equal to $ln(2)$
+In order to have some closure, the infinate series is actually equal to $ln(2)$.
 
 $$\sum_{n=1}^{\infty} \frac{(-1)^(n-1)}{n}  ln(2)$$
 
-The true value of $ln(2)$ definately falls within the error bounds
+The true value of $ln(2)$ definitely falls within the error bounds.
 
 $$0.473 \geq 0.693 \leq 0.760 $$
 
@@ -534,7 +534,7 @@ $$0.473 \geq 0.693 \leq 0.760 $$
 
 **Question 1**
 
-**Problem 1:** Determine if the following series diverge or converges:
+**Problem 1:** Determine if the following series diverges or converges:
 
 $$\sum_{n=1}^{\infty} \frac{(-1)^n n^2}{n^3 + 1}$$
 
@@ -552,7 +552,7 @@ $$\sum_{n=1}^{\infty} \frac{(-1)^n n^2}{n^3 + 1}$$
   
 </details>
 
-**Problem 2:** Determine if the following series diverge or converges:
+**Problem 2:** Determine if the following series diverges or converges:
 
 $$\sum_{n=1}^{\infty} \frac{(-1)^{n+3}}{3n + 2}$$
 
@@ -567,7 +567,7 @@ $$\sum_{n=1}^{\infty} \frac{(-1)^{n+3}}{3n + 2}$$
 
 </details>
 
-**Problem 3:** Determine if the following series diverges of converges:
+**Problem 3:** Determine if the following series diverges or converges:
 
 $$\sum_{n=0}^{\infty} \frac{cos(n\pi) ln(n+1)}{n+1}$$
 
@@ -587,7 +587,7 @@ $$\sum_{n=0}^{\infty} \frac{cos(n\pi) ln(n+1)}{n+1}$$
   
 </details>
 
-**Problem 4:** Determine if the follwoing series diverges or converges:
+**Problem 4:** Determine if the following series diverges or converges:
 
 $$\sum_{n=1}^{\infty} (-1)^n cos(n)$$
 
@@ -601,7 +601,7 @@ $$\sum_{n=1}^{\infty} (-1)^n cos(n)$$
   
 </details>
 
-**Problem 5:** Determine if the follwoing series diverges or converges:
+**Problem 5:** Determine if the following series diverges or converges:
 
 $$\sum_{n=1}^{\infty} (-1)^n \frac{sin(n)}{n}$$
 
@@ -641,7 +641,7 @@ $$\sum_{n=1}^{\infty} (-1)^n \frac{n!}{n^n}$$
 
 **The Maclaurin Series of e^{x}**
 
-We can start by listing out a few of the deriviatve of $e^{x}$ and there values as the center of the taylor series (c=0)
+We can start by listing out a few of the derivatives of $e^{x}$ and their values as the center of the Taylor series (c = 0).
 
 $$f(x) = e^{x} \qquad f(x) = e^0 = 1$$
 
@@ -655,7 +655,7 @@ We know that a Macluarin series expansion takes the following form
 
 $$\sum_{n=0}^{\infty} \frac{f^{(n)}(0)x^n}{n!}$$
 
-As shown above $f^{(n)}(0)$ will always be one so the taylor series expansion of $e^x$ is the following;
+As shown above, $f^{(n)}(0)$ will always be one, so the Taylor series expansion of $e^x$ is the following:
 
 $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
 
@@ -663,7 +663,7 @@ $$e^x = \sum_{n=0}^{\infty} \frac{x^n}{n!}$$
 
 **The Maclaurin Series of sin(x)**
 
-We can again start by listing out a few deriviatves of $sin(x)$ and there vaues at the center of the taylor series (c=0)
+We can again start by listing out a few derivatives of sin(x) and their values at the center of the Taylor series (c = 0).
 
 $$f(x) = sin(x) \qquad f(0) = 0$$
 
@@ -677,17 +677,17 @@ $$f''''(x) = sin(x) \qquad f''''(0) = 0$$
 
 $$f'''''(x) = cos(x) \qquad f''''(0) = 1$$
 
-Note all terms of the taylor series actually contribute so we can write a series that only hits those that do add add value. The only important terms are the even terms. In other words only terms with indicies $2n+1$ need to be considered. Between the even terms of the series they also swap signs so we will need $(-1)^n$ (since it starts positive). Considering all of those things we get that the series expansion of $sin(x)$
+Note that all terms in the Taylor series actually contribute, so we can write a series that only hits those that add value. The only important terms are the even terms. In other words, only terms with the indicator $2n+1$ need to be considered. Between the even terms of the series, they also swap signs, so we will need $(-1)^n$ (since it starts positive). Considering all of those things, we get that the series expansion of $sin(x)$
 
 $$e^x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$$
 
-Our series skips all of the odd terms and adjust for that fact by having the exponent on x and the exponent on n be adjusted skip every other term starting from the 2nd term. It would recommend looking into the series an proving to yourself that this does indeed describe the behavior of $f^{n}(x)$
+Our series skips all of the odd terms and adjusts for that fact by having the exponent on x and the exponent on n be adjusted. We skip every other term, starting from the 2nd term. It would recommend looking into the series and proving to yourself that this does indeed describe the behavior of $f^{n}(x)$.
 
 ##
 
 **The Maclaurin Series of cos(x)**
 
-The Maclaurin series for cos(x) is super similar to the expansion of sin(x) as is probably expected. If we list our some derivaitves and there values at 0 we get:
+The Maclaurin series for cos(x) is super similar to the expansion of sin(x), as is probably expected. If we list some variables and their values at 0, we get:
 
 $$f(x) = cos(x) \qquad f(0) = 1$$
 
@@ -701,7 +701,7 @@ $$f''''(x) = cos(x) \qquad f''''(0) = 1$$
 
 $$f'''''(x) = -sin(x) \qquad f''''(0) = 0$$
 
-Cosine is the same story as sine except for that fact that odd terms (terms 1,3,5,7,...) are the only ones that contribute rather than even terms. The Macularin expansion for cosine is the following:
+Cosine is the same story as sine except for the fact that odd terms (terms 1, 3, 5, 7, etc.) are the only ones that contribute rather than even terms. The Macularin expansion for cosine is the following:
 
 $$e^x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$$
 
