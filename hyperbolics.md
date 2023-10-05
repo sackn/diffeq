@@ -183,32 +183,20 @@ $$cosh(x) = \frac{e^{x} + e^{-x}}{2}  \qquad sinh(x)=\frac{e^{x} - e^{-x}}{2}  \
 ## Extra: Integral of $sec(x)$ and $sec^3(x)$$
 
 ### Integral of sec(x)
-Note: If you don't understand partial fractions, I would recommend watching some videos on it prior.
+$$\int sec(x) dx$$
 
-I'm going to do the integral of $sec(x)$ because the integral of $sec^3(x)$ involves you also finding the integral of $sec(x)$. We start with the integral:
+To make the integral easier to solve through substitution, we can multiply the top and bottom by $sec(x) + tan(x)$.
 
-$$\int sec(x)(dx)$$
-Alternatively,
-$$\int \frac{1}{cos(x)}(dx)$$
+$$\int \frac{sec(x)(sec(x) + tan(x))}{sec(x) + tan(x)}dx$$
+$$\int \frac{sec^2(x) + sec(x)tan(x))}{sec(x) + tan(x)}dx$$
 
-If we multiply both top and bottom by cos(x) and use the relationship that $cos^2(x) + sin^2(x) = 1$, we get that
+We can then do a u-substitution, setting $u= sec(x) + tan(x)$.
 
-$$\int \frac{cos(x)}{1-sin^2(x)}(dx)$$
+$$\int \frac{sec^2(x) + sec(x)tan(x))}{u}\frac{du}{sec^2(x) + sec(x)tan(x)}$$
+$$\int \frac{1}{u} du = ln|u| + c$$
+We can then do a u-substitution, setting $u= sec(x) + tan(x)$. Substituting in our original value for $u$, we get the integral of sec(x).
 
-Doing u-sub with $u = sin(x)$, we get,
-
-$$\int \frac{1}{1-u^2}(du)$$
-
-Factoring the denominator
-
-$$\int \frac{1}{(1-u)(1+u)}(du)$$
-
-The integral can be solved by partial fractions. By decomposing the fraction, we get the following two partial fractions:
-
-$$\frac{1}{(1-u)(1+u)} = \frac{1}{2}\frac{1}{1-u} +  \frac{1}{2}\frac{1}{1+u}$$
-
-$$ \frac{1}{2} \int \frac{1}{1-u} + \frac{1}{1+u}(du)$$
-
+$$\int sec(x) dx = ln|sec(x) + tan(x)| + c$$
 
 
 
