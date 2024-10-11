@@ -6,10 +6,10 @@ The textbook is far from complete, and you may notice that some sections listed 
 
 I hope some of my knowledge can do you well and that you enjoy the textbook!
 
-## Classes that I have Taken
+### Classes that I have Taken
 Since I am a Freshman, here is a list of relevant classes I have taken:
 
-### Mathematics
+**Mathematics**
 - __Calculus 1__ (AP Calculus AB -> 5)
 - __Calculus 2__ (AP Calculus BC -> 5)
 - __Multivariable Calculus__ (Grade -> A)
@@ -18,13 +18,13 @@ Since I am a Freshman, here is a list of relevant classes I have taken:
 - __Introduction to Statistics__ (Grade -> A)
 - __Partial Differential Equations / Numerical Analysis (Unofficial)__ (self-studied usign UCI's PDE textbook)
 
-### Science
+**Science**
 - __Chemistry__ (AP Chemsitry -> 5)
 - __Newtonian Mechsnics__ (AP Physics C Mechanics -> 5)
 - __Electricity and Magnetism___ (AP Physics C Electricity and Magnetism -> 5)
 - __Physics 3: Wave Mechanics (Unofficial)__ (Used MIT OCW to self-study) 
 
-### Engineering / CS
+**Engineering / CS**
 - __Java programming__ (AP Computer Science Applications -> 5)
 - __Basic C Programming__ (UCI EECS 10, Grade -> A)
 - __PLTW Digital Electronics__ (UCI EECS 31 + L equivalent, Grade -> A)
