@@ -15,7 +15,7 @@ Since I am a Freshman brief list of the classes I have taken:
 - __Introduction to Linear Algebra__ (Grade -> A)
 - __Elementary Differntial Equations__ (Grade -> A+)
 - __Introduction to Statistics__ (Grade -> A)
-- __Partial Differential Equations / Numerical Analysis__ (self-studied usign UCI's PDE textbook)
+- __Partial Differential Equations / Numerical Analysis (Unofficial)__ (self-studied usign UCI's PDE textbook)
 
 ### Science
 - __Chemistry__ (AP Chemsitry -> 5)
