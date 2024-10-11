@@ -6,6 +6,21 @@ The textbook is far from complete, and you may notice that some sections listed 
 
 I hope some of my knowledge can do you well and that you enjoy the textbook!
 
+Since I am a Freshman brief list of the classes I have taken:
+
+**Mathematics**
+- Calculus 1 (AP Calculus AB - 5)
+- Calculus 2 (AP Calculus BC - 5)
+- Multivariable Calculus (Grade -> A)
+- Introduction to Linear Algebra (Grade -> A)
+- Elementary Differntial Equations (Grade -> A+)
+- Introduction to Statistics (Grade -> A)
+
+**Science**
+
+
+
+
 # Table Contents (Sections Grouped by Class)
 
 **Caclulus 2 (AP Calculus BC)**
