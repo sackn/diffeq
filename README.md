@@ -41,6 +41,10 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
 
 # Table Contents (Sections Grouped by Class)
 
+## Eletrical Engineering
+
+## Math
+
 **Caclulus 2 (AP Calculus BC)**
 - [Series](https://github.com/sackn/diffeq/blob/main/series.md) (series.md)
   - Geometric Series
