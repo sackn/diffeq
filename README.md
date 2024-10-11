@@ -15,11 +15,13 @@ Since I am a Freshman brief list of the classes I have taken:
 - __Introduction to Linear Algebra__ (Grade -> A)
 - __Elementary Differntial Equations__ (Grade -> A+)
 - __Introduction to Statistics__ (Grade -> A)
+- __Partial Differential Equations / Numerical Analysis__ (self-studied usign UCI's PDE textbook)
 
 ### Science
 - __Chemistry__ (AP Chemsitry -> 5)
 - __Newtonian Mechsnics__ (AP Physics C Mechanics -> 5)
 - __Electricity and Magnetism___ (AP Physics C Electricity and Magnetism -> 5)
+- ___Physics 3: Wave Mechanics (Unofficial)__ (Used MIT OCW to self-study) 
 
 ### Engineering / CS
 - __Java programming__ (AP Computer Science Applications -> 5)
