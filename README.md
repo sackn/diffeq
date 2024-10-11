@@ -21,7 +21,7 @@ Since I am a Freshman brief list of the classes I have taken:
 - __Chemistry__ (AP Chemsitry -> 5)
 - __Newtonian Mechsnics__ (AP Physics C Mechanics -> 5)
 - __Electricity and Magnetism___ (AP Physics C Electricity and Magnetism -> 5)
-- ___Physics 3: Wave Mechanics (Unofficial)__ (Used MIT OCW to self-study) 
+- __Physics 3: Wave Mechanics (Unofficial)__ (Used MIT OCW to self-study) 
 
 ### Engineering / CS
 - __Java programming__ (AP Computer Science Applications -> 5)
