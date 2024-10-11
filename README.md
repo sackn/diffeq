@@ -91,7 +91,11 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
   - Laplace Transforms for Solving Differential Equations
   - The Convolution Operator
   - Delta Functions and Impulses
+- Forier Series and Series Solutions (Work In Progress)
+
+**Partial Differntial Equations**
 - [Partial Differential Equations](https://github.com/sackn/diffeq/blob/main/partialDifferentialEquations.md) (partialDifferentialEquations.md) (Heavy Work in Progress)
+  - In the future I hope to include information on the method of characteristics, wave equation, heat equation, and the fourier transform. 
 
 **Linear Algebra (Heavy Work in Progress)**
 - [Linear Algebra](https://github.com/sackn/diffeq/blob/main/linearAlgebra.md) (linearAlgebra.md)
