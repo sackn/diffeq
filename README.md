@@ -6,7 +6,8 @@ The textbook is far from complete, and you may notice that some sections listed 
 
 I hope some of my knowledge can do you well and that you enjoy the textbook!
 
-Since I am a Freshman brief list of the classes I have taken:
+## Classes that I have Taken
+Since I am a Freshman, here is a list of relevant classes I have taken:
 
 ### Mathematics
 - __Calculus 1__ (AP Calculus AB -> 5, Math 2A)
@@ -30,7 +31,13 @@ Since I am a Freshman brief list of the classes I have taken:
 - __PLTW Principles of Engineering__ (Grade -> A)
 - __PLTW Intro of Engineering__  (Grade -> A+)
 
+## Other Notable Projects
 
+### Vector Calculus from a High Schooler
+Wrote and published a book on Amazon which focues on vector calculus. 
+
+### USACO (United States Computing Olympaid Gold)
+Competitive Data structure and algorithims. Gold is the second highest rank and represnts roughly the top 10-15%
 
 # Table Contents (Sections Grouped by Class)
 
