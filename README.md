@@ -50,7 +50,7 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
 ## Math
 
 **Caclulus 2 (AP Calculus BC)**
-- [Series](https://github.com/sackn/diffeq/blob/main/series.md) (series.md)
+- [Series](https://github.com/sackn/diffeq/blob/main/articles/series.md) (series.md)
   - Geometric Series
   - Nth Term Test for Divergence
   - The Integral Test and the P-Series Test
