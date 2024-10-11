@@ -9,15 +9,15 @@ I hope some of my knowledge can do you well and that you enjoy the textbook!
 Since I am a Freshman brief list of the classes I have taken:
 
 **Mathematics**
-- Calculus 1 (AP Calculus AB - 5)
-- Calculus 2 (AP Calculus BC - 5)
+- __Calculus 1__ (AP Calculus AB -> 5)
+- Calculus 2 (AP Calculus BC -> 5)
 - Multivariable Calculus (Grade -> A)
 - Introduction to Linear Algebra (Grade -> A)
 - Elementary Differntial Equations (Grade -> A+)
 - Introduction to Statistics (Grade -> A)
 
 **Science**
-
+- Basic Chemistry (AP Chemsitry -> 5)
 
 
 
