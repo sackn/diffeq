@@ -33,10 +33,10 @@ Since I am a Freshman, here is a list of relevant classes I have taken:
 
 ### Other Notable Projects
 
-**Vector Calculus from a High Schooler**
+**Vector Calculus from a High Schooler -**
 Wrote and published a book on Amazon which focues on vector calculus. [Amazon Link](https://www.amazon.com/Vector-Calculus-High-Schooler-Chad-ebook/dp/B0CNHVM83P)
 
-**USACO (United States Computing Olympaid Gold)**
+**USACO (United States Computing Olympaid Gold) -**
 Competitive Data structure and algorithims. Gold is the second highest rank and represnts roughly the top 10-15%
 
 # Table Contents (Sections Grouped by Class)
