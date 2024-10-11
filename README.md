@@ -9,15 +9,24 @@ I hope some of my knowledge can do you well and that you enjoy the textbook!
 Since I am a Freshman brief list of the classes I have taken:
 
 **Mathematics**
-- __Calculus 1__ (AP Calculus AB -> 5)
-- Calculus 2 (AP Calculus BC -> 5)
-- Multivariable Calculus (Grade -> A)
-- Introduction to Linear Algebra (Grade -> A)
-- Elementary Differntial Equations (Grade -> A+)
-- Introduction to Statistics (Grade -> A)
+- __Calculus 1__ (AP Calculus AB -> 5, Math 2A)
+- __Calculus 2__ (AP Calculus BC -> 5)
+- __Multivariable Calculus__ (Grade -> A)
+- __Introduction to Linear Algebra__ (Grade -> A)
+- __Elementary Differntial Equations__ (Grade -> A+)
+- __Introduction to Statistics__ (Grade -> A)
 
 **Science**
-- Basic Chemistry (AP Chemsitry -> 5)
+- __Chemistry__ (AP Chemsitry -> 5)
+- __Newtonian Mechsnics__ (AP Physics C Mechanics -> 5)
+- __Electricity and Magnetism___ (AP Physics C Electricity and Magnetism -> 5)
+
+**Engineering / CS**
+- __Java programming__ (AP Computer Science Applications -> 5)
+- __Basic C Programming__ (UCI EECS 10, Grade -> A)
+- __PLTW Digital Electronics__ (Grade -> A-, A)
+- __PLTW Principles of Engineering__ (Grade -> A, A-)
+- __PLTW Intro of Engineering__  (Grade -> A-, A+)
 
 
 
