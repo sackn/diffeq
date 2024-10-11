@@ -8,7 +8,7 @@ I hope some of my knowledge can do you well and that you enjoy the textbook!
 
 Since I am a Freshman brief list of the classes I have taken:
 
-**Mathematics**
+### Mathematics
 - __Calculus 1__ (AP Calculus AB -> 5, Math 2A)
 - __Calculus 2__ (AP Calculus BC -> 5)
 - __Multivariable Calculus__ (Grade -> A)
