@@ -107,7 +107,8 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
 - [Tensor Calculus](https://github.com/sackn/diffeq/blob/main/tensor.md) (tensor.md)
   - Derivatives as Vectors
   - The Jacobian
-
+ 
+## Miscellaneous Topics
 **Quantum Computing from a Mathematical Standpoint (Heavy Work in Progress)**
 - [Quantum Computing](https://github.com/sackn/diffeq/blob/main/quantum.md) (quantum.md)
   - Broad Overview of Quantum Computing
