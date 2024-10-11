@@ -56,44 +56,44 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
   - The Integral Test and the P-Series Test
   - Alternating Series Test and Alternating Series Error Bound
   - Taylor Series
-- [Hyperbolics](https://github.com/sackn/diffeq/blob/main/hyperbolics.md) (hyperbolics.md)
+- [Hyperbolics](https://github.com/sackn/diffeq/blob/main/articles/hyperbolics.md) (hyperbolics.md)
 
 **Calculus 3 (Multivarible Calculus and Vector Analysis)**
-- [Vector Valued Functions](https://github.com/sackn/diffeq/blob/main/vectorValuedFunctions.md) (vectorValuedFunctions.md)
+- [Vector Valued Functions](https://github.com/sackn/diffeq/blob/main/articles/vectorValuedFunctions.md) (vectorValuedFunctions.md)
   - Parametric Definition of a Line
   - Parametric Equation of a Plane
   - Tangent, Normal, and Binormal Vectors on a Curve
   - Arc Length with Vector Functions
-- [Dot Product and Cross Product](https://github.com/sackn/diffeq/blob/main/dotProductCrossProduct.md) (dotProductCrossProduct.md)
+- [Dot Product and Cross Product](https://github.com/sackn/diffeq/blob/main/articles/dotProductCrossProduct.md) (dotProductCrossProduct.md)
   - Extra problems
-- [Partial Derivatives and their Applications](https://github.com/sackn/diffeq/blob/main/partialDerivativesAndApp.md) (partialDerivativesAndApp.md)
+- [Partial Derivatives and their Applications](https://github.com/sackn/diffeq/blob/main/articles/partialDerivativesAndApp.md) (partialDerivativesAndApp.md)
   - Partial Derivative (ony practice problems)
   - Multivariable Chain Rule (only practice problems)
   - Directional Derivatives and Gradient Vectors
   - Tangent Planes and Approximations
   - Relative Maximum and Minimums
   - Absolute Extrema and Lagrange Multipliers
-- [Multiple Integrals](https://github.com/sackn/diffeq/blob/main/doubleTripleIntegrals.md) (doubleTripleIntegrals.md)
+- [Multiple Integrals](https://github.com/sackn/diffeq/blob/main/articles/doubleTripleIntegrals.md) (doubleTripleIntegrals.md)
   - Double Integrals on Rectangles (only practice problems)
   - Double Integral on more Complex Regions (only practice problems)
   - Double Integrals with Polar Coordinates (only practice problems
-- [Line Integrals and Vector Analysis](https://github.com/sackn/diffeq/blob/main/lineIntegrals.md) (lineIntegrals.md)
+- [Line Integrals and Vector Analysis](https://github.com/sackn/diffeq/blob/main/articles/lineIntegrals.md) (lineIntegrals.md)
   - Line Integrals
   - Line Integrals over Vector Fields
   - Conservative Vecotor Fields and the Fundamental Theorem of Line Integrals
   - Divergence and Curl Operators
  
 **Ordinary Differential Equations (Typically Calculus 4)**
-- [First Order Differential Equations](https://github.com/sackn/diffeq/blob/main/firstOrderDifferentialEquations.md) (firstOrderDifferentialEquations.md)
+- [First Order Differential Equations](https://github.com/sackn/diffeq/blob/main/articles/firstOrderDifferentialEquations.md) (firstOrderDifferentialEquations.md)
   - Integrating Factor Method for Differential Equations
   - Exact Equations
   - Autonomous Equation and Equilibrium
-- [Higher Order Differential Equations](https://github.com/sackn/diffeq/blob/main/higherOrderDifferentialEquations.md) (higherOrderDifferentialEquations.md)
+- [Higher Order Differential Equations](https://github.com/sackn/diffeq/blob/main/articles/higherOrderDifferentialEquations.md) (higherOrderDifferentialEquations.md)
   - 2nd Order Linear Homogenous Differential Equations
   - Solving Second Order Constant Linear Homogenous Differential Equations
   - Higher Order Linear Homogenous Differential Equations
   - Method of Undetermined Coefficients for Sovling Non-Homogenous Second order Differential Equations
-- [Laplace Transforms](https://github.com/sackn/diffeq/blob/main/laplaceTransforms.md) (laplaceTransforms.md)
+- [Laplace Transforms](https://github.com/sackn/diffeq/blob/main/articles/laplaceTransforms.md) (laplaceTransforms.md)
   - Introduction to Laplace Transforms
   - Partial Fractions and Laplace Transforms of Derivatives
   - Laplace Transforms for Solving Differential Equations
@@ -102,24 +102,24 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
 - Forier Series and Series Solutions (Work In Progress)
 
 **Partial Differntial Equations**
-- [Partial Differential Equations](https://github.com/sackn/diffeq/blob/main/partialDifferentialEquations.md) (partialDifferentialEquations.md) (Heavy Work in Progress)
+- [Partial Differential Equations](https://github.com/sackn/diffeq/blob/main/articles/partialDifferentialEquations.md) (partialDifferentialEquations.md) (Heavy Work in Progress)
   - In the future I hope to include information on the method of characteristics, wave equation, heat equation, and the fourier transform. 
 
 **Linear Algebra (Heavy Work in Progress)**
-- [Linear Algebra](https://github.com/sackn/diffeq/blob/main/linearAlgebra.md) (linearAlgebra.md)
+- [Linear Algebra](https://github.com/sackn/diffeq/blob/main/articles/linearAlgebra.md) (linearAlgebra.md)
   - Matrix Inverses (only practice problems)
   - LU Decomposition and Solutions to Systems (only practice problems)
   - Determinents
 
 **Tensor Calculus (Heavy Work in Progress)**
-- [Tensor Calculus](https://github.com/sackn/diffeq/blob/main/tensor.md) (tensor.md)
+- [Tensor Calculus](https://github.com/sackn/diffeq/blob/main/articles/tensor.md) (tensor.md)
   - Derivatives as Vectors
   - The Jacobian
  
 ## Miscellaneous Topics
 
 **Quantum Computing from a Mathematical Standpoint (Heavy Work in Progress)**
-- [Quantum Computing](https://github.com/sackn/diffeq/blob/main/quantum.md) (quantum.md)
+- [Quantum Computing](https://github.com/sackn/diffeq/blob/main/articles/quantum.md) (quantum.md)
   - Broad Overview of Quantum Computing
   - Classical and Quantum Gates
   - Quantum Entanglment
