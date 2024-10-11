@@ -1,5 +1,3 @@
-
-
 ### Extra Practice and Solutions
 UCB section 4 is all about cross product
 Shimamoto section 2.5 is also all about cross product and orthagonality. 
