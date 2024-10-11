@@ -16,12 +16,12 @@ Since I am a Freshman brief list of the classes I have taken:
 - __Elementary Differntial Equations__ (Grade -> A+)
 - __Introduction to Statistics__ (Grade -> A)
 
-**Science**
+### Science
 - __Chemistry__ (AP Chemsitry -> 5)
 - __Newtonian Mechsnics__ (AP Physics C Mechanics -> 5)
 - __Electricity and Magnetism___ (AP Physics C Electricity and Magnetism -> 5)
 
-**Engineering / CS**
+### Engineering / CS
 - __Java programming__ (AP Computer Science Applications -> 5)
 - __Basic C Programming__ (UCI EECS 10, Grade -> A)
 - __PLTW Digital Electronics__ (Grade -> A-, A)
