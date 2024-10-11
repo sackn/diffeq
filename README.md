@@ -1,8 +1,10 @@
 # Introduction
 
-Welcome to my online textboook. I wrote this textbook over the summer of 2023 as a rising high school senior. I wanted to explore higher mathematics and thought it would be cool if I kept a little online website with all of the stuff I learned. That led me to create this online textbook. The online textbook includes content from Calculus 2, Caclulus 3, Differential Equations, and more. Everything is "hand-written" by me, and no writing is AI-generated. The majority of sections include thoughtful writing along with worked examples. For most of the sections, they also include practice problems at the end. For each practice problem, I provide a solution, which is either an image of my pen and paper work or a full solution written in LaTex.
+Hello, my name is Chad Wong, and I am currently a freshman at UC Irvine majoring in electrical engineering. Welcome to my online textbook, where I write about all of the things I have learned over the 18 years that I have been alive. Most of the book is math, but I have been trying to expand it to include more electrical engineering (as it is my major, of course). I am extremely passionate about learning, and I plan on keeping this textbook alive for a long while. 
 
-The textbook is far from complete, and you may notice that some sections listed below aren't completely finished. However,  I will try my best to work on them. If you have noticed any issues, feel free to make a pull request, and I will work to fix them.
+The website is handwritten. Most sections include well thought-out explanations and diagrams. All of the solutions and examples are done entirely by me. 
+
+The textbook is far from complete, and you may notice that some sections listed below aren't completely finished. However, I will try my best to work on them. If you have noticed any issues, feel free to make a pull request, and I will work to fix them. 
 
 I hope some of my knowledge can do you well and that you enjoy the textbook!
 
