@@ -43,6 +43,8 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
 
 ## Eletrical Engineering
 
+**Opertional Amplifiers**
+
 ## Math
 
 **Caclulus 2 (AP Calculus BC)**
@@ -113,6 +115,7 @@ Competitive Data structure and algorithims. Gold is the second highest rank and 
   - The Jacobian
  
 ## Miscellaneous Topics
+
 **Quantum Computing from a Mathematical Standpoint (Heavy Work in Progress)**
 - [Quantum Computing](https://github.com/sackn/diffeq/blob/main/quantum.md) (quantum.md)
   - Broad Overview of Quantum Computing
