@@ -26,7 +26,7 @@ Since I am a Freshman brief list of the classes I have taken:
 ### Engineering / CS
 - __Java programming__ (AP Computer Science Applications -> 5)
 - __Basic C Programming__ (UCI EECS 10, Grade -> A)
-- __PLTW Digital Electronics__ (Grade -> A)
+- __PLTW Digital Electronics__ (UCI EECS 31 + L equivalent, Grade -> A)
 - __PLTW Principles of Engineering__ (Grade -> A)
 - __PLTW Intro of Engineering__  (Grade -> A+)
 
