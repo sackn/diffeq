@@ -2,7 +2,7 @@
 
 Hello, my name is Chad Wong, and I am currently a freshman at UC Irvine majoring in electrical engineering. Welcome to my online textbook, where I write about all of the things I have learned over the 18 years that I have been alive. Most of the book is math, but I have been trying to expand it to include more electrical engineering (as it is my major, of course). I am extremely passionate about learning, and I plan on keeping this textbook alive for a long while. 
 
-The website is handwritten. Most sections include well thought-out explanations and diagrams. All of the solutions and examples are done entirely by me. 
+The website is handwritten. Most sections include well thought-out explanations and diagrams. All of the solutions and examples are done entirely by me. This textbook includes 300+ example problems with solutions.
 
 The textbook is far from complete, and you may notice that some sections listed below aren't completely finished. However, I will try my best to work on them. If you have noticed any issues, feel free to make a pull request, and I will work to fix them. 
 
