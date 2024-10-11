@@ -10,7 +10,7 @@ I hope some of my knowledge can do you well and that you enjoy the textbook!
 Since I am a Freshman, here is a list of relevant classes I have taken:
 
 ### Mathematics
-- __Calculus 1__ (AP Calculus AB -> 5, Math 2A)
+- __Calculus 1__ (AP Calculus AB -> 5)
 - __Calculus 2__ (AP Calculus BC -> 5)
 - __Multivariable Calculus__ (Grade -> A)
 - __Introduction to Linear Algebra__ (Grade -> A)
